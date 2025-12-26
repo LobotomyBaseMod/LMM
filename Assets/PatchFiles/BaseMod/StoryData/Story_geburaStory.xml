@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  
+  <!-- 표정 : 
+       흉터 있는 게부라 보통 표정 2개 : Default1, 2
+       흉터 있는 게부라 웃는 표정 2개 : Smile1, 2
+       흉터 있는 게부라 충격 표정 2개 : Shock1, 2
+       흉터 있는 게부라 화난 표정 2개 : Angry1, 2
+       흉터 있는 게부라 정색 표정 2개 : Annoy1, 2
+       
+       흉터 없는 게부라 보통 표정 2개 : DefaultPast1,2
+       흉터 없는 게부라 웃는 표정 2개 : SmilePast1, 2
+       흉터 없는 게부라 충격 표정 2개 : ShockPast1, 2
+       흉터 없는 게부라 화난 표정 2개 : AngryPast1, 2
+       흉터 없는 게부라 정색 표정 2개 : AnnoyPast1, 2
+       
+       담배피는 흉터있는 게부라 보통 표정 2개 : DefaultSmoke1
+       담배 게부라 웃는 표정 2개 : SmileSmoke1,2
+       담배 게부라 충격 표정 2개 : ShockSmoke1, 2
+       담배 게부라 화난 표정 2개 : AngrySmoke1,2
+       담배 게부라 정색 표정 2개 : AnnoySmoke1, 2
+       담배 게부라 샤이 표정 2개 : ShySmoke1,2
+       
+       대과거 게부라는 GeburaPast임.
+       담배피고 있는 걸로 해야지..
+       
+       
+     -->
+  <scene id="gebura1_intro">
+    <background src="geburaBK" effect="none"/>
+    <character id="gebura" name="gebura_name" direction="right" color="FFFFFF" sprite="Geburah"/>
+  
+    <position character="gebura" to="right" />
+    <bgm src="Town_-_Urban_Knights" />
+    <speak speaker="gebura" anim="DefaultSmoke1">gebura1_intro_g1</speak>
+    <speak speaker="gebura" anim="AngrySmoke1">gebura1_intro_g2</speak>
+ 
+    <speak speaker="gebura" anim="AngrySmoke2">gebura1_intro_g3</speak>
+
+    <select>
+      <option text="gebura1_selection1">
+        <speak speaker="gebura" anim="SmileSmoke1">gebura1_intro_1_g1</speak>
+        <speak speaker="gebura" anim="SmileSmoke2">gebura1_intro_1_g2</speak>
+      </option>
+      <option text="gebura1_selection2">
+        <speak speaker="gebura" anim="DefaultSmoke1">gebura1_intro_2_g1</speak>
+        <speak speaker="gebura" anim="DefaultSmoke2">gebura1_intro_2_g2</speak>
+        <speak speaker="gebura" anim="AngrySmoke1">gebura1_intro_2_g3</speak>
+      </option>
+    </select>
+    <speak speaker="gebura" anim="DefaultSmoke1">gebura1_intro_g4</speak>
+    <speak speaker="gebura" anim="DefaultSmoke2">gebura1_intro_g5</speak>
+    <speak speaker="gebura" anim="SmileSmoke1">gebura1_intro_g6</speak>
+    <speak speaker="gebura" anim="SmileSmoke2">gebura1_intro_g7</speak>
+    <speak speaker="gebura" anim="SmileSmoke1">gebura1_intro_g8</speak>
+    <speak speaker="gebura" anim="DefaultSmoke1">gebura1_intro_g9</speak>
+    <speak speaker="gebura" anim="AngrySmoke1">gebura1_intro_g10</speak>
+    <speak speaker="gebura" anim="AngrySmoke2">gebura1_intro_g11</speak>
+    <speak speaker="gebura" anim="DefaultSmoke1">gebura1_intro_g12</speak>
+
+    <select>
+      <option text="gebura1_selection3">
+        <speak speaker="gebura" anim="AngrySmoke1">gebura1_intro_3_g1</speak>
+        <speak speaker="gebura" anim="DefaultSmoke1">gebura1_intro_3_g2</speak>
+      </option>
+      <option text="gebura1_selection4">
+        <speak speaker="gebura" anim="DefaultSmoke1">gebura1_intro_4_g1</speak>
+      </option>
+    </select>
+
+    <speak speaker="gebura" anim="DefaultSmoke1">gebura1_intro_g13</speak>
+    <speak speaker="gebura" anim="DefaultSmoke2">gebura1_intro_g14</speak>
+    <speak speaker="gebura" anim="AngrySmoke1">gebura1_intro_g15</speak>
+    <speak speaker="gebura">gebura1_intro_g16</speak>
+    <speak speaker="gebura">gebura1_intro_g17</speak>
+    <speak speaker="gebura" anim="AngrySmoke2">gebura1_intro_g18</speak>
+  </scene>
+
+  <scene id="gebura2_intro">
+    <background src="geburaBK" effect="none"/>
+    <character id="gebura" name="gebura_name" direction="right" color="FFFFFF" sprite="Geburah"/>
+    <character id="hod" name="hod_name" direction="right" color="FFFFFF" sprite="Hod"/>
+    <character id="chesed" name="chesed_name" direction="right" color="FFFFFF" sprite="Chesed"/>
+
+    <position character="gebura" to="center" />
+    <bgm src="Tilarids - Forgotten Entrance Of Memories" />
+    <speak speaker="gebura" anim="Smile1">gebura2_intro_g1</speak>
+    <speak speaker="gebura" anim="Default1">gebura2_intro_g2</speak>
+    <speak speaker="gebura" anim="Smile1">gebura2_intro_g3</speak>
+
+    <position character="chesed" to="right-full" direction="left"/>
+
+    <speak speaker="chesed" anim="Default1">gebura2_intro_c1</speak>
+    <speak speaker="gebura" anim="Default1">gebura2_intro_g4</speak>
+    <speak speaker="chesed" anim="Smile1">gebura2_intro_c2</speak>
+    <speak speaker="gebura" anim="Angry1">gebura2_intro_g5</speak>
+    <speak speaker="chesed">gebura2_intro_c3</speak>
+    <speak speaker="gebura">gebura2_intro_g6</speak>
+    <speak speaker="chesed" anim="Smile2">gebura2_intro_c4</speak>
+
+    <position character="hod" to="left"/>
+
+    <speak speaker="hod" anim="Laugh">gebura2_intro_h1</speak>
+    <speak speaker="chesed" anim="Smile1">gebura2_intro_c5</speak>
+    <disappear character="chesed"/>
+    <speak speaker="hod" anim="Shame2">gebura2_intro_h2</speak>
+    <speak speaker="gebura" anim="Angry2">gebura2_intro_g7</speak>
+    <speak speaker="hod" anim="Laugh">gebura2_intro_h3</speak>
+    <speak speaker="gebura" anim="Default1">gebura2_intro_g8</speak>
+    <speak speaker="hod" anim="Laugh">gebura2_intro_h4</speak>
+    <speak speaker="gebura" anim="Default1">gebura2_intro_g9</speak>
+    <speak speaker="hod" anim="Default">gebura2_intro_h5</speak>
+    <speak speaker="gebura" anim="Default2">gebura2_intro_g10</speak>
+    <speak speaker="hod" anim="Laugh">gebura2_intro_h6</speak>
+    <speak speaker="gebura" anim="Default1">gebura2_intro_g11</speak>
+    <speak speaker="hod" anim="Shame2">gebura2_intro_h7</speak>
+    <speak speaker="gebura">gebura2_intro_g12</speak>
+    <speak speaker="hod" anim="Laugh2">gebura2_intro_h8</speak>
+    <speak speaker="gebura" anim="Default2">gebura2_intro_g13</speak>
+    <speak speaker="hod" anim="Laugh">gebura2_intro_h9</speak>
+    <disppear charcacter="hod"/>
+    <speak speaker="gebura" anim="Angry2">gebura2_intro_g14</speak>
+    <position character="hod" to="left"/>
+    <speak speaker="hod" anim="Shame">gebura2_intro_h10</speak>
+    <speak speaker="gebura" anim="Default1">gebura2_intro_g15</speak>
+    <speak speaker="hod" anim="Laugh2">gebura2_intro_h11</speak>
+    <disappear character="hod"/>
+    <speak speaker="gebura">gebura2_intro_g16</speak>
+    <speak speaker="gebura">gebura2_intro_g17</speak>
+    <speak speaker="gebura" anim="Angry1">gebura2_intro_g18</speak>
+  </scene>
+
+
+
+  <scene id="gebura3_intro">
+    <background src="geburaBK" effect="none"/>
+    <character id="gebura" name="gebura_name" direction="right" color="FFFFFF" sprite="Geburah"/>
+    <character id="angela" name="angela_name" direction="right" color="FFFFFF" sprite="Angela"/>
+    <character id="chesed" name="chesed_name" direction="right" color="FFFFFF" sprite="Chesed"/>
+   
+    <character id="christopher" name="christopher_name" direction="right" color="FFFFFF" sprite="Chrisopher"/>
+    <character id="isabel" name="isabel_name" direction="right" color="FFFFFF" sprite="Isabel"/>
+    <character id="tiphereth_a" name="tiphereth_a_name" direction="right" color="FFFFFF" sprite="Tiphereth1"/>
+               
+    <position character="chesed" to="right" />
+    <bgm src="Tilarids - Frozen Moon" />
+
+    <speak speaker="chesed">gebura3_intro_c1</speak>
+    <speak speaker="chesed">gebura3_intro_c2</speak>
+    <speak speaker="chesed" anim="Default2">gebura3_intro_c3</speak>
+    <speak speaker="chesed" anim="Default1">gebura3_intro_c4</speak>
+    <speak speaker="chesed">gebura3_intro_c5</speak>
+    <speak speaker="chesed" anim="Default2">gebura3_intro_c6</speak>
+    <speak speaker="chesed" anim="Default1">gebura3_intro_c7</speak>
+    <speak speaker="chesed" anim="Smile1">gebura3_intro_c8</speak>
+    <speak speaker="chesed">gebura3_intro_c9</speak>
+    <speak speaker="chesed" anim="Default1">gebura3_intro_c10</speak>
+    <speak speaker="chesed" anim="Smile1">gebura3_intro_c11</speak>
+    <disappear character="chesed"/>
+    <position character="gebura" to="center"/>
+    <speak speaker="gebura" anim="DefaultSmoke1">gebura3_intro_g1</speak>
+    <speak speaker="gebura" anim="Angry1">gebura3_intro_g2</speak>
+    <speak speaker="gebura" anim="Default1">gebura3_intro_g3</speak>
+    <speak speaker="gebura" anim="Annoy1">gebura3_intro_g4</speak>
+    <speak speaker="gebura">gebura3_intro_g5</speak>
+    <speak speaker="gebura">gebura3_intro_g6</speak>
+
+    <cg src="BlackCG" effect="fade" />
+    <wait time="3" />
+      <bgm src=""/>
+    <sound src="memeoryBack"/>
+    <remove_cg effect="fade" />
+    <camera_filter filter="grayscale" />
+    <background src="warehouseBK_2"/>
+
+    
+    <position character="gebura" to="right"/>
+
+
+    <bgm src="02 - Today Is for Nothing"/>
+    
+    <speak speaker="gebura" anim="DefaultPast1">gebura3_intro_g7</speak>
+    <speak speaker="christopher">gebura3_intro_Christopher1</speak>
+    <speak speaker="gebura">gebura3_intro_g8</speak>
+    <speak speaker="christopher">gebura3_intro_Christopher2</speak>
+    <speak speaker="gebura">gebura3_intro_g9</speak>
+    <speak speaker="christopher">gebura3_intro_Christopher3</speak>
+    <speak speaker="christopher">gebura3_intro_Christopher4</speak>
+
+    <cg src="BlackCG" effect="fade" />
+    <wait time="3" />
+    <sound src="memeoryBack"/>
+    <remove_cg effect="fade" />
+
+    <speak speaker="isabel">gebura3_intro_Isabel1</speak>
+    <speak speaker="isabel">gebura3_intro_Isabel2</speak>
+    <speak speaker="gebura" anim="DefaultPast2">gebura3_intro_g10</speak>
+    <speak speaker="isabel">gebura3_intro_Isabel3</speak>
+    <speak speaker="isabel">gebura3_intro_Isabel4</speak>
+
+    <cg src="BlackCG" effect="fade" />
+    <wait time="3" />
+
+    <sound src="memeoryBack"/>
+    <remove_cg effect="fade" />
+    <disappear character="gebura"/>
+    
+    <position character="gebura" to="right"/>
+    <position character="angela" to="left" direction="right"/>
+    
+    <speak speaker="gebura" anim="ShockPast1">gebura3_intro_g11</speak>
+    <speak speaker="angela">gebura3_intro_a1</speak>
+    <speak speaker="gebura">gebura3_intro_g12</speak>
+    <speak speaker="angela">gebura3_intro_a2</speak>
+    <speak speaker="gebura" anim="AngryPast1">gebura3_intro_g13</speak>
+    <speak speaker="angela">gebura3_intro_a3</speak>
+    <speak speaker="gebura" anim="AngryPast2">gebura3_intro_g14</speak>
+    <speak speaker="angela">gebura3_intro_a4</speak>
+    <speak speaker="angela">gebura3_intro_a5</speak>
+    
+    <cg src="BlackCG" effect="fade" />
+    <wait time="3" />
+      <bgm src=""/>
+    <sound src="memeoryBack"/>
+    <remove_cg effect="fade" />
+    
+    <disappear character="angela"/>
+    <position character="tiphereth_a" to="left" direction="right"/>
+
+    <bgm src="Tilarids - triumph of the scratching demons" />
+    
+    <speak speaker="gebura" anim="AngryPast1">gebura3_intro_g15</speak>
+    <speak speaker="tiphereth_a">gebura3_intro_ta1</speak>
+    <speak speaker="gebura" anim="AnnoyPast1">gebura3_intro_g16</speak>
+    <speak speaker="tiphereth_a">gebura3_intro_ta2</speak>
+    <speak speaker="gebura">gebura3_intro_g17</speak>
+    <speak speaker="tiphereth_a">gebura3_intro_ta3</speak>
+    <speak speaker="tiphereth_a" anim="Bitter1">gebura3_intro_ta4</speak>
+    <cg src="BlackCG" effect="fade" />
+    <wait time="2" />
+
+    <remove_cg effect="fade" />
+    <camera_filter filter="none" />
+    <disappear character="tiphereth_a"/>
+    <disappear character="gebura"/>
+    <background src="AngelaBackground"/>
+    <position character="gebura" to="center"/>
+
+    <bgm src="Tilarids - Forgotten Entrance Of Memories" />
+
+    <speak speaker="gebura" anim="Angry1">gebura3_intro_g18</speak>
+    <speak speaker="gebura" anim="Angry2">gebura3_intro_g19</speak>
+    <speak speaker="gebura" anim="Default1">gebura3_intro_g20</speak>
+    <speak speaker="gebura" anim="Angry1">gebura3_intro_g21</speak>
+    <speak speaker="gebura" anim="Default1">gebura3_intro_g22</speak>
+    <speak speaker="gebura" anim="Default2">gebura3_intro_g23</speak>
+    <speak speaker="gebura" anim="Default1">gebura3_intro_g24</speak>
+    <speak speaker="gebura" anim="Angry1">gebura3_intro_g25</speak>
+    <speak speaker="gebura">gebura3_intro_g26</speak>
+    <speak speaker="gebura" anim="Angry2">gebura3_intro_g27</speak>
+    <speak speaker="gebura" anim="Angry1">gebura3_intro_g28</speak>
+    <speak speaker="gebura">gebura3_intro_g29</speak>
+    <speak speaker="gebura">gebura3_intro_g30</speak>
+    <speak speaker="gebura">gebura3_intro_g31</speak>
+    <speak speaker="gebura" anim="Annoy1">gebura3_intro_g32</speak>  
+  </scene>
+
+  <scene id="gebura4_intro">
+    <character id="gebura" name="gebura_name" direction="right" color="FFFFFF" sprite="Geburah"/>
+    <character id="geburaPast" name="geburaPast_name" direction="right" color="FFFFFF" sprite="GeburahPast"/>
+    <character id="gebura2" name="gebura_name" direction="right" color="FFFFFF" sprite="Geburah"/>
+    <character id="angela" name="angela_name" direction="right" color="FFFFFF" sprite="Angela"/>
+    <character id="christopher" name="christopher_name" direction="right" color="FFFFFF" sprite="Chrisopher"/>
+    <character id="rabbit" name="rabbit_name" direction="right" color="FFFFFF" sprite="Rabbit"/>
+    <character id="rabbitHalmet" name="rabbitUnknown_name" direction="right" color="FFFFFF" sprite="RabbitHalmet"/>
+    <character id="employee" name="employee_name" direction="right" color="FFFFFF" sprite="Employee"/>
+    <bgm src="Theme_-_Crime_Lord"/>
+    <position character="rabbitHalmet" to="left-full" direction="right"/>
+    <position character="angela" to="right-more"/>
+    <position character="gebura" to="center"/>
+    <set_anim character="gebura" anim="Angry1"/> <!-- 게부라 시작시부터 표정 고정-->
+    <speak speaker="rabbitHalmet">gebura4_intro_r1</speak>
+    <speak speaker="rabbitHalmet">gebura4_intro_r2</speak>
+    <speak speaker="angela" anim="Default1">gebura4_intro_a1</speak>
+    <speak speaker="rabbitHalmet">gebura4_intro_r3</speak>
+    <speak speaker="angela" anim="Default1">gebura4_intro_a2</speak>
+    <speak speaker="angela">gebura4_intro_a3</speak>
+    <speak speaker="angela">gebura4_intro_a4</speak>
+    <speak speaker="angela">gebura4_intro_a5</speak>
+    <speak speaker="rabbitHalmet">gebura4_intro_r4</speak>
+    <speak speaker="angela">gebura4_intro_a6</speak>
+    <speak speaker="angela">gebura4_intro_a7</speak>
+    <speak speaker="rabbitHalmet">gebura4_intro_r5</speak>
+    <disappear character="rabbitHalmet"/>
+    <position character="rabbit" to="left-full" direction="right"/>
+    <speak speaker="rabbit">gebura4_intro_r6</speak>
+    <speak speaker="rabbit">gebura4_intro_r7</speak>
+    <speak speaker="rabbit">gebura4_intro_r8</speak>
+    <speak speaker="rabbit" anim="Happy2">gebura4_intro_r9</speak>
+    <speak speaker="angela">gebura4_intro_a8</speak>
+    <speak speaker="angela">gebura4_intro_a9</speak>
+    <speak speaker="rabbit" anim="Smile">gebura4_intro_r10</speak>
+    <speak speaker="rabbit" anim="Default">gebura4_intro_r11</speak>
+    <speak speaker="rabbit">gebura4_intro_r12</speak>
+    <speak speaker="rabbit">gebura4_intro_r13</speak>
+    <speak speaker="rabbit">gebura4_intro_r14</speak>
+    <speak speaker="rabbit">gebura4_intro_r15</speak>
+    <speak speaker="rabbit">gebura4_intro_r16</speak>
+    <speak speaker="rabbit">gebura4_intro_r17</speak>
+    <speak speaker="rabbit">gebura4_intro_r18</speak>
+    <speak speaker="rabbit">gebura4_intro_r19</speak>
+    <speak speaker="rabbit">gebura4_intro_r20</speak>
+    <speak speaker="rabbit">gebura4_intro_r21</speak>
+    <speak speaker="angela">gebura4_intro_a10</speak>
+    <speak speaker="angela">gebura4_intro_a11</speak>
+    <speak speaker="rabbit" anim="Happy">gebura4_intro_r22</speak>
+    <speak speaker="rabbit" anim="Happy2">gebura4_intro_r23</speak>
+    <speak speaker="angela">gebura4_intro_a12</speak>
+    <speak speaker="angela">gebura4_intro_a13</speak>
+    <speak speaker="gebura" anim="Angry2">gebura4_intro_g1</speak>
+    <speak speaker="rabbit" anim="Smile">gebura4_intro_r24</speak>
+    <speak speaker="rabbit" anim="Smile2">gebura4_intro_r25</speak>
+    <speak speaker="rabbit">gebura4_intro_r26</speak>
+    <speak speaker="rabbit">gebura4_intro_r27</speak>
+    <speak speaker="rabbit">gebura4_intro_r28</speak>
+    <speak speaker="rabbit" anim="Smile">gebura4_intro_r29</speak>
+    <speak speaker="gebura" anim="Annoy1">gebura4_intro_g2</speak>
+    <speak speaker="gebura">gebura4_intro_g3</speak>
+    <speak speaker="rabbit" anim="Happy">gebura4_intro_r30</speak>
+    <speak speaker="rabbit">gebura4_intro_r31</speak>
+    <speak speaker="rabbit" anim="Default">gebura4_intro_r32</speak>
+    <speak speaker="rabbit" anim="Smile">gebura4_intro_r33</speak>
+    <speak speaker="rabbit">gebura4_intro_r34</speak>
+    <speak speaker="rabbit">gebura4_intro_r35</speak>
+    <speak speaker="gebura">gebura4_intro_g4</speak>
+    <speak speaker="angela">gebura4_intro_a14</speak>
+    <speak speaker="angela">gebura4_intro_a15</speak>
+    <speak speaker="angela">gebura4_intro_a16</speak>
+    <speak speaker="angela">gebura4_intro_a17</speak>
+    <speak speaker="gebura" anim="Angry1">gebura4_intro_g5</speak>
+    <speak speaker="gebura" anim="Angry2">gebura4_intro_g6</speak>
+    <speak speaker="angela">gebura4_intro_a18</speak>
+    <speak speaker="angela">gebura4_intro_a19</speak>
+    <speak speaker="angela">gebura4_intro_a20</speak>
+    <speak speaker="angela">gebura4_intro_a21</speak>
+    <speak speaker="gebura" anim="Angry1">gebura4_intro_g7</speak>
+    <speak speaker="angela">gebura4_intro_a22</speak>
+    <speak speaker="angela">gebura4_intro_a23</speak>
+    <speak speaker="angela">gebura4_intro_a24</speak>
+    <disappear character="angela"/>
+    <speak speaker="rabbit" anim="Happy">gebura4_intro_r36</speak>
+    <speak speaker="gebura" anim="Default1">gebura4_intro_g8</speak>
+    <speak speaker="gebura" anim="Angry1">gebura4_intro_g9</speak>
+    <speak speaker="rabbit" anim="Smile">gebura4_intro_r37</speak>
+    <speak speaker="rabbit">gebura4_intro_r38</speak>
+    <speak speaker="gebura" anim="Angry2">gebura4_intro_g10</speak>
+    <speak speaker="rabbit" anim="Smile2">gebura4_intro_r39</speak>
+    <speak speaker="rabbit">gebura4_intro_r40</speak>
+    <speak speaker="gebura" anim="Default1">gebura4_intro_g11</speak>
+    <speak speaker="rabbit" anim="Smile">gebura4_intro_r41</speak>
+    <speak speaker="rabbit">gebura4_intro_r42</speak>
+    <speak speaker="rabbit">gebura4_intro_r43</speak>
+    <speak speaker="rabbit" anim="AngerSmile2">gebura4_intro_r44</speak>
+     <bgm src="1 - Cryptic"/>
+    <speak speaker="rabbit" anim="AngerSmile">gebura4_intro_r45</speak>
+    <speak speaker="gebura">gebura4_intro_g12</speak>
+    <speak speaker="rabbit">gebura4_intro_r46</speak>
+    <speak speaker="rabbit">gebura4_intro_r47</speak>
+    <speak speaker="rabbit" anim="Anger">gebura4_intro_r48</speak>
+    <speak speaker="rabbit">gebura4_intro_r49</speak>
+    <background src="officeBK" effect="none"/>
+    <add_filter filter="blur_tilt_shift"/><!-- 이 타이밍에 회상과 관련된 필터 넣어보자-->
+    <add_filter filter="blood_hit"/>
+    <disappear character="rabbit"/>
+    <bgm src="4- Dark Fantasy Studio- Demon at the door"/>
+    <position character="geburaPast" anim="Shock2" to="left-full" direction="right"/>
+    <speak speaker="employee">gebura4_intro_e1</speak>
+    <speak speaker="geburaPast">gebura4_intro_g13</speak>
+    <speak speaker="employee">gebura4_intro_e2</speak>
+    <speak speaker="employee">gebura4_intro_e3</speak>
+    <speak speaker="employee">gebura4_intro_e4</speak>
+    <disappear character="geburaPast"/>
+    <remove_filter filter="blood_hit"/>
+    <background src="warehouseBK_2" effect="none"/>
+    <position character="gebura2" to="right-full"/>
+    <speak speaker="christopher">gebura4_intro_Christopher1</speak>
+    <speak speaker="christopher">gebura4_intro_Christopher2</speak>
+    <speak speaker="christopher">gebura4_intro_Christopher3</speak>
+    <position character="angela" to="left-full" direction="right"/>
+    <speak speaker="angela">gebura4_intro_a25</speak>
+    <speak speaker="angela">gebura4_intro_a26</speak>
+    <speak speaker="angela">gebura4_intro_a27</speak>
+    <speak speaker="employee">gebura4_intro_e5</speak>
+    <speak speaker="angela">gebura4_intro_a28</speak>
+    <speak speaker="angela">gebura4_intro_a29</speak>
+    <speak speaker="rabbit">gebura4_intro_r50</speak>
+    <background src="AngelaBackground" effect="none"/>
+    <disappear character="angela"/>
+    <disappear character="gebura2"/>
+    <remove_filter filter="blur_tilt_shift"/>
+    <position character="rabbit" to="left-full" direction="right"/>
+    <speak speaker="rabbit" anim="Default">gebura4_intro_r51</speak>
+    <speak speaker="rabbit">gebura4_intro_r52</speak>
+    <speak speaker="rabbit">gebura4_intro_r53</speak>
+    <speak speaker="rabbit" anim="Smile">gebura4_intro_r54</speak>
+    <disappear character="rabbit"/>
+    <bgm src=""/>
+    <speak speaker="gebura">gebura4_intro_g14</speak>
+    <speak speaker="gebura" anim="Angry1">gebura4_intro_g15</speak>
+    <speak speaker="gebura" anim="Default1">gebura4_intro_g16</speak>
+  </scene>
+
+  <scene id="gebura5_intro">
+    <background src="geburaBK" effect="none"/>
+    <character id="gebura" name="gebura_name" direction="right" color="FFFFFF" sprite="Geburah"/>
+    <character id="binah" name="binah_name" direction="right" color="FFFFFF" sprite="Binah"/>
+    <character id="binahShadow" name="binahShadow_name" direction="right" color="FFFFFF" sprite="BinahShadow"/>
+    <character id="angela" name="angela_name" direction="right" color="FFFFFF" sprite="Angela"/>
+    <character id="tiphereth_b" name="tiphereth_b_name" direction="right" color="FFFFFF" sprite="Tiphereth2"/>
+    <character id="a" name="a_name" direction="right" color="FFFFFF" sprite="A"/>
+    <character id="no" name="no_name" direction="right" color="FFFFFF" sprite="No"/>
+    <bgm src="Town_-_Urban_Knights" />
+    <position character="gebura" to="center"/>
+    <speak speaker="gebura" anim="Default1">gebura5_intro_g1</speak>
+    <speak speaker="gebura">gebura5_intro_g2</speak>
+    <speak speaker="gebura">gebura5_intro_g3</speak>
+    <speak speaker="gebura">gebura5_intro_g4</speak>
+    <speak speaker="gebura">gebura5_intro_g5</speak>
+    <speak speaker="gebura">gebura5_intro_g6</speak>
+    <speak speaker="gebura">gebura5_intro_g7</speak>
+    <speak speaker="gebura" anim="Angry1">gebura5_intro_g8</speak>
+    <speak speaker="gebura" anim="Default1">gebura5_intro_g9</speak>
+    <speak speaker="gebura">gebura5_intro_g10</speak>
+    <speak speaker="gebura">gebura5_intro_g11</speak>
+    <speak speaker="gebura">gebura5_intro_g12</speak>
+    <speak speaker="gebura">gebura5_intro_g13</speak>
+    <cg src="BlackCG" effect="fade" />
+    <wait time="2"/>
+    <remove_cg effect="fade" />
+    <add_filter filter="blood"/>
+    <speak speaker="no">gebura5_intro_tb1</speak>
+    <speak speaker="tiphereth_b">gebura5_intro_tb2</speak>
+    <speak speaker="tiphereth_b">gebura5_intro_tb3</speak>
+    <speak speaker="tiphereth_b">gebura5_intro_tb4</speak>
+    <speak speaker="gebura">gebura5_intro_g14</speak>
+    
+    <speak speaker="tiphereth_b">gebura5_intro_tb5</speak>
+    <speak speaker="gebura" anim="Annoy1">gebura5_intro_g15</speak>
+    <position character="binah" to="right-full"/>
+    <sound src="267933__anagar__steps-in-high-heels"/>
+    <bgm src=""/>
+    <speak speaker="binah" anim="Default">gebura5_intro_b1</speak>
+    <speak speaker="binah">gebura5_intro_b2</speak>
+    <speak speaker="binah">gebura5_intro_b3</speak>
+    <speak speaker="binah">gebura5_intro_b4</speak>
+    <speak speaker="gebura">gebura5_intro_g16</speak>
+    <speak speaker="binah">gebura5_intro_b5</speak>
+    <speak speaker="binah">gebura5_intro_b6</speak>
+    <speak speaker="binah">gebura5_intro_b7</speak>
+    <speak speaker="binah">gebura5_intro_b8</speak>
+    <bgm src="1 - Cryptic"/>
+    <speak speaker="binah">gebura5_intro_b9</speak>
+    <speak speaker="binah">gebura5_intro_b10</speak>
+    <speak speaker="binah">gebura5_intro_b11</speak>
+    <speak speaker="binah">gebura5_intro_b12</speak>
+    <speak speaker="binah">gebura5_intro_b13</speak>
+    <speak speaker="binah">gebura5_intro_b14</speak>
+    <cg src="BlackCG" effect="fade" />
+    <wait time="1" />
+    <remove_filter filter="blood"/>
+    <disappear character="binah"/>
+    <disappear character="gebura"/>
+    <speak speaker="gebura">gebura5_intro_g17</speak>
+    <speak speaker="gebura">gebura5_intro_g18</speak>
+    <speak speaker="gebura">gebura5_intro_g19</speak>
+    <speak speaker="gebura">gebura5_intro_g20</speak>
+    <speak speaker="gebura">gebura5_intro_g21</speak>
+    <speak speaker="gebura">gebura5_intro_g22</speak>
+    <speak speaker="gebura">gebura5_intro_g23</speak>
+    <speak speaker="gebura">gebura5_intro_g24</speak>
+    <speak speaker="gebura">gebura5_intro_g25</speak>
+    <speak speaker="gebura">gebura5_intro_g26</speak>
+    <speak speaker="gebura">gebura5_intro_g27</speak>
+    <speak speaker="gebura">gebura5_intro_g28</speak>
+    <remove_cg effect="fade" />
+    <camera_filter filter="grayscale" />
+    <background src="AngelaBackground" effect="none"/>
+    <position character="angela" to="center"/>
+    <position character="gebura" to="right-full"/>
+    <set_anim character="gebura" anim="DefaultPast1"/>
+    <speak speaker="angela">gebura5_intro_a1</speak>
+    <speak speaker="gebura">gebura5_intro_g29</speak>
+    <speak speaker="angela">gebura5_intro_a2</speak>
+    <speak speaker="gebura" anim="DefaultPast2">gebura5_intro_g30</speak>
+    <speak speaker="angela">gebura5_intro_a3</speak>
+    <speak speaker="gebura" anim="DefaultPast1">gebura5_intro_g31</speak>
+    <speak speaker="angela">gebura5_intro_a4</speak>
+    <cg src="BlackCG" effect="fade" />
+    <disappear character="angela"/>
+    <disappear character="gebura"/>
+    <speak speaker="gebura">gebura5_intro_g32</speak>
+    <speak speaker="gebura">gebura5_intro_g33</speak>
+    <speak speaker="gebura">gebura5_intro_g34</speak>
+    <speak speaker="gebura">gebura5_intro_g35</speak>
+    <speak speaker="gebura">gebura5_intro_g36</speak>
+    <speak speaker="gebura">gebura5_intro_g37</speak>
+    <speak speaker="gebura">gebura5_intro_g38</speak>
+    <speak speaker="gebura">gebura5_intro_g39</speak>
+    <remove_cg effect="fade" />
+    <background src="officeBK" effect="none"/>
+    <bgm src="Awake_In_Death_edit2"/>
+    <position character="binahShadow" to="center"/>
+    <speak speaker="binahShadow">gebura5_intro_b15</speak>
+    <speak speaker="binahShadow">gebura5_intro_b16</speak>
+    <speak speaker="binahShadow">gebura5_intro_b17</speak>
+    <speak speaker="binahShadow">gebura5_intro_b18</speak>
+    <speak speaker="binahShadow">gebura5_intro_b19</speak>
+    <speak speaker="binahShadow">gebura5_intro_b20</speak>
+    <speak speaker="binahShadow">gebura5_intro_b21</speak>
+    <speak speaker="binahShadow">gebura5_intro_b22</speak>
+    <speak speaker="binahShadow">gebura5_intro_b23</speak>
+    <speak speaker="binahShadow">gebura5_intro_b24</speak>
+    <speak speaker="binahShadow">gebura5_intro_b25</speak>
+    <speak speaker="binahShadow">gebura5_intro_b26</speak>
+    <speak speaker="binahShadow">gebura5_intro_b27</speak>
+    <speak speaker="binahShadow">gebura5_intro_b28</speak>
+    <speak speaker="binahShadow">gebura5_intro_b29</speak>
+    <speak speaker="binahShadow">gebura5_intro_b30</speak>
+    <cg src="BlackCG" effect="fade" />
+    <wait time="1" />
+    <disappear character="binahShadow"/>
+    <remove_cg effect="fade" />
+    <camera_filter filter="none" />
+    <background src="geburaBK" effect="none"/>
+    <add_filter filter="blood"/>
+    <position character="gebura" to="center"/>
+    <speak speaker="gebura" anim="Default1">gebura5_intro_g40</speak>
+    <speak speaker="gebura">gebura5_intro_g41</speak>
+    <speak speaker="gebura">gebura5_intro_g42</speak>
+    <speak speaker="gebura">gebura5_intro_g43</speak>
+    <speak speaker="gebura">gebura5_intro_g44</speak>
+    <cg src="BlackCG" effect="fade" />
+    <remove_filter filter="blood"/>
+    <disappear character="gebura"/>
+    <remove_cg effect="fade" />
+    <cg src="geburaCG1" effect="fade"/>
+    <speak speaker="a">gebura5_intro_A1</speak>
+    <speak speaker="a">gebura5_intro_A2</speak>
+    <speak speaker="a">gebura5_intro_A3</speak>
+    <speak speaker="a">gebura5_intro_A4</speak>
+    <speak speaker="a">gebura5_intro_A5</speak>
+    <speak speaker="a">gebura5_intro_A6</speak>
+    <speak speaker="a">gebura5_intro_A7</speak>
+    <speak speaker="a">gebura5_intro_A8</speak>
+    <speak speaker="a">gebura5_intro_A9</speak>
+    <speak speaker="a">gebura5_intro_A10</speak>
+    <speak speaker="a">gebura5_intro_A11</speak>
+    <select>
+      <option text="gebura5_selection1"></option>
+      <option text="gebura5_selection2"></option>
+      <option text="gebura5_selection3"></option>
+    </select>
+    <remove_cg effect="fade" />
+    <cg src="BlackCG" effect="none" />
+  
+    <speak speaker="a">gebura5_intro_A12</speak>
+    <speak speaker="a">gebura5_intro_A13</speak>
+    <speak speaker="a">gebura5_intro_A14</speak>
+    <speak speaker="a">gebura5_intro_A15</speak>
+
+  </scene>
+
+  <scene id="gebura6_intro">
+    <background src="officeBK" effect="none"/>
+    <character id="gebura" name="gebura_name" direction="right" color="FFFFFF" sprite="Geburah"/>
+    <character id="geburaPast" name="geburaPast_name" direction="right" color="FFFFFF" sprite="GeburahPast"/>
+    <character id="geburaRobot" name="gebura_name" direction="right" color="FFFFFF" sprite="GeburahRobot"/>
+    <character id="c" name="c_name" color="FFBBFF" sprite="C_shadow" />
+    <character id="a" name="a_name" direction="right" color="FFFFFF" sprite="A"/>
+    <bgm src="Morning_Dreams"/>
+    <position character="geburaPast" to="center"/>
+
+    <speak speaker="geburaPast" anim="DefaultSmoke1">gebura6_intro_g1</speak>
+    <speak speaker="c">gebura6_intro_ca1</speak>
+    <speak speaker="c">gebura6_intro_ca2</speak>
+    <speak speaker="c">gebura6_intro_ca3</speak>
+    <speak speaker="geburaPast" anim="Shy2">gebura6_intro_g2</speak>
+    <speak speaker="c">gebura6_intro_ca4</speak>
+    <speak speaker="c">gebura6_intro_ca5</speak>
+    <speak speaker="c">gebura6_intro_ca6</speak>
+    <speak speaker="geburaPast" anim="DefaultSmoke1">gebura6_intro_g3</speak>
+    <speak speaker="c">gebura6_intro_ca7</speak>
+    <speak speaker="c">gebura6_intro_ca8</speak>
+    <speak speaker="c">gebura6_intro_ca9</speak>
+    <speak speaker="c">gebura6_intro_ca10</speak>
+    <speak speaker="geburaPast" anim="Shy1">gebura6_intro_g4</speak>
+    <speak speaker="c">gebura6_intro_ca11</speak>
+    <speak speaker="geburaPast" anim="DefaultSmoke1">gebura6_intro_g5</speak>
+    <speak speaker="c">gebura6_intro_ca12</speak>
+    <speak speaker="geburaPast">gebura6_intro_g6</speak>
+    <speak speaker="c">gebura6_intro_ca13</speak>
+    <speak speaker="c">gebura6_intro_ca14</speak>
+    <speak speaker="c">gebura6_intro_ca15</speak>
+    <speak speaker="geburaPast">gebura6_intro_g7</speak>
+    <speak speaker="geburaPast">gebura6_intro_g8</speak>
+    <speak speaker="geburaPast">gebura6_intro_g9</speak>
+    <speak speaker="c">gebura6_intro_ca16</speak>
+    <speak speaker="geburaPast" anim="AngrySmoke2">gebura6_intro_g10</speak>
+    <speak speaker="c">gebura6_intro_ca17</speak>
+    <cg src="geburaCG2" effect="fade"/>
+    <speak speaker="a">gebura6_intro_A1</speak>
+    <speak speaker="a">gebura6_intro_A2</speak>
+    <speak speaker="a">gebura6_intro_A3</speak>
+    <speak speaker="a">gebura6_intro_A4</speak>
+    <speak speaker="a">gebura6_intro_A5</speak>
+    <remove_cg effect="fade" />
+    <speak speaker="geburaPast" anim="DefaultSmoke1">gebura6_intro_g11</speak>
+    <speak speaker="c">gebura6_intro_ca18</speak>
+    <speak speaker="c">gebura6_intro_ca19</speak>
+    <speak speaker="c">gebura6_intro_ca20</speak>
+    <speak speaker="c">gebura6_intro_ca21</speak>
+    <cg src="BlackCG" effect="fade" />
+    <wait time="2" />
+    <disappear character="geburaPast"/>
+    <remove_cg effect="fade" />
+    <background src="geburaBK" effect="none"/>
+    <position character="gebura" to="center"/>
+    <bgm src="Tilarids - Strange Dream"/>
+    <speak speaker="gebura" anim="Default1">gebura6_intro_g12</speak>
+    <speak speaker="gebura">gebura6_intro_g13</speak>
+    <speak speaker="gebura">gebura6_intro_g14</speak>
+    <speak speaker="gebura">gebura6_intro_g15</speak>
+    <speak speaker="gebura">gebura6_intro_g16</speak>
+    <speak speaker="gebura" anim="Default2">gebura6_intro_g17</speak>
+    <speak speaker="gebura" anim="Default1">gebura6_intro_g18</speak>
+    <speak speaker="gebura">gebura6_intro_g19</speak>
+    <speak speaker="gebura">gebura6_intro_g20</speak>
+    <speak speaker="gebura">gebura6_intro_g21</speak>
+    <speak speaker="gebura">gebura6_intro_g22</speak>
+    <speak speaker="gebura" anim="Smile1">gebura6_intro_g23</speak>
+    <speak speaker="gebura" anim="Default1">gebura6_intro_g24</speak>
+    <speak speaker="gebura" >gebura6_intro_g25</speak>
+    <speak speaker="gebura" >gebura6_intro_g26</speak>
+    <speak speaker="gebura" >gebura6_intro_g27</speak>
+    <speak speaker="gebura" >gebura6_intro_g28</speak>
+    <speak speaker="gebura" anim="Default2">gebura6_intro_g29</speak>
+    <speak speaker="gebura" anim="Default1">gebura6_intro_g30</speak>
+    <speak speaker="gebura" anim="Angry1">gebura6_intro_g31</speak>
+    <select>
+      <option text="gebura6_selection1"></option>
+      <option text="gebura6_selection2"></option>
+    </select>
+    <speak speaker="gebura" anim="Default1">gebura6_intro_g32</speak>
+    <speak speaker="gebura" anim="Smile1">gebura6_intro_g33</speak>
+    <speak speaker="gebura" anim="Default1">gebura6_intro_g34</speak>
+    <speak speaker="gebura" anim="Default2">gebura6_intro_g35</speak>
+    <speak speaker="gebura" anim="Default1">gebura6_intro_g36</speak>
+    <speak speaker="gebura">gebura6_intro_g37</speak>
+    <speak speaker="gebura" anim="Smile1">gebura6_intro_g38</speak>
+    <speak speaker="gebura">gebura6_intro_g39</speak>
+    <speak speaker="gebura">gebura6_intro_g40</speak>
+    <speak speaker="gebura">gebura6_intro_g41</speak>
+    <speak speaker="gebura" anim="Smile2">gebura6_intro_g42</speak>
+    <speak speaker="gebura" >gebura6_intro_g43</speak>
+    <speak speaker="gebura" anim="Default1">gebura6_intro_g44</speak>
+    <speak speaker="gebura" >gebura6_intro_g45</speak>
+    <sound src="changenoise" />
+    <add_filter filter="tv_distorted_fade" />
+    <wait time="0.25"/>
+    <disappear character="gebura"/>
+    <position character="geburaRobot" to="center"/>
+    <wait time="0.25"/>
+    <remove_filter filter="tv_distorted_fade" />
+    
+    <speak speaker="geburaRobot">gebura6_intro_g46</speak>
+    <speak speaker="geburaRobot">gebura6_intro_g47</speak>   
+  </scene>
+  
+
+</root>

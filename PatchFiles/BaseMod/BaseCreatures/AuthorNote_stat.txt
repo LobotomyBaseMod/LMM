@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<creature>
+  <script>AuthorNote</script>
+  <stat>
+    <qliphoth>0</qliphoth>
+  </stat>
+  <graph>
+    <node id="creature" x="-1.6" y="-1.8" type="creature" />
+    <node id="workspace" x="1.9" y="-1.8" type="workspace" />
+    <!--<node id="door"  x="2" y="-1" type="entry"/>-->
+    <node id="outter" x="0" y="0" type="outterDoor" />
+    <node id="inner" x="2" y="-1.8" type="innerDoor" />
+    <node id="teddy" x="-0.2" y="-1.8" type="custom" />
+    <!--<edge node1="workspace" node2="door" type="road" />-->
+    <edge node1="teddy" node2="inner" type="road" />
+    <edge node1="workspace" node2="inner" type="road" />
+    <edge node1="creature" node2="workspace" type="road" />
+  </graph>
+  <anim prefab="Unit/CreatureAnimator/AuthorNoteAnim" x="-1" y="-2" />
+  <portrait src="Unit/creature/magicalGirl" />
+  <sound action="count" src="creature/nullthing/alertTick" />
+  <sound action="reload" src="creature/nullthing/SnipeReload" />
+  <sound action="shot" src="creature/nullthing/SnipeShot" />
+  <sound action="special" src="creature/AuthorNote/NoteBook_Start" />
+  <sound action="fin" src="creature/AuthorNote/NoteBook_Finish" />
+</creature>

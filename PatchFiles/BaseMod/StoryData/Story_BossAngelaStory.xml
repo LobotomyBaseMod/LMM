@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <!-- 텍스트는 Angela_Qliphoth_*.xml 에 있음-->
+  <scene id="boss_first">
+    <character id="angela" name="angela_name" color="FFBBFF" sprite="Angela" />
+    <bgm src="Dear Lorenne"/>
+    <position character="angela" to="center" />
+    
+    <speak speaker="angela">angela1_1</speak>
+    <speak speaker="angela">angela1_2</speak>
+    <speak speaker="angela">angela1_3</speak>
+    <speak speaker="angela">angela1_4</speak>
+    <speak speaker="angela">angela1_5</speak>
+    <speak speaker="angela">angela1_6</speak>
+    <speak speaker="angela">angela1_7</speak>
+    <speak speaker="angela">angela1_8</speak>
+    <speak speaker="angela">angela1_9</speak>
+
+    <disappear character="angela"/>
+
+    <wait time="0.2" />
+  </scene>
+
+  <scene id="boss_second">
+    <character id="angela" name="angela_name" color="FFBBFF" sprite="Angela" />
+    <bgm src="Dear Lorenne"/>
+    <position character="angela" to="center" />
+
+    <speak speaker="angela">angela2_1</speak>
+    <speak speaker="angela">angela2_2</speak>
+    <speak speaker="angela">angela2_3</speak>
+    <speak speaker="angela">angela2_4</speak>
+
+
+
+    <disappear character="angela"/>
+
+    <wait time="0.2" />
+  </scene>
+
+  <scene id="boss_third">
+    <character id="angela" name="angela_name" color="FFBBFF" sprite="Angela" />
+    <bgm src="Dear Lorenne"/>
+    <position character="angela" to="center" />
+
+    <speak speaker="angela">angela3_1</speak>
+    <speak speaker="angela">angela3_2</speak>
+    <speak speaker="angela">angela3_3</speak>
+    <speak speaker="angela">angela3_4</speak>
+
+    <disappear character="angela"/>
+
+    <wait time="0.2" />
+  </scene>
+
+  <scene id="boss_fourth">
+    <character id="angela" name="angela_name" color="FFBBFF" sprite="Angela" />
+    <bgm src="10- Dark Fantasy Studio- Until dawn"/>
+    <position character="angela" to="center" />
+
+    <speak speaker="angela">angela4_1</speak>
+    <speak speaker="angela">angela4_2</speak>
+    <speak speaker="angela">angela4_3</speak>
+    <speak speaker="angela">angela4_4</speak>
+    <speak speaker="angela">angela4_5</speak>
+    <speak speaker="angela">angela4_6</speak>
+    <speak speaker="angela">angela4_7</speak>
+    <speak speaker="angela">angela4_8</speak>
+    <speak speaker="angela">angela4_9</speak>
+    <speak speaker="angela">angela4_10</speak>
+    <speak speaker="angela">angela4_11</speak>
+
+
+    <disappear character="angela"/>
+
+    <wait time="0.2" />
+  </scene>
+
+
+  <scene id="boss_fifth">
+    <character id="angela" name="angela_name" color="FFBBFF" sprite="Angela" />
+    <bgm src="10- Dark Fantasy Studio- Until dawn"/>
+    <position character="angela" to="center" />
+
+    <speak speaker="angela">angela5_1</speak>
+    <speak speaker="angela">angela5_2</speak>
+    <speak speaker="angela">angela5_3</speak>
+    <speak speaker="angela">angela5_4</speak>
+    <speak speaker="angela">angela5_5</speak>
+    <speak speaker="angela">angela5_6</speak>
+    <speak speaker="angela">angela5_7</speak>
+    <speak speaker="angela">angela5_8</speak>
+    <speak speaker="angela">angela5_9</speak>
+    <disappear character="angela"/>
+
+    <wait time="0.2" />
+  </scene>
+
+
+  <scene id="boss_sixth">
+    <character id="angela" name="angela_name" color="FFBBFF" sprite="Angela" />
+    <bgm src="10- Dark Fantasy Studio- Until dawn"/>
+    <position character="angela" to="center" />
+
+    <speak speaker="angela">angela6_1</speak>
+    <speak speaker="angela">angela6_2</speak>
+    <speak speaker="angela">angela6_3</speak>
+    <speak speaker="angela">angela6_4</speak>
+    <speak speaker="angela">angela6_5</speak>
+    <speak speaker="angela">angela6_6</speak>
+    <speak speaker="angela">angela6_7</speak>
+    <speak speaker="angela">angela6_8</speak>
+    <speak speaker="angela">angela6_9</speak>
+    <disappear character="angela"/>
+
+    <wait time="0.2" />
+  </scene>
+</root>

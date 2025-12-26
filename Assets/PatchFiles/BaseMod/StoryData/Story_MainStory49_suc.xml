@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <!-- Smile , Smile2 ,  Crazy , Crazy2 , Default , Default2 , Laugh , Laugh2 , Angry , Angry2-->
+  
+  
+  <scene id="49_suc">
+
+    <character id="adamNo" name="nobody_name" direction="right" color="FFFFFF" sprite="Adam"/>
+    <character id="adam" name="adam_name" direction="right" color="FFFFFF" sprite="Adam"/>
+    <character id="binahRobot" name="binah_name" direction="right" color="FFFFFF" sprite="BinahRobot"/>
+    <character id="hokmaRobot" name="hokma_name" direction="right" color="FFFFFF" sprite="ChokmahRobot"/>
+    <character id="people1" name="people1" direction="right" color="FFFFFF" sprite=""/>
+    <character id="people2" name="people2" direction="right" color="FFFFFF" sprite=""/>
+    <character id="fastforward" name="no" direction="right" color="FFFFFF" sprite="Fastforward"/>
+    <dialogue type="hide"/>
+  
+    <bgm src="endStory/Gloomy Cathedral" />
+    
+    <background src="ketherBK3" effect="none"/>
+ 
+    <add_filter filter="tv_compression"/>
+
+    <wait time="2.5"/>
+
+  
+
+    
+    
+    
+
+    <add_filter filter="tv_rewind"/>
+
+ <!--   <position character="fastforward" to="center"/>-->
+    <sound src="rewind"/>
+    <wait time="2"/>
+    
+    <disappear character="fastforward"/>
+    <background src="ketherBK4" effect="fade"/>
+    <wait time="1"/>
+    
+    <remove_filter filter="tv_compression"/>
+    <remove_filter filter="tv_rewind"/>
+
+
+
+    <position character="adamNo" to="center" />
+    <set_anim character="adamNo" anim="Close"/>
+
+
+    <wait time="1.5"/>
+
+    
+    
+    <dialogue type="default"/>
+    
+    
+
+ 
+    <speak speaker="adamNo" anim="Smile">day49_adam_1</speak>
+    <speak speaker="adamNo" anim="Smile2">day49_adam_2</speak>
+    <speak speaker="adamNo" anim="Laugh">day49_adam_3</speak>
+    <speak speaker="adamNo" aim="Laugh2">day49_adam_4</speak>
+    <speak speaker="adamNo" anim="Laugh">day49_adam_5</speak>
+    <speak speaker="adamNo" anim="Laugh2">day49_adam_6</speak>
+    <speak speaker="adamNo" anim="Laugh">day49_adam_7</speak>
+    <speak speaker="adamNo">day49_adam_8</speak>
+    <speak speaker="adamNo" anim="Laugh2">day49_adam_9</speak>
+    <speak speaker="adamNo" anim="Smile">day49_adam_10</speak>
+    <speak speaker="adamNo" anim="Smile2">day49_adam_11</speak>
+    <speak speaker="adamNo" anim="Laugh">day49_adam_12</speak>\
+    <speak speaker="adamNo">day49_adam_12_1</speak>
+    <speak speaker="adamNo">day49_adam_13</speak>
+    <speak speaker="adamNo" anim="Laugh2">day49_adam_14</speak>
+    <speak speaker="adamNo">day49_adam_15</speak>
+    <speak speaker="adamNo">day49_adam_16</speak>
+   <!-- <speak speaker="adamNo">day49_adam_17</speak>-->
+    <speak speaker="adamNo" anim="Laugh2">day49_adam_18</speak>
+    <speak speaker="adamNo">day49_adam_19</speak>
+    <speak speaker="adamNo">day49_adam_20</speak>
+    <speak speaker="adamNo" anim="Smile">day49_adam_21</speak>
+    <speak speaker="adamNo">day49_adam_21_1</speak>
+    <speak speaker="adamNo">day49_adam_21_2</speak>
+
+    <speak speaker="adamNo" anim="Smile2">day49_adam_22</speak>
+    <speak speaker="adamNo">day49_adam_23</speak>
+    <speak speaker="adamNo">day49_adam_24</speak>
+    <speak speaker="adamNo">day49_adam_24_1</speak>
+    <speak speaker="adamNo">day49_adam_24_2</speak>
+    <speak speaker="adamNo" >day49_adam_25</speak>
+    <speak speaker="adamNo">day49_adam_26</speak>
+
+    <bgm src="endStory/6- Dark Fantasy Studio- Once upon a time" />
+
+    <speak speaker="adamNo" anim="Crazy">day49_adam_27</speak>
+    <speak speaker="adamNo">day49_adam_28</speak>
+    <disappear character="adamNo"/>
+    <position character="adam" to="center"/>
+     <set_anim character="adam" anim="Crazy"/>
+    <speak speaker="adam">day49_adam_29</speak>
+    <speak speaker="adam">day49_adam_30</speak>
+    <speak speaker="adam">day49_adam_31</speak>
+    <speak speaker="adam">day49_adam_31_1</speak>
+    <speak speaker="adam">day49_adam_32</speak>
+    <speak speaker="adam">day49_adam_33</speak>
+    <speak speaker="adam">day49_adam_34</speak>
+    <speak speaker="adam">day49_adam_35</speak>
+    <speak speaker="adam">day49_adam_36</speak>
+    <speak speaker="adam">day49_adam_37</speak>
+    <speak speaker="adam">day49_adam_38</speak>
+    <speak speaker="adam">day49_adam_39</speak>
+    <speak speaker="adam">day49_adam_40</speak>
+
+    <!-- 베드앤딩일 경우 여기서 .... 선택지 등장-->
+
+    <cg src="BlackCG" effect="fade" />
+    
+
+    
+    <wait time="0.7" />
+    <disappear character="adam"/>
+    <remove_cg effect="fade" />
+    <background src="binahBK" effect="none"/>
+    <camera_filter filter="grayscale" />
+
+    <position character="binahRobot" to="center" />
+
+    <bgm src="2 - Into The Deep" />
+    
+    <speak speaker="binahRobot">day49_binah_1</speak>
+    <speak speaker="binahRobot">day49_binah_2</speak>
+    <speak speaker="binahRobot">day49_binah_3</speak>
+    <speak speaker="binahRobot">day49_binah_4</speak>
+    <speak speaker="binahRobot">day49_binah_5</speak>
+    <speak speaker="binahRobot">day49_binah_6</speak>
+    <speak speaker="binahRobot">day49_binah_7</speak>
+    <speak speaker="binahRobot">day49_binah_8</speak>
+    <speak speaker="binahRobot">day49_binah_9</speak>
+    <speak speaker="binahRobot">day49_binah_10</speak>
+    <speak speaker="binahRobot">day49_binah_11</speak>
+
+    <cg src="BlackCG" effect="fade" />
+    <wait time="0.7" />
+    <disappear character="binahRobot"/>
+    <remove_cg effect="fade" />
+    <camera_filter filter="none" />
+    <background src="ketherBK4" effect="none"/>
+
+
+    <position character="adam" to="center"/>
+
+    <wait time="2"/>
+    <select>
+      <option text="day49_selection1"></option>
+    </select>
+
+    <set_anim character="adam" anim="Default"/>
+    <speak speaker="adam">day49_adam_41</speak>
+    <speak speaker="adam" anim="Smile">day49_adam_42</speak>
+    <speak speaker="adam" anim="Smile2">day49_adam_43</speak>
+    <speak speaker="adam" anim="Smile">day49_adam_44</speak>
+    <speak speaker="adam">day49_adam_45</speak>
+    <speak speaker="adam">day49_adam_46</speak>
+    <speak speaker="adam">day49_adam_47</speak>
+    <speak speaker="adam">day49_adam_48</speak>
+
+    <!-- 베드앤딩일 경우 여기서 .... 선택지 등장-->
+    
+    
+    <cg src="BlackCG" effect="fade" />
+    <wait time="0.7" />
+    <disappear character="adam"/>
+    <remove_cg effect="fade" />
+    <background src="hokmaBK" effect="none"/>
+    <camera_filter filter="grayscale" />
+
+    <position character="hokmaRobot" to="center" />
+   
+    <bgm src="4 - Sea Wind" />
+    
+    <speak speaker="hokmaRobot">day49_hokma_1</speak>
+    <speak speaker="hokmaRobot">day49_hokma_2</speak>
+    <speak speaker="hokmaRobot">day49_hokma_3</speak>
+    <speak speaker="hokmaRobot">day49_hokma_4</speak>
+    <speak speaker="hokmaRobot">day49_hokma_5</speak>
+    <speak speaker="hokmaRobot">day49_hokma_6</speak>
+    <speak speaker="hokmaRobot">day49_hokma_7</speak>
+    <speak speaker="hokmaRobot">day49_hokma_8</speak>
+
+
+    <cg src="BlackCG" effect="fade" />
+    <wait time="0.7" />
+    <disappear character="hokmaRobot"/>
+    <remove_cg effect="fade" />
+    <camera_filter filter="none" />
+    <background src="ketherBK4" effect="none"/>
+
+    <position character="adam" to="center"/>
+
+    <wait time="2"/>
+    <select>
+      <option text="day49_selection2"></option>
+    </select>
+
+    <set_anim character="adam" anim="Default"/>
+
+    <speak speaker="adam" anim="Angry2">day49_adam_49</speak>
+    <speak speaker="adam">day49_adam_50</speak>
+    <speak speaker="adam">day49_adam_51</speak>
+    <speak speaker="adam" anim="Default">day49_adam_52</speak>
+    <speak speaker="adam" anim="Smile">day49_adam_53</speak>
+    <speak speaker="adam" anim="Smile2">day49_adam_54</speak>
+    <speak speaker="adam" anim="Crazy">day49_adam_55</speak>
+
+    <wait time="2"/>
+    <cg src="BlackCG" effect="fade" />
+
+    <bgm src="endStory/15- Dark Fantasy Studio- After dark" />
+    <dialogue type="narration"/>
+    <speak speaker="angela">day49_angela_1</speak>
+    <speak speaker="angela">day49_angela_2</speak>
+    <speak speaker="angela">day49_angela_3</speak>
+    <speak speaker="angela">day49_angela_4</speak>
+    <speak speaker="angela">day49_angela_5</speak>
+
+    <wait time="2"/>
+  </scene>
+
+ 
+ 
+</root>

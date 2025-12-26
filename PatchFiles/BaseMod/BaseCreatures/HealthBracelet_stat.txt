@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<creature>
+  <script>HealthBracelet</script>
+  <kitIcon>Sprites/CreatureSprite/KitCreature/HealthBracelet/HealthBracelet_icon</kitIcon>
+  <stat>
+    <riskLevel>2</riskLevel>
+    <maxWorkCount>1</maxWorkCount>
+    <workType>kit</workType>
+    <kitType>equip</kitType>
+    <observeInfo>
+      <!--
+      도구형 환상체일 경우 stat과 care_(x) 만을 사용하며
+      cost가 관찰레벨을 달성하기 위한 누적 사용횟수(단발형)나 누적 사용시간(채널링,장착)이 된다.
+      x > y 일 때, care_(x)의 cost는 care_(y)의 cost보다 낮아야 한다.
+      -->
+      <observeElement name="stat" cost="30" />
+      <observeElement name="care_0" cost="10" />
+      <observeElement name="care_1" cost="60" />
+      <observeElement name="care_2" cost="120" />
+      <observeElement name="care_3" cost="180" />
+      <observeElement name="care_4" cost="200" />
+    </observeInfo>
+    <observeBonus level="1" type="speed">5</observeBonus>
+    <observeBonus level="2" type="prob">5</observeBonus>
+    <observeBonus level="3" type="speed">5</observeBonus>
+    <observeBonus level="4" type="prob">5</observeBonus>
+    <escapeable>false</escapeable>
+    <qliphoth>0</qliphoth>
+  </stat>
+  <graph>
+    <node id="creature" x="-1.6" y="-1.8" type="creature" />
+    <node id="workspace" x="-0.4" y="-1.8" type="workspace" />
+    <!--<node id="door"  x="2" y="-1" type="entry"/>-->
+    <node id="outter" x="0" y="0" type="outterDoor" />
+    <node id="inner" x="2" y="-1.8" type="innerDoor" />
+    <!--<edge node1="workspace" node2="door" type="road" />-->
+    <edge node1="workspace" node2="inner" type="road" />
+    <edge node1="creature" node2="workspace" type="road" />
+  </graph>
+  <anim prefab="Unit/CreatureAnimator/HealthBraceletAnim" />
+  <portrait src="Unit/creature/magicalGirl" />
+</creature>

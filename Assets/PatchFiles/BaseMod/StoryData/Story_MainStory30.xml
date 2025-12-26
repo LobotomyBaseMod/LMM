@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <scene id="30">
+    <character id="c" name="c_name" color="FFBBFF" sprite="C_shadow" />
+    <character id="a" name="a_name" color="FFBBFF" sprite="A" />
+    
+    <background src="carmenBK1" effect="none"/>
+    <add_filter filter="tv_oldMovie2" />
+
+    <bgm src="Romantic" />
+
+    <position character="c" to="center" />
+
+
+    <speak speaker="c">day30_carmen_1</speak>
+    <speak speaker="c">day30_carmen_2</speak>
+    <speak speaker="c">day30_carmen_3</speak>
+    <speak speaker="c">day30_carmen_4</speak>
+    <speak speaker="c">day30_carmen_5</speak>
+    <speak speaker="c">day30_carmen_6</speak>
+    <speak speaker="c">day30_carmen_7</speak>
+    <speak speaker="c">day30_carmen_8</speak>
+    <speak speaker="c">day30_carmen_9</speak>
+    <speak speaker="a">day30_a_1</speak>
+    <speak speaker="c">day30_carmen_10</speak>
+    <speak speaker="c">day30_carmen_11</speak>
+    <speak speaker="c">day30_carmen_12</speak>
+    <speak speaker="c">day30_carmen_13</speak>
+    <speak speaker="c">day30_carmen_14</speak>
+
+  </scene>
+
+
+</root>

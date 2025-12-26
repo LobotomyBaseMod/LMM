@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LocalizeDataList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <list>
+    <LocalizeData>
+      <id>PopupView_Normal_ModUploadCheck_ModDependancy_Title</id>
+      <value>アップロード拒否</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>PopupView_Normal_ModUploadCheck_ModDependancy_Desc</id>
+      <value>MOD 依存関係情報が正しくありません。
+- {0}</value>
+    </LocalizeData>
+
+
+    <LocalizeData>
+      <id>PopupView_Choice_ModDependancyFound_Desc</id>
+      <value>登録解除された上位レベルの mod が検出されました。
+{0}上位レベルの mod がない場合、mod は正常に動作しない可能性があります。一緒に登録しますか?</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>DevView_ModDependancyTab</id>
+      <value>Mod 依存性</value>
+    </LocalizeData>
+  </list>
+</LocalizeDataList>

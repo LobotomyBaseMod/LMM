@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <script>FixerWhite</script>
+  <stat>
+    <riskLevel>4</riskLevel>
+    <maxWorkCount>3</maxWorkCount>
+    <workProb type="R">
+      <prob level="1">0.3</prob>
+      <prob level="2">0.3</prob>
+      <prob level="3">0.2</prob>
+      <prob level="4">0.2</prob>
+      <prob level="5">0.2</prob>
+    </workProb>
+    <workProb type="W">
+      <prob level="1">0.4</prob>
+      <prob level="2">0.4</prob>
+      <prob level="3">0.3</prob>
+      <prob level="4">0.3</prob>
+      <prob level="5">0.3</prob>
+    </workProb>
+    <workProb type="B">
+      <prob level="1">0.6</prob>
+      <prob level="2">0.6</prob>
+      <prob level="3">0.5</prob>
+      <prob level="4">0.5</prob>
+      <prob level="5">0.5</prob>
+    </workProb>
+    <workProb type="P">
+      <prob level="1">0.5</prob>
+      <prob level="2">0.5</prob>
+      <prob level="3">0.4</prob>
+      <prob level="4">0.4</prob>
+      <prob level="5">0.4</prob>
+    </workProb>
+    <workCooltime>15</workCooltime>
+    <feelingStateCubeBounds>
+      <cube>3</cube>
+      <cube>7</cube>
+      <cube>12</cube>
+    </feelingStateCubeBounds>
+    <workDamage type="B" min="1" max="3" />
+    <workSpeed>0.35</workSpeed>
+    <specialDamage>
+      <damage id="1" type="W" min="10" max="14" />
+    </specialDamage>
+    <defense id="1">
+      <defenseElement type="R">0.5</defenseElement>
+      <defenseElement type="W">0</defenseElement>
+      <defenseElement type="B">0.5</defenseElement>
+      <defenseElement type="P">1</defenseElement>
+    </defense>
+    <hp>1000</hp>
+    <speed>2</speed>
+    <observeInfo total="52">
+      <observeElement name="stat" cost="12" />
+      <observeElement name="defense" cost="12" />
+      <observeElement name="work_r" cost="4" />
+      <observeElement name="work_w" cost="4" />
+      <observeElement name="work_b" cost="4" />
+      <observeElement name="work_p" cost="4" />
+      <observeElement name="care_0" cost="12" />
+    </observeInfo>
+    <equipment level="3" cost="20" equipId="200036" />
+    <equipment level="2" cost="20" equipId="300036" />
+    <observeBonus level="1" type="speed">5</observeBonus>
+    <observeBonus level="2" type="prob">5</observeBonus>
+    <observeBonus level="3" type="speed">5</observeBonus>
+    <observeBonus level="4" type="prob">5</observeBonus>
+    <qliphoth>0</qliphoth>
+  </stat>
+  <graph>
+    <node id="creature" x="-1.6" y="-1.8" type="creature" />
+    <node id="workspace" x="1.9" y="-1.8" type="workspace" />
+    <node id="outter" x="0" y="0" type="outterDoor" />
+    <node id="inner" x="2" y="-1.8" type="innerDoor" />
+    <edge node1="workspace" node2="inner" type="road" />
+    <edge node1="creature" node2="workspace" type="road" />
+  </graph>
+  <anim prefab="Unit/CreatureAnimator/FixerWhite" x="-1" y="-2" />
+  <returnImg src="" />
+  <portrait src="CreatureSprite/Dummy" />
+  <sound action="cast1" src="creature/FixerWhite/Liq_White_Cast" />
+  <sound action="cast2" src="creature/FixerWhite/Liq_White_Cast2" />
+  <sound action="circle_attack" src="creature/FixerWhite/Liq_White_CircleAtk" />
+  <sound action="circle_cast" src="creature/FixerWhite/Liq_White_CircleCast" />
+  <sound action="circle_cast_end" src="creature/FixerWhite/Liq_White_CircleCastEnd" />
+  <sound action="dead" src="creature/FixerWhite/Liq_White_Dead" />
+  <sound action="long_attack" src="creature/FixerWhite/Liq_White_LongAtk" />
+  <sound action="long_cast" src="creature/FixerWhite/Liq_White_LongCast" />
+  <sound action="reflect" src="creature/FixerWhite/Liq_White_reflect" />
+</creature>

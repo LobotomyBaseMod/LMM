@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LocalizeDataList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <list>
+    <LocalizeData>
+      <id>UI_Btn_StartGame</id>
+      <value>ゲームの起動</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_SearchNexus</id>
+      <value>nexus modで検索</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_AddLocalMod</id>
+      <value>ローカルmodの追加</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_SetGamePath</id>
+      <value>ゲームパスの指定</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_RemoveMod</id>
+      <value>MODの削除</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_gotoModPage_Main</id>
+      <value>MODページへ</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>UI_Btn_SearchGitHub</id>
+      <value>github modで検索</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_OpenModFolder_Main</id>
+      <value>モードフォルダを開く</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_LocalChange_Main</id>
+      <value>ローカルモードに切り替える</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>UI_Text_UpdateCheck_Main</id>
+      <value>新しいアップデートがあります！</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>UI_Btn_ModState_None</id>
+      <value>ローカル</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_ModState_Empty</id>
+      <value>未ダウンロード</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_ModState_Lastest</id>
+      <value>最新</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_ModState_Update</id>
+      <value>新しいアップデート</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_ModState_Downloading</id>
+      <value>ダウンロード中</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_ModState_UpdateCheck</id>
+      <value>新しいアップデートを確認中</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_ModState_CantCheck</id>
+      <value>セッションエラー</value>
+    </LocalizeData>
+
+  </list>
+</LocalizeDataList>

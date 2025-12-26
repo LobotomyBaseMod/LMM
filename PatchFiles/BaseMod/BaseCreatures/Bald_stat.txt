@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <script>Bald</script>
+  <stat>
+    <riskLevel>1</riskLevel>
+    <maxWorkCount>2</maxWorkCount>
+    <workProb type="R">
+      <prob level="1">0</prob>
+      <prob level="2">0</prob>
+      <prob level="3">0</prob>
+      <prob level="4">0</prob>
+      <prob level="5">0</prob>
+    </workProb>
+    <workProb type="W">
+      <prob level="1">0</prob>
+      <prob level="2">0</prob>
+      <prob level="3">0</prob>
+      <prob level="4">0</prob>
+      <prob level="5">0</prob>
+    </workProb>
+    <workProb type="B">
+      <prob level="1">0</prob>
+      <prob level="2">0</prob>
+      <prob level="3">0</prob>
+      <prob level="4">0</prob>
+      <prob level="5">0</prob>
+    </workProb>
+    <workProb type="P">
+      <prob level="1">0</prob>
+      <prob level="2">0</prob>
+      <prob level="3">0</prob>
+      <prob level="4">0</prob>
+      <prob level="5">0</prob>
+    </workProb>
+    <workCooltime>10</workCooltime>
+    <feelingStateCubeBounds>
+      <cube>1</cube>
+      <cube>3</cube>
+      <cube>6</cube>
+    </feelingStateCubeBounds>
+    <escapeable>false</escapeable>
+    <workDamage type="B" min="1" max="2" />
+    <workSpeed>0.15</workSpeed>
+    <specialDamage>
+      <damage id="1" type="W" min="10" max="14" />
+    </specialDamage>
+    <defense id="1">
+      <defenseElement type="R">1</defenseElement>
+      <defenseElement type="W">1</defenseElement>
+      <defenseElement type="B">1</defenseElement>
+      <defenseElement type="P">1</defenseElement>
+    </defense>
+    <observeInfo total="22">
+      <observeElement name="stat" cost="4" />
+      <observeElement name="defense" cost="4" />
+      <observeElement name="work_r" cost="2" />
+      <observeElement name="work_w" cost="2" />
+      <observeElement name="work_b" cost="2" />
+      <observeElement name="work_p" cost="2" />
+      <observeElement name="care_0" cost="2" />
+      <observeElement name="care_1" cost="2" />
+      <observeElement name="care_2" cost="2" />
+    </observeInfo>
+    <equipment level="4" cost="15" equipId="200034" />
+    <equipment level="4" cost="10" equipId="300034" />
+    <equipment level="1" prob="0.05" equipId="400034" />
+    <observeBonus level="1" type="speed">5</observeBonus>
+    <observeBonus level="2" type="prob">5</observeBonus>
+    <observeBonus level="3" type="speed">5</observeBonus>
+    <observeBonus level="4" type="prob">5</observeBonus>
+    <hp>1000</hp>
+    <qliphoth>0</qliphoth>
+  </stat>
+  <graph>
+    <node id="creature" x="-1.6" y="-1.8" type="creature" />
+    <node id="workspace" x="1.9" y="-1.8" type="workspace" />
+    <node id="outter" x="0" y="0" type="outterDoor" />
+    <node id="inner" x="2" y="-1.8" type="innerDoor" />
+    <edge node1="workspace" node2="inner" type="road" />
+    <edge node1="creature" node2="workspace" type="road" />
+  </graph>
+  <anim prefab="Unit/CreatureAnimator/AprilBaldAnim" x="-1" y="-2" />
+  <returnImg src="Unit/CreatureReturnObject/DummyReturn" />
+  <portrait src="CreatureSprite/Dummy" />
+  <sound action="special" src="creature/Bald/Bald_Special" />
+</creature>

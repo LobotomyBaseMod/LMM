@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <script>ScytheClock</script>
+  <stat>
+    <qliphoth>0</qliphoth>
+  </stat>
+  <!-- Relative position in the isolate room. -->
+  <graph>
+    <node id="creature" x="-1.6" y="-1.8" type="creature" />
+    <node id="workspace" x="1.9" y="-1.8" type="workspace" />
+    <node id="outter" x="0" y="0" type="outterDoor" />
+    <node id="inner" x="2" y="-1.8" type="innerDoor" />
+    <edge node1="workspace" node2="inner" type="road" />
+    <edge node1="creature" node2="workspace" type="road" />
+  </graph>
+  <!-- Prefab path -->
+  <anim prefab="Unit/CreatureAnimator/ScytheClockAnim" x="-1" y="-2" />
+</creature>

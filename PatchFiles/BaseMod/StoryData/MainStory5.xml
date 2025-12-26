@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <scene id="5">
+    <character id="angela" name="angela_name" color="FFBBFF" sprite="Angela" />
+
+    <bgm src="story-03-ogg" />
+
+    <position character="angela" to="right" />
+    
+    <speak speaker="angela">day5_angela_1</speak>
+    <speak speaker="angela">day5_angela_2</speak>
+    <speak speaker="angela">day5_angela_3</speak>
+    <speak speaker="angela">day5_angela_4</speak>
+    <speak speaker="angela">day5_angela_5</speak>
+    <speak speaker="angela">day5_angela_6</speak>
+    <speak speaker="angela">day5_angela_7</speak>
+    <speak speaker="angela">day5_angela_8</speak>
+
+    
+    <select>
+      <option text="day5_selection1">
+        <speak speaker="angela" anim="Glad1">day5_angela_1_1</speak>
+        <speak speaker="angela">day5_angela_1_2</speak>
+        <speak speaker="angela">day5_angela_1_3</speak>
+        <speak speaker="angela">day5_angela_1_4</speak>
+        <speak speaker="angela">day5_angela_1_5</speak>
+      </option>
+      <option text="day5_selection2">
+        <speak speaker="angela">day5_angela_2_1</speak>
+        <speak speaker="angela">day5_angela_2_2</speak>
+      </option>
+      <option text="day5_selection3">
+        <speak speaker="angela">day5_angela_3_1</speak>
+        <speak speaker="angela">day5_angela_3_2</speak>
+        <speak speaker="angela">day5_angela_3_3</speak>
+      </option>
+    </select>
+
+    <speak speaker="angela">day5_angela_4_1</speak>
+    <speak speaker="angela">day5_angela_4_2</speak>
+    <speak speaker="angela">day5_angela_4_3</speak>
+    <speak speaker="angela">day5_angela_4_4</speak>
+    <speak speaker="angela">day5_angela_4_5</speak>
+    <speak speaker="angela">day5_angela_4_6</speak>
+    <speak speaker="angela">day5_angela_4_7</speak>
+    
+   
+  </scene> 
+  
+</root>

@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  
+  <!-- 네짜흐 표정
+  디폴트 : Default
+  눈 감은 표정 : Close
+  화남 : Anger
+  입벌린 화남 : Anger2
+  취함 : Drunk
+  웃음 : Smile
+  침묵 : Silent -->
+  
+  
+  <scene id="netzach1_intro">
+    <character id="netzach" name="netzach_name" direction="right" color="FFFFFF" sprite="Netzach"/>
+    <character id="no" name="no_name" direction="right" color="FFFFFF" sprite="X"/>
+    <background src="netzachBK" effect="none"/>
+    <bgm src="Tilarids -  never frozen bottom flows" />
+    
+    <speak speaker="no">netzach1_intro_x1</speak>
+    <position character="netzach" to="center" />
+    <speak speaker="netzach">netzach1_intro_n1</speak>
+    <speak speaker="netzach" anim="Default2">netzach1_intro_n2</speak>
+    <speak speaker="netzach" anim="Default">netzach1_intro_n3</speak>
+    <speak speaker="netzach" anim="Default2">netzach1_intro_n4</speak>
+    <select>
+      <option text="netzach1_selection1">
+        <speak speaker="netzach" anim="Default">netzach1_intro_n1_1</speak>
+      </option>
+      <option text="netzach1_selection2">
+        <speak speaker="netzach" anim="Default">netzach1_intro_n2_1</speak>
+      </option>
+    </select>
+    <speak speaker="netzach" anim="Default">netzach1_intro_n5</speak>
+    <speak speaker="netzach" anim="Anger">netzach1_intro_n6</speak>
+    <speak speaker="netzach" anim="Anger2">netzach1_intro_n7</speak>
+    <speak speaker="netzach" anim="Anger">netzach1_intro_n8</speak>
+    <speak speaker="netzach" anim="Default">netzach1_intro_n9</speak>
+    <speak speaker="netzach" anim="Default2">netzach1_intro_n10</speak>
+    <speak speaker="netzach" anim="Anger">netzach1_intro_n11</speak>
+    <speak speaker="netzach" anim="Default">netzach1_intro_n12</speak>
+    <speak speaker="netzach">netzach1_intro_n13</speak>
+    <speak speaker="netzach">netzach1_intro_n14</speak>
+    <speak speaker="netzach">netzach1_intro_n15</speak>
+    <speak speaker="netzach">netzach1_intro_n16</speak>
+    <speak speaker="netzach" anim="Default2">netzach1_intro_n17</speak>
+    <speak speaker="netzach" anim="Default">netzach1_intro_n18</speak>
+    <speak speaker="netzach">netzach1_intro_n19</speak>
+    <speak speaker="netzach" anim="Anger2">netzach1_intro_n20</speak>
+
+  </scene>
+
+
+  <scene id="netzach2_intro">
+    <character id="netzach" name="netzach_name" direction="right" color="FFFFFF" sprite="Netzach"/>
+    <character id="angela" name="angela_name" direction="right" color="FFFFFF" sprite="Angela"/>
+    <character id="no" name="no_name" direction="right" color="FFFFFF"/>
+
+    <background src="netzachBK" effect="none"/>
+    <position character="netzach" to="center" />
+    <bgm src="Tilarids - Forgotten Entrance Of Memories" />
+    <speak speaker="netzach" anim="Close">netzach2_intro_n1</speak>
+    <speak speaker="netzach" anim="Close2">netzach2_intro_n2</speak>
+    <speak speaker="netzach" anim="Close">netzach2_intro_n3</speak>
+    <speak speaker="netzach">netzach2_intro_n4</speak>
+    <speak speaker="netzach" anim="Default">netzach2_intro_n5</speak>
+    <speak speaker="netzach">netzach2_intro_n6</speak>
+    <speak speaker="netzach" anim="Default2">netzach2_intro_n7</speak>
+    <speak speaker="netzach" anim="Default">netzach2_intro_n8</speak>
+    <speak speaker="netzach">netzach2_intro_n9</speak>
+    <speak speaker="netzach">netzach2_intro_n10</speak>
+    <speak speaker="netzach" anim="Anger">netzach2_intro_n11</speak>
+    <speak speaker="netzach">netzach2_intro_n12</speak>
+    <speak speaker="netzach">netzach2_intro_n13</speak>
+    <speak speaker="netzach">netzach2_intro_n14</speak>
+    <speak speaker="netzach" anim="Default2">netzach2_intro_n15</speak>
+    <select>
+      <option text="netzach2_selection1">
+        <position character="angela" to="left-full" direction="right" />
+        <speak speaker="angela" anim="Sigh">netzach2_intro_1_a1</speak>
+          <disappear character="angela" position="left"/>
+        <speak speaker="netzach" anim="Default">netzach2_intro_1_n1</speak>
+      </option>
+      <option text="netzach2_selection2">
+        <position character="angela" to="left-full" direction="right" />
+        <speak speaker="angela" anim="Anger1">netzach2_intro_2_a1</speak>
+          <disappear character="angela" position="left"/>
+        <speak speaker="netzach" anim="Default">netzach2_intro_2_n1</speak>
+      </option>
+    </select>
+    <speak speaker="netzach">netzach2_intro_n16</speak>
+    <speak speaker="netzach" anim="Smile2">netzach2_intro_n17</speak>
+  
+  </scene>
+
+  <scene id="netzach3_intro">
+    <character id="netzach" name="netzach_name" direction="right" color="FFFFFF" sprite="Netzach"/>
+    <character id="malkuth" name="malkuth_name" direction="right" color="FFFFFF" sprite="Malkuth"/>
+    <character id="yesod" name="yesod_name" direction="right" color="FFFFFF" sprite="Yesod"/>
+    <character id="no" name="no_name" direction="right" color="FFFFFF" sprite="X"/>
+    <background src="netzachBK" effect="none"/>
+    <bgm src="Town_-_Alone_In_A_Crowd" />
+    <position character="malkuth" to="right" />
+    <position character="yesod" to="left" direction="right" />
+
+    <speak speaker="malkuth" anim="Default2">netzach3_intro_m1</speak>
+    <speak speaker="yesod" anim="Default2">netzach3_intro_y1</speak>
+    <speak speaker="malkuth" anim="Shock">netzach3_intro_m2</speak>
+    <speak speaker="yesod" anim="Default">netzach3_intro_y2</speak>
+    <speak speaker="malkuth" anim="Glad2">netzach3_intro_m3</speak>
+    <speak speaker="yesod">netzach3_intro_y3</speak>
+    <speak speaker="malkuth" anim="Laugh2">netzach3_intro_m4</speak>
+    <disappear character="malkuth" position="right"/> <!-- 말쿠트 퇴장-->
+    <speak speaker="yesod" anim="Default2">netzach3_intro_y4</speak>    
+    <disappear character="yesod" position="left"/> <!-- 예소드 퇴장-->
+    <speak speaker="no">netzach3_intro_x1</speak>
+    <position character="netzach" to="center"/>
+    <speak speaker="netzach" anim="Drunk">netzach3_intro_n1</speak>
+    <speak speaker="netzach" anim="Anger2">netzach3_intro_n2</speak>
+    <bgm src="Tilarids - Forgotten Entrance Of Memories" />
+    <speak speaker="netzach" anim="Drunk2">netzach3_intro_n3</speak>
+    <speak speaker="netzach" anim="Drunk">netzach3_intro_n4</speak>
+    <speak speaker="netzach">netzach3_intro_n5</speak>
+    <speak speaker="netzach">netzach3_intro_n6</speak>
+    <speak speaker="netzach">netzach3_intro_n7</speak>
+    <speak speaker="netzach" anim="Drunk2">netzach3_intro_n8</speak>
+    <speak speaker="netzach" anim="Drunk">netzach3_intro_n9</speak>
+    <speak speaker="netzach">netzach3_intro_n10</speak>
+    <speak speaker="netzach">netzach3_intro_n11</speak>
+    <speak speaker="netzach">netzach3_intro_n12</speak>
+    <speak speaker="netzach">netzach3_intro_n13</speak>
+    <speak speaker="netzach">netzach3_intro_n14</speak>
+    <speak speaker="netzach">netzach3_intro_n15</speak> <!-- 이때 음악 멈춰야 함-->
+    <bgm src=""/>
+    <speak speaker="netzach" anim="Default">netzach3_intro_n16</speak>
+    <speak speaker="netzach" anim="Default2">netzach3_intro_n17</speak>
+
+  
+  
+    <!--<camera_filter filter="none" />-->
+  </scene>
+
+  <scene id="netzach4_intro">
+    <background src="netzachBK" effect="none"/>
+    <character id="tiphereth_a" name="tiphereth_a_name" direction="right" color="FFFFFF" sprite="Tiphereth1"/>
+    <character id="angela" name="angela_name" direction="right" color="FFFFFF" sprite="Angela"/>
+    <character id="netzach" name="netzach_name" direction="right" color="FFFFFF" sprite="Netzach"/>
+    <bgm src="Tilarids -  never frozen bottom flows " />
+    <position character="angela" direction="right" to="left"/>
+    <position character="tiphereth_a" to="right"/>
+    <bgm src="Tilarids - Forgotten Entrance Of Memories" />
+    <speak speaker="tiphereth_a" anim="Angry1">netzach4_intro_ta1</speak>
+    <speak speaker="angela" anim="Default1">netzach4_intro_a1</speak>
+    <speak speaker="tiphereth_a" anim="Angry2">netzach4_intro_ta2</speak>
+    <speak speaker="tiphereth_a" anim="Angry1">netzach4_intro_ta3</speak>
+    <speak speaker="angela">netzach4_intro_a2</speak>
+    <speak speaker="tiphereth_a" anim="Angry2">netzach4_intro_ta4</speak>
+    <speak speaker="tiphereth_a" anim="Annoy1">netzach4_intro_ta5</speak>
+    <speak speaker="angela">netzach4_intro_a3</speak>
+    <speak speaker="tiphereth_a">netzach4_intro_ta6</speak>
+    <speak speaker="angela">netzach4_intro_a4</speak>
+    <speak speaker="angela">netzach4_intro_a5</speak>
+    <speak speaker="tiphereth_a" anim="Annoy2">netzach4_intro_ta7</speak>
+    <speak speaker="angela">netzach4_intro_a6</speak>
+    <speak speaker="tiphereth_a">netzach4_intro_ta8</speak>
+    <speak speaker="angela">netzach4_intro_a7</speak>
+    <speak speaker="angela">netzach4_intro_a8</speak>
+    <speak speaker="tiphereth_a" anim="Annoy1">netzach4_intro_ta9</speak>
+    <speak speaker="angela">netzach4_intro_a9</speak>
+    <speak speaker="tiphereth_a">netzach4_intro_ta10</speak>
+    <speak speaker="angela">netzach4_intro_a10</speak>
+    <disappear character="angela"/>
+    <position character="netzach" to="left"/>
+    <speak speaker="tiphereth_a" anim="Angry1">netzach4_intro_ta11</speak>
+    <speak speaker="netzach">netzach4_intro_n1</speak>
+    <speak speaker="tiphereth_a" anim="Angry2">netzach4_intro_ta12</speak>
+    <speak speaker="tiphereth_a">netzach4_intro_ta13</speak>
+    <speak speaker="netzach">netzach4_intro_n2</speak>
+    <speak speaker="netzach" anim="Default2">netzach4_intro_n3</speak>
+    <speak speaker="tiphereth_a" anim="Angry1">netzach4_intro_ta14</speak>
+    <disappear character="tiphereth_a"/>
+    <speak speaker="netzach">netzach4_intro_n4</speak>
+    <speak speaker="netzach">netzach4_intro_n5</speak>
+    <speak speaker="netzach">netzach4_intro_n6</speak>
+    <speak speaker="netzach" anim="Default2">netzach4_intro_n7</speak>
+    <speak speaker="netzach" anim="Default">netzach4_intro_n8</speak>
+    <speak speaker="netzach">netzach4_intro_n9</speak>
+    <speak speaker="netzach">netzach4_intro_n10</speak>
+    <speak speaker="netzach">netzach4_intro_n11</speak>
+    
+  </scene>
+
+  <scene id="netzach5_intro">
+    <background src="netzachBK" effect="none"/>
+    <character id="netzach" name="netzach_name" direction="right" color="FFFFFF" sprite="Netzach"/>
+    <character id="a" name="a_name" direction="right" color="FFFFFF" sprite="A"/>
+    <position character="netzach" to="center"/>
+    <bgm src="1 - Beyond The Waves" />
+    <speak speaker="netzach">netzach5_intro_n1</speak>
+    <speak speaker="netzach" anim="Anger">netzach5_intro_n2</speak>
+    <speak speaker="netzach">netzach5_intro_n3</speak>
+    <speak speaker="netzach">netzach5_intro_n4</speak>
+    <speak speaker="netzach">netzach5_intro_n5</speak>
+    <speak speaker="netzach" anim="Anger2">netzach5_intro_n6</speak>
+    <speak speaker="netzach" anim="Default">netzach5_intro_n7</speak>
+    <speak speaker="netzach">netzach5_intro_n8</speak>
+    <speak speaker="netzach" anim="Default2">netzach5_intro_n9</speak>
+    <speak speaker="netzach" anim="Default">netzach5_intro_n10</speak>
+    <speak speaker="netzach">netzach5_intro_n11</speak>
+    <speak speaker="netzach" anim="Default2">netzach5_intro_n12</speak>
+    <speak speaker="netzach" anim="Default">netzach5_intro_n13</speak>
+    <speak speaker="netzach" anim="Close">netzach5_intro_n14</speak>
+    <speak speaker="netzach" anim="Default">netzach5_intro_n15</speak>
+    <speak speaker="netzach" anim="Smile">netzach5_intro_n16</speak>
+    <speak speaker="netzach" anim="Default">netzach5_intro_n17</speak>
+    <speak speaker="netzach">netzach5_intro_n18</speak>
+    <speak speaker="netzach">netzach5_intro_n19</speak>
+    <speak speaker="netzach">netzach5_intro_n20</speak>
+    <speak speaker="netzach" anim="Smile">netzach5_intro_n21</speak>
+    <speak speaker="netzach" anim="Smile2">netzach5_intro_n22</speak>
+    <speak speaker="netzach" anim="Close">netzach5_intro_n23</speak>
+    <cg src="BlackCG" effect="fade" />
+    <wait time="2" />
+    <remove_cg effect="fade" />
+    <disappear character="netzach"/>
+
+    <cg src="netzachCG2" effect="none" />
+   
+    
+    <speak speaker="a">netzach5_intro_A1</speak>
+    <speak speaker="a">netzach5_intro_A2</speak>
+    <speak speaker="a">netzach5_intro_A3</speak>
+    <speak speaker="a">netzach5_intro_A4</speak>
+    <speak speaker="a">netzach5_intro_A5</speak>
+    <speak speaker="a">netzach5_intro_A6</speak>
+    <speak speaker="a">netzach5_intro_A7</speak>
+    <speak speaker="a">netzach5_intro_A8</speak>
+    <speak speaker="a">netzach5_intro_A9</speak>
+    <speak speaker="a">netzach5_intro_A10</speak>
+    <speak speaker="a">netzach5_intro_A11</speak>
+    <select>
+      <option text="netzach5_selection1"> </option>
+      <option text="netzach5_selection2"> </option>
+      <option text="netzach5_selection3"> </option>
+    </select>
+      
+  </scene>
+
+
+  <scene id="netzach6_intro">
+    <character id="netzachPast" name="netzachPast_name" direction="right" color="FFFFFF" sprite="NetzachPast"/>
+    <character id="netzach" name="netzach_name" direction="right" color="FFFFFF" sprite="Netzach"/>
+    <character id="netzachRobot" name="netzachRobot_name" direction="right" color="FFFFFF" sprite="NetzachRobot"/>
+    <character id="a" name="a_name" direction="right" color="FFFFFF" sprite="A"/>
+    <position character="netzachPast" to="center"/>
+    <bgm src="Romantic"/>
+    <background src="warehouseBK_2" effect="none"/>
+    <speak speaker="netzachPast">netzach6_intro_n1</speak>
+    <speak speaker="netzachPast">netzach6_intro_n2</speak>
+    <speak speaker="netzachPast">netzach6_intro_n3</speak>
+    <speak speaker="netzachPast" anim="Smile2">netzach6_intro_n4</speak>
+    <speak speaker="a">netzach6_intro_A1</speak>
+    <cg src="BlackCG" effect="fade" />
+    <wait time="2" />
+    <remove_cg effect="fade" />
+    <disappear character="netzachPast"/>
+
+    <cg src="netzachCG1" effect="none" />
+    <bgm src="Lucid Dream (8)"/>
+    
+    <speak speaker="a">netzach6_intro_A2</speak>
+    <speak speaker="a">netzach6_intro_A3</speak>
+    <speak speaker="a">netzach6_intro_A4</speak>
+    <cg src="BlackCG" effect="fade" />
+    <wait time="2" />
+    <remove_cg effect="fade" />
+    <background src="netzachBK" effect="none"/>
+    <disappear character="netzachPast"/>
+    <bgm src="Tilarids - Strange Dream"/>
+    <position character="netzach" to="center"/>
+    <speak speaker="netzach">netzach6_intro_n5</speak>
+    <speak speaker="netzach">netzach6_intro_n6</speak>
+    <speak speaker="netzach">netzach6_intro_n7</speak>
+    <speak speaker="netzach">netzach6_intro_n8</speak>
+    <speak speaker="netzach">netzach6_intro_n9</speak>
+    <speak speaker="netzach">netzach6_intro_n10</speak>
+    <speak speaker="netzach">netzach6_intro_n11</speak>
+    <speak speaker="netzach">netzach6_intro_n12</speak>
+    <speak speaker="netzach">netzach6_intro_n13</speak>
+    <speak speaker="netzach">netzach6_intro_n14</speak>
+    <speak speaker="netzach">netzach6_intro_n15</speak>
+    <speak speaker="netzach">netzach6_intro_n16</speak>
+    <speak speaker="netzach" anim="Smile">netzach6_intro_n17</speak>
+    <speak speaker="netzach" anim="Default">netzach6_intro_n18</speak>
+    <speak speaker="netzach">netzach6_intro_n19</speak>
+    <speak speaker="netzach">netzach6_intro_n20</speak>
+    <speak speaker="netzach">netzach6_intro_n21</speak>
+    <speak speaker="netzach" anim="Smile">netzach6_intro_n22</speak>
+    <speak speaker="netzach" anim="Default">netzach6_intro_n23</speak>
+    <speak speaker="netzach">netzach6_intro_n24</speak>
+    <speak speaker="netzach">netzach6_intro_n25</speak>
+    
+    <sound src="changenoise" />
+    <add_filter filter="tv_distorted_fade" />
+    <wait time="0.25"/>
+    <disappear character="netzach"/>
+    <position character="netzachRobot" to="center"/>
+    <wait time="0.25"/>
+    <remove_filter filter="tv_distorted_fade" />
+    <speak speaker="netzachRobot">netzach6_intro_n26</speak>
+    <speak speaker="netzachRobot">netzach6_intro_n27</speak>
+    <speak speaker="netzachRobot">netzach6_intro_n28</speak>
+    <speak speaker="netzachRobot">netzach6_intro_n29</speak>
+
+
+  </scene>
+  
+
+</root>

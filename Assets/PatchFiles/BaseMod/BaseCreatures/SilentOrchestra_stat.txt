@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <script>SilentOrchestra</script>
+  <stat>
+    <riskLevel>5</riskLevel>
+    <maxWorkCount>2</maxWorkCount>
+    <workProb type="R">
+      <prob level="1">0</prob>
+      <prob level="2">0</prob>
+      <prob level="3">0</prob>
+      <prob level="4">0</prob>
+      <prob level="5">0</prob>
+    </workProb>
+    <workProb type="W">
+      <prob level="1">0</prob>
+      <prob level="2">0</prob>
+      <prob level="3">0.3</prob>
+      <prob level="4">0.3</prob>
+      <prob level="5">0.4</prob>
+    </workProb>
+    <workProb type="B">
+      <prob level="1">0</prob>
+      <prob level="2">0</prob>
+      <prob level="3">0.4</prob>
+      <prob level="4">0.4</prob>
+      <prob level="5">0.5</prob>
+    </workProb>
+    <workProb type="P">
+      <prob level="1">0</prob>
+      <prob level="2">0</prob>
+      <prob level="3">0.1</prob>
+      <prob level="4">0.2</prob>
+      <prob level="5">0.3</prob>
+    </workProb>
+    <workCooltime>15</workCooltime>
+    <feelingStateCubeBounds>
+      <cube>12</cube>
+      <cube>18</cube>
+      <cube>30</cube>
+    </feelingStateCubeBounds>
+    <workDamage type="W" min="7" max="9" />
+    <workSpeed>0.4</workSpeed>
+    <specialDamage>
+      <damage id="1" type="W" min="30" max="40" />
+      <damage id="2" type="W" min="30" max="40" />
+      <damage id="3" type="W" min="40" max="50" />
+      <damage id="4" type="W" min="40" max="50" />
+      <damage id="5" type="W" min="50" max="60" />
+    </specialDamage>
+    <defense id="1">
+      <defenseElement type="R">0</defenseElement>
+      <defenseElement type="W">0</defenseElement>
+      <defenseElement type="B">0</defenseElement>
+      <defenseElement type="P">2</defenseElement>
+    </defense>
+    <defense id="2">
+      <defenseElement type="R">0</defenseElement>
+      <defenseElement type="W">0</defenseElement>
+      <defenseElement type="B">2</defenseElement>
+      <defenseElement type="P">0</defenseElement>
+    </defense>
+    <defense id="3">
+      <defenseElement type="R">0</defenseElement>
+      <defenseElement type="W">2</defenseElement>
+      <defenseElement type="B">0</defenseElement>
+      <defenseElement type="P">0</defenseElement>
+    </defense>
+    <defense id="4">
+      <defenseElement type="R">2</defenseElement>
+      <defenseElement type="W">0</defenseElement>
+      <defenseElement type="B">0</defenseElement>
+      <defenseElement type="P">0</defenseElement>
+    </defense>
+    <defense id="5">
+      <defenseElement type="R">0</defenseElement>
+      <defenseElement type="W">0</defenseElement>
+      <defenseElement type="B">0</defenseElement>
+      <defenseElement type="P">0</defenseElement>
+    </defense>
+    <hp>2000</hp>
+    <speed>0</speed>
+    <observeInfo total="140">
+      <observeElement name="stat" cost="30" />
+      <observeElement name="defense" cost="30" />
+      <observeElement name="work_r" cost="10" />
+      <observeElement name="work_w" cost="10" />
+      <observeElement name="work_b" cost="10" />
+      <observeElement name="work_p" cost="10" />
+      <observeElement name="care_0" cost="10" />
+      <observeElement name="care_1" cost="10" />
+      <observeElement name="care_2" cost="10" />
+      <observeElement name="care_3" cost="10" />
+    </observeInfo>
+    <equipment level="4" cost="222" equipId="200019" />
+    <equipment level="4" cost="120" equipId="300019" />
+    <equipment level="4" prob="0.01" equipId="400019" />
+    <observeBonus level="1" type="speed">3</observeBonus>
+    <observeBonus level="2" type="prob">3</observeBonus>
+    <observeBonus level="3" type="speed">3</observeBonus>
+    <observeBonus level="4" type="prob">3</observeBonus>
+    <qliphoth>2</qliphoth>
+  </stat>
+  <graph>
+    <node id="creature" x="-1.6" y="-1.8" type="creature" />
+    <node id="workspace" x="1.9" y="-1.8" type="workspace" />
+    <node id="outter" x="0" y="0" type="outterDoor" />
+    <node id="inner" x="2" y="-1.8" type="innerDoor" />
+    <edge node1="workspace" node2="inner" type="road" />
+    <edge node1="creature" node2="workspace" type="road" />
+  </graph>
+  <anim prefab="Unit/CreatureAnimator/SilentOrchestra" x="-1" y="-2" />
+  <returnImg src="" />
+  <portrait src="CreatureSprite/Dummy" />
+  <sound action="Full" src="creature/SilentOrchestra/Sym_Movment_Full" />
+  <sound action="Head" src="creature/SilentOrchestra/Sym_HeadBomb" />
+  <sound action="zero" src="creature/SilentOrchestra/Sym_movment_0_clap" />
+  <sound action="first" src="creature/SilentOrchestra/Sym_movment_1_mov1" />
+  <sound action="second" src="creature/SilentOrchestra/Sym_movment_2_mov2" />
+  <sound action="third" src="creature/SilentOrchestra/Sym_movment_3_mov3" />
+  <sound action="fourth" src="creature/SilentOrchestra/Sym_movment_4_mov4" />
+  <sound action="finale" src="creature/SilentOrchestra/Sym_movment_5_finale" />
+</creature>

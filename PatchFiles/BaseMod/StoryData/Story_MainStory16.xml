@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <scene id="16">
+    <character id="angela" name="angela_name" color="FFBBFF" sprite="Angela" />
+    <character id="b" name="b_name" color="FFBBFF" sprite="B" />
+
+    <bgm src="Dungeon_-_Wrong_Way_Street" />
+
+    <camera_filter filter="tv_distorted" />
+    
+    <position character="b" to="center" />
+
+    <speak speaker="b">day16_b_1</speak>
+    <speak speaker="b">day16_b_2</speak>
+    <speak speaker="b">day16_b_3</speak>
+    <speak speaker="b">day16_b_4</speak>
+    <speak speaker="b">day16_b_5</speak>
+    <speak speaker="b">day16_b_6</speak>
+    <speak speaker="b">day16_b_7</speak>
+    <speak speaker="b">day16_b_8</speak>
+    <speak speaker="b">day16_b_9</speak>
+    <speak speaker="b">day16_b_10</speak>
+    <speak speaker="b">day16_b_11</speak>
+    <speak speaker="b">day16_b_12</speak>
+    <speak speaker="b">day16_b_13</speak>
+    <speak speaker="b">day16_b_14</speak>
+    <speak speaker="b">day16_b_15</speak>
+
+    <disappear character="b" />
+
+    <camera_filter filter="none" />
+   
+  </scene> 
+  
+</root>

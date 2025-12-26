@@ -1,0 +1,140 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="ConfigViewController">
+			<method name="Apply"/>
+			<method name="ChangeStartOption"/>
+			<method name="ClickLangSelect"/>
+			<method name="ClickOpenLogPath"/>
+			<method name="ClickOpenSessionCheckQuest"/>
+			<method name="ClickUpdate"/>
+			<method name="Close"/>
+			<method name="Open"/>
+			<method name="Open"/>
+		</type>
+		<type fullname="DeveloperViewController">
+			<method name="ClickLogOut"/>
+			<method name="ClickNewModUpload"/>
+			<method name="Close"/>
+			<method name="OnClickAuth"/>
+			<method name="Open"/>
+		</type>
+		<type fullname="GitHubModCommentContainer">
+			<method name="ClickDel"/>
+			<method name="ClickEdit"/>
+		</type>
+		<type fullname="GitHubModCommentEdit">
+			<method name="ClickEdit"/>
+		</type>
+		<type fullname="GitHubModCommentView">
+			<method name="ClickNext"/>
+			<method name="ClickPrev"/>
+			<method name="ClickStar"/>
+			<method name="UploadComment"/>
+		</type>
+		<type fullname="GlobalManager">
+			<method name="FindGamePath"/>
+			<method name="FindLocalMod"/>
+			<method name="FindLocalMod"/>
+			<method name="OnClickStartGame"/>
+			<method name="StartGame"/>
+		</type>
+		<type fullname="LangSelectViewController">
+			<method name="SetChinese"/>
+			<method name="SetEnglish"/>
+			<method name="SetJapan"/>
+			<method name="SetKorean"/>
+			<method name="SetRussian"/>
+		</type>
+		<type fullname="ModUploadView">
+			<method name="DescDropDown"/>
+			<method name="FindPath"/>
+			<method name="FindThumb"/>
+			<method name="OnClickUpload"/>
+		</type>
+		<type fullname="ModUploadView_DependancyContainer">
+			<method name="ClickAddDependancy"/>
+		</type>
+		<type fullname="ModUploadView_DependancyContainer_Prefab">
+			<method name="ClickDelete"/>
+		</type>
+		<type fullname="PopupViewController">
+			<method name="Choice_no"/>
+			<method name="Choice_yes"/>
+			<method name="Close_Normal"/>
+		</type>
+		<type fullname="ThirdPartyViewController">
+			<method name="ClickATA"/>
+			<method name="ClickLMM"/>
+			<method name="Close"/>
+			<method name="Open"/>
+			<method name="Open"/>
+		</type>
+		<type fullname="UIGitHubModContainer">
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+			<method name="OnClickDelete"/>
+		</type>
+		<type fullname="UIGitHubModInfoView">
+			<method name="ClickAuthorSearch"/>
+			<method name="ClickSubscribe"/>
+			<method name="Close"/>
+			<method name="OpenModPage"/>
+		</type>
+		<type fullname="UIGitHubModListController">
+			<method name="Click_UpDown_Starred"/>
+			<method name="Click_UpDown_Update"/>
+			<method name="ClickGoto"/>
+			<method name="ClickModUpload"/>
+			<method name="ClickNext"/>
+			<method name="ClickNext"/>
+			<method name="ClickPrev"/>
+			<method name="ClickPrev"/>
+			<method name="ClickSearch"/>
+			<method name="OnToggleSort_Starred"/>
+			<method name="OnToggleSort_Update"/>
+		</type>
+		<type fullname="UIGitHubOwnerModListController">
+			<method name="ClicDelMod"/>
+		</type>
+		<type fullname="UIGitHubViewController">
+			<method name="Close"/>
+			<method name="Open"/>
+			<method name="Open"/>
+		</type>
+		<type fullname="UIModPanel">
+			<method name="OnClickActiveToggle"/>
+			<method name="OnClickModPanel"/>
+			<method name="OnClickState"/>
+		</type>
+		<type fullname="UIModPanelController">
+			<method name="ClickSearch"/>
+			<method name="OnClickAllCheck"/>
+			<method name="OnClickDiscord"/>
+			<method name="OnClickDiscord"/>
+			<method name="OnClickGoToModPage"/>
+			<method name="OnClickLocalChange"/>
+			<method name="OnClickOpenFolder"/>
+			<method name="OnClickRemoveMod"/>
+			<method name="OnClickRemoveMod"/>
+		</type>
+		<type fullname="UINexusModInfoView">
+			<method name="ClickSubscribe"/>
+			<method name="Close"/>
+			<method name="OpenModPage"/>
+		</type>
+		<type fullname="UINexusModListController">
+			<method name="ClickGoto"/>
+			<method name="ClickNext"/>
+			<method name="ClickPrev"/>
+			<method name="ClickSearch"/>
+		</type>
+		<type fullname="UINexusModPanel">
+			<method name="OnClick"/>
+		</type>
+		<type fullname="UINexusViewController">
+			<method name="Close"/>
+			<method name="Open"/>
+			<method name="Open"/>
+		</type>
+	</assembly>
+</linker>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LocalizeDataList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <list>
+    <LocalizeData>
+      <id>GitHubView_UpdateSortDesc</id>
+      <value>Update order:</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>GitHubView_StarredSortDesc</id>
+      <value>Starred order:</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>CommentView_CommentWirte</id>
+      <value>Write a comment</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>CommentView_CommentSend</id>
+      <value>Send</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>CommentView_DoLogin_If_Comment</id>
+      <value>It can only be used by users who have connected to GitHub.</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>CommentView_CommentEdit</id>
+      <value>Edit comments</value>
+    </LocalizeData>
+  </list>
+</LocalizeDataList>

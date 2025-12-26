@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<creature>
+  <script>Nothing</script>
+  <stat>
+    <riskLevel>5</riskLevel>
+    <maxWorkCount>2</maxWorkCount>
+    <workProb type="R">
+      <prob level="1">0</prob>
+      <prob level="2">0</prob>
+      <prob level="3">0.35</prob>
+      <prob level="4">0.4</prob>
+      <prob level="5">0.45</prob>
+    </workProb>
+    <workProb type="W">
+      <prob level="1">0</prob>
+      <prob level="2">0</prob>
+      <prob level="3">0</prob>
+      <prob level="4">0</prob>
+      <prob level="5">0</prob>
+    </workProb>
+    <workProb type="B">
+      <prob level="1">0.5</prob>
+      <prob level="2">0.5</prob>
+      <prob level="3">0.5</prob>
+      <prob level="4">0.5</prob>
+      <prob level="5">0.5</prob>
+    </workProb>
+    <workProb type="P">
+      <prob level="1">0</prob>
+      <prob level="2">0</prob>
+      <prob level="3">0</prob>
+      <prob level="4">0</prob>
+      <prob level="5">0</prob>
+    </workProb>
+    <workCooltime>15</workCooltime>
+    <feelingStateCubeBounds>
+      <cube>16</cube>
+      <cube>26</cube>
+      <cube>33</cube>
+    </feelingStateCubeBounds>
+    <specialDamage>
+      <damage id="1" type="R" min="15" max="20" />
+    </specialDamage>
+    <workDamage type="R" min="6" max="9" />
+    <workSpeed>0.35</workSpeed>
+    <defense id="1">
+      <defenseElement type="R">0.3</defenseElement>
+      <defenseElement type="W">0.8</defenseElement>
+      <defenseElement type="B">0.8</defenseElement>
+      <defenseElement type="P">1.2</defenseElement>
+    </defense>
+    <defense id="2">
+      <defenseElement type="R">0</defenseElement>
+      <defenseElement type="W">0.6</defenseElement>
+      <defenseElement type="B">0.6</defenseElement>
+      <defenseElement type="P">1</defenseElement>
+    </defense>
+    <defense id="3">
+      <defenseElement type="R">0</defenseElement>
+      <defenseElement type="W">0.4</defenseElement>
+      <defenseElement type="B">0.4</defenseElement>
+      <defenseElement type="P">0.8</defenseElement>
+    </defense>
+    <escapeable>true</escapeable>
+    <observeInfo total="142">
+      <observeElement name="stat" cost="30" />
+      <observeElement name="defense" cost="30" />
+      <observeElement name="work_r" cost="10" />
+      <observeElement name="work_w" cost="10" />
+      <observeElement name="work_b" cost="10" />
+      <observeElement name="work_p" cost="10" />
+      <observeElement name="care_0" cost="6" />
+      <observeElement name="care_1" cost="6" />
+      <observeElement name="care_2" cost="6" />
+      <observeElement name="care_3" cost="6" />
+      <observeElement name="care_4" cost="6" />
+      <observeElement name="care_5" cost="6" />
+      <observeElement name="care_6" cost="6" />
+    </observeInfo>
+    <equipment level="4" cost="222" equipId="200005" />
+    <equipment level="4" cost="120" equipId="300005" />
+    <equipment level="4" prob="0.01" equipId="400005" />
+    <observeBonus level="1" type="speed">3</observeBonus>
+    <observeBonus level="2" type="prob">3</observeBonus>
+    <observeBonus level="3" type="speed">3</observeBonus>
+    <observeBonus level="4" type="prob">3</observeBonus>
+    <speed>4</speed>
+    <hp>2000</hp>
+    <qliphoth>1</qliphoth>
+  </stat>
+  <graph>
+    <node id="creature" x="-1.6" y="-1.8" type="creature" />
+    <node id="workspace" x="1.9" y="-1.8" type="workspace" />
+    <!--<node id="door"  x="2" y="-1" type="entry"/>-->
+    <node id="outter" x="0" y="0" type="outterDoor" />
+    <node id="inner" x="2" y="-1.8" type="innerDoor" />
+    <!--<edge node1="workspace" node2="door" type="road" />-->
+    <edge node1="workspace" node2="inner" type="road" />
+    <edge node1="creature" node2="workspace" type="road" />
+  </graph>
+  <anim prefab="Unit/CreatureAnimator/Nothing" x="-1" y="-2" />
+  <returnImg src="Unit/CreatureReturnObject/nothing" />
+  <portrait src="Sprites/Unit/creature/NotThing" />
+  <portrait src="Unit/creature/magicalGirl" />
+  <!--
+    <sound action="attack" src="creature/onebad_good/oneBad_special_sry"/>
+    <sound action="enter" src="creature/onebad_good/oneBad_enter"/>-->
+  <!--
+  <sound action="change0" src="creature/nullthing/Guts_Rip_Out_Organ_Movement_01"/>
+  <sound action="change1" src="creature/nullthing/Blood_Wound_Gush_Flow_01"/>
+  <sound action="change2" src="creature/nullthing/Screams_Shouts_monster_processed_236"/>
+  <sound action="wait0" src="creature/nullthing/Death_MiniMonsterVOX_-004"/>
+  <sound action="wait1" src="creature/nullthing/Death_MiniMonsterVOX_-005"/>
+  <sound action="wait2" src="creature/nullthing/Death_MiniMonsterVOX_-006"/>
+  <sound action="wait3" src="creature/nullthing/Death_MiniMonsterVOX_-007"/>
+  <sound action="deadscene0" src="creature/nullthing/Bone_Twist_Creak_Snap_03"/>
+  <sound action="deadscene1" src="creature/nullthing/Bone_Twist_Creak_Snap_05"/>
+  <sound action="transforming" src="creature/nullthing/Screams_Shouts_monster_processed_141"/>
+  <sound action="suppressed" src="creature/nullthing/Screams_Shouts_monster_processed_192"/>
+-->
+  <!-- AuthorNote에서도 사용 중 -->
+  <sound action="count" src="creature/nullthing/alertTick" />
+  <sound action="reload" src="creature/nullthing/SnipeReload" />
+  <sound action="shot" src="creature/nullthing/SnipeShot" />
+  <sound action="attack1" src="creature/NullthingSounds/Nullthing_Attack1" />
+  <sound action="attack2" src="creature/NullthingSounds/Nullthing_Attack2" />
+  <sound action="change2" src="creature/NullthingSounds/NullThing_Change02" />
+  <sound action="change1" src="creature/NullthingSounds/NullThing_Change_01" />
+  <sound action="heartBeat" src="creature/NullthingSounds/Nullthing_Heartbeat" />
+  <sound action="humanDefault" src="creature/NullthingSounds/Nullthing_Human_Default" />
+  <sound action="sk1cast" src="creature/NullthingSounds/Nullthing_Skill1_casting" />
+  <sound action="sk1ching" src="creature/NullthingSounds/Nullthing_Skill1_Ching" />
+  <sound action="sk1dmg" src="creature/NullthingSounds/Nullthing_Skill1_DMG" />
+  <sound action="sk1shang" src="creature/NullthingSounds/Nullthing_Skill1_Shang" />
+  <sound action="sk2cast" src="creature/NullthingSounds/Nullthing_Skill2_cast" />
+  <sound action="sk2hook" src="creature/NullthingSounds/Nullthing_Skill2_Hook" />
+  <sound action="sk3cast" src="creature/NullthingSounds/Nullthing_Skill3_Cast" />
+  <sound action="sk3finish" src="creature/NullthingSounds/Nullthing_Skill3_Finish" />
+  <sound action="stand1" src="creature/NullthingSounds/NullThing_stand01" />
+  <sound action="stand2" src="creature/NullthingSounds/NullThing_Stand02" />
+  <sound action="transform" src="creature/NullthingSounds/Nullthing_Transform_Default" />
+  <sound action="escape3" src="creature/NullthingSounds/NullThing_ver1_Esacpe03" />
+  <sound action="escape1" src="creature/NullthingSounds/NullThing_ver1_Escape01" />
+  <sound action="escape2" src="creature/NullthingSounds/NullThing_ver1_Escape_02" />
+  <sound action="hit1" src="creature/NullthingSounds/NullThing_ver1_Hit01" />
+  <sound action="meet" src="creature/NullthingSounds/NullThing_ver1_Meet" />
+  <sound action="run2" src="creature/NullthingSounds/NullThing_ver1_Run_02" />
+  <sound action="walk" src="creature/NullthingSounds/Nullthing_walk" />
+  <sound action="run1" src="creature/NullthingSounds/NullThng_ver1_Run_01" />
+  <sound action="hatch" src="creature/NullthingSounds/Nullthing_Hatch" />
+</creature>

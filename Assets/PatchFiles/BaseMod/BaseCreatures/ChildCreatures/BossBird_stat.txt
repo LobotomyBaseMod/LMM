@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <script>BossBird</script>
+  <stat>
+    <riskLevel>5</riskLevel>
+
+    <maxWorkCount>3</maxWorkCount>
+
+    <workProb type="R">
+      <prob level="1">0.3</prob>
+      <prob level="2">0.3</prob>
+      <prob level="3">0.2</prob>
+      <prob level="4">0.2</prob>
+      <prob level="5">0.2</prob>
+    </workProb>
+
+    <workProb type="W">
+      <prob level="1">0.4</prob>
+      <prob level="2">0.4</prob>
+      <prob level="3">0.3</prob>
+      <prob level="4">0.3</prob>
+      <prob level="5">0.3</prob>
+    </workProb>
+
+    <workProb type="B">
+      <prob level="1">0.6</prob>
+      <prob level="2">0.6</prob>
+      <prob level="3">0.5</prob>
+      <prob level="4">0.5</prob>
+      <prob level="5">0.5</prob>
+    </workProb>
+
+    <workProb type="P">
+      <prob level="1">0.5</prob>
+      <prob level="2">0.5</prob>
+      <prob level="3">0.4</prob>
+      <prob level="4">0.4</prob>
+      <prob level="5">0.4</prob>
+    </workProb>
+
+    <workCooltime>15</workCooltime>
+    <feelingStateCubeBounds>
+      <cube>3</cube>
+      <cube>7</cube>
+      <cube>12</cube>
+    </feelingStateCubeBounds>
+
+    <workDamage type="B" min="1" max="3" />
+    <workSpeed>0.35</workSpeed>
+
+    <specialDamage>
+      <damage id="1" type="P" min="10" max="14" />
+    </specialDamage>
+
+    <defense id="1">
+      <defenseElement type="R">0</defenseElement>
+      <defenseElement type="W">0</defenseElement>
+      <defenseElement type="B">0</defenseElement>
+      <defenseElement type="P">0</defenseElement>
+    </defense>
+
+    <hp>330000</hp>
+    <speed>0</speed>
+
+    <observeInfo total="0">
+      <observeElement name="stat" cost="0"/>
+      <observeElement name="defense" cost="0"/>
+      <observeElement name="work_r" cost="0"/>
+      <observeElement name="work_w" cost="0"/>
+      <observeElement name="work_b" cost="0"/>
+      <observeElement name="work_p" cost="0"/>
+
+      <observeElement name="care_0" cost="0"/>
+      <observeElement name="care_1" cost="0"/>
+      <observeElement name="care_2" cost="0"/>
+      <observeElement name="care_3" cost="0"/>
+    </observeInfo>
+
+    <equipment level="1" cost="999" equipId="200038" />
+    <equipment level="1" cost="999" equipId="300038" />
+
+    <observeBonus level="1" type="speed">5</observeBonus>
+    <observeBonus level="2" type="prob">5</observeBonus>
+    <observeBonus level="3" type="speed">5</observeBonus>
+    <observeBonus level="4" type="prob">5</observeBonus>
+  </stat>
+
+  <graph>
+    <node id="creature" x="-1.6" y="-1.8" type="creature"/>
+    <node id="workspace" x="1.9" y="-1.8" type="workspace"/>
+
+    <node id="outter" x="0" y="0" type="outterDoor"/>
+    <node id="inner" x="2" y="-1.8" type="innerDoor"/>
+
+    <edge node1="workspace" node2="inner" type="road" />
+    <edge node1="creature" node2="workspace" type="road" />
+  </graph>
+
+  <returnImg src=""/>
+  <portrait src=""/>
+  <!--End DummyData-->
+  
+  <anim prefab="Unit/CreatureAnimator/BossBirdAnim" x="-1" y="-2"/>
+
+  <sound action="attack1Down"     src="creature/BossBird/BossBird_Attack1_Down"/>
+  <sound action="attack1Move"     src="creature/BossBird/BossBird_Attack1_Move"/>
+  <sound action="attack1Swing"    src="creature/BossBird/BossBird_Attack1_Swing"/>
+  <sound action="attack2Grab"     src="creature/BossBird/BossBird_Attack2_Grab"/>
+  <sound action="attack2Move"     src="creature/BossBird/BossBird_Attack2_Move"/>
+  <sound action="attack2Swing"    src="creature/BossBird/BossBird_Attack2_Swing"/>
+  <sound action="attract"         src="creature/BossBird/BossBird_Attract"/>
+  <sound action="bigEgg"          src="creature/BossBird/BossBird_BigEgg"/>
+  <sound action="appear"          src="creature/BossBird/BossBird_Birth"/>
+  <sound action="appear_origin"   src="creature/BossBird/BossBird_Birth_original"/>
+  <sound action="casting"         src="creature/BossBird/BossBird_Casting"/>
+  <sound action="dead"            src="creature/BossBird/BossBird_Dead"/>
+  <sound action="default"         src="creature/BossBird/BossBird_Default"/>
+  <sound action="laserExplode"    src="creature/BossBird/BossBird_laser_Boom"/>
+  <sound action="laserCast"       src="creature/BossBird/BossBird_laser_Cast"/>
+  <sound action="laserFire"       src="creature/BossBird/BossBird_laser_Fire"/>
+  <sound action="laserMove"       src="creature/BossBird/BossBird_laser_Move"/>
+  <sound action="longEgg"         src="creature/BossBird/BossBird_LongEgg"/>
+  <sound action="move"            src="creature/BossBird/BossBird_Move"/>
+  <sound action="smallEgg"        src="creature/BossBird/BossBird_SmallEgg"/>
+  <sound action="ultAir"          src="creature/BossBird/BossBird_Ulti_Air"/>
+  <sound action="ultMouth1"       src="creature/BossBird/BossBird_Ulti_Mouth"/>
+  <sound action="ultMouth2"       src="creature/BossBird/BossBird_Ulti_Mouth2"/>
+  <sound action="ultMove1"        src="creature/BossBird/BossBird_Ulti_Move1"/>
+  <sound action="ultMove2"        src="creature/BossBird/BossBird_Ulti_Move2"/>
+  <sound action="ultMove3"        src="creature/BossBird/BossBird_Ulti_Move3"/>
+  <sound action="Attack1"         src="creature/BossBird/Attack1"/>
+  <sound action="Scale"           src="creature/LongBird/LongBird_Stun"/>
+  <sound action="Attack2"         src="creature/BossBird/BossBird_Attack2"/>
+  <sound action="Ult"             src="creature/BossBird/BossBird_Ulti"/>
+
+  <metaInfo>BossBird</metaInfo>
+</creature>

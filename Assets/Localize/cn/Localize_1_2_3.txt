@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LocalizeDataList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <list>
+    <LocalizeData>
+      <id>PopupView_Normal_ModUploadCheck_ModFileNull_Title</id>
+      <value>上传失败</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_ModUploadCheck_ModFileNull_Desc</id>
+      <value>添加的模组必须为.zip格式。</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Choice_TPNewVersionDetect_Desc</id>
+      <value>有新版本，是否在更新完成后运行？（选择“否”会以当前版本运行）</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>UI_GitHubView_AuthorName</id>
+      <value>作者：</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>UI_GitHubView_AuthorSearchBtn</id>
+      <value>搜索作者名称</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>ThirdPartyView_ModdingTool_Title</id>
+      <value>模组制作器</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>ThirdPartyView_ModdingTool_Creator</id>
+      <value>由harupon45359制作</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>ThirdPartyView_ModdingTool_Desc</id>
+      <value>本工具可以为制作E.G.O.模组提供助力。</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>ThirdPartyView_TPState_Checking</id>
+      <value>检查中……</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>ThirdPartyView_TPState_NeedDownload</id>
+      <value>下载</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>ThirdPartyView_TPState_NeedUpdate</id>
+      <value>运行（有新版本）</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>ThirdPartyView_TPState_Lastest</id>
+      <value>运行</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>ThirdPartyView_TPState_Error</id>
+      <value>错误</value>
+    </LocalizeData>
+  </list>
+</LocalizeDataList>

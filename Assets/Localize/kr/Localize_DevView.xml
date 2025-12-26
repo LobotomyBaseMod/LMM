@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LocalizeDataList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <list>
+    <LocalizeData>
+      <id>DevView_AuthOwner</id>
+      <value>인증된 사용자 : </value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>DevView_ModName</id>
+      <value>모드 이름 : </value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>DevView_ModThumb</id>
+      <value>모드 썸네일 : </value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>DevView_ModFilePath</id>
+      <value>모드 파일 : </value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>DevView_ModFilePath_Set</id>
+      <value>파일 경로 지정</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>DevView_ModUpload</id>
+      <value>모드 업로드</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>DevView_BringThumb</id>
+      <value> 가져오기</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>DevView_ModDesc</id>
+      <value>모드 설명</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>DevView_AuthingDesc</id>
+      <value>깃허브 업로드를 위해서 사용자 인증을 선행해야 합니다.
+아래 버튼을 누르면 인증 진행을 위한 웹 페이지가 실행됩니다.</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>DevView_AuthingBtn</id>
+      <value>인증진행</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>DevView_AuthCheck</id>
+      <value>인증정보 확인 중...</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>DevView_ModUpload_New</id>
+      <value>새로운 모드</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>DevView_LogOut</id>
+      <value>로그아웃</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>DevView_ModDelete</id>
+      <value>모드 삭제</value>
+    </LocalizeData>
+
+  </list>
+</LocalizeDataList>

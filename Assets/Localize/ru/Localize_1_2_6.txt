@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LocalizeDataList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <list>
+    <LocalizeData>
+      <id>GitHubView_UpdateSortDesc</id>
+      <value>По дате обновления</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>GitHubView_StarredSortDesc</id>
+      <value>По избранным</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>CommentView_CommentWirte</id>
+      <value>Оставить комментарий</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>CommentView_CommentSend</id>
+      <value>Отправить</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>CommentView_DoLogin_If_Comment</id>
+      <value>Необходимо связать менеджер с GitHub для возможности оставлять комментарии.</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>CommentView_CommentEdit</id>
+      <value>Изменить комментарий</value>
+    </LocalizeData>
+  </list>
+</LocalizeDataList>

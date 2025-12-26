@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<creature>
+  <script>PinkCorps</script>
+  <stat>
+    <riskLevel>1</riskLevel>
+    <maxWorkCount>2</maxWorkCount>
+    <workProb type="R">
+      <prob level="1">0</prob>
+      <prob level="2">0</prob>
+      <prob level="3">0</prob>
+      <prob level="4">0</prob>
+      <prob level="5">0</prob>
+    </workProb>
+    <workProb type="W">
+      <prob level="1">0.4</prob>
+      <prob level="2">0.4</prob>
+      <prob level="3">0.4</prob>
+      <prob level="4">0.5</prob>
+      <prob level="5">0.5</prob>
+    </workProb>
+    <workProb type="B">
+      <prob level="1">0.5</prob>
+      <prob level="2">0.5</prob>
+      <prob level="3">0.5</prob>
+      <prob level="4">0.55</prob>
+      <prob level="5">0.55</prob>
+    </workProb>
+    <workProb type="P">
+      <prob level="1">0.3</prob>
+      <prob level="2">0.3</prob>
+      <prob level="3">0.3</prob>
+      <prob level="4">0.3</prob>
+      <prob level="5">0.3</prob>
+    </workProb>
+    
+    <workCooltime>15</workCooltime>
+    <feelingStateCubeBounds>
+      <cube>12</cube>
+      <cube>22</cube>
+      <cube>30</cube>
+    </feelingStateCubeBounds>
+    
+    <escapeable>true</escapeable>
+    <workDamage type="W" min="7" max="9" />
+    <workSpeed>0.3</workSpeed>
+    
+    <specialDamage>
+      <damage id="1" type="B" min="10" max="14" />
+    </specialDamage>
+    
+    <defense id="1">
+      <defenseElement type="R">1.2</defenseElement>
+      <defenseElement type="W">0.6</defenseElement>
+      <defenseElement type="B">1</defenseElement>
+      <defenseElement type="P">0.8</defenseElement>
+    </defense>
+    
+    <observeInfo total="142">
+      <observeElement name="stat" cost="30" />
+      <observeElement name="defense" cost="30" />
+      <observeElement name="work_r" cost="10" />
+      <observeElement name="work_w" cost="10" />
+      <observeElement name="work_b" cost="10" />
+      <observeElement name="work_p" cost="10" />
+      
+      <observeElement name="care_0" cost="6" />
+      <observeElement name="care_1" cost="6" />
+      <observeElement name="care_2" cost="6" />
+      <observeElement name="care_3" cost="6" />
+      <observeElement name="care_4" cost="6" />
+      <observeElement name="care_5" cost="6" />
+      <observeElement name="care_6" cost="6" />
+    </observeInfo>
+    
+    <equipment level="4" cost="222" equipId="200064" />
+    <equipment level="4" cost="120" equipId="300064" />
+    <equipment level="4" prob="0.01" equipId="400064" />
+    
+
+    <observeBonus level="1" type="speed">3</observeBonus>
+    <observeBonus level="2" type="prob">3</observeBonus>
+    <observeBonus level="3" type="speed">3</observeBonus>
+    <observeBonus level="4" type="prob">3</observeBonus>
+    <escapeable>false</escapeable>
+    <qliphoth>3</qliphoth>
+  
+  </stat>
+  <graph>
+    <node id="creature" x="-1.6" y="-1.8" type="creature" />
+    <node id="workspace" x="1.9" y="-1.8" type="workspace" />
+    <node id="outter" x="0" y="0" type="outterDoor" />
+    <node id="inner" x="2" y="-1.8" type="innerDoor" />
+    <edge node1="workspace" node2="inner" type="road" />
+    <edge node1="creature" node2="workspace" type="road" />
+  </graph>
+  
+  <anim prefab="Unit/CreatureAnimator/PinkCorpsAnim" x="-1" y="-2" />
+  <portrait src="Unit/creature/magicalGirl" />
+
+  <sound action="Attack" src="creature/PinkCorps/PinkCorps_Pink_Atk" />
+  <sound action="Change" src="creature/PinkCorps/PinkCorps_Pink_Change" />
+  <sound action="Dead" src="creature/PinkCorps/PinkCorps_Pink_Dead" />
+
+  <child>BlackCorps_stat</child>
+</creature>

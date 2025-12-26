@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LocalizeDataList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <list>
+    <LocalizeData>
+      <id>UI_Btn_StartGame</id>
+      <value>Начнём игру!</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_SearchNexus</id>
+      <value>Поиск модов на Nexus</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_AddLocalMod</id>
+      <value>Добавить мод из файлов</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_SetGamePath</id>
+      <value>Обзор</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_RemoveMod</id>
+      <value>Удалить мод</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_gotoModPage_Main</id>
+      <value>Страница мода</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>UI_Btn_SearchGitHub</id>
+      <value>Поиск модов на GitHub</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_OpenModFolder_Main</id>
+      <value>Папка мода</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_LocalChange_Main</id>
+      <value>Переключиться в локальный режим</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>UI_Text_UpdateCheck_Main</id>
+      <value>Возможно обновление</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>UI_Btn_ModState_None</id>
+      <value>Локальный мод</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_ModState_Empty</id>
+      <value>Не скачан</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_ModState_Lastest</id>
+      <value>Последняя версия</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_ModState_Update</id>
+      <value>Обновить</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_ModState_Downloading</id>
+      <value>Загружается...</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_ModState_UpdateCheck</id>
+      <value>Проверяем последнюю версию...</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_ModState_CantCheck</id>
+      <value>Ошибка проверки</value>
+    </LocalizeData>
+
+  </list>
+</LocalizeDataList>

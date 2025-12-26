@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <scene id="tiphereth1_intro">
+    <character id="tiphereth_a" name="tiphereth_a_name" direction="right" color="FFFFFF" sprite="Tiphereth1"/>
+    <character id="tiphereth_b" name="tiphereth_b_name" direction="right" color="FFFFFF" sprite="Tiphereth2"/>
+    <character id="netzach" name="netzach_name" direction="right" color="FFFFFF" sprite="Netzach"/>
+    <background src="tipherethBK" effect="none"/>
+    <!-- 표정   티페리트 a : 못마땅한 표정 2개 - Annoy1, 2 
+                         무표정 2개 - Default1, 2
+                         오만한(윙크) 표정 2개 - Wink1, 2
+                         웃는 표정 2개 - Smile1, 2 
+                         씁쓸한 표정 2개 - Bitter1, 2 
+                         화난 표정 - Angry1, 2
+                         슬픈 표정 - Sad 1, 2 (추가해야댐)
+            티페리트 b : 난처한 표정 2개 - Shame1, 2 / 
+                         무표정 2개 -Default1, 2 
+                         웃는 표정 2개 - Smile1, 2
+                         고장난 표정 1개 - Off
+                         * 입 다문게 1 이고 입 연게 2 다.
+                         ** 앞글자는 대문자로 통일한다. 
+                         *** 숫자와 문자간 띄어쓰기 없다. -->
+    
+    <position character="tiphereth_a" to="right" direction="left"/>
+    <position character="tiphereth_b" to="left"/>
+   
+    <bgm src="Town_-_Alone_In_A_Crowd" />
+    <speak speaker="tiphereth_a" anim="Smile2">tiphereth1_intro_ta1</speak>
+    <speak speaker="tiphereth_b" anim="Default1">tiphereth1_intro_tb1</speak>
+    <select>
+      <option text="tiphereth1_selection1">
+        <speak speaker="tiphereth_a" anim="Smile2">tiphereth1_intro_ta1_1</speak>
+        <speak speaker="tiphereth_b" anim="Default2">tiphereth1_intro_tb1_1</speak>
+        <speak speaker="tiphereth_a">tiphereth1_intro_ta1_2</speak>
+      </option>
+      <option text="tiphereth1_selection2">
+        <speak speaker="tiphereth_a" anim="Smile2">tiphereth1_intro_ta2_1</speak>
+        <speak speaker="tiphereth_b" anim="Default2">tiphereth1_intro_tb2_1</speak>
+        <speak speaker="tiphereth_a">tiphereth1_intro_ta2_2</speak>
+      </option>
+    </select>
+    
+    <speak speaker="tiphereth_a" anim="Wink1">tiphereth1_intro_ta2</speak>
+    <speak speaker="tiphereth_b" anim="Default1">tiphereth1_intro_tb2</speak>
+    <speak speaker="tiphereth_a" anim="Bitter1">tiphereth1_intro_ta3</speak>
+    <speak speaker="tiphereth_a" anim="Smile2">tiphereth1_intro_ta4</speak>
+    <speak speaker="tiphereth_a" anim="Annoy1">tiphereth1_intro_ta5</speak>
+    <speak speaker="tiphereth_b" anim="Smile2">tiphereth1_intro_tb3</speak>
+    <speak speaker="tiphereth_a" anim="Annoy2">tiphereth1_intro_ta6</speak>
+    <speak speaker="tiphereth_b" anim="Default2">tiphereth1_intro_tb4</speak>
+    <speak speaker="tiphereth_a" anim="Annoy2">tiphereth1_intro_ta7</speak>
+    <speak speaker="tiphereth_a" anim="Annoy1">tiphereth1_intro_ta8</speak>
+    <speak speaker="tiphereth_b" anim="Smile2">tiphereth1_intro_tb5</speak>
+  
+
+    <position character="netzach" to="center" />
+    <bgm src="Tilarids -  never frozen bottom flows" />
+    
+    <speak speaker="netzach" anim="Default2">tiphereth1_intro_n1</speak>
+    <speak speaker="tiphereth_a" anim="Annoy1">tiphereth1_intro_ta9</speak>
+    <speak speaker="tiphereth_b">tiphereth1_intro_tb6</speak>
+    <speak speaker="netzach" anim="Default">tiphereth1_intro_n2</speak>
+    <speak speaker="tiphereth_a" anim="Annoy2">tiphereth1_intro_ta10</speak>
+    <speak speaker="tiphereth_b">tiphereth1_intro_tb7</speak>
+    <speak speaker="tiphereth_a">tiphereth1_intro_ta11</speak>
+    <speak speaker="tiphereth_b">tiphereth1_intro_tb8</speak>
+    <speak speaker="tiphereth_a" anim="Angry2">tiphereth1_intro_ta12</speak>
+    <speak speaker="netzach" anim="Default2">tiphereth1_intro_n3</speak>
+    <speak speaker="tiphereth_a">tiphereth1_intro_ta13</speak>
+    <speak speaker="netzach" anim="Default">tiphereth1_intro_n4</speak>
+    <speak speaker="tiphereth_b" anim="Smile1">tiphereth1_intro_tb9</speak>
+    <disappear character="netzach" position="left"/>
+    <speak speaker="tiphereth_a" anim="Annoy1">tiphereth1_intro_ta14</speak>
+    <speak speaker="tiphereth_b" anim="Smile2">tiphereth1_intro_tb10</speak>
+    <speak speaker="tiphereth_a" anim="Annoy2">tiphereth1_intro_ta15</speak>
+    <speak speaker="tiphereth_b" >tiphereth1_intro_tb11</speak>
+    <speak speaker="tiphereth_a" anim="Annoy1">tiphereth1_intro_ta16</speak>
+    <speak speaker="tiphereth_b" anim="Smile1">tiphereth1_intro_tb12</speak>
+    <speak speaker="tiphereth_a" anim="Annoy2">tiphereth1_intro_ta17</speak>    
+  </scene>
+
+  <scene id="tiphereth2_intro">
+    <character id="tiphereth_a" name="tiphereth_a_name" direction="right" color="FFFFFF" sprite="Tiphereth1"/>
+    <character id="tiphereth_b" name="tiphereth_b_name" direction="right" color="FFFFFF" sprite="Tiphereth2"/>
+    <background src="tipherethBK" effect="none"/>
+    <position character="tiphereth_a" to="right-near" direction="left"/>
+    <position character="tiphereth_b" to="left-near" />
+
+    <bgm src="Town_-_Alone_In_A_Crowd" />
+    
+    <speak speaker="tiphereth_a" anim="Annoy1">tiphereth2_intro_ta1</speak>
+    <speak speaker="tiphereth_b" anim="Smile2">tiphereth2_intro_tb1</speak>
+    <speak speaker="tiphereth_a" anim="Annoy2">tiphereth2_intro_ta2</speak>
+    <speak speaker="tiphereth_b">tiphereth2_intro_tb2</speak>
+    
+    <speak speaker="tiphereth_a">tiphereth2_intro_ta3</speak>
+    <speak speaker="tiphereth_b" anim="Smile1">tiphereth2_intro_tb3</speak>
+  
+    <speak speaker="tiphereth_a" anim="Angry2">tiphereth2_intro_ta4</speak>
+    <speak speaker="tiphereth_b" anim="Smile1">tiphereth2_intro_tb4</speak>
+    <speak speaker="tiphereth_b" anim="Smile2">tiphereth2_intro_tb5</speak>
+    <speak speaker="tiphereth_a" anim="Smile2">tiphereth2_intro_ta5</speak>
+    <speak speaker="tiphereth_b" anim="Shame1">tiphereth2_intro_tb6</speak>
+    <speak speaker="tiphereth_a">tiphereth2_intro_ta6</speak>
+    <speak speaker="tiphereth_b" anim="Smile2">tiphereth2_intro_tb7</speak>
+    <speak speaker="tiphereth_a">tiphereth2_intro_ta7</speak>
+    <speak speaker="tiphereth_b">tiphereth2_intro_tb8</speak>
+    <speak speaker="tiphereth_a" anim="Bitter1">tiphereth2_intro_ta8</speak>
+    <speak speaker="tiphereth_b">tiphereth2_intro_tb9</speak>
+    <speak speaker="tiphereth_b">tiphereth2_intro_tb10</speak>
+    <select>
+      <option text="tiphereth2_selection1">
+        <speak speaker="tiphereth_b">tiphereth2_intro_tb1_1</speak>
+        <speak speaker="tiphereth_b" anim="Smile1">tiphereth2_intro_tb1_2</speak>
+      </option>
+      <option text="tiphereth2_selection2">
+        <speak speaker="tiphereth_b">tiphereth2_intro_tb2_1</speak>
+        <speak speaker="tiphereth_b" anim="Smile1">tiphereth2_intro_tb2_2</speak>
+      </option>
+    </select>
+  </scene>
+
+
+
+
+  <scene id="tiphereth3_intro">
+    <character id="tiphereth_a" name="tiphereth_a_name" direction="right" color="FFFFFF" sprite="Tiphereth1"/>
+    <character id="tiphereth_b" name="tiphereth_b_name" direction="right" color="FFFFFF" sprite="Tiphereth2"/>
+    <character id="angela" name="angela_name" direction="right" color="FFFFFF" sprite="Angela"/>
+    <background src="tipherethBK" effect="none"/>
+    <position character="tiphereth_b" to="left"/>
+    <bgm src="Tilarids - Forgotten Entrance Of Memories" />
+    
+    <speak speaker="tiphereth_b" anim="Default1">tiphereth3_intro_tb1</speak>
+    <speak speaker="tiphereth_b" anim="Default2">tiphereth3_intro_tb2</speak>
+    <speak speaker="tiphereth_b" anim="Default1">tiphereth3_intro_tb3</speak>
+    <speak speaker="tiphereth_b" anim="Smile1">tiphereth3_intro_tb4</speak>
+    <speak speaker="tiphereth_b" anim="Default1">tiphereth3_intro_tb5</speak>
+    <speak speaker="tiphereth_b" anim="Default2">tiphereth3_intro_tb6</speak>
+    <speak speaker="tiphereth_b">tiphereth3_intro_tb7</speak>
+    <speak speaker="tiphereth_b">tiphereth3_intro_tb8</speak>
+    <speak speaker="tiphereth_b">tiphereth3_intro_tb9</speak>
+    <speak speaker="tiphereth_b">tiphereth3_intro_tb10</speak>
+    <speak speaker="tiphereth_b" anim="Shame1">tiphereth3_intro_tb11</speak>
+    <speak speaker="tiphereth_b">tiphereth3_intro_tb12</speak>
+    <speak speaker="tiphereth_b" anim="Default1">tiphereth3_intro_tb13</speak>
+    <bgm src="Tilarids - mirror dimensions" />
+    <speak speaker="tiphereth_b">tiphereth3_intro_tb14</speak>
+    <speak speaker="tiphereth_b">tiphereth3_intro_tb15</speak>
+    <speak speaker="tiphereth_b">tiphereth3_intro_tb16</speak>
+    <speak speaker="tiphereth_b" anim="Off">tiphereth3_intro_tb17</speak>
+    <position character="tiphereth_a" to="right-full" direction="left" />
+      <bgm src="Tilarids - Frozen Moon" />
+    <speak speaker="tiphereth_a" anim="Smile2">tiphereth3_intro_ta1</speak>
+    <speak speaker="tiphereth_a">tiphereth3_intro_ta2</speak>
+    <speak speaker="tiphereth_a" anim="Smile1">tiphereth3_intro_ta3</speak>
+
+    <position character="angela" to="center" direction="right"/>
+    
+    <speak speaker="angela" anim="Default1">tiphereth3_intro_a1</speak>
+    <speak speaker="tiphereth_a" anim="Smile1">tiphereth3_intro_ta4</speak>
+    <speak speaker="angela" anim="Default1">tiphereth3_intro_a2</speak>
+    <speak speaker="angela">tiphereth3_intro_a3</speak>
+    <speak speaker="tiphereth_a" anim="Annoy1">tiphereth3_intro_ta5</speak>
+    <speak speaker="angela">tiphereth3_intro_a4</speak>
+    <speak speaker="tiphereth_a" anim="Angry1">tiphereth3_intro_ta6</speak>
+    <speak speaker="angela" anim="Glad1">tiphereth3_intro_a5</speak>
+    <speak speaker="tiphereth_a" anim="Annoy1">tiphereth3_intro_ta7</speak>
+    <speak speaker="tiphereth_a" anim="Annoy2">tiphereth3_intro_ta8</speak>
+    <speak speaker="angela" anim="Default1">tiphereth3_intro_a6</speak>
+    <speak speaker="tiphereth_a" anim="Annoy1">tiphereth3_intro_ta9</speak>
+    <speak speaker="tiphereth_b">tiphereth3_intro_tb18</speak>
+    <speak speaker="tiphereth_a">tiphereth3_intro_ta10</speak>
+    <speak speaker="tiphereth_b">tiphereth3_intro_tb19</speak>
+    <speak speaker="tiphereth_b">tiphereth3_intro_tb20</speak>
+    <speak speaker="tiphereth_a">tiphereth3_intro_ta11</speak>
+    <speak speaker="tiphereth_a" anim="Annoy1">tiphereth3_intro_ta12</speak>
+    <speak speaker="tiphereth_a" anim="Smile1">tiphereth3_intro_ta13</speak>
+
+  </scene>
+
+  <scene id="tiphereth4_intro">
+    <background src="tiphereth_bk" effect="none" y="320"/>
+    <character id="tiphereth_a" name="tiphereth_a_name" direction="right" color="FFFFFF" sprite="Tiphereth1"/>
+    <character id="tiphereth_b" name="tiphereth_b_name" direction="right" color="FFFFFF" sprite="Tiphereth2"/>
+    <character id="angela" name="angela_name" direction="right" color="FFFFFF" sprite="Angela"/>
+    <character id="malkuthRobot" name="malkuthRobot_right_name" direction="right" color="FFFFFF" sprite="MalkuthRobot_right"/>
+    <character id="tipherethRobot_a" name="tiphereth_a_name" direction="right" color="FFFFFF" sprite="TipherethRobot_a"/>
+    <character id="tipherethRobot_b" name="tipherethRobot_b_name" direction="right" color="FFFFFF" sprite="TipherethRobot_b"/>
+    <character id="tipherethRobot_a_Angry" name="tiphereth_a_name" direction="right" color="FFFFFF" sprite="TipherethRobot_a_Angry"/>
+
+    <!-- 배경 교체-->
+   
+    
+    <position character="angela" to="center"/>
+    <bgm src="Wake up" />
+
+    <speak speaker="angela" anim="Default1">tiphereth4_intro_a1</speak>
+    <speak speaker="angela">tiphereth4_intro_a2</speak>
+    <speak speaker="angela" anim="Glad1">tiphereth4_intro_a3</speak>
+    <speak speaker="angela" anim="Default1">tiphereth4_intro_a4</speak>
+    <speak speaker="angela">tiphereth4_intro_a5</speak>
+    <speak speaker="angela">tiphereth4_intro_a6</speak>
+    <speak speaker="angela">tiphereth4_intro_a7</speak>
+    <speak speaker="angela" anim="Glad3">tiphereth4_intro_a8</speak>
+    <speak speaker="angela" anim="Default1">tiphereth4_intro_a9</speak>
+    <speak speaker="angela">tiphereth4_intro_a10</speak>
+    <speak speaker="angela">tiphereth4_intro_a11</speak>
+    <speak speaker="angela" anim="Glad3">tiphereth4_intro_a12</speak>
+     <disappear character="angela"/>
+    <bgm src="Tenebris Aeterna" />
+    
+    <cg src="TiphererthRobot" y="320"/>
+    <dialogue type="hide"/>
+    <wait time="4"/>
+    <dialogue type="default"/>
+    <speak speaker="angela">tiphereth4_intro_a13</speak>
+    <select>
+      <option text="tiphereth4_selection1">
+        <speak speaker="tiphereth_a">tiphereth4_intro_tta1_1</speak>
+      </option>
+    </select>
+
+    <speak speaker="tiphereth_a">tiphereth4_intro_tta2</speak>
+    <speak speaker="tiphereth_a">tiphereth4_intro_tta3</speak>
+    <speak speaker="tiphereth_a">tiphereth4_intro_tta4</speak>
+    <speak speaker="tiphereth_a">tiphereth4_intro_tta5</speak>
+    <speak speaker="tiphereth_a">tiphereth4_intro_tta6</speak>
+    <speak speaker="tiphereth_a">tiphereth4_intro_tta7</speak>
+
+    <!-- 이 타이밍에 효과음 -->
+    <bgm src=""/>
+    <sound src="tipereth breakdown" />
+
+    <speak speaker="tiphereth_a">tiphereth4_intro_tta8</speak>
+
+    <!-- 이 타이밍에 효과음 2-->
+     <cg src="BlackCG" effect="fade" />
+    <wait time="3" />
+    <remove_cg effect="fade" />
+    
+    <cg src="TiphererthRobotBroke" y="320"/>
+    <dialogue type="hide"/>
+    <wait time="4"/>
+    
+
+    <cg src="TiphererthRobotDie"/>
+    <wait time="3"/>
+
+    <dialogue type="default"/>
+    <speak speaker="tiphereth_a">tiphereth4_intro_tta9</speak>
+     <speak speaker="angela">tiphereth4_intro_a14</speak>
+    <speak speaker="tiphereth_a">tiphereth4_intro_tta10</speak>
+    <remove_cg />
+    
+    <disappear character="angela"/>
+    
+    <sound src="malkuthwalk" />
+    <position character="malkuthRobot" to="left" y="370"/>
+    <position character="tipherethRobot_a" to="right-more"/>
+    <position character="tipherethRobot_b" to="center"/> <!-- 위치 엄청 가장자리에 배치-->
+
+    <bgm src="Tilarids -  never frozen bottom flows" />
+
+    <speak speaker="malkuthRobot">tiphereth4_intro_mm1</speak>
+    <speak speaker="tipherethRobot_a">tiphereth4_intro_tta11</speak>
+    <speak speaker="malkuthRobot">tiphereth4_intro_mm2</speak>
+    <speak speaker="tipherethRobot_a">tiphereth4_intro_tta12</speak>
+    <speak speaker="malkuthRobot">tiphereth4_intro_mm3</speak>
+
+    <position character="tipherethRobot_a_Angry" to="right-more"/>
+    <disappear character="tipherethRobot_a"/>
+    <speak speaker="tipherethRobot_a_Angry">tiphereth4_intro_tta13</speak>
+    <speak speaker="malkuthRobot">tiphereth4_intro_mm4</speak>
+    <speak speaker="malkuthRobot">tiphereth4_intro_mm5</speak>
+    <speak speaker="tipherethRobot_a_Angry">tiphereth4_intro_tta14</speak>
+    <speak speaker="malkuthRobot">tiphereth4_intro_mm6</speak>
+    
+     <sound src="malkuthwalk" />
+  
+
+   
+    <cg src="BlackCG" effect="fade" />
+    <wait time="4" />
+    <remove_cg effect="fade" />
+
+    <disappear character="malkuthRobot"/>
+    <disappear character="tipherethRobot_a_Angry"/>
+    <disappear character="tipherethRobot_b"/>
+
+
+    <background src="tipherethBK" effect="none"/>
+    <!-- 배경 원래대로 교체-->
+
+    <position character="tiphereth_b" to="left-near" />
+
+    <bgm src="Tilarids - Frozen Moon" />
+    
+    <speak speaker="tiphereth_b" anim="Default1">tiphereth4_intro_tb1</speak>
+    <speak speaker="tiphereth_b" anim="Smile1">tiphereth4_intro_tb2</speak>
+    <position character="tiphereth_a" to="right-near" direction="left"/>
+    <speak speaker="tiphereth_a" anim="Smile2">tiphereth4_intro_ta1</speak>
+    <speak speaker="tiphereth_b" >tiphereth4_intro_tb3</speak>
+
+    <disappear character="tiphereth_b" position="left" />
+
+    <speak speaker="tiphereth_a" anim="Default1">tiphereth4_intro_ta2</speak>
+
+    <select>
+      <option text="tiphereth4_selection3">
+        <speak speaker="tiphereth_a" anim="Annoy1">tiphereth4_intro_ta3_1</speak>
+        <speak speaker="tiphereth_a" anim="Default1">tiphereth4_intro_ta3_2</speak>
+        <speak speaker="tiphereth_a">tiphereth4_intro_ta3_3</speak>
+        <speak speaker="tiphereth_a" anim="Annoy1">tiphereth4_intro_ta3_4</speak>
+        <speak speaker="tiphereth_a">tiphereth4_intro_ta3_5</speak>
+        <speak speaker="tiphereth_a" anim="Bitter1">tiphereth4_intro_ta3_6</speak>
+      </option>
+      <option text="tiphereth4_selection4">
+        <speak speaker="tiphereth_a" anim="Annoy1">tiphereth4_intro_ta4_1</speak>
+        <speak speaker="tiphereth_a" anim="Smile1">tiphereth4_intro_ta4_2</speak>
+        <speak speaker="tiphereth_a">tiphereth4_intro_ta4_3</speak>
+        <speak speaker="tiphereth_a" anim="Default1">tiphereth4_intro_ta4_4</speak>
+        <speak speaker="tiphereth_a">tiphereth4_intro_ta4_5</speak>
+        <speak speaker="tiphereth_a" anim="Bitter1">tiphereth4_intro_ta4_6</speak>
+      </option>
+    </select>
+  </scene>
+
+  <scene id="tiphereth5_intro">
+    <background src="officeBK" effect="none"/>
+    <character id="tiphereth_aPast" name="tiphereth_aPast_name" direction="right" color="FFFFFF" sprite="Tiphereth1Past"/>
+    <character id="tiphereth_bPast" name="tiphereth_bPast_name" direction="right" color="FFFFFF" sprite="Tiphereth2Past"/>
+    <character id="tiphereth_a" name="tiphereth_a_name" direction="right" color="FFFFFF" sprite="Tiphereth1"/>
+    <character id="tiphereth_b" name="tiphereth_b_name" direction="right" color="FFFFFF" sprite="Tiphereth2"/>
+    <character id="angela" name="angela_name" direction="right" color="FFFFFF" sprite="Angela"/>
+    <character id="c" name="c_name" color="FFBBFF" sprite="C_shadow" />
+    <character id="a" name="a_name" direction="right" color="FFFFFF" sprite="A"/>
+
+    <bgm src="1 - Alone" />
+    <add_filter filter="tv_vignetting" />
+    <position character="tiphereth_aPast" to="right-near"/>
+    <position character="tiphereth_bPast" to="left-near"/>
+
+    <speak speaker="tiphereth_aPast" anim="Sad1">tiphereth5_intro_ta1</speak>
+    <speak speaker="tiphereth_bPast">tiphereth5_intro_tb1</speak>
+    <speak speaker="tiphereth_aPast">tiphereth5_intro_ta2</speak>
+    <speak speaker="tiphereth_bPast" anim="Default2">tiphereth5_intro_tb2</speak>
+    <speak speaker="tiphereth_aPast" anim="Sad2">tiphereth5_intro_ta3</speak>
+    
+    <cg src="BlackCG" effect="fade" />
+    <wait time="2" />
+    <remove_cg effect="fade" />
+    <set_anim character="tiphereth_b" anim="Default1"/>
+    <speak speaker="tiphereth_aPast" anim="Angry2">tiphereth5_intro_ta4</speak>
+    <speak speaker="tiphereth_aPast">tiphereth5_intro_ta5</speak>
+    <speak speaker="tiphereth_aPast" anim="Angry1">tiphereth5_intro_ta6</speak>
+    <speak speaker="tiphereth_bPast" anim="Smile1">tiphereth5_intro_tb3</speak>
+    <speak speaker="tiphereth_bPast">tiphereth5_intro_tb4</speak>
+    <speak speaker="tiphereth_bPast" anim="Smile2">tiphereth5_intro_tb5</speak>
+    <speak speaker="tiphereth_bPast" anim="Default1">tiphereth5_intro_tb6</speak>
+    <speak speaker="tiphereth_bPast" anim="Default2">tiphereth5_intro_tb7</speak>
+    <speak speaker="tiphereth_bPast" anim="Default1">tiphereth5_intro_tb8</speak>
+    <speak speaker="tiphereth_bPast">tiphereth5_intro_tb9</speak>
+    <speak speaker="tiphereth_bPast" anim="Default2">tiphereth5_intro_tb10</speak>
+    <speak speaker="tiphereth_aPast" anim="Annoy1">tiphereth5_intro_ta7</speak>
+    <speak speaker="tiphereth_aPast" anim="Annoy2">tiphereth5_intro_ta8</speak>
+  
+    <cg src="BlackCG" effect="fade" />
+    <wait time="2" />
+    <remove_cg effect="fade" />
+
+
+    <speak speaker="tiphereth_bPast" anim="Default1">tiphereth5_intro_tb11</speak>
+    <speak speaker="tiphereth_bPast" anim="Default2">tiphereth5_intro_tb12</speak>
+    <speak speaker="tiphereth_bPast">tiphereth5_intro_tb13</speak>
+    <speak speaker="tiphereth_aPast" anim="Sad1">tiphereth5_intro_ta9</speak>
+    <speak speaker="tiphereth_bPast" anim="Smile1">tiphereth5_intro_tb14</speak>
+    <speak speaker="tiphereth_bPast" anim="Smile2">tiphereth5_intro_tb15</speak>
+
+    <cg src="BlackCG" effect="fade" />
+    <wait time="2" />
+    <disappear character="tiphereth_aPast"/>
+    <disappear character="tiphereth_bPast"/>
+    <remove_cg effect="fade" />
+    <background src="AngelaBackground" effect="none"/>
+    <position character="tiphereth_a" to="right-more" direction="left"/>
+    <position character="tiphereth_b" to="left"/>
+    <position character="angela" to="center"/>
+
+    <speak speaker="angela">tiphereth5_intro_a1</speak>
+    <speak speaker="angela">tiphereth5_intro_a2</speak>
+    <speak speaker="angela">tiphereth5_intro_a3</speak>
+    <speak speaker="tiphereth_a" anim="Default1">tiphereth5_intro_ta10</speak>
+    <speak speaker="angela">tiphereth5_intro_a4</speak>
+    <speak speaker="tiphereth_b" anim="Smile1">tiphereth5_intro_tb16</speak>
+
+    <cg src="BlackCG" effect="fade" />
+    <wait time="2" />
+    <disappear character="angela"/>
+    <remove_cg effect="fade" />
+
+    <speak speaker="tiphereth_a" anim="Sad1">tiphereth5_intro_ta11</speak>
+    <speak speaker="tiphereth_b">tiphereth5_intro_tb17</speak>
+
+    <cg src="BlackCG" effect="fade" />
+    <wait time="2" />
+    <remove_cg effect="fade" />
+    <set_anim character="tiphereth_b" anim="Default1"/>
+    <speak speaker="tiphereth_a" anim="Wink2">tiphereth5_intro_ta12</speak>
+    <speak speaker="tiphereth_a" anim="Smile2">tiphereth5_intro_ta13</speak>
+    <speak speaker="tiphereth_b" anim="Smile1">tiphereth5_intro_tb18</speak>
+
+    <cg src="BlackCG" effect="fade" />
+    <wait time="2" />
+    <remove_cg effect="fade" />
+    <set_anim character="tiphereth_a" anim="Default1"/>
+    <set_anim character="tiphereth_b" anim="Default1"/>
+    <speak speaker="tiphereth_b">tiphereth5_intro_tb19</speak>
+    <speak speaker="tiphereth_a">tiphereth5_intro_ta14</speak>
+    <speak speaker="tiphereth_b" anim="Default2">tiphereth5_intro_tb20</speak>
+    <speak speaker="tiphereth_b" anim="Default1">tiphereth5_intro_tb21</speak>
+    <speak speaker="tiphereth_a" anim="Annoy1">tiphereth5_intro_ta15</speak>
+
+    <cg src="BlackCG" effect="fade" />
+    <wait time="2" />
+    <disappear character="tiphereth_b"/>
+    <remove_cg effect="fade" />
+
+    <background src="tiphereth_bk" effect="none" y="320"/>
+    <position character="angela" to="center"/>
+    <position character="tiphereth_b" to="left" direction="left"/>
+    <set_anim character="tiphereth_b" anim="Off"/> <!-- 티페리트 b 시작시 부터 표정 고정-->
+
+    <speak speaker="tiphereth_a" anim="Sad1">tiphereth5_intro_ta16</speak>
+    <speak speaker="angela">tiphereth5_intro_a5</speak>
+    <speak speaker="angela">tiphereth5_intro_a6</speak>
+    <speak speaker="angela">tiphereth5_intro_a7</speak>
+    <speak speaker="tiphereth_a">tiphereth5_intro_ta17</speak>
+    <speak speaker="angela" anim="Anger1" >tiphereth5_intro_a8</speak>
+    <disappear character="angela"/>
+    <speak speaker="tiphereth_a" anim="Sad2">tiphereth5_intro_ta18</speak>
+    <speak speaker="tiphereth_b">tiphereth5_intro_tb22</speak>
+    <speak speaker="tiphereth_a">tiphereth5_intro_ta19</speak>
+    <speak speaker="tiphereth_b">tiphereth5_intro_tb23</speak>
+    <speak speaker="tiphereth_a" anim="Bitter1">tiphereth5_intro_ta20</speak>
+
+    <cg src="BlackCG" effect="fade" />
+    <wait time="2" />
+    <disappear character="tiphereth_a"/>
+    <disappear character="tiphereth_b"/>
+    <remove_cg effect="fade" />
+    <camera_filter filter="none" />
+    <remove_filter filter="tv_vignetting" />
+    <position character="tiphereth_a" to="center"/>
+    <bgm src="Requiem (Long Version)" />
+    <speak speaker="tiphereth_a" anim="Default1">tiphereth5_intro_ta21</speak>
+    <speak speaker="tiphereth_a">tiphereth5_intro_ta22</speak>
+    <speak speaker="tiphereth_a">tiphereth5_intro_ta23</speak>
+    <speak speaker="tiphereth_a">tiphereth5_intro_ta24</speak>
+    <speak speaker="tiphereth_a" anim="Smile1">tiphereth5_intro_ta25</speak>
+    <speak speaker="tiphereth_a">tiphereth5_intro_ta26</speak>
+    <speak speaker="tiphereth_a">tiphereth5_intro_ta27</speak>
+    <speak speaker="tiphereth_a" anim="Smile2">tiphereth5_intro_ta28</speak>
+    <speak speaker="tiphereth_a" anim="Default1">tiphereth5_intro_ta29</speak>
+    <speak speaker="tiphereth_a" anim="Default2">tiphereth5_intro_ta30</speak>
+    <speak speaker="tiphereth_a" anim="Angry1">tiphereth5_intro_ta31</speak>
+    <speak speaker="tiphereth_a" anim="Default1">tiphereth5_intro_ta32</speak>
+    <speak speaker="tiphereth_a">tiphereth5_intro_ta33</speak>
+    <speak speaker="tiphereth_a" anim="Default2">tiphereth5_intro_ta34</speak>
+    <speak speaker="tiphereth_a" anim="Smile1">tiphereth5_intro_ta35</speak>
+    <speak speaker="tiphereth_a">tiphereth5_intro_ta36</speak>
+    <speak speaker="tiphereth_a" anim="Smile2">tiphereth5_intro_ta37</speak>
+
+    <position character="tiphereth_b" to="left-full"/>
+
+    <speak speaker="tiphereth_b" anim="Smile1">tiphereth5_intro_tb24</speak>
+    <speak speaker="tiphereth_a" anim="Smile1">tiphereth5_intro_ta38</speak>
+    <speak speaker="tiphereth_b">tiphereth5_intro_tb25</speak>
+    <speak speaker="tiphereth_a" anim="Smile2">tiphereth5_intro_ta39</speak>
+    <speak speaker="tiphereth_b" anim="Smile2">tiphereth5_intro_tb26</speak>
+    <speak speaker="tiphereth_a" anim="Smile1">tiphereth5_intro_ta40</speak>
+    <speak speaker="tiphereth_b" anim="Smile1">tiphereth5_intro_tb27</speak>
+    <speak speaker="tiphereth_a" anim="Bitter2">tiphereth5_intro_ta41</speak>
+
+    <cg src="BlackCG" effect="fade" />
+    <wait time="2" />
+    <disappear character="tiphereth_a"/>
+    <disappear character="tiphereth_b"/>
+    <remove_cg effect="fade" />
+    <camera_filter filter="grayscale" />
+
+    <position character="tiphereth_a" to="right-more"/>
+    <position character="angela" to="center"/>
+
+    <speak speaker="tiphereth_a" anim="Angry2">tiphereth5_intro_ta42</speak>
+    <speak speaker="angela" anim="Default1" >tiphereth5_intro_a9</speak>
+    <speak speaker="angela">tiphereth5_intro_a10</speak>
+
+
+    <cg src="BlackCG" effect="fade" />
+    <wait time="2" />
+    <disappear character="tiphereth_a"/>
+    <disappear character="angela"/>
+    <remove_cg effect="fade" />
+    <camera_filter filter="none" />
+
+    <position character="tiphereth_a" to="center"/>
+
+    <speak speaker="tiphereth_a" anim="Default1">tiphereth5_intro_ta43</speak>
+    <speak speaker="tiphereth_a">tiphereth5_intro_ta44</speak>
+    <speak speaker="tiphereth_a">tiphereth5_intro_ta45</speak>
+    <speak speaker="tiphereth_a">tiphereth5_intro_ta46</speak>
+    <speak speaker="tiphereth_a">tiphereth5_intro_ta47</speak>
+    <speak speaker="tiphereth_a" anim="Annoy1">tiphereth5_intro_ta48</speak>
+    <speak speaker="tiphereth_a" anim="Default1">tiphereth5_intro_ta49</speak>
+    <speak speaker="tiphereth_a">tiphereth5_intro_ta50</speak>
+    <speak speaker="tiphereth_a">tiphereth5_intro_ta51</speak>
+    <speak speaker="tiphereth_a" anim="Sad2">tiphereth5_intro_ta52</speak>
+    <speak speaker="tiphereth_a" anim="Sad1">tiphereth5_intro_ta521</speak>
+    <speak speaker="tiphereth_a" anim="Angry1">tiphereth5_intro_ta53</speak>
+    <speak speaker="tiphereth_a">tiphereth5_intro_ta54</speak>
+    <speak speaker="tiphereth_a" anim="Default1">tiphereth5_intro_ta55</speak>
+    <speak speaker="tiphereth_a">tiphereth5_intro_ta56</speak>
+    <speak speaker="tiphereth_a">tiphereth5_intro_ta57</speak>
+    <speak speaker="tiphereth_a">tiphereth5_intro_ta58</speak>
+    
+    <select>
+      <option text="tiphereth5_selection1">
+      </option>
+    </select>
+
+    <speak speaker="tiphereth_a" anim="Angry1">tiphereth5_intro_ta59</speak>
+    <speak speaker="tiphereth_a">tiphereth5_intro_ta60</speak>
+    <speak speaker="tiphereth_a">tiphereth5_intro_ta61</speak>
+    <speak speaker="tiphereth_a" anim="Angry2">tiphereth5_intro_ta62</speak>
+
+
+    <cg src="BlackCG" effect="fade" />
+    <wait time="2" />
+    <disappear character="tiphereth_a"/>
+    <disappear character="angela"/>
+    <camera_filter filter="none" />
+
+    <speak speaker="a">tiphereth5_intro_A1</speak>
+    <speak speaker="a">tiphereth5_intro_A2</speak>
+    <speak speaker="a">tiphereth5_intro_A3</speak>
+    <speak speaker="a">tiphereth5_intro_A4</speak>
+    <speak speaker="a">tiphereth5_intro_A5</speak>
+    <speak speaker="a">tiphereth5_intro_A6</speak>
+    <speak speaker="a">tiphereth5_intro_A7</speak>
+    <speak speaker="a">tiphereth5_intro_A8</speak>
+    <speak speaker="a">tiphereth5_intro_A9</speak>
+    <speak speaker="a">tiphereth5_intro_A10</speak>
+    <speak speaker="a">tiphereth5_intro_A11</speak>
+    <speak speaker="a">tiphereth5_intro_A12</speak>
+    <speak speaker="a">tiphereth5_intro_A13</speak>
+    <speak speaker="a">tiphereth5_intro_A14</speak>
+    <speak speaker="a">tiphereth5_intro_A15</speak>
+    <speak speaker="a">tiphereth5_intro_A16</speak>
+    <speak speaker="a">tiphereth5_intro_A17</speak>
+    <select>
+      <option text="tiphereth5_selection2"></option>
+      <option text="tiphereth5_selection3"></option>
+      <option text="tiphereth5_selection4"></option>
+    </select>
+    <cg src="tipherethCG1" effect="fade"/>
+    <speak speaker="a">tiphereth5_intro_A18</speak>
+    <speak speaker="tiphereth_aPast">tiphereth5_intro_ta63</speak>
+    <speak speaker="c">tiphereth5_intro_c1</speak>
+    <speak speaker="a">tiphereth5_intro_A19</speak>
+    <speak speaker="a">tiphereth5_intro_A20</speak>
+    <speak speaker="a">tiphereth5_intro_A21</speak>
+  </scene>
+
+  <scene id="tiphereth6_intro">
+    <background src="hokmaBeach" effect="none"/>
+    <sound src="372181__amholma__ocean-noise-surf" />
+    <bgm src="1 - Beyond The Waves" />
+
+    <character id="tiphereth_aPast" name="tiphereth_aPast_name" direction="right" color="FFFFFF" sprite="Tiphereth1Past"/>
+    <character id="tiphereth_bPast" name="tiphereth_bPast_name" direction="right" color="FFFFFF" sprite="Tiphereth2Past"/>
+    <character id="tiphereth_a" name="tiphereth_a_name" direction="right" color="FFFFFF" sprite="Tiphereth1"/>
+    <character id="tiphereth_b" name="tiphereth_b_name" direction="right" color="FFFFFF" sprite="Tiphereth2"/>
+    <character id="tipherethRobot_a" name="tiphereth_a_name" direction="right" color="FFFFFF" sprite="TipherethRobot_a"/>
+    
+    <character id="a" name="a_name" direction="right" color="FFFFFF" sprite="A"/>
+    <position character="tiphereth_aPast" to="right" direction="left"/>
+    <position character="tiphereth_bPast" to="left"/>
+    <speak speaker="tiphereth_aPast" anim="Smile1">tiphereth6_intro_ta1</speak>
+    <speak speaker="tiphereth_aPast">tiphereth6_intro_ta2</speak>
+    <speak speaker="tiphereth_aPast">tiphereth6_intro_ta3</speak>
+    <speak speaker="tiphereth_aPast">tiphereth6_intro_ta4</speak>
+    <speak speaker="tiphereth_aPast" anim="Smile2">tiphereth6_intro_ta5</speak>
+    <speak speaker="tiphereth_bPast" anim="Smile1">tiphereth6_intro_tb1</speak>
+    <speak speaker="tiphereth_aPast" anim="Annoy1">tiphereth6_intro_ta6</speak>
+    <speak speaker="tiphereth_bPast">tiphereth6_intro_tb2</speak>
+    <speak speaker="tiphereth_aPast" anim="Annoy2">tiphereth6_intro_ta7</speak>
+    <speak speaker="tiphereth_bPast" anim="Shame1">tiphereth6_intro_tb3</speak>
+    <speak speaker="tiphereth_bPast">tiphereth6_intro_tb4</speak>
+    <speak speaker="tiphereth_bPast">tiphereth6_intro_tb5</speak>
+    <speak speaker="tiphereth_bPast" anim="Shame2">tiphereth6_intro_tb6</speak>
+    <speak speaker="tiphereth_bPast">tiphereth6_intro_tb7</speak>
+    <speak speaker="tiphereth_bPast" anim="Smile2">tiphereth6_intro_tb8</speak>
+    <speak speaker="tiphereth_aPast" anim="Annoy1">tiphereth6_intro_ta8</speak>
+    <speak speaker="tiphereth_aPast" anim="Smile1">tiphereth6_intro_ta9</speak>
+    <speak speaker="tiphereth_bPast" anim="Smile1">tiphereth6_intro_tb9</speak>
+    <speak speaker="tiphereth_aPast">tiphereth6_intro_ta10</speak>
+    <speak speaker="tiphereth_aPast" anim="Smile2">tiphereth6_intro_ta11</speak>
+    <speak speaker="tiphereth_bPast" anim="Smile2">tiphereth6_intro_tb10</speak>
+    <cg src="tipherethCG2" effect="fade"/>
+    <speak speaker="a">tiphereth6_intro_A1</speak>
+    <speak speaker="a">tiphereth6_intro_A2</speak>
+    <speak speaker="a">tiphereth6_intro_A3</speak>
+    <speak speaker="a">tiphereth6_intro_A4</speak>
+    <speak speaker="a">tiphereth6_intro_A5</speak>
+    <speak speaker="a">tiphereth6_intro_A6</speak>
+    <cg src="BlackCG" effect="fade" />
+    <wait time="2" />
+    <disappear character="tiphereth_aPast"/>
+    <disappear character="tiphereth_bPast"/>
+    <remove_cg effect="fade" />
+
+    <background src="tipherethBK" effect="none"/>
+    <bgm src="Tilarids - Strange Dream"/>
+    <position character="tiphereth_a" to="center"/>
+    <speak speaker="tiphereth_a" anim="Default1">tiphereth6_intro_ta12</speak>
+    <speak speaker="tiphereth_a">tiphereth6_intro_ta13</speak>
+    <speak speaker="tiphereth_a">tiphereth6_intro_ta14</speak>
+    <speak speaker="tiphereth_a">tiphereth6_intro_ta15</speak>
+    <speak speaker="tiphereth_a">tiphereth6_intro_ta16</speak>
+    <speak speaker="tiphereth_a" anim="Angry1">tiphereth6_intro_ta17</speak>
+    <speak speaker="tiphereth_a">tiphereth6_intro_ta18</speak>
+    <speak speaker="tiphereth_a" anim="Angry2">tiphereth6_intro_ta19</speak>
+    <speak speaker="tiphereth_a" anim="Sad1">tiphereth6_intro_ta20</speak>
+    <speak speaker="tiphereth_a">tiphereth6_intro_ta21</speak>
+    <speak speaker="tiphereth_a">tiphereth6_intro_ta22</speak>
+    <speak speaker="tiphereth_a" anim="Sad2">tiphereth6_intro_ta23</speak>
+
+    <position character="tiphereth_b" to="left"/>
+    <speak speaker="tiphereth_b" anim="Smile1">tiphereth6_intro_tb11</speak>
+    <speak speaker="tiphereth_a" anim="Sad1">tiphereth6_intro_ta24</speak>
+    <speak speaker="tiphereth_b">tiphereth6_intro_tb12</speak>
+    <speak speaker="tiphereth_b" anim="Smile2">tiphereth6_intro_tb13</speak>
+    <disappear character="tiphereth_b"/>
+    <speak speaker="tiphereth_a" anim="Bitter1">tiphereth6_intro_ta25</speak>
+    <speak speaker="tiphereth_a">tiphereth6_intro_ta26</speak>
+    <speak speaker="tiphereth_a">tiphereth6_intro_ta27</speak>
+    <speak speaker="tiphereth_a">tiphereth6_intro_ta28</speak>
+    <speak speaker="tiphereth_a" anim="Bitter2">tiphereth6_intro_ta29</speak>
+    <speak speaker="tiphereth_a" anim="Bitter1">tiphereth6_intro_ta30</speak>
+    <speak speaker="tiphereth_a">tiphereth6_intro_ta31</speak>
+    <sound src="changenoise" />
+    <add_filter filter="tv_distorted_fade" />
+    <wait time="0.25"/>
+    <disappear character="tiphereth_a"/>
+    <position character="tipherethRobot_a" to="center" y="-200"/>
+  
+    <wait time="0.25"/>
+    <remove_filter filter="tv_distorted_fade" />
+    <speak speaker="tipherethRobot_a">tiphereth6_intro_ta32</speak>
+    <speak speaker="tipherethRobot_a">tiphereth6_intro_ta33</speak>
+  
+    
+  </scene>
+  
+  
+  
+
+</root>

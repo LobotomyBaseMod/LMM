@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LocalizeDataList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <list>
+    <LocalizeData>
+      <id>DevView_AuthOwner</id>
+      <value>認証済みユーザー：</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>DevView_ModName</id>
+      <value>MOD名：</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>DevView_ModThumb</id>
+      <value>MODのサムネイル：</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>DevView_ModFilePath</id>
+      <value>MODファイル：</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>DevView_ModFilePath_Set</id>
+      <value>ファイルパス指定</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>DevView_ModUpload</id>
+      <value>MODアップロード</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>DevView_BringThumb</id>
+      <value>インポート</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>DevView_ModDesc</id>
+      <value>MODの説明</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>DevView_AuthingDesc</id>
+      <value>GitHubへのアップロードのためには、ユーザー認証が必要です。
+以下のボタンをクリックすると、認証を行うためのWebページが開きます。</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>DevView_AuthingBtn</id>
+      <value>認証を進行</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>DevView_AuthCheck</id>
+      <value>認証情報を確認中....</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>DevView_ModUpload_New</id>
+      <value>新しいMOD</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>DevView_LogOut</id>
+      <value>ログアウト</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>DevView_ModDelete</id>
+      <value>MODを削除</value>
+    </LocalizeData>
+
+  </list>
+</LocalizeDataList>

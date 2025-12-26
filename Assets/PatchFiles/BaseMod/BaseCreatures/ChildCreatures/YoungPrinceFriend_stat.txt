@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <stat>
+    <hp>545</hp>
+    <speed>2</speed>
+
+    <defense id="1">
+      <defenseElement type="R">1.3</defenseElement>
+      <defenseElement type="W">0.5</defenseElement>
+      <defenseElement type="B">1.1</defenseElement>
+      <defenseElement type="P">1.5</defenseElement>
+    </defense>
+  </stat>
+
+  <anim prefab="Unit/CreatureAnimator/YoungPrinceFriendAnim" x="-1" y="-2"/>
+
+  <attackType openLevel="0">BLACK</attackType>
+  <riskLevel openLevel="0">HE</riskLevel>
+
+  <script>YoungPrinceFriend</script>
+</creature>

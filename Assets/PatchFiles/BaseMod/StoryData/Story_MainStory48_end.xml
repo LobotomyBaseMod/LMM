@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  
+  <scene id="48_end">
+
+    <character id="abram" name="abram_name" direction="right" color="FFFFFF" sprite="Abram"/>
+    <character id="announce" name="announce" direction="right" color="FFFFFF" sprite=""/>
+
+    <background src="ketherBK3" effect="none"/>
+
+    <position character="abram" to="center"/>
+    
+    <speak speaker="abram">day48_abramGameOver_1</speak>
+    <speak speaker="abram">day48_abramGameOver_2</speak>
+    <speak speaker="abram">day48_abramGameOver_3</speak>
+    <speak speaker="abram">day48_abramGameOver_4</speak>
+    <speak speaker="abram">day48_abramGameOver_5</speak>
+    <speak speaker="abram">day48_abramGameOver_6</speak>
+    <speak speaker="abram">day48_abramGameOver_7</speak>
+    <speak speaker="abram">day48_abramGameOver_8</speak>
+    <speak speaker="abram">day48_abramGameOver_9</speak>
+    <speak speaker="abram">day48_abramGameOver_10</speak>
+    <speak speaker="abram">day48_abramGameOver_11</speak>
+    <speak speaker="abram">day48_abramGameOver_12</speak>
+    <speak speaker="abram">day48_abramGameOver_13</speak>
+
+    <speak speaker="abram">day48_abramGameOver_15</speak>
+    <speak speaker="abram">day48_abramGameOver_16</speak>
+    <wait time="1"/>
+    <dialogue type="hide"/>
+    <cg src="day48_Ending" effect="fade" />
+    <wait time="3"/>
+    <camera_filter filter="color_sepia" />
+    <wait time="2.5" />
+    <add_filter filter="earthquake"/>
+
+    <dialogue type="default"/>
+    <speak speaker="announce">day48_abramGameOver_17</speak>
+    <speak speaker="abram">day48_abramGameOver_18</speak>
+    <speak speaker="abram">day48_abramGameOver_19</speak>
+    <speak speaker="abram">day48_abramGameOver_20</speak>
+    <speak speaker="abram">day48_abramGameOver_21</speak>
+    <speak speaker="abram">day48_abramGameOver_22</speak>
+    <speak speaker="announce">day48_abramGameOver_23</speak>
+
+    <remove_filter filter="earthquake" />
+    <camera_filter filter="none" />
+    <speak speaker="abram">day48_abramGameOver_24</speak>
+    <cg src="BlackCG" effect="fade" />
+    
+  </scene>
+ 
+</root>

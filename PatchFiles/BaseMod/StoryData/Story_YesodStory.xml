@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <!-- 예소드 표정 정리
+  Default : 기본
+  Smile : 미소
+ 
+  Anger : 입다문 화남
+  Anger2 : 입 연 화남
+  -->
+  <scene id="yesod1_intro">
+    <character id="yesod" name="yesod_name" direction="right" color="FFFFFF" sprite="Yesod"/>
+    <character id="netzach" name="netzach_name" direction="right" color="FFFFFF" sprite="Netzach"/>
+   
+    <position character="yesod" to="right" />
+    <bgm src="Town_-_Alone_In_A_Crowd" />
+    <background src="yesodBK" effect="none"/>
+    <speak speaker="yesod" anim="Anger">yesod1_intro_y1</speak>
+    <speak speaker="yesod" anim="Anger2">yesod1_intro_y2</speak>
+    <speak speaker="yesod" anim="Default">yesod1_intro_y3</speak>
+    <speak speaker="yesod">yesod1_intro_y4</speak>
+    <speak speaker="yesod" anim="Default2">yesod1_intro_y5</speak>
+    <speak speaker="yesod" anim="Default">yesod1_intro_y6</speak>
+    <speak speaker="yesod">yesod1_intro_y7</speak>
+    <speak speaker="yesod">yesod1_intro_y8</speak>
+    <speak speaker="yesod">yesod1_intro_y9</speak>
+    <speak speaker="yesod">yesod1_intro_y10</speak>
+    <speak speaker="yesod" anim="Anger">yesod1_intro_y11</speak>
+    <speak speaker="yesod" anim="Default2">yesod1_intro_y12</speak>
+    <speak speaker="yesod" anim="Default">yesod1_intro_y13</speak>
+    <speak speaker="yesod" anim="Anger">yesod1_intro_y14</speak>
+    <speak speaker="yesod" anim="Default">yesod1_intro_y15</speak>
+    <position character="netzach" to="left" /> <!-- 네짜흐 등장-->
+    <speak speaker="netzach">yesod1_intro_n1</speak>
+    <speak speaker="yesod" anim="Default2">yesod1_intro_y16</speak>
+    <speak speaker="netzach" anim="Smile">yesod1_intro_n2</speak>
+    <speak speaker="yesod" anim="Anger">yesod1_intro_y17</speak>
+    <speak speaker="netzach">yesod1_intro_n3</speak>
+    <disappear character="netzach" position="left"/> <!-- 네짜흐 퇴장-->
+    <speak speaker="yesod" anim="Anger4">yesod1_intro_y18</speak>
+    <speak speaker="yesod" anim="Default">yesod1_intro_y19</speak>
+    <speak speaker="yesod">yesod1_intro_y20</speak>
+    <speak speaker="yesod">yesod1_intro_y21</speak>
+    <speak speaker="yesod" anim="Default2">yesod1_intro_y22</speak>
+    <speak speaker="yesod" anim="Default">yesod1_intro_y23</speak>
+    <speak speaker="yesod">yesod1_intro_y24</speak>
+    <speak speaker="yesod" anim="Default2">yesod1_intro_y25</speak>
+    <select>
+      <option text="yesod1_selection1">
+        <speak speaker="yesod" anim="Default">yesod1_intro_y1_1</speak>
+      </option>
+      <option text="yesod1_selection2">
+        <speak speaker="yesod" anim="Default">yesod1_intro_y2_1</speak>
+      </option>
+    </select>
+    <speak speaker="yesod">yesod1_intro_y26</speak>
+    <speak speaker="yesod">yesod1_intro_y27</speak>
+    <speak speaker="yesod">yesod1_intro_y28</speak>
+  </scene>
+  
+  
+  <scene id="yesod2_intro">
+    <character id="yesod" name="yesod_name" direction="right" color="FFFFFF" sprite="Yesod"/>
+    <character id="hod" name="hod_name" direction="right" color="FFFFFF" sprite="Hod"/>
+    <bgm src="Tilarids - The 6th Light" />
+    <position character="yesod" to="left" direction="right"/>
+    <background src="yesodBK" effect="none"/>
+    <speak speaker="yesod">yesod2_intro_y1</speak>
+    <speak speaker="yesod" anim="Default2">yesod2_intro_y2</speak>
+    
+    <position character="hod" to="right" direction="left" /> <!-- 호드 등장-->
+   
+    <speak speaker="hod" anim="Shock2">yesod2_intro_h1</speak>
+    <speak speaker="yesod" anim="Default">yesod2_intro_y3</speak>
+    <speak speaker="hod" anim="Sad">yesod2_intro_h2</speak>
+    <speak speaker="yesod" anim="Default2">yesod2_intro_y4</speak>
+    <speak speaker="hod" anim="Sad2">yesod2_intro_h3</speak>
+    <speak speaker="yesod" anim="Default">yesod2_intro_y5</speak>
+    <speak speaker="hod" anim="Shame2">yesod2_intro_h4</speak>
+    <disappear character="hod" position="right"/> <!-- 호드 퇴장-->
+    <speak speaker="yesod">yesod2_intro_y6</speak>
+    <select>
+      <option text="yesod2_selection1">
+        <speak speaker="yesod">yesod2_intro_y1_1</speak>
+        <speak speaker="yesod" anim="Anger3">yesod2_intro_y1_2</speak>
+        <speak speaker="yesod" anim="Anger4">yesod2_intro_y1_3</speak>
+        <speak speaker="yesod">yesod2_intro_y1_4</speak>
+        <speak speaker="yesod" anim="Anger3">yesod2_intro_y1_5</speak>
+      </option>
+      <option text="yesod2_selection2">
+        <speak speaker="yesod" anim="Default">yesod2_intro_y2_1</speak>
+        <speak speaker="yesod" anim="Default2">yesod2_intro_y2_2</speak>
+        <speak speaker="yesod">yesod2_intro_y2_3</speak>
+        <speak speaker="yesod" anim="Default">yesod2_intro_y2_4</speak>
+        <speak speaker="yesod" anim="Anger">yesod2_intro_y2_5</speak>
+        <speak speaker="yesod" anim="Default">yesod2_intro_y2_6</speak>
+      </option>
+    </select>
+  </scene>
+
+  <scene id="yesod3_intro">
+    <character id="yesod" name="yesod_name" direction="right" color="FFFFFF" sprite="Yesod"/>
+    <character id="employee1" name="employee1_name" direction="right" color="FFFFFF"/>
+    <character id="employee2" name="employee2_name" direction="right" color="FFFFFF"/>
+    <character id="employeeTwo" name="employeeTwo_name" direction="right" color="FFFFFF"/>
+    <character id="james" name="james_name" direction="right" color="FFFFFF"/>
+    <character id="no" name="no_name" direction="right" color="FFFFFF"/>
+    <bgm src="Town_-_Alone_In_A_Crowd" />
+    <background src="yesodBK" effect="none"/>
+    <position character="yesod" to="center" />
+    
+    <speak speaker="employee1">yesod3_intro_e1_1</speak>
+    <speak speaker="employee2">yesod3_intro_e2_1</speak>
+    <speak speaker="employee1">yesod3_intro_e1_2</speak>
+    <speak speaker="yesod">yesod3_intro_y1</speak>
+    <speak speaker="employee1">yesod3_intro_e1_3</speak>
+    <speak speaker="employee2">yesod3_intro_e2_2</speak>
+    <speak speaker="employee1">yesod3_intro_e1_4</speak>
+    <speak speaker="employee2">yesod3_intro_e2_3</speak>
+    <speak speaker="yesod" anim="Default2">yesod3_intro_y2</speak>
+    <speak speaker="employeeTwo">yesod3_intro_et_1</speak>
+    <speak speaker="yesod" anim="Default">yesod3_intro_y3</speak>
+    <speak speaker="yesod">yesod3_intro_y4</speak>
+    <speak speaker="no">yesod3_intro_y5</speak>
+    <bgm src="Tenebris Aeterna"/>
+
+    <cg src="BlackCG" effect="fade" /> <!-- 회상 시작-->
+    <wait time="1" />
+    <remove_cg effect="fade" />
+    <camera_filter filter="grayscale" />
+    
+    <speak speaker="yesod" anim="Default">yesod3_intro_y6</speak>
+    <speak speaker="james">yesod3_intro_j1</speak>
+    <speak speaker="yesod" anim="Anger">yesod3_intro_y7</speak>
+    <speak speaker="james">yesod3_intro_j2</speak>
+    <speak speaker="yesod" anim="Anger">yesod3_intro_y8</speak>
+    <speak speaker="james">yesod3_intro_j3</speak>
+    <speak speaker="yesod" anim="Anger3">yesod3_intro_y9</speak>
+    <speak speaker="james">yesod3_intro_j4</speak>
+    <speak speaker="yesod" anim="Smile">yesod3_intro_y10</speak>
+    <speak speaker="yesod" anim="Anger2">yesod3_intro_y11</speak>
+    <speak speaker="james">yesod3_intro_j5</speak>
+    <cg src="BlackCG" effect="fade" />
+    <wait time="1" />
+    <remove_cg effect="fade" />
+    <camera_filter filter="none" />
+    <!-- 회상 끝-->
+    <bgm src="Tilarids - Insignia Decay"/>
+    <speak speaker="yesod" anim="Default">yesod3_intro_y12</speak>
+    <speak speaker="yesod" anim="Default2">yesod3_intro_y13</speak>
+    <speak speaker="yesod" anim="Default">yesod3_intro_y14</speak>
+    <speak speaker="yesod">yesod3_intro_y15</speak>
+    <speak speaker="yesod" anim="Anger4">yesod3_intro_y16</speak>
+    <speak speaker="yesod" anim="Default">yesod3_intro_y17</speak>
+
+  
+    
+  </scene>
+
+  <scene id="yesod4_intro">
+    <character id="yesod" name="yesod_name" direction="right" color="FFFFFF" sprite="Yesod"/>
+    <background src="yesodBK" effect="none"/>
+
+    <position character="yesod" to="center" />
+    <bgm src="Tilarids - When Tv Turns Off" />
+    <speak speaker="yesod">yesod4_intro_y1</speak>
+    <speak speaker="yesod">yesod4_intro_y2</speak>
+    <speak speaker="yesod" anim="Default2">yesod4_intro_y3</speak>
+    <speak speaker="yesod" anim="Default">yesod4_intro_y4</speak>
+    <speak speaker="yesod">yesod4_intro_y5</speak>
+    <speak speaker="yesod">yesod4_intro_y6</speak>
+    <speak speaker="yesod" anim="Default2">yesod4_intro_y7</speak>
+    <speak speaker="yesod" anim="Default">yesod4_intro_y8</speak>
+    <speak speaker="yesod">yesod4_intro_y9</speak>
+    <speak speaker="yesod" anim="Smile">yesod4_intro_y10</speak>
+    <speak speaker="yesod">yesod4_intro_y11</speak>
+    <speak speaker="yesod" anim="Default">yesod4_intro_y12</speak>
+    <speak speaker="yesod" anim="Default2">yesod4_intro_y13</speak>
+    <speak speaker="yesod" anim="Default">yesod4_intro_y14</speak>
+    <speak speaker="yesod" anim="Default2">yesod4_intro_y15</speak>
+    <speak speaker="yesod" anim="Default">yesod4_intro_y16</speak>
+    <speak speaker="yesod">yesod4_intro_y17</speak>
+    <speak speaker="yesod">yesod4_intro_y18</speak>
+    <speak speaker="yesod" anim="Smile">yesod4_intro_y19</speak>
+    <speak speaker="yesod" anim="Default">yesod4_intro_y20</speak>
+    <speak speaker="yesod">yesod4_intro_y21</speak>
+    <speak speaker="yesod">yesod4_intro_y22</speak>
+    <speak speaker="yesod">yesod4_intro_y23</speak>
+    <speak speaker="yesod">yesod4_intro_y24</speak>
+    <speak speaker="yesod">yesod4_intro_y25</speak>
+    <speak speaker="yesod">yesod4_intro_y26</speak>
+    <speak speaker="yesod" anim="Anger2">yesod4_intro_y27</speak>
+
+  </scene>
+
+  <scene id="yesod5_intro">
+    <character id="yesod" name="yesod_name" direction="right" color="FFFFFF" sprite="Yesod"/>
+    <character id="yesodVomit" name="yesodVomit_name" direction="right" color="FFFFFF" sprite="YessodVomit"/>
+    <character id="a" name="a_name" direction="right" color="FFFFFF" sprite="A"/>
+    <character id="no" name="no_name" direction="right" color="FFFFFF" sprite="No"/>
+    <character id="hod" name="hod_name" direction="right" color="FFFFFF" sprite="Hod"/>
+    <character id="netzach" name="netzach_name" direction="right" color="FFFFFF" sprite="Netzach"/>
+    <character id="angela" name="angela_name" direction="right" color="FFFFFF" sprite="Angela"/>
+    <bgm src="4 - Through The Mist" />
+    <background src="BlackCG" effect="none"/>
+    <position character="hod" to="center"/>
+    <speak speaker="hod" anim="Shame">yesod5_intro_h1</speak>
+    <disappear character="hod"/>
+    <position character="netzach" to="center"/>
+    <speak speaker="netzach">yesod5_intro_n1</speak>
+    <disappear character="netzach"/>
+    <position character="angela" to="center"/>
+    <speak speaker="angela">yesod5_intro_a1</speak>
+    <disappear character="angela"/>
+    <speak speaker="no">yesod5_intro_A1</speak>
+    <cg src="BlackCG" effect="fade" />
+    <wait time="1" />
+    <remove_cg effect="fade" />
+    <background src="yesodBK" effect="none"/>
+    <position character="yesod" to="center"/>
+
+    <speak speaker="yesod">yesod5_intro_y1</speak>
+    <speak speaker="yesod">yesod5_intro_y2</speak>
+    <speak speaker="yesod" anim="Anger">yesod5_intro_y3</speak>
+    <speak speaker="yesod" anim="Default">yesod5_intro_y4</speak>
+    <speak speaker="yesod">yesod5_intro_y5</speak>
+    <speak speaker="yesod">yesod5_intro_y6</speak>
+    <speak speaker="yesod">yesod5_intro_y7</speak>
+    <speak speaker="yesod">yesod5_intro_y8</speak>
+    <speak speaker="yesod">yesod5_intro_y9</speak>
+    <speak speaker="yesod" anim="Smile">yesod5_intro_y10</speak>
+    <speak speaker="yesod">yesod5_intro_y11</speak>
+    <speak speaker="yesod" anim="Default">yesod5_intro_y12</speak>
+    <speak speaker="yesod">yesod5_intro_y13</speak>
+    <position character="angela" to="right"/>
+    <speak speaker="angela">yesod5_intro_a2</speak>
+    <speak speaker="angela">yesod5_intro_a3</speak>
+    <speak speaker="yesod">yesod5_intro_y14</speak>
+    <speak speaker="angela">yesod5_intro_a4</speak>
+    <speak speaker="yesod">yesod5_intro_y15</speak>
+    <speak speaker="yesod">yesod5_intro_y16</speak>
+    <speak speaker="angela">yesod5_intro_a5</speak>
+    <speak speaker="yesod">yesod5_intro_y17</speak>
+    <disappear character="angela"/>
+    <speak speaker="yesod">yesod5_intro_y18</speak>
+    <speak speaker="yesod">yesod5_intro_y19</speak>
+    <speak speaker="yesod">yesod5_intro_y20</speak>
+    <speak speaker="yesod">yesod5_intro_y21</speak>
+    <speak speaker="yesod">yesod5_intro_y22</speak>
+    <speak speaker="yesod">yesod5_intro_y23</speak>
+    <speak speaker="yesod">yesod5_intro_y24</speak>
+    <speak speaker="yesod">yesod5_intro_y25</speak>
+    <speak speaker="yesod">yesod5_intro_y26</speak>
+    <speak speaker="yesod">yesod5_intro_y27</speak>
+    <speak speaker="yesod" anim="Anger2">yesod5_intro_y28</speak>
+    <speak speaker="yesod">yesod5_intro_y29</speak>
+    <speak speaker="yesod" anim="Anger">yesod5_intro_y30</speak>
+    <speak speaker="yesod">yesod5_intro_y31</speak>
+    <speak speaker="yesod">yesod5_intro_y32</speak>
+    <speak speaker="yesod">yesod5_intro_y33</speak>
+    <disappear character="yesod"/>
+    <bgm src="" />
+    <position character="yesodVomit" to="center"/>
+    <speak speaker="yesodVomit">yesod5_intro_y34</speak>
+
+    
+    <cg src="BlackCG" effect="fade" />
+    <bgm src="10- Dark Fantasy Studio- Until dawn" />
+
+    <speak speaker="a">yesod5_intro_A2</speak>
+    <speak speaker="a">yesod5_intro_A3</speak>
+    <speak speaker="a">yesod5_intro_A4</speak>
+    <speak speaker="a">yesod5_intro_A5</speak>
+    <speak speaker="a">yesod5_intro_A6</speak>
+    <speak speaker="a">yesod5_intro_A7</speak>
+    <speak speaker="a">yesod5_intro_A8</speak>
+    
+    <wait time="2" />
+    <remove_cg effect="fade" />
+    <disappear character="yesod"/>
+
+    <cg src="yesodCG1" effect="none"/>
+    <speak speaker="a">yesod5_intro_A9</speak>
+    <speak speaker="a">yesod5_intro_A10</speak>
+    <speak speaker="a">yesod5_intro_A11</speak>
+    <speak speaker="a">yesod5_intro_A12</speak>
+    <speak speaker="a">yesod5_intro_A13</speak>
+    <select>
+      <option text="yesod5_selection1"> </option>
+      <option text="yesod5_selection2"> </option>
+      <option text="yesod5_selection3"> </option>
+    </select>
+    <speak speaker="a">yesod5_intro_A14</speak>
+    <speak speaker="a">yesod5_intro_A15</speak>
+    <speak speaker="a">yesod5_intro_A16</speak>
+    <speak speaker="a">yesod5_intro_A17</speak>
+    <speak speaker="a">yesod5_intro_A18</speak>
+    <speak speaker="a">yesod5_intro_A19</speak>
+    <speak speaker="a">yesod5_intro_A20</speak>
+             
+  </scene>
+
+  <scene id="yesod6_intro">
+    <character id="yesodPast" name="yesodPast_name" direction="right" color="FFFFFF" sprite="YesodPast"/>
+    <character id="yesod" name="yesod_name" direction="right" color="FFFFFF" sprite="Yesod"/>
+    <character id="yesodRobot" name="yesodRobot_name" direction="right" color="FFFFFF" sprite="YesodRobot"/>
+    <character id="a" name="a_name" direction="right" color="FFFFFF" sprite="A"/>
+    <position character="yesodPast" to="center"/>
+    <bgm src="All Hallows' Eve (1)" />
+    <background src="warehouseBK_2" effect="none"/>
+    <speak speaker="yesodPast">yesod6_intro_y1</speak>
+    <speak speaker="yesodPast">yesod6_intro_y2</speak>
+    <speak speaker="yesodPast">yesod6_intro_y3</speak>
+    <speak speaker="yesodPast" anim="Smile">yesod6_intro_y4</speak>
+    <speak speaker="yesodPast">yesod6_intro_y5</speak>
+    <speak speaker="yesodPast" anim="Default">yesod6_intro_y6</speak>
+    <speak speaker="yesodPast">yesod6_intro_y7</speak>
+    <speak speaker="yesodPast">yesod6_intro_y8</speak>
+    <speak speaker="yesodPast">yesod6_intro_y9</speak>
+
+
+    <cg src="BlackCG" effect="fade" />
+    <wait time="2" />
+    <remove_cg effect="fade" />
+    <disappear character="yesod"/>
+
+    <cg src="yesodCG2" effect="none"/>
+    
+    <disappear character="yesodPast"/>
+        
+    <speak speaker="a">yesod6_intro_A1</speak>
+    <speak speaker="a">yesod6_intro_A2</speak>
+    <speak speaker="a">yesod6_intro_A3</speak>
+    <speak speaker="a">yesod6_intro_A4</speak>
+    <speak speaker="a">yesod6_intro_A5</speak>
+    <speak speaker="a">yesod6_intro_A6</speak>
+    <speak speaker="a">yesod6_intro_A7</speak>
+    
+    <position character="yesod" to="center"/>
+
+    <cg src="BlackCG" effect="fade" />
+    <wait time="2" />
+    <remove_cg effect="fade" />
+
+    <background src="yesodBK" effect="none"/>
+    <bgm src="Tilarids - Strange Dream"/>
+
+    <speak speaker="yesod">yesod6_intro_y10</speak>
+    <speak speaker="yesod" anim="Anger">yesod6_intro_y11</speak>
+    <speak speaker="yesod" anim="Default">yesod6_intro_y12</speak>
+    <speak speaker="yesod">yesod6_intro_y13</speak>
+    <speak speaker="yesod">yesod6_intro_y14</speak>
+    <speak speaker="yesod">yesod6_intro_y15</speak>
+    <speak speaker="yesod">yesod6_intro_y16</speak>
+    <speak speaker="yesod">yesod6_intro_y17</speak>
+    <speak speaker="yesod">yesod6_intro_y18</speak>
+    <speak speaker="yesod">yesod6_intro_y19</speak>
+    <speak speaker="yesod">yesod6_intro_y20</speak>
+    <speak speaker="yesod">yesod6_intro_y21</speak>
+
+    <sound src="changenoise" />
+    <add_filter filter="tv_distorted_fade" />
+    <wait time="0.25"/>
+    <disappear character="yesod"/>
+    <position character="yesodRobot" to="center"/>
+    <wait time="0.25"/>
+    <remove_filter filter="tv_distorted_fade" />
+    <speak speaker="yesodRobot">yesod6_intro_y22</speak>
+    <speak speaker="yesodRobot">yesod6_intro_y23</speak>
+    <speak speaker="yesodRobot">yesod6_intro_y24</speak>
+    <speak speaker="yesodRobot">yesod6_intro_y25</speak>
+   </scene>
+</root>

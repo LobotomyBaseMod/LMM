@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<creature>
+  <script>BigBird</script>
+  <stat>
+    <riskLevel>4</riskLevel>
+    <maxWorkCount>0</maxWorkCount>
+    <workProb type="R">
+      <prob level="1">0.45</prob>
+      <prob level="2">0.45</prob>
+      <prob level="3">0.45</prob>
+      <prob level="4">0.5</prob>
+      <prob level="5">0.5</prob>
+    </workProb>
+    <workProb type="W">
+      <prob level="1">0.35</prob>
+      <prob level="2">0.35</prob>
+      <prob level="3">0.35</prob>
+      <prob level="4">0.35</prob>
+      <prob level="5">0.35</prob>
+    </workProb>
+    <workProb type="B">
+      <prob level="1">0.4</prob>
+      <prob level="2">0.45</prob>
+      <prob level="3">0.5</prob>
+      <prob level="4">0.55</prob>
+      <prob level="5">0.55</prob>
+    </workProb>
+    <workProb type="P">
+      <prob level="1">0.25</prob>
+      <prob level="2">0.2</prob>
+      <prob level="3">0.15</prob>
+      <prob level="4">0.1</prob>
+      <prob level="5">0</prob>
+    </workProb>
+    <workCooltime>10</workCooltime>
+    <feelingStateCubeBounds>
+      <cube>7</cube>
+      <cube>13</cube>
+      <cube>20</cube>
+    </feelingStateCubeBounds>
+    <workDamage type="B" min="2" max="6" />
+    <workSpeed>0.33</workSpeed>
+    <defense id="1">
+      <defenseElement type="R">0.8</defenseElement>
+      <defenseElement type="W">1.2</defenseElement>
+      <defenseElement type="B">0.5</defenseElement>
+      <defenseElement type="P">1.5</defenseElement>
+    </defense>
+    <hp>1600</hp>
+    <speed>1</speed>
+    <observeInfo total="103">
+      <observeElement name="stat" cost="20" />
+      <observeElement name="defense" cost="20" />
+      <observeElement name="work_r" cost="7" />
+      <observeElement name="work_w" cost="7" />
+      <observeElement name="work_b" cost="7" />
+      <observeElement name="work_p" cost="7" />
+      <observeElement name="care_0" cost="5" />
+      <observeElement name="care_1" cost="5" />
+      <observeElement name="care_2" cost="5" />
+      <observeElement name="care_3" cost="5" />
+      <observeElement name="care_4" cost="5" />
+      <observeElement name="care_5" cost="5" />
+      <observeElement name="care_6" cost="5" />
+    </observeInfo>
+    <equipment level="4" cost="70" equipId="200008" />
+    <equipment level="4" cost="60" equipId="300008" />
+    <equipment level="3" prob="0.03" equipId="400008" />
+    <observeBonus level="1" type="speed">3</observeBonus>
+    <observeBonus level="2" type="prob">3</observeBonus>
+    <observeBonus level="3" type="speed">3</observeBonus>
+    <observeBonus level="4" type="prob">3</observeBonus>
+    <qliphoth>5</qliphoth>
+  </stat>
+  <graph>
+    <node id="creature" x="-1.6" y="-1.8" type="creature" />
+    <node id="workspace" x="1.9" y="-1.8" type="workspace" />
+    <!--<node id="door"  x="2" y="-1" type="entry"/>-->
+    <node id="outter" x="0" y="0" type="outterDoor" />
+    <node id="inner" x="2" y="-1.8" type="innerDoor" />
+    <!--<edge node1="workspace" node2="door" type="road" />-->
+    <edge node1="workspace" node2="inner" type="road" />
+    <edge node1="creature" node2="workspace" type="road" />
+  </graph>
+  <anim prefab="Unit/CreatureAnimator/BigBird" x="-1" y="-2" />
+  <returnImg src="Unit/CreatureReturnObject/bigbird" />
+  <portrait src="Unit/creature/magicalGirl" />
+  <sound action="attract" src="creature/bigbird/Bigbird_Attract" />
+  <sound action="dead1" src="creature/bigbird/Bigbird_Dead1" />
+  <sound action="dead2" src="creature/bigbird/Bigbird_Dead2" />
+  <sound action="walk" src="creature/bigbird/Bigbird_Walk" />
+</creature>

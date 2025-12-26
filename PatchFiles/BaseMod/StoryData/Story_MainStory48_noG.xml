@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  
+<!-- Default , Default2 , Smile , Smile2 , Close , Close2 , Lonely , Lonely2 , Sad , Sad2 , Bitter , Bitter 2-->
+  
+  <scene id="48_noG">
+    <character id="abramNo" name="nobody_name" direction="right" color="FFFFFF" sprite="Abram"/>
+    <character id="abram" name="abram_name" direction="right" color="FFFFFF" sprite="Abram"/>
+    <character id="c" name="carmen_name" color="FFBBFF" sprite="Carmen" />
+    <character id="malkuthPast" name="no_name" direction="right" color="FFFFFF" sprite="MalkuthPast"/>
+    <character id="yesodPast" name="no_name" direction="right" color="FFFFFF" sprite="YesodPast"/>
+    <character id="hodPast2" name="no_name" direction="right" color="FFFFFF" sprite="HodPast2"/>
+    <character id="tiphereth_aPast" name="no_name" direction="right" color="FFFFFF" sprite="Tiphereth1Past"/>
+    <character id="tipherethRobot_a" name="tiphereth_a_name" direction="right" color="FFFFFF" sprite="TipherethRobot_a"/>
+    <character id="chesedPastPast" name="no_name" direction="right" color="FFFFFF" sprite="ChesedPastPast"/>
+    <character id="chesedRobot" name="chesed_name" direction="right" color="FFFFFF" sprite="ChesedRobot"/>
+    <character id="geburaRobot" name="gebura_name" direction="right" color="FFFFFF" sprite="GeburahRobot"/>
+    <character id="announce" name="announce" direction="right" color="FFFFFF" sprite=""/>
+    <character id="geburaPast" name="no_name" direction="right" color="FFFFFF" sprite="GeburahPast"/> 
+
+
+    <dialogue type="hide"/>
+    <background src="ketherBK2" effect="none"/>
+    <bgm src="endStory/Christopher_Baklid_-_Intricate" />
+    <add_filter filter="distortion_heat" effect="fade" />
+  <!--  <add_filter filter="distortion_dream2" effect="fade"/>-->
+    <add_filter filter="distortion_noise" effect="fade"/>
+   
+    <wait time="2" />
+    <background src="ketherBK3" effect="fade"/>
+    <wait time="3"/>
+   <!-- <remove_filter filter="distortion_dream2"/>-->
+    <remove_filter filter="distortion_heat"/>
+    <remove_filter filter="distortion_noise"/>
+
+    <wait time="1"/>
+   
+    <position character="abramNo" to="center" />
+    <dialogue type="default"/>
+    <set_anim character="abramNo" anim="Lonely"/>
+    <speak speaker="abramNo">day48_abram_1</speak>
+    <speak speaker="abramNo" anim="Lonely2">day48_abram_2</speak>
+    <speak speaker="abramNo" anim="Lonely">day48_abram_3</speak>
+    <speak speaker="abramNo">day48_abram_4</speak>
+    <speak speaker="abramNo">day48_abram_5</speak>
+    <speak speaker="abramNo" anim="Default">day48_abram_6</speak>
+    <speak speaker="abramNo">day48_abram_7</speak>
+    <speak speaker="abramNo" anim="Default2">day48_abram_8</speak>
+    <speak speaker="abramNo" anim="Default2">day48_abram_9</speak>
+
+    
+    <!-- 효과음 추가 -->
+    <camera_filter filter="grayscale" />
+    <sound src="knock door" />
+  
+    
+    <speak speaker="c">day48_carmen_1</speak>
+    <set_anim character="abram" anim="Lonely"/>
+    <speak speaker="c">day48_carmen_2</speak>
+
+    <camera_filter filter="none" />
+    <speak speaker="abramNo" anim="Lonely">day48_abram_12</speak>
+    <speak speaker="abramNo" anim="Lonely">day48_abram_13</speak>
+    <speak speaker="abramNo">day48_abram_14</speak>
+    <speak speaker="abramNo">day48_abram_15</speak>
+    <speak speaker="abramNo">day48_abram_16</speak>
+    
+    <select>
+      <option text="day48_selection1"></option>
+    </select>
+
+    <camera_filter filter="grayscale" />
+
+    <sound src="knock door and walking"/>
+    <wait time="2"/>
+    <position character="c" to="left" direction="left" />
+
+    <speak speaker="abramNo">day48_abram_17</speak>
+    <speak speaker="abramNo" anim="Default">day48_abram_21</speak>
+    <speak speaker="abramNo" anim="Smile">day48_abram_22</speak>
+    <speak speaker="abramNo" anim="Lonely">day48_abram_23</speak>
+    <speak speaker="abramNo" anim="Lonely">day48_abram_23_1</speak>
+    <speak speaker="abramNo">day48_abram_24</speak>
+    <speak speaker="abramNo">day48_abram_25</speak>
+
+    
+
+    <cg src="BlackCG" effect="fade" />
+    <wait time="2" />
+    <camera_filter filter="none" />
+    <disappear character="c"/>
+    
+    <add_filter filter="glitch_mozaic"/>
+    <add_filter filter="fx_drunk"/>
+    <add_filter filter="tv_compression"/>
+    <add_filter filter="fx_glitch3"/>
+    <disappear character="abramNo"/>
+    <remove_cg effect="fade" />
+
+    <background src="warehouseBK_2" effect="none"/>
+    <bgm src="endStory/4- Dark Fantasy Studio- Demon at the door" />
+
+
+    <position character="malkuthPast" to="center" />
+    
+    <speak speaker="malkuthPast" anim="noo">day48_people_1</speak>
+    <disappear character="malkuthPast"/>
+
+ 
+    <position character="yesodPast" to="center"/>
+    <speak speaker="yesodPast" anim="noo" >day48_people_2</speak>
+    <disappear character="yesodPast"/>
+
+    <position character="hodPast2" to="center"/>
+    <speak speaker="hodPast2">day48_people_3</speak>
+    <disappear character="hodPast2"/>
+   
+    <remove_filter filter="fx_drunk"/>
+
+    <add_filter filter="fx_drunk2"/>
+ 
+    <position character="chesedPastPast" to="center"/>
+    <speak speaker="chesedPastPast" anim="noo">day48_people_4</speak>
+    <disappear character="chesedPastPast"/>
+
+    <position character="malkuthPast" to="center" />
+    <speak speaker="malkuthPast" anim="no">day48_people_5</speak>
+    <disappear character="malkuthPast"/>
+
+    <position character="hodPast2" to="center"/>
+    <speak speaker="hodPast2">day48_people_6</speak>
+    <disappear character="hodPast2"/>
+
+    <position character="chesedPastPast" to="center"/>
+    <speak speaker="chesedPastPast" anim="noo">day48_people_7</speak>
+    <disappear character="chesedPastPast"/>
+    
+    <position character="yesodPast" to="center"/>
+    <speak speaker="yesodPast" anim="noo" >day48_people_8</speak>
+    <disappear character="yesodPast"/>
+
+
+    <position character="geburaPast" to="center"/>
+    <speak speaker="geburaPast" anim="noo" >day48_people_9</speak>
+
+
+
+
+    <remove_filter filter="fx_glitch3"/>
+    <remove_filter filter="tv_compression"/>
+    <remove_filter filter="glitch_mozaic"/>
+    <remove_filter filter="fx_drunk2"/>
+    
+    <add_filter filter="fx_drunk4"/>
+    <bgm src="" />
+    <disappear character="geburaPast"/>
+    <disappear character="yesodPast"/>
+    <disappear character="chesedPastPast"/>
+    <disappear character="hodPast"/>
+    <disappear character="malkuthPast"/>
+    <disappear character="c"/>
+    
+    <position character="tiphereth_aPast" to="center" />
+    <dialogue type="hide"/>
+    <wait time="1.5"/>
+    <dialogue type="default"/>
+
+    <speak speaker="tiphereth_aPast" anim="Sad2">day48_tipheretha_1</speak>
+
+
+    <bgm src="endStory/Deep Horror Underscore" />
+
+   
+    <speak speaker="abramNo">day48_abram_26</speak>
+    <speak speaker="abramNo">day48_abram_27</speak>
+    <speak speaker="abramNo">day48_abram_28</speak>
+    <speak speaker="abramNo">day48_abram_28_1</speak>
+
+
+    <disappear character="tiphereth_aPast"/>
+    <position character="c" to="center"/>
+    <speak speaker="abramNo">day48_abram_28_2</speak>
+    <speak speaker="abramNo">day48_abram_28_3</speak>
+   
+    <sound src="Possessed_edit"/>
+  
+    <add_filter filter="water_drop"/>
+    <cg src="BlackCG" effect="horizon" />
+    <move_background time="3" y="-1080"/>
+    <wait time="1.5" />
+    <disappear character="c"/>
+    <move_background time="0" y="0"/>
+    <remove_filter filter="water_drop"/>
+    <remove_cg effect="horizon" />   
+    <remove_filter filter="fx_drunk4"/>
+    <remove_cg effect="fade" />
+
+    <cg src="doorCG" effect="none" />
+
+    <sound src="water drop"/>
+    <speak speaker="abramNo" anim="Sad">day48_abram_29</speak>
+    <sound src="water drop"/>
+    <speak speaker="abramNo">day48_abram_30</speak>
+
+
+    <sound src="open door"/>
+    <speak speaker="abramNo" anim="Sad2">day48_abram_31</speak>
+    <speak speaker="abramNo">day48_abram_32</speak>
+    <sound src="open door"/>
+    <speak speaker="abramNo" anim="Sad">day48_abram_33</speak>
+
+    <select>
+      <option text="day48_selection2"></option>
+    </select>
+
+    <sound src="open bath room"/>
+    <add_filter filter="blur_bloom" effect="fade" />
+    <wait time="1" />
+    <cg src="WhiteCG" effect="fade" />
+    <wait time="3"/>
+    <remove_filter filter="blur_bloom"/>
+    <remove_cg effect="fade" />
+    
+    <!-- 특수 효과-->
+
+    <background src="ketherBK3" effect="none"/>
+    <position character="abramNo" to="center"/>
+
+    <speak speaker="abramNo">day48_abram_33_1</speak>
+    <speak speaker="abramNo">day48_abram_34</speak>
+    <speak speaker="abramNo">day48_abram_35</speak>
+    <speak speaker="abramNo">day48_abram_36</speak>
+    <speak speaker="abramNo">day48_abram_37</speak>
+    <speak speaker="abramNo">day48_abram_38</speak>
+    <speak speaker="abramNo">day48_abram_39</speak>
+    <speak speaker="abramNo">day48_abram_40</speak>
+    <speak speaker="abramNo">day48_abram_41</speak>
+    <speak speaker="abramNo">day48_abram_42</speak>
+    <speak speaker="abramNo" anim="Bitter">day48_abram_43</speak>
+    <speak speaker="abramNo">day48_abram_44</speak>
+    <speak speaker="abramNo" anim="Bitter2">day48_abram_45</speak>
+    <speak speaker="abramNo">day48_abram_46</speak>
+    <speak speaker="abramNo" anim="Bitter">day48_abram_47</speak>
+    <speak speaker="abramNo">day48_abram_48</speak>
+    <speak speaker="abramNo" anim="Bitter2">day48_abram_49</speak>
+    
+    <cg src="BlackCG" effect="fade" />
+    <wait time="1.5" />
+    <disppear character ="abramNo"/>
+    <remove_cg effect="none" />
+    <bgm src="My Inspiration edit"/>
+    <cg src="carmenBK2" effect="fade"/> <!-- 눈뜬 카르멘 잔디밭-->
+
+    <speak speaker="c">day48_carmen_3</speak>
+    <speak speaker="c">day48_carmen_4</speak>
+    <speak speaker="c">day48_carmen_5</speak>
+    <speak speaker="c">day48_carmen_6</speak>
+    <speak speaker="c">day48_carmen_7</speak>
+    <speak speaker="c">day48_carmen_8</speak>
+    <speak speaker="c">day48_carmen_9</speak>
+
+  
+    
+    <speak speaker="c">day48_carmen_10</speak>
+    <speak speaker="c">day48_carmen_11</speak>
+    <speak speaker="c">day48_carmen_12</speak>
+    <speak speaker="c">day48_carmen_13</speak>
+
+    <speak speaker="c">day48_carmen_15</speak>
+    <speak speaker="c">day48_carmen_16</speak>
+    <speak speaker="c">day48_carmen_17</speak>
+    <speak speaker="c">day48_carmen_18</speak>
+    <speak speaker="c">day48_carmen_19</speak>
+ 
+    <speak speaker="c">day48_carmen_20</speak>
+    <speak speaker="c">day48_carmen_21</speak>
+    <speak speaker="c">day48_carmen_22</speak>
+
+    <bgm src=""/>
+    <sound src="Possessed_edit"/>
+
+    <speak speaker="c">day48_carmen_23</speak>
+
+
+   <!-- <cg src="BlackCG" effect="none" />
+    <wait time="0.3"/>
+    <remove_cg effect="none" /> -->
+ 
+    <cg src="carmenBK3" effect="fade"/>
+    <speak speaker="c">day48_carmen_24</speak>
+   
+    <add_filter filter="blur_bloom" effect="fade" />
+
+    <wait time="1" />
+    <cg src="WhiteCG" effect="fade" />
+    <wait time="4"/>
+    <remove_filter filter="blur_bloom"/>
+
+   
+    <!-- 카르멘액체 CG 등장-->
+    <bgm src="endStory/Gothic Mood"/>
+    <add_filter filter="tv_vignetting" />
+    <add_filter filter="blizzard"/>
+    <dialogue type="hide"/>
+    <cg src="carmenBK5" effect="fade" />
+    <wait time="4" />
+    <dialogue type="default"/>
+
+
+   
+  
+    <speak speaker="abramNo" anim="Bitter">day48_abram_50</speak>
+    <speak speaker="abramNo">day48_abram_51</speak>
+    <speak speaker="abramNo" anim="Bitter2">day48_abram_52</speak>
+    <speak speaker="abramNo" anim="Smile">day48_abram_53</speak>
+    <speak speaker="abramNo">day48_abram_54</speak>
+    <speak speaker="abramNo" anim="Sad">day48_abram_55</speak>
+    <speak speaker="abramNo">day48_abram_56</speak>
+    <speak speaker="abramNo">day48_abram_57</speak>
+    <speak speaker="abramNo" anim="Close">day48_abram_58</speak>
+    <speak speaker="abramNo" anim="Default">day48_abram_59</speak>
+    <speak speaker="abramNo" anim="Default2">day48_abram_60</speak>
+    <speak speaker="abramNo" anim="Smile2">day48_abram_61</speak>
+    <speak speaker="abramNo">day48_abram_62</speak>
+    <speak speaker="abramNo">day48_abram_63</speak>
+    <speak speaker="abramNo">day48_abram_64</speak>
+
+    
+    <remove_filter filter="blizzard" />
+    <remove_filter filter="tv_vignetting" />
+    <remove_cg effect="fade" />
+    
+    <background src="ketherBK3" effect="none"/>
+    <position character="abramNo" to="center"/>
+
+    
+    <speak speaker="abramNo" anim="Sad">day48_abram_65</speak>
+    <speak speaker="abramNo" anim="Sad2">day48_abram_66</speak>
+    <speak speaker="abramNo" anim="Bitter">day48_abram_67</speak>
+    <speak speaker="abramNo">day48_abram_67_1</speak>
+    <speak speaker="abramNo">day48_abram_67_2</speak>
+    <speak speaker="abramNo">day48_abram_67_3</speak>
+    <speak speaker="abramNo">day48_abram_67_4</speak>
+    <speak speaker="abramNo">day48_abram_67_5</speak>
+    <speak speaker="abramNo">day48_abram_67_6</speak>
+    <speak speaker="abramNo">day48_abram_67_7</speak>
+    <speak speaker="abramNo">day48_abram_67_8</speak>
+    <speak speaker="abramNo">day48_abram_67_9</speak>
+    <speak speaker="abramNo">day48_abram_67_9_1</speak>
+    <speak speaker="abramNo">day48_abram_67_9_2</speak>
+    <speak speaker="abramNo">day48_abram_67_10</speak>
+    <speak speaker="abramNo">day48_abram_67_11</speak>
+    <speak speaker="abramNo">day48_abram_67_12</speak>
+    <disappear character="abramNo"/>
+    <position character="abram" to="center"/>
+    <speak speaker="abram">day48_abram_68</speak>
+    <speak speaker="abram" anim="Bitter2">day48_abram_69</speak>
+    <speak speaker="abram">day48_abram_70</speak>
+    <speak speaker="abram" anim="Sad2">day48_abram_71</speak>
+    <speak speaker="abram" anim="Sad">day48_abram_72</speak>
+
+    <!-- 베드앤딩일 경우 여기서 .... 선택지 등장-->
+
+    <cg src="BlackCG" effect="fade" />
+    <wait time="0.7" />
+    <disappear character="abram"/>
+    <remove_cg effect="fade" />
+    <background src="tipherethBK" effect="none"/>
+    <camera_filter filter="grayscale" />
+
+    <bgm src="Requiem (Long Version)" />
+   
+    <position character="tipherethRobot_a" to="center" y="-200"/>
+     <speak speaker="tipherethRobot_a">day48_tipheretha_2</speak>
+    <speak speaker="tipherethRobot_a">day48_tipheretha_3</speak>
+    <speak speaker="tipherethRobot_a">day48_tipheretha_4</speak>
+    <speak speaker="tipherethRobot_a">day48_tipheretha_5</speak>
+    <speak speaker="tipherethRobot_a">day48_tipheretha_6</speak>
+    <speak speaker="tipherethRobot_a">day48_tipheretha_7</speak>
+    <speak speaker="tipherethRobot_a">day48_tipheretha_8</speak>
+    <speak speaker="tipherethRobot_a">day48_tipheretha_9</speak>
+    <speak speaker="tipherethRobot_a">day48_tipheretha_10</speak>
+    <speak speaker="tipherethRobot_a">day48_tipheretha_11</speak>
+
+    <cg src="BlackCG" effect="fade" />
+    <wait time="0.7" />
+    <disappear character="tipherethRobot_a"/>
+    <remove_cg effect="fade" />
+    <camera_filter filter="none" />
+    <background src="ketherBK3" effect="none"/>
+
+
+    <position character="abram" to="center"/>
+    <wait time="2"/>
+    <select>
+      <option text="day48_selection3"></option>
+    </select>
+
+    <speak speaker="abram" anim="Sad">day48_abram_77</speak>
+    <speak speaker="abram" anim="Sad2">day48_abram_78</speak>
+    <speak speaker="abram">day48_abram_79</speak>
+    <speak speaker="abram">day48_abram_80</speak>
+
+    
+    
+     <!-- 베드앤딩일 경우 여기서 .... 선택지 등장-->
+    
+    <select>
+      <option text="day48_selection6">
+        <bgm src="endStory/Here Together_loop"/>
+
+
+        <speak speaker="abram">day48_abramFail_1</speak>
+        <speak speaker="abram">day48_abramFail_2</speak>
+        <speak speaker="abram">day48_abramFail_3</speak>
+        <speak speaker="abram">day48_abramFail_4</speak>
+        <speak speaker="abram">day48_abramFail_5</speak>
+        <speak speaker="abram">day48_abramFail_6</speak>
+        <speak speaker="abram">day48_abramFail_7</speak>
+        <speak speaker="abram">day48_abramFail_8</speak>
+        <speak speaker="abram">day48_abramFail_9</speak>
+        <speak speaker="abram">day48_abramFail_10</speak>
+        <speak speaker="abram">day48_abramFail_11</speak>
+        <speak speaker="abram">day48_abramFail_12</speak>
+        <speak speaker="abram">day48_abramFail_13</speak>
+
+        <speak speaker="abram">day48_abramFail_15</speak>
+        <speak speaker="abram">day48_abramFail_16</speak>
+        <wait time="1"/>
+        <dialogue type="hide"/>
+        <cg src="day48_Ending" effect="fade" />
+        <wait time="3"/>
+
+        <sound src="alarm"/>
+
+        <camera_filter filter="color_sepia" />
+        <wait time="2.5" />
+        <add_filter filter="earthquake"/>
+
+        <dialogue type="default"/>
+        <sound src="changenoise" />
+        <speak speaker="announce">day48_abramFail_17</speak>
+        <speak speaker="abram">day48_abramFail_18</speak>
+        <speak speaker="abram">day48_abramFail_19</speak>
+        <speak speaker="abram">day48_abramFail_20</speak>
+        <speak speaker="abram">day48_abramFail_21</speak>
+        <speak speaker="abram">day48_abramFail_22</speak>
+        <speak speaker="announce">day48_abramFail_23</speak>
+        <select>
+          <option text="day48_selection8"></option>
+        </select>
+
+        <remove_filter filter="earthquake" />
+        <camera_filter filter="none" />
+        <speak speaker="abram">day48_abramFail_24</speak>
+        <cg src="BlackCG" effect="fade" />
+        <wait time="2.5"/>
+        <sound src="door close"/>
+        <wait time="1"/>
+      </option>
+    </select>
+  </scene>
+
+ 
+ 
+</root>

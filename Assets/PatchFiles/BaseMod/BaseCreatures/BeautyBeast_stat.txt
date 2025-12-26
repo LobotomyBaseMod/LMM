@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <script>BeautyBeast</script>
+  <stat>
+    <riskLevel>2</riskLevel>
+    <maxWorkCount>3</maxWorkCount>
+    <workProb type="R">
+      <prob level="1">0.4</prob>
+      <prob level="2">0.2</prob>
+      <prob level="3">-0.2</prob>
+      <prob level="4">-0.2</prob>
+      <prob level="5">-0.2</prob>
+    </workProb>
+    <workProb type="W">
+      <prob level="1">0.5</prob>
+      <prob level="2">0.5</prob>
+      <prob level="3">0.4</prob>
+      <prob level="4">0.3</prob>
+      <prob level="5">0.3</prob>
+    </workProb>
+    <workProb type="B">
+      <prob level="1">0.3</prob>
+      <prob level="2">0.15</prob>
+      <prob level="3">-0.5</prob>
+      <prob level="4">-0.5</prob>
+      <prob level="5">-0.5</prob>
+    </workProb>
+    <workProb type="P">
+      <prob level="1">0.65</prob>
+      <prob level="2">0.65</prob>
+      <prob level="3">0.65</prob>
+      <prob level="4">0.65</prob>
+      <prob level="5">0.65</prob>
+    </workProb>
+    <escapeable>false</escapeable>
+    <workCooltime>10</workCooltime>
+    <feelingStateCubeBounds>
+      <cube>4</cube>
+      <cube>8</cube>
+      <cube>12</cube>
+    </feelingStateCubeBounds>
+    <workDamage type="W" min="2" max="4" />
+    <workSpeed>0.28</workSpeed>
+    <specialDamage>
+      <damage id="1" type="R" min="10" max="14" />
+      <damage id="2" type="R" min="10" max="14" />
+    </specialDamage>
+    <defense id="1">
+      <defenseElement type="R">1</defenseElement>
+      <defenseElement type="W">1</defenseElement>
+      <defenseElement type="B">1</defenseElement>
+      <defenseElement type="P">1</defenseElement>
+    </defense>
+    <observeInfo total="52">
+      <observeElement name="stat" cost="12" />
+      <observeElement name="defense" cost="12" />
+      <observeElement name="work_r" cost="4" />
+      <observeElement name="work_w" cost="4" />
+      <observeElement name="work_b" cost="4" />
+      <observeElement name="work_p" cost="4" />
+      <observeElement name="care_0" cost="4" />
+      <observeElement name="care_1" cost="4" />
+      <observeElement name="care_2" cost="4" />
+    </observeInfo>
+    <equipment level="3" cost="20" equipId="200013" />
+    <equipment level="2" cost="20" equipId="300013" />
+    <equipment level="2" prob="0.05" equipId="400013" />
+    <observeBonus level="1" type="prob">4</observeBonus>
+    <observeBonus level="2" type="speed">6</observeBonus>
+    <observeBonus level="3" type="prob">6</observeBonus>
+    <observeBonus level="4" type="speed">4</observeBonus>
+    <qliphoth>0</qliphoth>
+  </stat>
+  <skillTrigger>
+    <useSkill checkTime="OnEnterRoom">
+      <skillType max="2">5</skillType>
+      <calledEvent count="1" time="OnRelease">ChangeState</calledEvent>
+      <calledEvent count="max" time="OnRelease">ActivateSkill</calledEvent>
+      <clear>
+        <commonEvent time="">
+          <!--currently not used-->
+        </commonEvent>
+        <activated clear="true" time="">
+          <!--event-->
+        </activated>
+        <onCheckFalse clear="true" time="">
+        </onCheckFalse>
+      </clear>
+    </useSkill>
+  </skillTrigger>
+  <graph>
+    <node id="creature" x="-1.6" y="-1.8" type="creature" />
+    <node id="workspace" x="1.9" y="-1.8" type="workspace" />
+    <node id="outter" x="0" y="0" type="outterDoor" />
+    <node id="inner" x="2" y="-1.8" type="innerDoor" />
+    <edge node1="workspace" node2="inner" type="road" />
+    <edge node1="creature" node2="workspace" type="road" />
+  </graph>
+  <anim prefab="Unit/CreatureAnimator/BeautyBeast" x="-1" y="-2" />
+  <returnImg src="Unit/CreatureReturnObject/DummyReturn" />
+  <portrait src="CreatureSprite/Dummy" />
+  <sound action="dead" src="creature/beautyBeast/dead" />
+  <sound action="eye" src="creature/beautyBeast/manyEye" />
+</creature>

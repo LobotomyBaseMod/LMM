@@ -1,0 +1,498 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1739690104314069, "dur":33656, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739690104347730, "dur":99, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739690104347858, "dur":356, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739690104348244, "dur":3936, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739690104352180, "dur":130788, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739690104482970, "dur":662, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739690104483644, "dur":2382, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739690104486149, "dur":256, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739690104486418, "dur":6574, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1739690104350728, "dur":1493, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1739690104352225, "dur":1011, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1739690104353237, "dur":933, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1739690104354170, "dur":1650, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1739690104355820, "dur":2463, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1739690104358284, "dur":5866, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1739690104364155, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1739690104364228, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1739690104364350, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1739690104364475, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager.exe" }}
+,{ "pid":12345, "tid":1, "ts":1739690104364575, "dur":178, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1739690104364776, "dur":7273, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1739690104372152, "dur":105, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ParticleSystemModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1739690104372049, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.ParticleSystemModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1739690104390128, "dur":7246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.ParticleSystemModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1739690104397449, "dur":526, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UIElementsModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1739690104397376, "dur":600, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.UIElementsModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1739690104397987, "dur":8300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.UIElementsModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1739690104406335, "dur":88, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TextRenderingModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1739690104406288, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.TextRenderingModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1739690104406434, "dur":5131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.TextRenderingModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1739690104411649, "dur":67, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1739690104411567, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1739690104411853, "dur":7499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1739690104419406, "dur":89, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AccessibilityModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1739690104419353, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.AccessibilityModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1739690104419508, "dur":9606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.AccessibilityModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1739690104429159, "dur":75, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1739690104429117, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1739690104429245, "dur":32052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1739690104461299, "dur":21694, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1739690104349023, "dur":3167, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1739690104354699, "dur":1027, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/il2cpp/build/deploy" }}
+,{ "pid":12345, "tid":2, "ts":1739690104355727, "dur":6672, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/il2cpp/libil2cpp" }}
+,{ "pid":12345, "tid":2, "ts":1739690104362399, "dur":84, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport" }}
+,{ "pid":12345, "tid":2, "ts":1739690104362484, "dur":1169, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono" }}
+,{ "pid":12345, "tid":2, "ts":1739690104363653, "dur":104, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/Data/Resources" }}
+,{ "pid":12345, "tid":2, "ts":1739690104363757, "dur":196, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/Tools/BuildPipeline" }}
+,{ "pid":12345, "tid":2, "ts":1739690104363953, "dur":132, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"Library/PlayerDataCache/Win642/Data" }}
+,{ "pid":12345, "tid":2, "ts":1739690104352193, "dur":11950, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1739690104364244, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1739690104364336, "dur":1248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"UnityLinker C:/Users/kj022/LobotomyModManager/Library/Bee/artifacts/unitylinker_dwek.traceevents" }}
+,{ "pid":12345, "tid":2, "ts":1739690104365584, "dur":2768, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1739690104372128, "dur":171, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\SimpleFileBrowser.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739690104372051, "dur":248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/SimpleFileBrowser.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739690104398481, "dur":4631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/SimpleFileBrowser.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739690104403274, "dur":606, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\com.rlabrecque.steamworks.net.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1739690104403114, "dur":767, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/com.rlabrecque.steamworks.net.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1739690104403907, "dur":4797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/com.rlabrecque.steamworks.net.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1739690104408760, "dur":113, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739690104408705, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739690104408885, "dur":6444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739690104415379, "dur":79, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739690104415331, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739690104415469, "dur":13935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739690104429445, "dur":70, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Mono.Posix.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739690104429405, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/Mono.Posix.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739690104429544, "dur":911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/Mono.Posix.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739690104430499, "dur":88, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739690104430456, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739690104430598, "dur":2679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739690104433323, "dur":66, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739690104433279, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739690104433400, "dur":1192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739690104434639, "dur":166, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739690104434594, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739690104434816, "dur":8733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739690104443597, "dur":72, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AnimationModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1739690104443551, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.AnimationModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1739690104443680, "dur":968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.AnimationModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1739690104444702, "dur":75, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739690104444653, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739690104444787, "dur":1606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739690104446570, "dur":378, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1739690104446395, "dur":554, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1739690104446959, "dur":1100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1739690104448060, "dur":34905, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1739690104349611, "dur":2586, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1739690104352204, "dur":1372, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1739690104353576, "dur":1382, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1739690104354959, "dur":877, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1739690104355881, "dur":510, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.32f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Facades\\System.Runtime.Extensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1739690104355837, "dur":2475, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1739690104358312, "dur":5833, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1739690104364182, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1739690104364270, "dur":994, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1739690104365359, "dur":6701, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1739690104372123, "dur":305, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1739690104372061, "dur":368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1739690104405717, "dur":23854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1739690104429837, "dur":29326, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ImageConversionModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1739690104429573, "dur":29593, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.ImageConversionModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1739690104459188, "dur":3413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.ImageConversionModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1739690104462602, "dur":20398, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739690104350148, "dur":2061, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739690104352212, "dur":997, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739690104353210, "dur":1656, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739690104354866, "dur":656, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.32f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.ServiceModel.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739690104354866, "dur":1948, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739690104356814, "dur":1461, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739690104358276, "dur":5885, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739690104364162, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1739690104364283, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739690104364365, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1739690104364460, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739690104364584, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1739690104364793, "dur":7254, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739690104372113, "dur":102, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739690104372048, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739690104372879, "dur":2508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739690104375456, "dur":1002, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Windows.Forms.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739690104375389, "dur":1070, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/System.Windows.Forms.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739690104376472, "dur":2994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/System.Windows.Forms.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739690104379520, "dur":108, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TextCoreFontEngineModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1739690104379467, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.TextCoreFontEngineModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1739690104379643, "dur":5294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.TextCoreFontEngineModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1739690104384987, "dur":2449, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739690104384938, "dur":2499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739690104387449, "dur":5002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739690104392503, "dur":1023, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Magick.NET.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739690104392453, "dur":1074, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/Magick.NET.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739690104393537, "dur":2690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/Magick.NET.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739690104396268, "dur":70, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1739690104396229, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1739690104396412, "dur":1786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1739690104398273, "dur":120, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.JSONSerializeModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1739690104398200, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.JSONSerializeModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1739690104398404, "dur":6606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.JSONSerializeModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1739690104405063, "dur":93, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AndroidJNIModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1739690104405011, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.AndroidJNIModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1739690104405167, "dur":3624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.AndroidJNIModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1739690104408834, "dur":74, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739690104408792, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739690104408917, "dur":6722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739690104415751, "dur":154, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739690104415640, "dur":266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739690104415957, "dur":18167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739690104434178, "dur":79, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VFXModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1739690104434127, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.VFXModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1739690104434272, "dur":3907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.VFXModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1739690104438228, "dur":148, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1739690104438181, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1739690104438387, "dur":9531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1739690104447920, "dur":35047, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1739690104351346, "dur":883, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1739690104352233, "dur":947, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1739690104353181, "dur":894, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1739690104354076, "dur":904, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1739690104354981, "dur":950, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1739690104355931, "dur":1175, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1739690104357107, "dur":1433, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1739690104358540, "dur":5616, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1739690104364159, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1739690104364257, "dur":207, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1739690104364481, "dur":318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1739690104364800, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1739690104364877, "dur":7175, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1739690104372181, "dur":2181, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1739690104372057, "dur":2306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1739690104374376, "dur":2770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1739690104377199, "dur":96, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1739690104377147, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1739690104377307, "dur":2140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1739690104379496, "dur":76, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SharedInternalsModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1739690104379448, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.SharedInternalsModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1739690104379583, "dur":2066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.SharedInternalsModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1739690104381699, "dur":76, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AIModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1739690104381650, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.AIModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1739690104381802, "dur":1968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.AIModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1739690104383827, "dur":132, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AssetBundleModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1739690104383771, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.AssetBundleModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1739690104383971, "dur":1888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.AssetBundleModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1739690104385909, "dur":84, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityAnalyticsModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1739690104385860, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.UnityAnalyticsModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1739690104386005, "dur":2747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.UnityAnalyticsModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1739690104388799, "dur":115, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1739690104388754, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1739690104388923, "dur":2972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1739690104391946, "dur":175, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1739690104391897, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1739690104392132, "dur":1458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1739690104393633, "dur":512, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1739690104393591, "dur":554, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1739690104394155, "dur":3062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1739690104397270, "dur":107, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.PropertiesModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1739690104397219, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.PropertiesModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1739690104397388, "dur":2361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.PropertiesModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1739690104399804, "dur":98, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.InputModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1739690104399750, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.InputModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1739690104399913, "dur":15280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.InputModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1739690104415258, "dur":109, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1739690104415199, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1739690104415379, "dur":18628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1739690104434059, "dur":75, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1739690104434009, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1739690104434163, "dur":11224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1739690104445432, "dur":3012, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Novell.Directory.Ldap.dll" }}
+,{ "pid":12345, "tid":5, "ts":1739690104445389, "dur":3056, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/Novell.Directory.Ldap.dll" }}
+,{ "pid":12345, "tid":5, "ts":1739690104448457, "dur":34463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/Novell.Directory.Ldap.dll" }}
+,{ "pid":12345, "tid":6, "ts":1739690104351908, "dur":330, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1739690104352239, "dur":1302, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1739690104353541, "dur":1025, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1739690104354567, "dur":1007, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1739690104355575, "dur":1142, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1739690104356996, "dur":810, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.32f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1739690104356718, "dur":1858, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1739690104358576, "dur":5578, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1739690104364156, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1739690104364367, "dur":513, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1739690104364884, "dur":7170, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1739690104372126, "dur":221, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1739690104372055, "dur":292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1739690104404476, "dur":6149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1739690104410673, "dur":148, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1739690104410627, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1739690104410834, "dur":5901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1739690104416812, "dur":86, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1739690104416737, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1739690104416909, "dur":5392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1739690104422479, "dur":265, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1739690104422303, "dur":442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1739690104422755, "dur":8129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1739690104430935, "dur":132, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1739690104430886, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1739690104431078, "dur":32476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1739690104463556, "dur":20107, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739690104353086, "dur":593, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.32f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Private.Uri.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739690104352376, "dur":1945, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739690104354322, "dur":826, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739690104355148, "dur":1645, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739690104356793, "dur":1759, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739690104358552, "dur":5656, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739690104364209, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1739690104364270, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739690104364385, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1739690104364438, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739690104364526, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/D3D12/D3D12Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739690104364582, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739690104364699, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739690104364837, "dur":7219, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739690104372122, "dur":119, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739690104372057, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739690104373114, "dur":2033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739690104375206, "dur":83, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739690104375149, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739690104375301, "dur":1453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739690104376858, "dur":77, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739690104376755, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739690104376946, "dur":1479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739690104378490, "dur":92, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739690104378427, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739690104378594, "dur":1720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739690104380370, "dur":102, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739690104380316, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739690104380484, "dur":1282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739690104381818, "dur":89, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.XRModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1739690104381768, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.XRModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1739690104381919, "dur":1299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.XRModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1739690104383280, "dur":95, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UIModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1739690104383220, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.UIModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1739690104383386, "dur":1925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.UIModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1739690104385361, "dur":86, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Design.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739690104385313, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/System.Design.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739690104385457, "dur":2263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/System.Design.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739690104387806, "dur":136, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739690104387721, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739690104387964, "dur":3429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739690104391500, "dur":203, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1739690104391395, "dur":309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1739690104391715, "dur":1368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1739690104393135, "dur":104, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739690104393084, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739690104393271, "dur":2089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739690104395409, "dur":434, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739690104395362, "dur":482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739690104395854, "dur":2682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739690104398578, "dur":128, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.IMGUIModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1739690104398538, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.IMGUIModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1739690104398717, "dur":3181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.IMGUIModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1739690104401944, "dur":76, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.PhysicsModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1739690104401899, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.PhysicsModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1739690104402031, "dur":5276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.PhysicsModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1739690104407360, "dur":85, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739690104407309, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739690104407457, "dur":7747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739690104415267, "dur":87, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739690104415206, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739690104415366, "dur":12345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739690104427767, "dur":97, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739690104427715, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739690104427879, "dur":35239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739690104463119, "dur":20467, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1739690104354812, "dur":551, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.32f1\\Editor\\Data\\il2cpp\\build\\deploy\\Bee.Toolchain.VisualStudio.dll" }}
+,{ "pid":12345, "tid":8, "ts":1739690104353972, "dur":1712, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1739690104355684, "dur":2074, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1739690104357758, "dur":6394, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1739690104364153, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1739690104364216, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1739690104364273, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1739690104364326, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1739690104364453, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1739690104364542, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Plugins/x86_64/Magick.Native-Q8-x64.dll" }}
+,{ "pid":12345, "tid":8, "ts":1739690104364650, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1739690104364807, "dur":7243, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1739690104372177, "dur":197, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.InputLegacyModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1739690104372053, "dur":321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.InputLegacyModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1739690104405373, "dur":9584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.InputLegacyModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1739690104415007, "dur":171, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.CoreModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1739690104414959, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.CoreModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1739690104415190, "dur":4194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.CoreModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1739690104419433, "dur":80, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1739690104419385, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1739690104419524, "dur":45804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1739690104465329, "dur":17668, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1739690104354771, "dur":795, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.32f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Web.Routing.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739690104354608, "dur":2815, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1739690104357424, "dur":1037, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1739690104358461, "dur":5694, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1739690104364155, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1739690104364211, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1739690104364344, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1739690104364419, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739690104364475, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1739690104364559, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Plugins/x86_64/steam_api64.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739690104364624, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1739690104364710, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1739690104364811, "dur":7287, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1739690104372148, "dur":582, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Magick.NET-Q8-AnyCPU.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739690104372098, "dur":633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/Magick.NET-Q8-AnyCPU.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739690104372742, "dur":83, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1739690104372944, "dur":2284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/Magick.NET-Q8-AnyCPU.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739690104375271, "dur":98, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739690104375229, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739690104378481, "dur":60, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1739690104375384, "dur":3165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739690104378753, "dur":166, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SpriteShapeModule.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1739690104378550, "dur":370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.SpriteShapeModule.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1739690104378930, "dur":1960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.SpriteShapeModule.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1739690104380939, "dur":71, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739690104380891, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739690104381020, "dur":1453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739690104382521, "dur":73, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VRModule.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1739690104382475, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.VRModule.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1739690104382605, "dur":1172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.VRModule.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1739690104383830, "dur":336, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\com.rlabrecque.steamworks.net.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739690104383778, "dur":389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/com.rlabrecque.steamworks.net.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739690104384177, "dur":1553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/com.rlabrecque.steamworks.net.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739690104385778, "dur":145, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Mono.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739690104385731, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739690104385932, "dur":7991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739690104393973, "dur":81, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739690104393925, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739690104394065, "dur":3355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739690104397462, "dur":75, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SubsystemsModule.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1739690104397422, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.SubsystemsModule.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1739690104397548, "dur":2085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.SubsystemsModule.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1739690104399689, "dur":179, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AudioModule.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1739690104399634, "dur":243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.AudioModule.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1739690104399920, "dur":2360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.AudioModule.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1739690104402351, "dur":114, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TilemapModule.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1739690104402281, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.TilemapModule.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1739690104402477, "dur":5385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.TilemapModule.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1739690104407910, "dur":85, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739690104407864, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739690104408027, "dur":3416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739690104411495, "dur":1047, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739690104411444, "dur":1099, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739690104412556, "dur":6487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739690104419097, "dur":75, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739690104419045, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739690104419184, "dur":10208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739690104429443, "dur":1911, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Xml.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739690104429395, "dur":1960, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739690104431366, "dur":2932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739690104434345, "dur":229, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739690104434300, "dur":275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739690104434589, "dur":3655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739690104438291, "dur":77, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestModule.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1739690104438246, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.UnityWebRequestModule.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1739690104438380, "dur":6099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.UnityWebRequestModule.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1739690104444519, "dur":68, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739690104444480, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739690104444598, "dur":16682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739690104461283, "dur":21707, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1739690104355356, "dur":1229, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1739690104356585, "dur":1368, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1739690104357953, "dur":6195, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1739690104364152, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":10, "ts":1739690104364331, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1739690104364401, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1739690104364459, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1739690104364589, "dur":165, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1739690104364762, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1739690104364827, "dur":7228, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1739690104372113, "dur":128, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\SimpleFileBrowser.Runtime.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1739690104372056, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/SimpleFileBrowser.Runtime.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1739690104389804, "dur":4216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/SimpleFileBrowser.Runtime.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1739690104394069, "dur":307, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1739690104394022, "dur":355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1739690104394387, "dur":5139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1739690104399929, "dur":115, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VideoModule.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1739690104399527, "dur":518, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.VideoModule.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1739690104400054, "dur":14814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.VideoModule.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1739690104414938, "dur":82, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.GridModule.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1739690104414870, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.GridModule.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1739690104415032, "dur":7214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.GridModule.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1739690104422294, "dur":148, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TextCoreTextEngineModule.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1739690104422249, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.TextCoreTextEngineModule.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1739690104422455, "dur":19337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.TextCoreTextEngineModule.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1739690104441848, "dur":82, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.Physics2DModule.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1739690104441795, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.Physics2DModule.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1739690104441943, "dur":8465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.Physics2DModule.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1739690104450409, "dur":32562, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1739690104356106, "dur":1811, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1739690104357918, "dur":6229, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1739690104364159, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1739690104364283, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1739690104364343, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1739690104364465, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1739690104364533, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739690104364702, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1739690104364796, "dur":7248, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1739690104372110, "dur":106, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.HierarchyCoreModule.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1739690104372045, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.HierarchyCoreModule.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1739690104373536, "dur":1768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.HierarchyCoreModule.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1739690104375360, "dur":115, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739690104375305, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739690104375507, "dur":2982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739690104378589, "dur":84, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739690104378491, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739690104378685, "dur":2069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739690104380812, "dur":81, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestWWWModule.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1739690104380755, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.UnityWebRequestWWWModule.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1739690104380904, "dur":2360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.UnityWebRequestWWWModule.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1739690104383306, "dur":88, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739690104383266, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739690104383406, "dur":2101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739690104385599, "dur":155, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Ookii.Dialogs.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739690104385509, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/Ookii.Dialogs.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739690104385764, "dur":2591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/Ookii.Dialogs.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739690104388409, "dur":103, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739690104388357, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739690104388522, "dur":3288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739690104391862, "dur":178, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\HtmlAgilityPack.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739690104391812, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/HtmlAgilityPack.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739690104392051, "dur":2238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/HtmlAgilityPack.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739690104394345, "dur":154, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739690104394290, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739690104394509, "dur":6882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739690104401445, "dur":84, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TerrainModule.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1739690104401392, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.TerrainModule.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1739690104401541, "dur":3459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.TerrainModule.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1739690104405041, "dur":75, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.InputForUIModule.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1739690104405001, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.InputForUIModule.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1739690104405126, "dur":3604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.InputForUIModule.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1739690104408772, "dur":76, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739690104408732, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739690104408862, "dur":8254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739690104417170, "dur":76, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739690104417117, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739690104417256, "dur":14667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739690104431979, "dur":101, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.DirectorModule.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1739690104431925, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.DirectorModule.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1739690104432091, "dur":13111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.DirectorModule.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1739690104445256, "dur":116, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739690104445204, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739690104445384, "dur":1738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739690104447167, "dur":317, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739690104447123, "dur":362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739690104447510, "dur":30910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739690104478424, "dur":4546, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1739690104356692, "dur":1634, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1739690104358327, "dur":5876, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1739690104364205, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1739690104364259, "dur":200, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1739690104364463, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":12, "ts":1739690104364635, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1739690104364703, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1739690104364805, "dur":7241, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1739690104372163, "dur":151, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1739690104372047, "dur":268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1739690104400380, "dur":23094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1739690104423525, "dur":84, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityAnalyticsCommonModule.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1739690104423476, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1739690104423621, "dur":39021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Lobotomy Mod Manager 1.3.7/LobotomyModManager_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1739690104462644, "dur":20983, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739690104496102, "dur":1357, "ph":"X", "name": "ProfilerWriteOutput" }
+,

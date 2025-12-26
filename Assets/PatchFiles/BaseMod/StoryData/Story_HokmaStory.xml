@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  
+  <!-- 호크마 표정
+  기본 표정 : Default,2
+  눈 가늘게 뜬 표정 :Serious, 2
+  웃음 : Smile, 2-->
+  
+  <scene id="hokma1_intro">
+    <character id="hokmaPast" name="hokmaPast_name" direction="right" color="FFFFFF" sprite="ChokmahPast"/>
+    <character id="hokma" name="hokma_name" direction="right" color="FFFFFF" sprite="Chokmah"/>
+    <bgm src="372181__amholma__ocean-noise-surf" />
+    <background src="hokmaBeach" effect="none"/>
+
+    <position character="hokmaPast" to="center" />
+
+ 
+    
+    <speak speaker="hokmaPast">hokma1_intro_h1</speak>
+
+    <remove_filter filter="blur_tilt_shift"/>
+    <speak speaker="hokmaPast">hokma1_intro_h2</speak>
+    <speak speaker="hokmaPast">hokma1_intro_h3</speak>
+    <speak speaker="hokmaPast">hokma1_intro_h4</speak>
+    <speak speaker="hokmaPast">hokma1_intro_h5</speak>
+
+    <!-- 이펙트 들어가면서 배경이 바뀜.-->
+    <add_filter filter="water_drop"/>
+    
+    <cg src="BlackCG" effect="horizon" />
+    <move_background time="3" y="-1080"/>
+    <wait time="1.5" />
+    <move_background time="0" y="0"/>
+    
+
+    <background src="hokmaBK" effect="none"/>
+    <disappear character="hokmaPast"/>
+    
+    <remove_filter filter="water_drop"/>
+    <remove_cg effect="horizon" />
+    <position character="hokma" to="center"/>
+    <bgm src="4 - Sea Wind" />
+
+    <speak speaker="hokma">hokma1_intro_h6</speak>
+    <speak speaker="hokma">hokma1_intro_h7</speak>
+    <speak speaker="hokma">hokma1_intro_h8</speak>
+    <speak speaker="hokma">hokma1_intro_h9</speak>
+    <speak speaker="hokma">hokma1_intro_h10</speak>
+    <speak speaker="hokma">hokma1_intro_h11</speak>
+    <speak speaker="hokma">hokma1_intro_h12</speak>
+    <speak speaker="hokma">hokma1_intro_h13</speak>
+    <speak speaker="hokma">hokma1_intro_h14</speak>
+    <speak speaker="hokma">hokma1_intro_h15</speak>
+    <speak speaker="hokma">hokma1_intro_h16</speak>
+    <speak speaker="hokma" anim="Smile">hokma1_intro_h17</speak>
+  </scene>
+
+  <scene id="hokma2_intro">
+    <character id="hokma" name="hokma_name" direction="right" color="FFFFFF" sprite="Chokmah"/>
+    <background src="hokmaBK" effect="none"/>
+    <position character="hokma" to="center"/>
+    <bgm src="4 - Sea Wind" />
+    <speak speaker="hokma" anim="Default">hokma2_intro_h1</speak>
+    <speak speaker="hokma">hokma2_intro_h2</speak>
+    <speak speaker="hokma" anim="Serious">hokma2_intro_h3</speak>
+    <speak speaker="hokma" anim="Default">hokma2_intro_h4</speak>
+    <speak speaker="hokma">hokma2_intro_h5</speak>
+    <speak speaker="hokma">hokma2_intro_h6</speak>
+    <speak speaker="hokma">hokma2_intro_h7</speak>
+    <speak speaker="hokma">hokma2_intro_h8</speak>
+    <speak speaker="hokma">hokma2_intro_h9</speak>
+    <speak speaker="hokma">hokma2_intro_h10</speak>
+    <speak speaker="hokma">hokma2_intro_h11</speak>
+    <speak speaker="hokma">hokma2_intro_h12</speak>
+    <speak speaker="hokma" anim="Serious">hokma2_intro_h13</speak>
+    <speak speaker="hokma" anim="Smile">hokma2_intro_h14</speak>
+    <speak speaker="hokma" anim="Default">hokma2_intro_h15</speak>
+    <speak speaker="hokma">hokma2_intro_h16</speak>
+    <speak speaker="hokma">hokma2_intro_h17</speak>
+    <speak speaker="hokma">hokma2_intro_h18</speak>
+    <speak speaker="hokma">hokma2_intro_h19</speak>
+    <speak speaker="hokma">hokma2_intro_h20</speak>
+    <speak speaker="hokma" anim="Default">hokma2_intro_h21</speak>
+  </scene>
+
+  <scene id="hokma3_intro">
+    <character id="hokma" name="hokma_name" direction="right" color="FFFFFF" sprite="Chokmah"/>
+    <background src="hokmaBK" effect="none"/>
+    <position character="hokma" to="center"/>
+    <bgm src="4 - Sea Wind" />
+    <speak speaker="hokma" anim="Default">hokma3_intro_h1</speak>
+    <speak speaker="hokma">hokma3_intro_h2</speak>
+    <speak speaker="hokma">hokma3_intro_h3</speak>
+    <speak speaker="hokma">hokma3_intro_h4</speak>
+    <speak speaker="hokma">hokma3_intro_h5</speak>
+    <speak speaker="hokma">hokma3_intro_h6</speak>
+    <speak speaker="hokma">hokma3_intro_h7</speak>
+    <speak speaker="hokma">hokma3_intro_h8</speak>
+    <speak speaker="hokma">hokma3_intro_h9</speak>
+    <speak speaker="hokma">hokma3_intro_h10</speak>
+    <speak speaker="hokma">hokma3_intro_h11</speak>
+    <speak speaker="hokma">hokma3_intro_h12</speak>
+    <speak speaker="hokma">hokma3_intro_h13</speak>
+    <speak speaker="hokma">hokma3_intro_h14</speak>
+    <!-- -->
+    <show_exdiag>hokma3_intro_letter</show_exdiag>
+    <speak speaker="hokma">hokma3_intro_h15</speak>
+    <speak speaker="hokma">hokma3_intro_h16</speak>
+    <speak speaker="hokma">hokma3_intro_h17</speak>
+    <hide_exdiag/>
+    <!-- -->
+      <speak speaker="hokma">hokma3_intro_h18</speak>
+    <speak speaker="hokma">hokma3_intro_h19</speak>
+    <speak speaker="hokma">hokma3_intro_h20</speak>
+    <speak speaker="hokma">hokma3_intro_h21</speak>
+    <speak speaker="hokma">hokma3_intro_h22</speak>
+    <speak speaker="hokma">hokma3_intro_h23</speak>
+    <speak speaker="hokma">hokma3_intro_h23_1</speak>
+    <speak speaker="hokma">hokma3_intro_h24</speak>
+    <speak speaker="hokma">hokma3_intro_h25</speak>
+    <speak speaker="hokma">hokma3_intro_h26</speak>
+    <speak speaker="hokma">hokma3_intro_h27</speak>
+    <speak speaker="hokma">hokma3_intro_h28</speak>
+    <speak speaker="hokma">hokma3_intro_h29</speak>
+    <speak speaker="hokma">hokma3_intro_h30</speak>
+<!-- 여기 중복된 문장이라 삭제함-->
+    <speak speaker="hokma">hokma3_intro_h32</speak>
+    <sound src="noise"/>
+    <bgm src="8- Dark Fantasy Studio- Shadow tunnel"/>
+    <add_filter filter="nightvision3" />
+    <add_filter filter="super_computer1" /> > <!-- 이때부터 음악 바뀌기~-->
+    <add_filter filter="tv_arcade2" />
+    <speak speaker="hokma">hokma3_intro_h33</speak>
+    <select>
+      <option text="hokma3_selection1"></option>
+    </select>
+    <sound src="changenoise" />
+    <add_filter filter="tv_distorted_fade" />
+    <wait time="1"/>
+    <remove_filter filter="tv_distorted_fade" />
+    <speak speaker="hokma">hokma3_intro_h34</speak>
+    <speak speaker="hokma">hokma3_intro_h35</speak>
+    <speak speaker="hokma">hokma3_intro_h36</speak>
+    <select>
+      <option text="hokma3_selection2"></option>
+    </select>
+    <sound src="changenoise" />
+    <bgm src=""/>
+    <sound src="SFX Game Over Scream"/>
+    <add_filter filter="tv_distorted_fade" />
+    <wait time="1"/>
+    <remove_filter filter="tv_distorted_fade" />
+    <remove_filter filter="super_computer1" />
+    <remove_filter filter="tv_arcade2" />
+    <remove_filter filter="nightvision3" />
+    <bgm src="18- Dark Fantasy Studio- Reaper"/>
+    <speak speaker="hokma">hokma3_intro_h37</speak>
+    <speak speaker="hokma">hokma3_intro_h38</speak>
+    <speak speaker="hokma">hokma3_intro_h39</speak>
+    <speak speaker="hokma">hokma3_intro_h40</speak>
+    <speak speaker="hokma">hokma3_intro_h41</speak>
+    <speak speaker="hokma">hokma3_intro_h42</speak>
+    <speak speaker="hokma">hokma3_intro_h43</speak>
+    <speak speaker="hokma">hokma3_intro_h44</speak>
+    <speak speaker="hokma">hokma3_intro_h45</speak>
+    <speak speaker="hokma">hokma3_intro_h46</speak>
+  </scene>
+
+
+  <scene id="hokma4_intro">
+    <character id="hokma" name="hokma_name" direction="right" color="FFFFFF" sprite="Chokmah"/>
+   <character id="angela" name="angela_name" direction="right" color="FFFFFF" sprite="Angela"/>
+    <background src="blackCG" effect="none"/>
+    <bgm src="4 - Through The Mist" />
+    <position character="angela" to="center"/>
+    <speak speaker="angela" anim="Default1">hokma4_intro_a1</speak>
+    <speak speaker="angela">hokma4_intro_a2</speak>
+    <speak speaker="angela">hokma4_intro_a3</speak>
+    <speak speaker="angela">hokma4_intro_a4</speak>
+    <speak speaker="angela">hokma4_intro_a5</speak>
+    <speak speaker="angela">hokma4_intro_a6</speak>
+    <speak speaker="angela">hokma4_intro_a7</speak>
+    <speak speaker="angela">hokma4_intro_a8</speak>
+    <speak speaker="angela">hokma4_intro_a9</speak>
+    <speak speaker="angela">hokma4_intro_a10</speak>
+    <speak speaker="angela" anim="Glad3">hokma4_intro_a11</speak>
+   
+    <cg src="BlackCG" effect="fade" />
+    <wait time="2" />
+    <disappear character="angela"/>
+    <remove_cg effect="fade" />
+    <bgm src="Lucid Dream (8)" />
+    <position character="hokma" to="center"/>
+    <background src="hokmaBK" effect="none"/>
+    <speak speaker="hokma" anim="Default">hokma4_intro_h1</speak>
+    <speak speaker="hokma">hokma4_intro_h2</speak>
+    <speak speaker="hokma">hokma4_intro_h3</speak>
+    <speak speaker="hokma">hokma4_intro_h4</speak>
+    <speak speaker="hokma">hokma4_intro_h5</speak>
+    <speak speaker="hokma">hokma4_intro_h6</speak>
+    <speak speaker="hokma">hokma4_intro_h7</speak>
+    <speak speaker="hokma">hokma4_intro_h8</speak>
+    <speak speaker="hokma">hokma4_intro_h9</speak>
+    <speak speaker="hokma">hokma4_intro_h10</speak>
+    <speak speaker="hokma">hokma4_intro_h11</speak>
+    <speak speaker="hokma">hokma4_intro_h12</speak>
+    <speak speaker="hokma">hokma4_intro_h13</speak>
+    <speak speaker="hokma">hokma4_intro_h14</speak>
+    <speak speaker="hokma">hokma4_intro_h15</speak>
+    <speak speaker="hokma">hokma4_intro_h16</speak>
+    <speak speaker="hokma">hokma4_intro_h17</speak>
+    <speak speaker="hokma">hokma4_intro_h18</speak>
+    <speak speaker="hokma">hokma4_intro_h19</speak>
+  </scene>
+
+  <scene id="hokma5_intro">
+    <character id="hokma" name="hokma_name" direction="right" color="FFFFFF" sprite="Chokmah"/>
+    <character id="hokmaClock" name="hokma_name" direction="right" color="FFFFFF" sprite="ChokmahClock"/>
+    <character id="angela" name="angela_name" direction="right" color="FFFFFF" sprite="Angela"/>
+    <character id="malkuthPast" name="malkuthPast_name" direction="right" color="FFFFFF" sprite="M_shadow"/>
+    <character id="yesodPast" name="yesodPast_name" direction="right" color="FFFFFF" sprite="YesodShadow"/>
+    <character id="hodPast" name="hodPast_name" direction="right" color="FFFFFF" sprite="HodShadow"/>
+    <character id="chesedPast" name="chesedPastPast_name" direction="right" color="FFFFFF" sprite="ChesedShadow"/>
+    <character id="c" name="c_name" color="FFBBFF" sprite="C_shadow"/>
+    <character id="a" name="a_name" direction="right" color="FFFFFF" sprite="A"/>
+    <character id="hokmaPast" name="hokmaPastReal_name" direction="right" color="FFFFFF" sprite="ChokmahPast"/>
+    <background src="officeBK" effect="none"/>
+    <bgm src="Maya" />
+    <position character="malkuthPast" to="left-full"/>
+    <position character="yesodPast" to="left-near"/>
+    <position character="c" to="center"/>
+    <position character="hodPast" to="right"/>
+    <position character="chesedPast" to="right-full"/>
+    <speak speaker="malkuthPast">hokma5_intro_m1</speak>
+    <speak speaker="yesodPast">hokma5_intro_y1</speak>
+    <speak speaker="hodPast">hokma5_intro_hod1</speak>
+    <speak speaker="chesedPast">hokma5_intro_c1</speak>
+    <disappear character="malkuthPast"/>
+    <disappear character="yesodPast"/>
+    <disappear character="hodPast"/>
+    <disappear character="chesedPast"/>
+    <speak speaker="c">hokma5_intro_ca1</speak>
+    <disappear character="c"/>
+    <sound src="changenoise" />
+    <add_filter filter="tv_distorted_fade" />
+    <wait time="0.25"/>
+    <remove_filter filter="tv_distorted_fade" />
+  
+    <position character="angela" to="center"/>
+    <speak speaker="angela">hokma5_intro_a1</speak>
+    <speak speaker="angela">hokma5_intro_a2</speak>
+    <cg src="BlackCG" effect="fade" />
+    <wait time="2" />
+    <disappear character="angela"/>
+    <remove_cg effect="fade" />
+    <background src="hokmaBK" effect="fade"/>
+    <bgm src="4 - Dusk"/>
+    <position character="hokma" to="center"/>
+    <speak speaker="hokma" anim="Default">hokma5_intro_h1</speak>
+    <speak speaker="hokma">hokma5_intro_h2</speak>
+    <speak speaker="hokma">hokma5_intro_h3</speak>
+    <speak speaker="hokma">hokma5_intro_h4</speak>
+    <speak speaker="hokma">hokma5_intro_h5</speak>
+    <speak speaker="hokma">hokma5_intro_h6</speak>
+    <speak speaker="hokma">hokma5_intro_h7</speak>
+    <speak speaker="hokma">hokma5_intro_h8</speak>
+    <speak speaker="hokma">hokma5_intro_h9</speak>
+    <speak speaker="hokma">hokma5_intro_h10</speak>
+    <speak speaker="hokma">hokma5_intro_h11</speak>
+    <speak speaker="hokma">hokma5_intro_h12</speak>
+    <speak speaker="hokma">hokma5_intro_h13</speak>
+    <speak speaker="hokma">hokma5_intro_h14</speak>
+    <speak speaker="hokma">hokma5_intro_h15</speak>
+    <speak speaker="hokma">hokma5_intro_h16</speak>
+    <speak speaker="hokma">hokma5_intro_h17</speak>
+    <speak speaker="hokma">hokma5_intro_h18</speak>
+    <select>
+      <option text="hokma5_selection1"/>
+    </select>
+    <bgm src="14- Dark Fantasy Studio- Possessed_1"/>
+    <sound src="changenoise" />
+    <sound src="clock_1"/>
+    <add_filter filter="noise_tv1" />
+    <speak speaker="hokma">hokma5_intro_h19</speak>
+    <speak speaker="hokma">hokma5_intro_h20</speak>
+    <speak speaker="hokma">hokma5_intro_h21</speak>
+    <speak speaker="hokma">hokma5_intro_h22</speak>
+    <speak speaker="hokma">hokma5_intro_h23</speak>
+    <speak speaker="hokma">hokma5_intro_h24</speak>
+    <speak speaker="hokma">hokma5_intro_h25</speak>
+    <speak speaker="hokma">hokma5_intro_h26</speak>
+    <select>
+      <option text="hokma5_selection2"/>
+    </select>
+    <sound src="changenoise" />
+    <sound src="clock_2"/>
+    <bgm src="14- Dark Fantasy Studio- Possessed_2"/>
+    <remove_filter filter="noise_tv1" />
+    <add_filter filter="noise_tv2" />
+    <add_filter filter="earthquake" />
+    <add_filter filter="tv_artefact1" />
+    <speak speaker="hokma">hokma5_intro_h27</speak>
+    <speak speaker="hokma">hokma5_intro_h28</speak>
+    <sound src="changenoise" />
+    <speak speaker="hokma">hokma5_intro_h29</speak>
+    <speak speaker="hokma">hokma5_intro_h30</speak>
+    <speak speaker="hokma">hokma5_intro_h31</speak>
+    <select>
+      <option text="hokma5_selection3"/>
+    </select>
+    <bgm src="14- Dark Fantasy Studio- Possessed_3"/>
+    <sound src="changenoise" />
+    <sound src="clock_3"/>
+    <remove_filter filter="noise_tv2" />
+    <remove_filter filter="earthquake" />
+    <remove_filter filter="tv_artefact1" />
+    <add_filter filter="noise_tv3" />
+    <add_filter filter="earthquake2" />
+    <add_filter filter="tv_artefact2" />
+    <speak speaker="hokma">hokma5_intro_h32</speak>
+    <speak speaker="hokma">hokma5_intro_h33</speak>
+    <speak speaker="hokma" anim="Angry">hokma5_intro_h34</speak>
+    <speak speaker="hokma">hokma5_intro_h35</speak>
+    <speak speaker="hokma">hokma5_intro_h36</speak>
+    <speak speaker="hokma">hokma5_intro_h37</speak>
+    <remove_filter filter="noise_tv3" />
+    <remove_filter filter="earthquake2" />
+    <remove_filter filter="tv_artefact2" />
+    <disappear character="hokma"/>
+    <sound src="clock_close"/>
+    <position character="hokmaClock" to="center"/>
+    <speak speaker="hokmaClock">hokma5_intro_h38</speak>
+    <cg src="BlackCG" effect="fade" />
+    <wait time="2" />
+    <disappear character="hokma"/>
+    <bgm src="When_It_Rains"/>
+    <speak speaker="hokmaPast">hokma5_intro_h39</speak>
+    <speak speaker="hokmaPast">hokma5_intro_h40</speak>
+    <speak speaker="hokmaPast">hokma5_intro_h41</speak>
+    <speak speaker="hokmaPast">hokma5_intro_h42</speak>
+    <speak speaker="hokmaPast">hokma5_intro_h43</speak>
+    <speak speaker="hokmaPast">hokma5_intro_h44</speak>
+    <speak speaker="hokmaPast">hokma5_intro_h45</speak>
+    <speak speaker="hokmaPast">hokma5_intro_h46</speak>
+    <select>
+      <option text="hokma5_selection4"></option>
+      <option text="hokma5_selection5"></option>
+      <option text="hokma5_selection6"></option>
+    </select>
+    <cg src="hokmaCG1" effect="fade" />
+    <speak speaker="a">hokma5_intro_A1</speak>
+    <speak speaker="a">hokma5_intro_A2</speak>
+    <speak speaker="a">hokma5_intro_A3</speak>
+    <speak speaker="a">hokma5_intro_A4</speak>
+    <speak speaker="a">hokma5_intro_A5</speak>
+    <speak speaker="a">hokma5_intro_A6</speak>
+    <speak speaker="a">hokma5_intro_A7</speak>
+    <speak speaker="a">hokma5_intro_A8</speak>
+    <speak speaker="a">hokma5_intro_A9</speak>
+    <speak speaker="a">hokma5_intro_A10</speak>
+    <speak speaker="a">hokma5_intro_A11</speak>
+    <speak speaker="a">hokma5_intro_A12</speak>
+    <speak speaker="a">hokma5_intro_A13</speak>
+    <speak speaker="a">hokma5_intro_A14</speak>
+  </scene>
+
+  <scene id="hokma6_intro">
+    <character id="hokma" name="hokma_name" direction="right" color="FFFFFF" sprite="Chokmah"/>
+    <character id="hokmaRobot" name="hokma_name" direction="right" color="FFFFFF" sprite="ChokmahRobot"/>
+    <character id="hokmaPast" name="hokmaPastReal_name" direction="right" color="FFFFFF" sprite="ChokmahPast"/>
+    <bgm src="Ember"/>
+    <cg src="BlackCG" effect="none" />
+    <speak speaker="hokmaPast">hokma6_intro_h1</speak>
+    <cg src="hokmaCG2" effect="fade" />
+    <speak speaker="hokmaPast">hokma6_intro_h2</speak>
+    <speak speaker="hokmaPast">hokma6_intro_h3</speak>
+    <speak speaker="hokmaPast">hokma6_intro_h4</speak>
+    <speak speaker="hokmaPast">hokma6_intro_h5</speak>
+    <speak speaker="hokmaPast">hokma6_intro_h6</speak>
+    <speak speaker="hokmaPast">hokma6_intro_h7</speak>
+    <speak speaker="hokmaPast">hokma6_intro_h8</speak>
+    <speak speaker="hokmaPast">hokma6_intro_h9</speak>
+    <speak speaker="hokmaPast">hokma6_intro_h10</speak>
+    <cg src="BlackCG" effect="fade" />
+    <wait time="2" />
+    <remove_cg effect="fade" />
+    <bgm src="Tilarids - Strange Dream"/>
+    <background src="hokmaBK" effect="none"/>
+    <position character="hokma" to="center"/>
+    <speak speaker="hokma">hokma6_intro_h11</speak>
+    <speak speaker="hokma">hokma6_intro_h12</speak>
+    <speak speaker="hokma">hokma6_intro_h13</speak>
+    <speak speaker="hokma">hokma6_intro_h14</speak>
+    <speak speaker="hokma">hokma6_intro_h15</speak>
+    <speak speaker="hokma">hokma6_intro_h16</speak>
+    <speak speaker="hokma">hokma6_intro_h17</speak>
+    <speak speaker="hokma">hokma6_intro_h18</speak>
+    <speak speaker="hokma">hokma6_intro_h19</speak>
+    <speak speaker="hokma">hokma6_intro_h20</speak>
+    <speak speaker="hokma">hokma6_intro_h21</speak>
+    <speak speaker="hokma">hokma6_intro_h22</speak>
+    <speak speaker="hokma">hokma6_intro_h23</speak>
+    <speak speaker="hokma">hokma6_intro_h24</speak>
+    <sound src="changenoise" />
+    <add_filter filter="tv_distorted_fade" />
+    <wait time="0.25"/>
+    <disappear character="hokma"/>
+    <position character="hokmaPast" to="center"/>
+    <wait time="0.25"/>
+    <remove_filter filter="tv_distorted_fade" />
+    <sound src="changenoise" />
+    <add_filter filter="tv_distorted_fade" />
+    <wait time="0.25"/>
+    <disappear character="hokmaPast"/>
+    <position character="hokmaRobot" to="center"/>
+    <wait time="0.25"/>
+    <remove_filter filter="tv_distorted_fade" />
+    <speak speaker="hokmaRobot">hokma6_intro_h25</speak>
+    <speak speaker="hokmaRobot">hokma6_intro_h26</speak>
+    <speak speaker="hokmaRobot">hokma6_intro_h27</speak>
+  </scene>
+  
+
+</root>

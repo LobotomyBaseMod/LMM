@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<creature_list>
+  <creature name="Dummy" src="Dummy" id="100000">
+    <stat>Dummy_stat</stat>
+  </creature>
+  <creature name="Matchgirl" src="Matchgirl" id="100001">
+    <stat>MatchGirl_stat</stat>
+  </creature>
+  <creature name="HappyTeddy" src="Happyteddy" id="100002">
+    <stat>HappyTeddy_stat</stat>
+  </creature>
+  <creature name="RedShoes" src="RedShoes" id="100003">
+    <stat>RedShoes_stat</stat>
+  </creature>
+  <creature name="MagicalGirl" src="MagicalGirl" id="100004">
+    <stat>MagicalGirl_stat</stat>
+  </creature>
+  <creature name="NullThing" src="Nullthing" id="100005">
+    <stat>NullThing_stat</stat>
+  </creature>
+  <creature name="SingingMachine" src="SingingMachine" id="100006">
+    <stat>SingingMachine_stat</stat>
+  </creature>
+  <creature name="1.76mhz" src="1.76mhz" id="100007">
+    <stat>1.76mhz_stat</stat>
+  </creature>
+  <creature name="Bigbird" src="Bigbird" id="100008">
+    <stat>BigBird_stat</stat>
+  </creature>
+  <creature name="OnebadManygood" src="OnebadManygood" id="100009">
+    <stat>OneBadManyGood_stat</stat>
+  </creature>
+  <creature name="OrangeTree" src="OrangeTree" id="100010">
+    <stat>OrangeTree_stat</stat>
+  </creature>
+  <creature name="Helper" src="Helper" id="100011">
+    <stat>Helper_stat</stat>
+  </creature>
+  <creature name="SpiderMom" src="SpiderMom" id="100012">
+    <stat>SpiderMom_stat</stat>
+  </creature>
+  <creature name="BeautyBeast" src="BeautyBeast" id="100013">
+    <stat>BeautyBeast_stat</stat>
+  </creature>
+  <creature name="PlagueDoctor" src="PlagueDoctor" id="100014">
+    <stat>PlagueDoctor_stat</stat>
+  </creature>
+  <creature name="DeathAngel" src="DeathAngel" id="100015">
+    <stat>DeathAngel_stat</stat>
+  </creature>
+  <creature name="Rudolph" src="Rudolph" id="100016">
+    <stat>Rudolph_stat</stat>
+  </creature>
+  <creature name="NamelessFetus" src="NamelessFetus" id="100017">
+    <stat>NamelessFetus_stat</stat>
+  </creature>
+  <creature name="StraitJacket" src="StraitJacket" id="100018">
+    <stat>StraitJacket_stat</stat>
+  </creature>
+  <creature name="SilentOrchestra" src="SilentOrchestra" id="100019">
+    <stat>SilentOrchestra_stat</stat>
+  </creature>
+  <creature name="SmallBird" src="SmallBird" id="100020">
+    <stat>SmallBird_stat</stat>
+  </creature>
+  <creature name="OldLady" src="OldLady" id="100021">
+    <stat>OldLady_stat</stat>
+  </creature>
+  <creature name="LadyLookingAtWall" src="LadyLookingAtWall" id="100022">
+    <stat>LadyLookingAtWall_stat</stat>
+  </creature>
+  <creature name="SnowWhite" src="SnowWhite" id="100023">
+    <stat>SnowWhite_stat</stat>
+  </creature>
+  <creature name="DontTouchMe" src="DontTouchMe" id="100024">
+    <stat>DontTouchMe_stat</stat>
+  </creature>
+  <creature name="LightsHammer" src="LightsHammer" id="100025">
+    <stat>LightsHammer_stat</stat>
+  </creature>
+  <creature name="QueenBee" src="QueenBee" id="100026">
+    <stat>QueenBee_stat</stat>
+  </creature>
+
+  <creature name="BloodBath" src="BloodBath" id="100027">
+    <stat>BloodBath_stat</stat>
+  </creature>
+
+  <creature name="Wellcheers" src="Wellcheers" id="100028">
+    <stat>Wellcheers_stat</stat>
+  </creature>
+
+  <creature name="Alriune" src="Alriune" id="100029">
+    <stat>Alriune_stat</stat>
+  </creature>
+
+  <creature name="AuthorNote" src="AuthorNote" id="100030">
+    <stat>AuthorNote_stat</stat>
+  </creature>
+
+  <creature name="GalaxyBoy" src="GalaxyBoy" id="100031">
+    <stat>GalaxyBoy_stat</stat>
+  </creature>
+
+  <creature name="RedHood" src="RedHood" id="100032">
+    <stat>RedHood_stat</stat>
+  </creature>
+
+  <creature name="BigBadWolf" src="BigBadWolf" id="100033">
+    <stat>BigBadWolf_stat</stat>
+  </creature>
+
+  <creature name="Bald" src="Bald" id="100034">
+    <stat>Bald_stat</stat>
+  </creature>
+
+  <creature name="LongBird" src="LongBird" id="100035">
+    <stat>LongBird_stat</stat>
+  </creature>
+
+  <creature name="Cosmos" src="Cosmos" id="100036">
+    <stat>Cosmos_stat</stat>
+  </creature>
+
+  <creature name="ArmorCreature" src="ArmorCreature" id="100037">
+    <stat>ArmorCreature_stat</stat>
+  </creature>
+
+  <!--Should Not Use 100038 for BossBird-->
+
+  <creature name="MagicalGirl_2" src="MagicalGirl_2" id="100039">
+    <stat>MagicalGirl_2_stat</stat>
+  </creature>
+
+  <creature name="YoungPrince" src="YoungPrince" id="100040">
+    <stat>YoungPrince_stat</stat>
+  </creature>
+
+  <creature name="LittleWitch" src="LittleWitch" id="100041">
+    <stat>LittleWitch_stat</stat>
+  </creature>
+
+  <creature name="DangoCreature" src="DangoCreature" id="100042">
+    <stat>DangoCreature_stat</stat>
+  </creature>
+
+  <creature name="Butterfly" src="Butterfly" id="100043">
+    <stat>Butterfly_stat</stat>
+  </creature>
+
+  <creature name="BloodyTree" src="BloodyTree" id="100044">
+    <stat>BloodyTree_stat</stat>
+  </creature>
+
+  <creature name="BlackSwan" src="BlackSwan" id="100045">
+    <stat>BlackSwan_stat</stat>
+  </creature>
+
+  <creature name="ViscusSnake" src="ViscusSnake" id="100046">
+    <stat>ViscusSnake_stat</stat>
+  </creature>
+
+  <creature name="Shark" src="Shark" id="100047">
+    <stat>Shark_stat</stat>
+  </creature>
+
+  <creature name="KnightOfDespair" src="KnightOfDespair" id="100048">
+    <stat>KnightOfDespair_stat</stat>
+  </creature>
+
+  <creature name="LookAtMe" src="LookAtMe" id="100049">
+    <stat>LookAtMe_stat</stat>
+  </creature>
+
+  <creature name="Scarecrow" src="Scarecrow" id="100050">
+    <stat>Scarecrow_stat</stat>
+  </creature>
+
+  <creature name="Lumberjack" src="Lumberjack" id="100051">
+    <stat>Lumberjack_stat</stat>
+  </creature>
+
+  <creature name="ShyThing" src="ShyThing" id="100052">
+    <stat>ShyThing_stat</stat>
+  </creature>
+
+  <creature name="Fairy" src="Fairy" id="100053">
+    <stat>Fairy_stat</stat>
+  </creature>
+
+  <creature name="Bunny" src="Bunny" id="100054">
+    <stat>Bunny_stat</stat>
+  </creature>
+
+  <creature name="Wraith" src="Wraith" id="100055">
+    <stat>Wraith_stat</stat>
+  </creature>
+
+  <creature name="Censored" src="Censored" id="100056">
+    <stat>Censored_stat</stat>
+  </creature>
+  
+  <creature name="Porccu" src="Porccu" id="100057">
+    <stat>Porccu_stat</stat>
+  </creature>
+  
+  <creature name="BlueStar" src="BlueStar" id="100058">
+    <stat>BlueStar_stat</stat>
+  </creature>
+  
+  <creature name="Sakura" src="Sakura" id="100059">
+    <stat>Sakura_stat</stat>
+  </creature>
+  
+  <creature name="Baku" src="Baku" id="100060">
+    <stat>Baku_stat</stat>
+  </creature>
+
+  <creature name="FireBird" src="FireBird" id="100061">
+    <stat>FireBird_stat</stat>
+  </creature>
+
+  <creature name="Yggdrasil" src="Yggdrasil" id="100062">
+    <stat>Yggdrasil_stat</stat>
+  </creature>
+
+  <creature name="SlimeGirl" src="SlimeGirl" id="100063">
+    <stat>SlimeGirl_stat</stat>
+  </creature>
+
+  <creature name="Piano" src="Piano" id="100065">
+    <stat>Piano_stat</stat>
+  </creature>
+
+  <creature name="ScytheClock" src="ScytheClock" id="100101">
+    <stat>ScytheClock_stat</stat>
+  </creature>
+
+  <creature name="SnowQueen" src="SnowQueen" id="100102">
+    <stat>SnowQueen_stat</stat>
+  </creature>
+
+  <creature name="Freischutz" src="Freischutz" id="100103">
+    <stat>Freischutz_stat</stat>
+  </creature>
+
+  <creature name="Yin" src="Yin" id="100104">
+    <stat>Yin_stat</stat>
+  </creature>
+
+  <creature name="FengYun" src="FengYun" id="100105">
+    <stat>FengYun_stat</stat>
+  </creature>
+
+  <creature name="Ppodae" src="Ppodae" id="100106">
+    <stat>Ppodae_stat</stat>
+  </creature>
+
+  <creature name="PinkCorps" src="PinkCorps" id="100064">
+    <stat>PinkCorps_stat</stat>
+  </creature>
+  
+  <!--
+  <creature name="OneBadManyGood" src="OneBadManyGood">
+    <stat>OneBadManyGood_stat</stat>
+  </creature>
+  -->
+
+  <!-- BigBird, SiningMachine, orangeTree -->
+  <!--
+	<creature name="OldLady" src="OldLady">
+    <stat>Template_stat</stat>
+  </creature>
+	
+	<creature name="Fetus" src="Fetus">
+    <stat>Template_stat</stat>
+  </creature>
+	
+
+
+	<creature name="Reaper" src="Reaper">
+    <stat>Template_stat</stat>
+  </creature>
+  <creature name="SmilePierrot" src="SmilePierrot">
+    <stat>Template_stat</stat>
+  </creature>
+
+	<creature name="VoidBook" src="VoidBook">
+    <stat>Template_stat</stat>
+  </creature>
+
+	<creature name="AnonymousManPortrait" src="AnonymousManPortrait">
+    <stat>Template_stat</stat>
+  </creature>
+  <creature name="LadyLookingAtWall" src="LadyLookingAtWall">
+    <stat>Template_stat</stat>
+  </creature>
+  <creature name="JackLessTree" src="JackLessTree">
+    <stat>Template_stat</stat>
+  </creature>
+	
+
+  <creature name="SilentGirl" src="SilentGirl">
+    <stat>Template_stat</stat>
+  </creature>
+  <creature name="Theresia" src="Theresia">
+    <stat>Template_stat</stat>
+  </creature>
+  
+  <creature name="SilentGirl" src="SilentGirl">
+    <stat>Template_stat</stat>
+  </creature>
+  <creature name="Theresia" src="Theresia">
+    <stat>Template_stat</stat>
+  </creature>
+
+  -->
+
+  <!-- kit creatures -->
+
+  <creature name="DesireHeart" src="DesireHeart" id="300001">
+    <stat>DesireHeart_stat</stat>
+  </creature>
+
+  <creature name="ResearcherNote" src="ResearcherNote" id="300002">
+    <stat>ResearcherNote_stat</stat>
+  </creature>
+
+  <creature name="Theresia" src="Theresia" id="300003">
+    <stat>Theresia_stat</stat>
+  </creature>
+
+  <creature name="MeatIdol" src="MeatIdol" id="300004">
+    <stat>MeatIdol_stat</stat>
+  </creature>
+
+  <creature name="BigTreeSap" src="BigTreeSap" id="300005">
+    <stat>BigTreeSap_stat</stat>
+  </creature>
+
+  <creature name="Shelter" src="Shelter" id="300006">
+    <stat>Shelter_stat</stat>
+  </creature>
+
+  <creature name="ResetMirror" src="ResetMirror" id="300007">
+    <stat>ResetMirror_stat</stat>
+  </creature>
+
+  <creature name="IronMaiden" src="IronMaiden" id="300101">
+    <stat>IronMaiden_stat</stat>
+  </creature>
+
+  <creature name="HellTrain" src="HellTrain" id="300102">
+    <stat>HellTrain_stat</stat>
+  </creature>
+
+  <creature name="ProphecyOfSkin" src="ProphecyOfSkin" id="300103">
+    <stat>ProphecyOfSkin_stat</stat>
+  </creature>
+
+  <creature name="OtherWorldPortrait" src="OtherWorldPortrait" id="300104">
+    <stat>OtherWorldPortrait_stat</stat>
+  </creature>
+
+  <creature name="YouMustHappy" src="YouMustHappy" id="300105">
+    <stat>YouMustHappy_stat</stat>
+  </creature>
+
+  <creature name="HealthBracelet" src="HealthBracelet" id="300106">
+    <stat>HealthBracelet_stat</stat>
+  </creature>
+
+  <creature name="JusticeReceiver" src="JusticeReceiver" id="300107">
+    <stat>JusticeReceiver_stat</stat>
+  </creature>
+
+  <creature name="PromiseAndFaith" src="PromiseAndFaith" id="300108">
+    <stat>PromiseAndFaith_stat</stat>
+  </creature>
+
+  <creature name="Yang" src="Yang" id="300109">
+    <stat>Yang_stat</stat>
+  </creature>
+
+  <creature name="ReverseClock" src="ReverseClock" id="300110">
+    <stat>ReverseClock_stat</stat>
+  </creature>
+
+  <!-- Ordeals -->
+
+  <!--
+  Machine Ordeals
+  Dawn (o) 200001
+  Noon (o) 200002
+  Dusk (o) 200003
+  Midnight (o) 200004
+  -->
+  <creature name="MachineDawn" src="MachineDawn" id="200001">
+    <stat>MachineDawn_stat</stat>
+  </creature>
+
+  <creature name="MachineNoon" src="MachineNoon" id="200002">
+    <stat>MachineNoon_stat</stat>
+  </creature>
+
+  <creature name="MachineDusk" src="MachineDusk" id="200003">
+    <stat>MachineDusk_stat</stat>
+  </creature>
+
+  <creature name="MachineMidnight" src="MachineMidnight" id="200004">
+    <stat>MachineMidnight_stat</stat>
+  </creature>
+
+  <!--
+  Circus Ordeals
+  Dawn (o) 200005
+  Noon (o) 200006
+  Dusk (o) 200007
+  Midnight (x) 200008
+  -->
+  <creature name="CircusDawn" src="CircusDawn" id="200005">
+    <stat>CircusDawn_stat</stat>
+  </creature>
+
+  <creature name="CircusNoon" src="CircusNoon" id="200006">
+    <stat>CircusNoon_stat</stat>
+  </creature>
+  
+  <creature name="CircusDusk" src="CircusDusk" id="200007">
+    <stat>CircusDusk_stat</stat>
+  </creature>
+
+  <!--
+  OutterGod Ordeals
+  Dawn (o) 200009
+  Noon (o) 200010
+  Dusk (x) 200011
+  Midnight (o) 200012 - 2000121 ~ 2000124로 나뉨
+  -->
+  
+  <creature name="OutterGodDawn" src="OutterGodDawn" id="200009">
+    <stat>OutterGodDawn_stat</stat>
+  </creature>
+
+  <creature name="OutterGodNoon" src="OutterGodNoon" id="200010">
+    <stat>OutterGodNoon_stat</stat>
+  </creature>
+
+  <creature name="OutterGodMidnight_R" src="OutterGodMidnight_R" id="2000121">
+    <stat>OutterGodMidnight_R_stat</stat>
+  </creature>
+
+  <creature name="OutterGodMidnight_W" src="OutterGodMidnight_W" id="2000122">
+    <stat>OutterGodMidnight_W_stat</stat>
+  </creature>
+
+  <creature name="OutterGodMidnight_B" src="OutterGodMidnight_B" id="2000123">
+    <stat>OutterGodMidnight_B_stat</stat>
+  </creature>
+
+  <creature name="OutterGodMidnight_P" src="OutterGodMidnight_P" id="2000124">
+    <stat>OutterGodMidnight_P_stat</stat>
+  </creature>
+
+  <!--
+  Bug Ordeals
+  Dawn (o) 200013
+  Noon (x) 200014
+  Dusk (o) 200015
+  Midnight (o) 200016
+  -->
+  <creature name="BugDawn" src="BugDawn" id="200013">
+    <stat>BugDawn_stat</stat>
+  </creature>
+
+  <creature name="BugDusk" src="BugDusk" id="200015">
+    <stat>BugDusk_stat</stat>
+  </creature>
+
+  <creature name="BugMidnight" src="BugMidnight" id="200016">
+    <stat>BugMidnight_stat</stat>
+  </creature>
+
+  
+  <!--
+  Scavenger Ordeals
+  Dawn (x) 200017
+  Noon (o) 200018
+  Dusk (x) 200019
+  Midnight (x) 200020
+  -->
+  <creature name="ScavengerNoon" src="ScavengerNoon" id="200018">
+    <stat>ScavengerNoon_stat</stat>
+  </creature>
+
+
+  <!--
+  Fixer Ordeals
+  Red (o) 200021
+  White (o) 200022
+  Black (o) 200023
+  Pale (o) 200024
+  Midnight (x) 200025
+  -->
+  
+  <creature name="FixerRed" src="FixerRed" id="200021">
+    <stat>FixerRed_stat</stat>
+  </creature>
+
+  <creature name="FixerWhite" src="FixerWhite" id="200022">
+    <stat>FixerWhite_stat</stat>
+  </creature>
+
+  <creature name="FixerBlack" src="FixerBlack" id="200023">
+    <stat>FixerBlack_stat</stat>
+  </creature>
+
+  <creature name="FixerPale" src="FixerPale" id="200024">
+    <stat>FixerPale_stat</stat>
+  </creature>
+
+  <creature name="FixerClaw" src="FixerClaw" id="200025">
+    <stat>FixerClaw_stat</stat>
+  </creature>
+  
+  
+  <!--Sefira Boss General-->
+  <creature name="SefiraBossGeneral" src="SefiraBossGeneral" id="400001">
+    <stat>SefiraBossGeneral_stat</stat>
+  </creature>
+
+  <creature id="400002" src="BinahBoss" name="BinahBoss">
+    <stat>BinahBoss_stat</stat>
+  </creature>
+
+
+  <!--BossBird Object-->
+  <creature name="BossGateWay" src="BossGateWay" id="1000350">
+    <stat>BossGateWay_stat</stat>  
+  </creature>
+  
+  <creature name="BigEgg" src="BigEgg" id="1000351">
+    <stat>BigEgg_stat</stat>
+  </creature>
+  
+  <creature name="SmallEgg" src="SmallEgg" id="1000352">
+    <stat>SmallEgg_stat</stat>
+  </creature>
+  
+  <creature name="LongEgg" src="LongEgg" id="1000353">
+  <stat>LongEgg_stat</stat>
+  </creature>
+
+</creature_list>

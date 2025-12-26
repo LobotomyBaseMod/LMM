@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<creature>
+  <script>SingingMachine</script>
+  <stat>
+    <riskLevel>3</riskLevel>
+    <maxWorkCount>3</maxWorkCount>
+    <workProb type="R">
+      <prob level="1">0.55</prob>
+      <prob level="2">0.55</prob>
+      <prob level="3">0.6</prob>
+      <prob level="4">0.6</prob>
+      <prob level="5">0.65</prob>
+    </workProb>
+    <workProb type="W">
+      <prob level="1">0.5</prob>
+      <prob level="2">0.5</prob>
+      <prob level="3">0.5</prob>
+      <prob level="4">0.5</prob>
+      <prob level="5">0.5</prob>
+    </workProb>
+    <workProb type="B">
+      <prob level="1">0</prob>
+      <prob level="2">0</prob>
+      <prob level="3">0</prob>
+      <prob level="4">0.3</prob>
+      <prob level="5">0.3</prob>
+    </workProb>
+    <workProb type="P">
+      <prob level="1">0.4</prob>
+      <prob level="2">0.4</prob>
+      <prob level="3">0.4</prob>
+      <prob level="4">0.4</prob>
+      <prob level="5">0.4</prob>
+    </workProb>
+    <workCooltime>10</workCooltime>
+    <feelingStateCubeBounds>
+      <cube>7</cube>
+      <cube>14</cube>
+      <cube>18</cube>
+    </feelingStateCubeBounds>
+    <escapeable>false</escapeable>
+    <workDamage type="W" min="4" max="6" />
+    <workSpeed>0.35</workSpeed>
+    <specialDamage>
+      <damage id="1" type="W" min="1" max="2" />
+    </specialDamage>
+    <defense id="1">
+      <defenseElement type="R">1.2</defenseElement>
+      <defenseElement type="W">1.5</defenseElement>
+      <defenseElement type="B">0.8</defenseElement>
+      <defenseElement type="P">2</defenseElement>
+    </defense>
+    <observeInfo total="70">
+      <observeElement name="stat" cost="16" />
+      <observeElement name="defense" cost="16" />
+      <observeElement name="work_r" cost="5" />
+      <observeElement name="work_w" cost="5" />
+      <observeElement name="work_b" cost="5" />
+      <observeElement name="work_p" cost="5" />
+      <observeElement name="care_0" cost="3" />
+      <observeElement name="care_1" cost="3" />
+      <observeElement name="care_2" cost="3" />
+      <observeElement name="care_3" cost="3" />
+      <observeElement name="care_4" cost="3" />
+      <observeElement name="care_5" cost="3" />
+    </observeInfo>
+    <equipment level="4" cost="40" equipId="200006" />
+    <equipment level="2" prob="0.04" equipId="400006" />
+    <observeBonus level="1" type="speed">4</observeBonus>
+    <observeBonus level="2" type="prob">4</observeBonus>
+    <observeBonus level="3" type="speed">4</observeBonus>
+    <observeBonus level="4" type="prob">4</observeBonus>
+    <qliphoth>1</qliphoth>
+  </stat>
+  <graph>
+    <node id="creature" x="-1.6" y="-1.8" type="creature" />
+    <node id="workspace" x="1.9" y="-1.8" type="workspace" />
+    <node id="die" x="1" y="-1.8" type="custom" />
+    <!--<node id="door"  x="2" y="-1" type="entry"/>-->
+    <node id="outter" x="0" y="0" type="outterDoor" />
+    <node id="inner" x="2" y="-1.8" type="innerDoor" />
+    <!--<edge node1="workspace" node2="door" type="road" />-->
+    <edge node1="die" node2="inner" type="road" />
+    <edge node1="workspace" node2="inner" type="road" />
+    <edge node1="creature" node2="workspace" type="road" />
+  </graph>
+  <anim prefab="Unit/CreatureAnimator/machine" x="-1" y="-2" />
+  <portrait src="Unit/Creature/Machine" />
+  <sound action="loop" src="creature/singing_machine/SingingMachine_Loop" />
+  <sound action="open" src="creature/singing_machine/SingingMachine_Open" />
+  <sound action="close" src="creature/singing_machine/SingingMachine_Close" />
+</creature>

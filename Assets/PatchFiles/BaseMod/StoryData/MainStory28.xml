@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <scene id="28">
+    <character id="a" name="a_name" color="FFBBFF" sprite="A"/>
+    <character id="c" name="c_name" color="FFBBFF" sprite="C_shadow"/>
+    <bgm src="Romantic" />
+
+    <dialogue type="hide"/>
+    <cg src="BlackCG" effect="fade" />
+    <wait time="3" />
+    <remove_cg effect="fade" />
+    
+    <background src="carmenBK1" effect="none"/>
+
+   
+    <add_filter filter="tv_oldMovie2" />
+    
+  
+
+    <position character="c" to="right" />
+
+    <dialogue type="default"/>
+  
+    <speak speaker="c">day28_carmen_1</speak>
+    <speak speaker="c">day28_carmen_2</speak>
+    <speak speaker="c">day28_carmen_3</speak>
+    <speak speaker="a">day28_a_1</speak>
+    <speak speaker="c">day28_carmen_4</speak>
+    <speak speaker="a">day28_a_2</speak>
+    <speak speaker="c">day28_carmen_5</speak>
+    <speak speaker="c">day28_carmen_6</speak>
+    <speak speaker="a">day28_a_3</speak>
+    <speak speaker="c">day28_carmen_7</speak>
+    <speak speaker="c">day28_carmen_8</speak>
+    <select>
+      <option text="day28_selection1">
+      </option>
+    </select>
+
+    <cg src="BlackCG" effect="fade" />
+    <wait time="4" />
+    <remove_cg effect="fade" />
+ 
+
+
+
+  </scene>
+
+
+</root>

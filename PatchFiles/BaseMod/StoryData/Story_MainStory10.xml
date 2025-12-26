@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <scene id="10">
+    <character id="angela" name="angela_name" color="FFBBFF" sprite="Angela" />
+
+    <bgm src="filter"/>
+
+
+    <dialogue type="hide"/>
+    <cg src="CognitionFilter2" effect="none" />
+    <cg src="CognitionFilter1" effect="blink" />
+
+    <speak type="auto">day22_a</speak>
+    <wait time="4"/>
+
+    <position character="angela" to="right" />
+
+    <dialogue type="default"/>
+    <speak speaker="angela">day10_angela_1</speak> <!-- 이때 인지필터 cg 등장-->
+    <speak speaker="angela">day10_angela_2</speak>
+
+    <remove_cg />
+
+    <bgm src="story-04_ogg" />
+    
+    <speak speaker="angela" anim="Glad1">day10_angela_3</speak>
+    <speak speaker="angela" anim="Default1">day10_angela_4</speak>
+    <speak speaker="angela">day10_angela_5</speak>
+    <speak speaker="angela">day10_angela_6</speak>
+    <speak speaker="angela">day10_angela_7</speak>
+    <speak speaker="angela">day10_angela_8</speak>
+    <speak speaker="angela">day10_angela_9</speak>
+    <speak speaker="angela">day10_angela_10</speak>
+    <speak speaker="angela">day10_angela_11</speak>
+    <speak speaker="angela" anim="Anger3">day10_angela_12</speak>
+    <speak speaker="angela">day10_angela_13</speak>
+   
+  </scene> 
+ 
+</root>

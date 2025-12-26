@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <scene id="29">
+    <character id="c" name="c_name" color="FFBBFF" sprite="C_shadow" />
+    <character id="a" name="a_name" color="FFBBFF" sprite="A" />
+
+    <background src="warehouseBK_2" effect="none"/>
+    <add_filter filter="tv_oldMovie2" />
+
+    <bgm src="Emotional (Piano and Strings)" />
+
+    <position character="c" to="right" />
+
+  
+    <speak speaker="c">day29_carmen_1</speak>
+    <speak speaker="a">day29_a_1</speak>
+    <speak speaker="c">day29_carmen_2</speak>
+    <speak speaker="c">day29_carmen_3</speak>
+    <speak speaker="c">day29_carmen_4</speak>
+    <speak speaker="c">day29_carmen_5</speak>
+    <speak speaker="c">day29_carmen_6</speak>
+    <speak speaker="c">day29_carmen_7</speak>
+    <speak speaker="c">day29_carmen_8</speak>
+    <speak speaker="c">day29_carmen_9</speak>
+    <speak speaker="c">day29_carmen_10</speak>
+  
+  </scene>
+
+
+</root>

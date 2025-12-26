@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <scene id="36">
+    <character id="angela" name="angela_name" color="FFBBFF" sprite="Angela" />
+   
+
+    <bgm src="story-03-ending" />
+
+    <position character="angela" to="right" />
+
+  
+    <speak speaker="angela" anim="Glad1">day36_angela_1</speak>
+    <speak speaker="angela" anim="Default1">day36_angela_2</speak>
+    <speak speaker="angela">day36_angela_3</speak>
+    <speak speaker="angela">day36_angela_4</speak>
+    <speak speaker="angela">day36_angela_5</speak>
+
+
+    <select>
+      <!-- 1-->
+
+
+
+
+      <option text="day36_selection1">
+        <!-- 1-->
+        <speak speaker="angela">day36_angela_1_1</speak>
+        <speak speaker="angela">day36_angela_1_2</speak>
+        <speak speaker="angela">day36_angela_1_3</speak>
+        <speak speaker="angela">day36_angela_1_4</speak>
+        <speak speaker="angela">day36_angela_1_5</speak>
+        <speak speaker="angela">day36_angela_1_6</speak>
+        <speak speaker="angela">day36_angela_1_7</speak>
+        <speak speaker="angela">day36_angela_1_8</speak>
+        <select>
+          <!-- 2-->
+          <option text="day36_selection2">
+            <speak speaker="angela">day36_angela_2_1</speak>
+            <speak speaker="angela">day36_angela_2_2</speak>
+            <speak speaker="angela">day36_angela_2_3</speak>
+            <select>
+              <option text="day36_selection3">
+                <speak speaker="angela">day36_angela_3_1</speak>
+                <speak speaker="angela">day36_angela_3_2</speak>
+              </option>
+            </select>
+          </option>
+          <option text="day36_selection3">
+            <speak speaker="angela">day36_angela_3_1</speak>
+            <speak speaker="angela">day36_angela_3_2</speak>
+            <select>
+              <option text="day36_selection2">
+                <speak speaker="angela">day36_angela_2_1</speak>
+                <speak speaker="angela">day36_angela_2_2</speak>
+                <speak speaker="angela">day36_angela_2_3</speak>
+              </option>
+            </select>
+          </option>
+        </select>
+      </option>
+
+
+      <option text="day36_selection2">
+        <!-- 1-->
+        <speak speaker="angela">day36_angela_2_1</speak>
+        <speak speaker="angela">day36_angela_2_2</speak>
+        <speak speaker="angela">day36_angela_2_3</speak>
+        <select>
+          <!-- 2-->
+          <option text="day36_selection1">
+            <speak speaker="angela">day36_angela_1_1</speak>
+            <speak speaker="angela">day36_angela_1_2</speak>
+            <speak speaker="angela">day36_angela_1_3</speak>
+            <speak speaker="angela">day36_angela_1_4</speak>
+            <speak speaker="angela">day36_angela_1_5</speak>
+            <speak speaker="angela">day36_angela_1_6</speak>
+            <speak speaker="angela">day36_angela_1_7</speak>
+            <speak speaker="angela">day36_angela_1_8</speak>
+            <select>
+              <option text="day36_selection3">
+                <speak speaker="angela">day36_angela_3_1</speak>
+                <speak speaker="angela">day36_angela_3_2</speak>
+              </option>
+            </select>
+          </option>
+          <option text="day36_selection3">
+            <speak speaker="angela">day36_angela_3_1</speak>
+            <speak speaker="angela">day36_angela_3_2</speak>
+            <select>
+              <option text="day36_selection1">
+                <speak speaker="angela">day36_angela_1_1</speak>
+                <speak speaker="angela">day36_angela_1_2</speak>
+                <speak speaker="angela">day36_angela_1_3</speak>
+                <speak speaker="angela">day36_angela_1_4</speak>
+                <speak speaker="angela">day36_angela_1_5</speak>
+                <speak speaker="angela">day36_angela_1_6</speak>
+                <speak speaker="angela">day36_angela_1_7</speak>
+                <speak speaker="angela">day36_angela_1_8</speak>
+              </option>
+            </select>
+          </option>
+        </select>
+      </option>
+
+
+
+
+
+      <option text="day36_selection3">
+        <!-- 1-->
+        <speak speaker="angela">day36_angela_3_1</speak>
+        <speak speaker="angela">day36_angela_3_2</speak>
+        <select>
+          <!-- 2-->
+          <option text="day36_selection1">
+            <speak speaker="angela">day36_angela_1_1</speak>
+            <speak speaker="angela">day36_angela_1_2</speak>
+            <speak speaker="angela">day36_angela_1_3</speak>
+            <speak speaker="angela">day36_angela_1_4</speak>
+            <speak speaker="angela">day36_angela_1_5</speak>
+            <speak speaker="angela">day36_angela_1_6</speak>
+            <speak speaker="angela">day36_angela_1_7</speak>
+            <speak speaker="angela">day36_angela_1_8</speak>
+            <select>
+              <option text="day36_selection2">
+                <speak speaker="angela">day36_angela_2_1</speak>
+                <speak speaker="angela">day36_angela_2_2</speak>
+                <speak speaker="angela">day36_angela_2_3</speak>
+              </option>
+            </select>
+          </option>
+          <option text="day36_selection2">
+            <speak speaker="angela">day36_angela_2_1</speak>
+            <speak speaker="angela">day36_angela_2_2</speak>
+            <speak speaker="angela">day36_angela_2_3</speak>
+            <select>
+              <option text="day36_selection1">
+                <speak speaker="angela">day36_angela_1_1</speak>
+                <speak speaker="angela">day36_angela_1_2</speak>
+                <speak speaker="angela">day36_angela_1_3</speak>
+                <speak speaker="angela">day36_angela_1_4</speak>
+                <speak speaker="angela">day36_angela_1_5</speak>
+                <speak speaker="angela">day36_angela_1_6</speak>
+                <speak speaker="angela">day36_angela_1_7</speak>
+                <speak speaker="angela">day36_angela_1_8</speak>
+              </option>
+            </select>
+          </option>
+        </select>
+      </option>
+    </select>
+    
+
+      
+    <speak speaker="angela">day36_angela_6</speak>
+    <speak speaker="angela">day36_angela_7</speak>
+    <speak speaker="angela">day36_angela_8</speak>
+    <speak speaker="angela">day36_angela_9</speak>
+    <speak speaker="angela" anim="Glad3">day36_angela_10</speak>
+    <speak speaker="angela">day36_angela_11</speak>
+    <speak speaker="angela" anim="Default1">day36_angela_12</speak>
+    <speak speaker="angela">day36_angela_13</speak>
+    <speak speaker="angela">day36_angela_14</speak>
+    <speak speaker="angela">day36_angela_15</speak>
+    <speak speaker="angela">day36_angela_16</speak>
+    <speak speaker="angela">day36_angela_17</speak>
+    <speak speaker="angela">day36_angela_18</speak>
+    <speak speaker="angela" anim="Glad3">day36_angela_19</speak>  
+  </scene>
+
+
+</root>

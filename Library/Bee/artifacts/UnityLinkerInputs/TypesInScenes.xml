@@ -1,0 +1,117 @@
+<linker>
+	<assembly fullname="Assembly-CSharp">
+		<type fullname="ConfigViewController" preserve="nothing"/>
+		<type fullname="CustomScrollRect" preserve="nothing"/>
+		<type fullname="DeveloperViewController" preserve="nothing"/>
+		<type fullname="GitHubModCommentContainer" preserve="nothing"/>
+		<type fullname="GitHubModCommentEdit" preserve="nothing"/>
+		<type fullname="GitHubModCommentView" preserve="nothing"/>
+		<type fullname="GlobalManager" preserve="nothing"/>
+		<type fullname="LangSelectViewController" preserve="nothing"/>
+		<type fullname="ModUploadView" preserve="nothing"/>
+		<type fullname="ModUploadView_DependancyContainer" preserve="nothing"/>
+		<type fullname="ModUploadView_DependancyContainer_Prefab" preserve="nothing"/>
+		<type fullname="NexusPageManager" preserve="nothing"/>
+		<type fullname="PopupChoice" preserve="nothing"/>
+		<type fullname="PopupNormal" preserve="nothing"/>
+		<type fullname="PopupViewController" preserve="nothing"/>
+		<type fullname="TextSizeFitter" preserve="nothing"/>
+		<type fullname="ThirdPartyViewController" preserve="nothing"/>
+		<type fullname="UIGitHubModContainer" preserve="nothing"/>
+		<type fullname="UIGitHubModInfoView" preserve="nothing"/>
+		<type fullname="UIGitHubModListController" preserve="nothing"/>
+		<type fullname="UIGitHubOwnerModListController" preserve="nothing"/>
+		<type fullname="UIGitHubViewController" preserve="nothing"/>
+		<type fullname="UIModInfoText" preserve="nothing"/>
+		<type fullname="UIModPanel" preserve="nothing"/>
+		<type fullname="UIModPanelController" preserve="nothing"/>
+		<type fullname="UINexusModInfoView" preserve="nothing"/>
+		<type fullname="UINexusModListController" preserve="nothing"/>
+		<type fullname="UINexusModPanel" preserve="nothing"/>
+		<type fullname="UINexusViewController" preserve="nothing"/>
+		<type fullname="UITextDataLoader" preserve="nothing"/>
+	</assembly>
+	<assembly fullname="SimpleFileBrowser.Runtime">
+		<type fullname="SimpleFileBrowser.EventSystemHandler" preserve="nothing"/>
+		<type fullname="SimpleFileBrowser.FileBrowser" preserve="nothing"/>
+		<type fullname="SimpleFileBrowser.FileBrowserAccessRestrictedPanel" preserve="nothing"/>
+		<type fullname="SimpleFileBrowser.FileBrowserContextMenu" preserve="nothing"/>
+		<type fullname="SimpleFileBrowser.FileBrowserCursorHandler" preserve="nothing"/>
+		<type fullname="SimpleFileBrowser.FileBrowserFileOperationConfirmationPanel" preserve="nothing"/>
+		<type fullname="SimpleFileBrowser.FileBrowserItem" preserve="nothing"/>
+		<type fullname="SimpleFileBrowser.FileBrowserMovement" preserve="nothing"/>
+		<type fullname="SimpleFileBrowser.FileBrowserQuickLink" preserve="nothing"/>
+		<type fullname="SimpleFileBrowser.FileBrowserRenamedItem" preserve="nothing"/>
+		<type fullname="SimpleFileBrowser.NonDrawingGraphic" preserve="nothing"/>
+		<type fullname="SimpleFileBrowser.RecycledListView" preserve="nothing"/>
+		<type fullname="SimpleFileBrowser.UISkin" preserve="nothing"/>
+	</assembly>
+	<assembly fullname="Unity.TextMeshPro">
+		<type fullname="TMPro.TextMeshProUGUI" preserve="nothing"/>
+		<type fullname="TMPro.TMP_Dropdown" preserve="nothing"/>
+		<type fullname="TMPro.TMP_FontAsset" preserve="nothing"/>
+		<type fullname="TMPro.TMP_InputField" preserve="nothing"/>
+		<type fullname="TMPro.TMP_Settings" preserve="nothing"/>
+		<type fullname="TMPro.TMP_SpriteAsset" preserve="nothing"/>
+		<type fullname="TMPro.TMP_StyleSheet" preserve="nothing"/>
+	</assembly>
+	<assembly fullname="UnityEngine">
+		<type fullname="UnityEditor.AudioManager" preserve="nothing"/>
+		<type fullname="UnityEditor.InputManager" preserve="nothing"/>
+		<type fullname="UnityEditor.MonoManager" preserve="nothing"/>
+		<type fullname="UnityEditor.MonoScript" preserve="nothing"/>
+		<type fullname="UnityEditor.Physics2DSettings" preserve="nothing"/>
+		<type fullname="UnityEditor.PlayerSettings" preserve="nothing"/>
+		<type fullname="UnityEditor.TagManager" preserve="nothing"/>
+		<type fullname="UnityEditor.TimeManager" preserve="nothing"/>
+		<type fullname="UnityEditor.VFXManager" preserve="nothing"/>
+		<type fullname="UnityEngine.AudioBehaviour" preserve="nothing"/>
+		<type fullname="UnityEngine.AudioListener" preserve="nothing"/>
+		<type fullname="UnityEngine.Behaviour" preserve="nothing"/>
+		<type fullname="UnityEngine.Camera" preserve="nothing"/>
+		<type fullname="UnityEngine.Canvas" preserve="nothing"/>
+		<type fullname="UnityEngine.CanvasRenderer" preserve="nothing"/>
+		<type fullname="UnityEngine.Component" preserve="nothing"/>
+		<type fullname="UnityEngine.Font" preserve="nothing"/>
+		<type fullname="UnityEngine.GameObject" preserve="nothing"/>
+		<type fullname="UnityEngine.LightmapSettings" preserve="nothing"/>
+		<type fullname="UnityEngine.Material" preserve="nothing"/>
+		<type fullname="UnityEngine.MonoBehaviour" preserve="nothing"/>
+		<type fullname="UnityEngine.Object" preserve="nothing"/>
+		<type fullname="UnityEngine.QualitySettings" preserve="nothing"/>
+		<type fullname="UnityEngine.RectTransform" preserve="nothing"/>
+		<type fullname="UnityEngine.Rendering.GraphicsSettings" preserve="nothing"/>
+		<type fullname="UnityEngine.RenderSettings" preserve="nothing"/>
+		<type fullname="UnityEngine.Shader" preserve="nothing"/>
+		<type fullname="UnityEngine.Sprite" preserve="nothing"/>
+		<type fullname="UnityEngine.TextAsset" preserve="nothing"/>
+		<type fullname="UnityEngine.Texture" preserve="nothing"/>
+		<type fullname="UnityEngine.Texture2D" preserve="nothing"/>
+		<type fullname="UnityEngine.Transform" preserve="nothing"/>
+		<type fullname="UnityEngine.U2D.SpriteAtlas" preserve="nothing"/>
+	</assembly>
+	<assembly fullname="UnityEngine.UI">
+		<type fullname="UnityEngine.EventSystems.BaseInput" preserve="nothing"/>
+		<type fullname="UnityEngine.EventSystems.EventSystem" preserve="nothing"/>
+		<type fullname="UnityEngine.EventSystems.EventTrigger" preserve="nothing"/>
+		<type fullname="UnityEngine.EventSystems.StandaloneInputModule" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.Button" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.CanvasScaler" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.ContentSizeFitter" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.Dropdown" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.GraphicRaycaster" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.GridLayoutGroup" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.HorizontalLayoutGroup" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.Image" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.InputField" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.LayoutElement" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.Mask" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.RectMask2D" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.Scrollbar" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.ScrollRect" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.Shadow" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.Text" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.Toggle" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.VerticalLayoutGroup" preserve="nothing"/>
+	</assembly>
+</linker>

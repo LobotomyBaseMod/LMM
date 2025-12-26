@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LocalizeDataList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <list>
+    <LocalizeData>
+      <id>GitHubView_UpdateSortDesc</id>
+      <value>업데이트 순:</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>GitHubView_StarredSortDesc</id>
+      <value>추천 순:</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>CommentView_CommentWirte</id>
+      <value>댓글 작성</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>CommentView_CommentSend</id>
+      <value>등록</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>CommentView_DoLogin_If_Comment</id>
+      <value>깃허브 앱 연동을 마친 사용자만 작성할 수 있습니다.</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>CommentView_CommentEdit</id>
+      <value>댓글 수정</value>
+    </LocalizeData>
+  </list>
+</LocalizeDataList>

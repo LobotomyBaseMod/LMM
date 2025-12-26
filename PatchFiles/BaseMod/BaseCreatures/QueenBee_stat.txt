@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<creature>
+  <script>QueenBee</script>
+  <stat>
+    <riskLevel>4</riskLevel>
+    <maxWorkCount>3</maxWorkCount>
+    <workProb type="R">
+      <prob level="1">0</prob>
+      <prob level="2">0</prob>
+      <prob level="3">0.45</prob>
+      <prob level="4">0.45</prob>
+      <prob level="5">0.5</prob>
+    </workProb>
+    <workProb type="W">
+      <prob level="1">0</prob>
+      <prob level="2">0</prob>
+      <prob level="3">0.55</prob>
+      <prob level="4">0.55</prob>
+      <prob level="5">0.6</prob>
+    </workProb>
+    <workProb type="B">
+      <prob level="1">0</prob>
+      <prob level="2">0</prob>
+      <prob level="3">0.4</prob>
+      <prob level="4">0.4</prob>
+      <prob level="5">0.4</prob>
+    </workProb>
+    <workProb type="P">
+      <prob level="1">0</prob>
+      <prob level="2">0</prob>
+      <prob level="3">0</prob>
+      <prob level="4">0</prob>
+      <prob level="5">0</prob>
+    </workProb>
+    <workCooltime>10</workCooltime>
+    <feelingStateCubeBounds>
+      <cube>9</cube>
+      <cube>16</cube>
+      <cube>22</cube>
+    </feelingStateCubeBounds>
+    <escapeable>false</escapeable>
+    <workDamage type="R" min="4" max="6" />
+    <workSpeed>0.28</workSpeed>
+    <specialDamage>
+      <damage id="1" type="R" min="10" max="14" />
+    </specialDamage>
+    <defense id="1">
+      <defenseElement type="R">1.2</defenseElement>
+      <defenseElement type="W">1.5</defenseElement>
+      <defenseElement type="B">0.8</defenseElement>
+      <defenseElement type="P">2</defenseElement>
+    </defense>
+    <observeInfo total="98">
+      <observeElement name="stat" cost="20" />
+      <observeElement name="defense" cost="20" />
+      <observeElement name="work_r" cost="7" />
+      <observeElement name="work_w" cost="7" />
+      <observeElement name="work_b" cost="7" />
+      <observeElement name="work_p" cost="7" />
+      <observeElement name="care_0" cost="6" />
+      <observeElement name="care_1" cost="6" />
+      <observeElement name="care_2" cost="6" />
+      <observeElement name="care_3" cost="6" />
+      <observeElement name="care_4" cost="6" />
+    </observeInfo>
+    <equipment level="4" cost="60" equipId="200026" />
+    <equipment level="3" cost="50" equipId="300026" />
+    <equipment level="3" prob="0.03" equipId="400026" />
+    <observeBonus level="1" type="prob">3</observeBonus>
+    <observeBonus level="2" type="speed">5</observeBonus>
+    <observeBonus level="3" type="prob">3</observeBonus>
+    <observeBonus level="4" type="speed">5</observeBonus>
+    <qliphoth>1</qliphoth>
+  </stat>
+  <graph>
+    <node id="creature" x="-1.6" y="-1.8" type="creature" />
+    <node id="workspace" x="1.9" y="-1.8" type="workspace" />
+    <node id="outter" x="0" y="0" type="outterDoor" />
+    <node id="inner" x="2" y="-1.8" type="innerDoor" />
+    <node id="spider" x="0.15" y="-1.8" type="custom" />
+    <edge node1="spider" node2="workspace" type="road" />
+    <edge node1="workspace" node2="inner" type="road" />
+    <edge node1="creature" node2="workspace" type="road" />
+  </graph>
+  <anim prefab="Unit/CreatureAnimator/QueenBeeAnim" x="-1" y="-2" />
+  <returnImg src="" />
+  <portrait src="CreatureSprite/Dummy" />
+  <sound action="stand" src="creature/queenbee/QueenBee_Standing_01" />
+  <sound action="spore" src="creature/queenbee/QueenBee_Funga_01" />
+  <sound action="wing" src="creature/queenbee/QueenBee_Funga_02" />
+  <child>QueenBee_Worker_stat</child>
+</creature>

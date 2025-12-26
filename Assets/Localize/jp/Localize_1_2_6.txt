@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LocalizeDataList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <list>
+    <LocalizeData>
+      <id>GitHubView_UpdateSortDesc</id>
+      <value>アップデート順</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>GitHubView_StarredSortDesc</id>
+      <value>おすすめ順：</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>CommentView_CommentWirte</id>
+      <value>コメントを投稿</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>CommentView_CommentSend</id>
+      <value>登録</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>CommentView_DoLogin_If_Comment</id>
+      <value>GitHubアプリ連動を完了したユーザーのみ作成することができます。</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>CommentView_CommentEdit</id>
+      <value>コメントの編集</value>
+    </LocalizeData>
+  </list>
+</LocalizeDataList>

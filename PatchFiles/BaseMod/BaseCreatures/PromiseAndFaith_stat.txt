@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<creature>
+  <script>PromiseAndFaith</script>
+  <workAnim face="unique">PromiseAndFaithUse</workAnim>
+  <stat>
+    <riskLevel>1</riskLevel>
+    <maxWorkCount>1</maxWorkCount>
+    <workType>kit</workType>
+    <kitType>oneshot</kitType>
+    <observeInfo>
+      <observeElement name="stat" cost="2" />
+      <observeElement name="care_0" cost="1" />
+      <observeElement name="care_1" cost="3" />
+      <observeElement name="care_2" cost="3" />
+      <observeElement name="care_3" cost="5" />
+      <observeElement name="care_4" cost="7" />
+      <observeElement name="care_5" cost="10" />
+    </observeInfo>
+    <observeBonus level="1" type="speed">5</observeBonus>
+    <observeBonus level="2" type="prob">5</observeBonus>
+    <observeBonus level="3" type="speed">5</observeBonus>
+    <observeBonus level="4" type="prob">5</observeBonus>
+    <escapeable>false</escapeable>
+    <qliphoth>0</qliphoth>
+  </stat>
+  <graph>
+    <node id="creature" x="-1.6" y="-1.8" type="creature" />
+    <node id="workspace" x="1" y="-1.8" type="workspace" />
+    <!--<node id="door"  x="2" y="-1" type="entry"/>-->
+    <node id="outter" x="0" y="0" type="outterDoor" />
+    <node id="inner" x="2" y="-1.8" type="innerDoor" />
+    <!--<edge node1="workspace" node2="door" type="road" />-->
+    <edge node1="workspace" node2="inner" type="road" />
+    <edge node1="creature" node2="workspace" type="road" />
+  </graph>
+  <anim prefab="Unit/CreatureAnimator/PromiseAndFaithAnim" />
+  <portrait src="Unit/creature/magicalGirl" />
+  <!--<sound action="listen" src="creature/Theresia/Theresia"/>-->
+</creature>

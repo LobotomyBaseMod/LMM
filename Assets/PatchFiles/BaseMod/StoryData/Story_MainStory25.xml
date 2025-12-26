@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <scene id="25">
+    <character id="angela" name="angela_name" color="FFBBFF" sprite="Angela" />
+
+
+
+
+    <bgm src="story-03-ending" />
+
+    <position character="angela" to="right" />
+
+  
+    <speak speaker="angela">day25_angela_1</speak>
+    <speak speaker="angela">day25_angela_2</speak>
+    <speak speaker="angela">day25_angela_3</speak>
+    <speak speaker="angela" anim="Glad1">day25_angela_4</speak>
+    <speak speaker="angela" anim="Default1">day25_angela_5</speak>
+    <speak speaker="angela" anim="Anger2">day25_angela_6</speak>
+    <speak speaker="angela">day25_angela_7</speak>
+    <speak speaker="angela">day25_angela_8</speak>
+    <speak speaker="angela">day25_angela_9</speak>
+    <speak speaker="angela" anim="Glad1">day25_angela_10</speak>
+    <speak speaker="angela" anim="Anger1">day25_angela_11</speak>
+    <speak speaker="angela">day25_angela_12</speak>
+    <speak speaker="angela">day25_angela_13</speak>
+    <speak speaker="angela">day25_angela_14</speak>
+    <speak speaker="angela">day25_angela_15</speak>
+    <speak speaker="angela">day25_angela_16</speak>
+    <speak speaker="angela">day25_angela_17</speak>
+
+    <select>
+      <option text="day25_selection1">
+        <speak speaker="angela" anim="Default1">day25_angela_1_1</speak>
+        <speak speaker="angela">day25_angela_1_2</speak>
+        <speak speaker="angela">day25_angela_1_3</speak>
+        <speak speaker="angela">day25_angela_1_4</speak>
+        <speak speaker="angela" anim="Glad1">day25_angela_1_5</speak>
+      </option>
+      <option text="day25_selection2">
+        <speak speaker="angela" anim="Default1">day25_angela_2_1</speak>
+        <speak speaker="angela">day25_angela_2_2</speak>
+        <speak speaker="angela" anim="Glad1">day25_angela_2_3</speak>
+        <speak speaker="angela">day25_angela_2_4</speak>
+        <speak speaker="angela" anim="Glad2">day25_angela_2_5</speak>
+      </option>
+    </select>
+ 
+
+  </scene>
+
+
+</root>

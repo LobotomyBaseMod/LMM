@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <script>Sakura</script>
+  <stat>
+    <riskLevel>2</riskLevel>
+    <maxWorkCount>4</maxWorkCount>
+    <workProb type="R">
+      <prob level="1">0.4</prob>
+      <prob level="2">0.4</prob>
+      <prob level="3">0.4</prob>
+      <prob level="4">0.4</prob>
+      <prob level="5">0.4</prob>
+    </workProb>
+    <workProb type="W">
+      <prob level="1">0.55</prob>
+      <prob level="2">0.55</prob>
+      <prob level="3">0.55</prob>
+      <prob level="4">0.55</prob>
+      <prob level="5">0.55</prob>
+    </workProb>
+    <workProb type="B">
+      <prob level="1">0.55</prob>
+      <prob level="2">0.55</prob>
+      <prob level="3">0.55</prob>
+      <prob level="4">0.55</prob>
+      <prob level="5">0.55</prob>
+    </workProb>
+    <workProb type="P">
+      <prob level="1">0.2</prob>
+      <prob level="2">0.2</prob>
+      <prob level="3">0.2</prob>
+      <prob level="4">0.2</prob>
+      <prob level="5">0.2</prob>
+    </workProb>
+    <workCooltime>10</workCooltime>
+    <feelingStateCubeBounds>
+      <cube>3</cube>
+      <cube>6</cube>
+      <cube>12</cube>
+    </feelingStateCubeBounds>
+    <workDamage type="W" min="2" max="4" />
+    <workSpeed>0.3</workSpeed>
+    <escapeable>false</escapeable>
+    <defense id="1">
+      <defenseElement type="R">1</defenseElement>
+      <defenseElement type="W">1</defenseElement>
+      <defenseElement type="B">1</defenseElement>
+      <defenseElement type="P">1</defenseElement>
+    </defense>
+    <observeInfo total="52">
+      <observeElement name="stat" cost="12" />
+      <observeElement name="defense" cost="12" />
+      <observeElement name="work_r" cost="4" />
+      <observeElement name="work_w" cost="4" />
+      <observeElement name="work_b" cost="4" />
+      <observeElement name="work_p" cost="4" />
+      <observeElement name="care_0" cost="2" />
+      <observeElement name="care_1" cost="2" />
+      <observeElement name="care_2" cost="2" />
+      <observeElement name="care_3" cost="2" />
+      <observeElement name="care_4" cost="2" />
+      <observeElement name="care_5" cost="2" />
+    </observeInfo>
+    <equipment level="3" cost="25" equipId="200059" />
+    <equipment level="3" cost="30" equipId="300059" />
+    <equipment level="2" prob="0.08" equipId="400059" />
+    <observeBonus level="1" type="speed">6</observeBonus>
+    <observeBonus level="2" type="prob">4</observeBonus>
+    <observeBonus level="3" type="speed">6</observeBonus>
+    <observeBonus level="4" type="prob">4</observeBonus>
+    <qliphoth>3</qliphoth>
+  </stat>
+  <graph>
+    <node id="creature" x="-1.6" y="-1.8" type="creature" />
+    <node id="workspace" x="1.9" y="-1.8" type="workspace" />
+    <node id="outter" x="0" y="0" type="outterDoor" />
+    <node id="inner" x="2" y="-1.8" type="innerDoor" />
+    <edge node1="workspace" node2="inner" type="road" />
+    <edge node1="creature" node2="workspace" type="road" />
+  </graph>
+  <anim prefab="Unit/CreatureAnimator/Sakura" x="-1" y="-2" />
+  <returnImg src="Unit/CreatureReturnObject/DummyReturn" />
+  <portrait src="Sprites/Unit/creature/NamelessFetus" />
+  <sound action="cast" src="creature/Sakura/Sakura_ChangeCast" />
+  <sound action="skill" src="creature/Sakura/Sakura_Change" />
+  <sound action="kill1" src="creature/Sakura/Sakura_Kill1" />
+  <sound action="kill2" src="creature/Sakura/Sakura_Kill2" />
+</creature>

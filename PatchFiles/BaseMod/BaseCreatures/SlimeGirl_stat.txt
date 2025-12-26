@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <script>SlimeGirl</script>
+  <stat>
+    <riskLevel>5</riskLevel>
+    <maxWorkCount>4</maxWorkCount>
+    <workProb type="R">
+      <prob level="1">0.2</prob>
+      <prob level="2">0.2</prob>
+      <prob level="3">0.3</prob>
+      <prob level="4">0.4</prob>
+      <prob level="5">0.4</prob>
+    </workProb>
+    <workProb type="W">
+      <prob level="1">0.4</prob>
+      <prob level="2">0.4</prob>
+      <prob level="3">0.4</prob>
+      <prob level="4">0.45</prob>
+      <prob level="5">0.45</prob>
+    </workProb>
+    <workProb type="B">
+      <prob level="1">0.2</prob>
+      <prob level="2">0.3</prob>
+      <prob level="3">0.4</prob>
+      <prob level="4">0.5</prob>
+      <prob level="5">0.55</prob>
+    </workProb>
+    <workProb type="P">
+      <prob level="1">0</prob>
+      <prob level="2">0</prob>
+      <prob level="3">0</prob>
+      <prob level="4">0</prob>
+      <prob level="5">0</prob>
+    </workProb>
+    
+    <workCooltime>15</workCooltime>
+      
+    <feelingStateCubeBounds>
+      <cube>14</cube>
+      <cube>24</cube>
+      <cube>32</cube>
+    </feelingStateCubeBounds>
+    
+    <workDamage type="B" min="4" max="10"/>
+    <workSpeed>0.33</workSpeed>
+    <escapeable>true</escapeable>
+    
+    <specialDamage>
+      <damage id="1" type="B" min="10" max="14" />
+    </specialDamage>
+    
+    <hp>1500</hp>
+    <speed>2.5</speed>
+    
+    <defense id="1">
+      <defenseElement type="R">-1</defenseElement>
+      <defenseElement type="W">1</defenseElement>
+      <defenseElement type="B">1.5</defenseElement>
+      <defenseElement type="P">0.8</defenseElement>
+    </defense>
+    
+    <observeInfo total="142">
+      <observeElement name="stat" cost="30" />
+      <observeElement name="defense" cost="30" />
+      <observeElement name="work_r" cost="10" />
+      <observeElement name="work_w" cost="10" />
+      <observeElement name="work_b" cost="10" />
+      <observeElement name="work_p" cost="10" />
+      
+      <observeElement name="care_0" cost="6" />
+      <observeElement name="care_1" cost="6" />
+      <observeElement name="care_2" cost="6" />
+      <observeElement name="care_3" cost="6" />
+      <observeElement name="care_4" cost="6" />
+      <observeElement name="care_5" cost="6" />
+      <observeElement name="care_6" cost="6" />
+    </observeInfo>
+    
+    <equipment level="4" cost="222" equipId="200063" />
+    <equipment level="4" cost="120" equipId="300063" />
+    <equipment level="4" prob="0.01" equipId="400063" />
+    
+    <observeBonus level="1" type="speed">4</observeBonus>
+    <observeBonus level="2" type="prob">2</observeBonus>
+    <observeBonus level="3" type="speed">4</observeBonus>
+    <observeBonus level="4" type="prob">2</observeBonus>
+    
+    <qliphoth>3</qliphoth>
+  </stat>
+  <graph>
+    <node id="creature" x="-1.6" y="-1.8" type="creature" />
+    <node id="workspace" x="1.9" y="-1.8" type="workspace" />
+    <node id="outter" x="0" y="0" type="outterDoor" />
+    <node id="inner" x="2" y="-1.8" type="innerDoor" />
+    <edge node1="workspace" node2="inner" type="road" />
+    <edge node1="creature" node2="workspace" type="road" />
+  </graph>
+  <anim prefab="Unit/CreatureAnimator/SlimeGirl" x="-1" y="-2" />
+  <portrait src="CreatureSprite/Dummy" />
+  
+  <sound action="absorb_loop" src="creature/SlimeGirl/Slime_AbsorbLoop"/>
+  <sound action="absorb_start" src="creature/SlimeGirl/Slime_AbsorbStart"/>
+  <sound action="agent_dead" src="creature/SlimeGirl/Slime_Agent_Dead"/>
+  <sound action="angry" src="creature/SlimeGirl/Slime_Angry"/>
+  <sound action="attack" src="creature/SlimeGirl/Slime_Atk"/>
+  <sound action="baby_atk" src="creature/SlimeGirl/Slime_Baby_Atk"/>
+  <sound action="baby_dead" src="creature/SlimeGirl/Slime_Baby_Dead"/>
+  <sound action="dead" src="creature/SlimeGirl/Slime_Dead"/>
+  <sound action="love" src="creature/SlimeGirl/Slime_Love"/>
+  <sound action="spit" src="creature/SlimeGirl/Slime_Spit"/>
+  <sound action="default" src="creature/SlimeGirl/Tentacle_Default2"/>
+  
+  <child>SlimeCreature_stat</child>
+</creature>

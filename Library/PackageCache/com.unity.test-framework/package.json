@@ -1,0 +1,234 @@
+{
+  "name": "com.unity.test-framework",
+  "displayName": "Test Framework",
+  "version": "1.4.5",
+  "unity": "2019.4",
+  "unityRelease": "0a10",
+  "description": "Test framework for running Edit mode and Play mode tests in Unity.",
+  "keywords": [
+    "Test",
+    "TestFramework"
+  ],
+  "category": "Unity Test Framework",
+  "repository": {
+    "url": "https://github.com/Unity-Technologies/com.unity.test-framework.git",
+    "type": "git",
+    "revision": "e50747c90fb18ab9f4f350b60d0fcdcae19bdebc"
+  },
+  "dependencies": {
+    "com.unity.ext.nunit": "2.0.3",
+    "com.unity.modules.imgui": "1.0.0",
+    "com.unity.modules.jsonserialize": "1.0.0"
+  },
+  "samples": [
+    {
+      "displayName": "Exercise 1: Running Tests",
+      "description": "This exercise will teach you how to set up a simple Unity project with a test assembly and tests.",
+      "interactiveImport": true,
+      "path": "Samples~/1_RunningTest_Project"
+    },
+    {
+      "displayName": "Exercise 1: Solution",
+      "description": "This exercise will teach you how to set up a simple Unity project with a test assembly and tests.",
+      "interactiveImport": true,
+      "path": "Samples~/1_RunningTest_Project_Solution"
+    },
+    {
+      "displayName": "Exercise 2: Arrange, Act, Assert",
+      "description": "In this exercise, you will learn about the core unit testing principle of AAA (Arrange, Act, Assert), which will help you structure your unit test.",
+      "interactiveImport": true,
+      "path": "Samples~/2_ActArrangeAssert"
+    },
+    {
+      "displayName": "Exercise 2: Solution",
+      "description": "In this exercise, you will learn about the core unit testing principle of AAA (Arrange, Act, Assert), which will help you structure your unit test.",
+      "interactiveImport": true,
+      "path": "Samples~/2_ActArrangeAssert_Solution"
+    },
+    {
+      "displayName": "Exercise 3: Semantic Test Assertion",
+      "description": "You will be introduced to the Assert.That and related classes.",
+      "interactiveImport": true,
+      "path": "Samples~/3_SemanticTestAssertion"
+    },
+    {
+      "displayName": "Exercise 3: Solution",
+      "description": "You will be introduced to the Assert.That and related classes.",
+      "interactiveImport": true,
+      "path": "Samples~/3_SemanticTestAssertion_Solution"
+    },
+    {
+      "displayName": "Exercise 4: Custom Comparison",
+      "description": "This exercise will cover the custom equality comparers included in UTF, such as Vector3EqualityComparer. These are used to assert on e.g. Vectors.",
+      "interactiveImport": true,
+      "path": "Samples~/4_CustomComparison"
+    },
+    {
+      "displayName": "Exercise 4: Solution",
+      "description": "This exercise will cover the custom equality comparers included in UTF, such as Vector3EqualityComparer. These are used to assert on e.g. Vectors.",
+      "interactiveImport": true,
+      "path": "Samples~/4_CustomComparison_Solution"
+    },
+    {
+      "displayName": "Exercise 5: Asserting Logs",
+      "description": "How to test and verify code that logs to the console log.",
+      "interactiveImport": true,
+      "path": "Samples~/5_AssertingLogs"
+    },
+    {
+      "displayName": "Exercise 5: Solution",
+      "description": "How to test and verify code that logs to the console log.",
+      "interactiveImport": true,
+      "path": "Samples~/5_AssertingLogs_Solution"
+    },
+    {
+      "displayName": "Exercise 6: Set Up and Tear Down",
+      "description": "In this exercise, you will get practical experience in using the NUnit attributes [SetUp] and [TearDown] in order to reduce code duplication in your tests.",
+      "interactiveImport": true,
+      "path": "Samples~/6_SetUpTearDown"
+    },
+    {
+      "displayName": "Exercise 6: Solution",
+      "description": "In this exercise, you will get practical experience in using the NUnit attributes [SetUp] and [TearDown] in order to reduce code duplication in your tests.",
+      "interactiveImport": true,
+      "path": "Samples~/6_SetUpTearDown_Solution"
+    },
+    {
+      "displayName": "Exercise 7: PlayMode Tests",
+      "description": "This exercise introduces the concept of PlayMode tests and will teach you when to use PlayMode tests, how to set up assembly definition for PlayMode tests, and how to run tests in PlayMode.",
+      "interactiveImport": true,
+      "path": "Samples~/7_PlayModeTests"
+    },
+    {
+      "displayName": "Exercise 7: Solution",
+      "description": "This exercise introduces the concept of PlayMode tests and will teach you when to use PlayMode tests, how to set up assembly definition for PlayMode tests, and how to run tests in PlayMode.",
+      "interactiveImport": true,
+      "path": "Samples~/7_PlayModeTests_Solution"
+    },
+    {
+      "displayName": "Exercise 8: PlayMode Tests in Player",
+      "description": "This section will teach you how to run PlayMode tests in a Standalone player on your machine.",
+      "interactiveImport": true,
+      "path": "Samples~/8_PlayModeTests_InPlayer"
+    },
+    {
+      "displayName": "Exercise 9: UnityTest Attribute",
+      "description": "This section will introduce you to the custom UnityTest Attribute, which allows for creating test that runs over multiple frames.",
+      "interactiveImport": true,
+      "path": "Samples~/9_UnityTestAttribute"
+    },
+    {
+      "displayName": "Exercise 9: Solution",
+      "description": "This section will introduce you to the custom UnityTest Attribute, which allows for creating test that runs over multiple frames.",
+      "interactiveImport": true,
+      "path": "Samples~/9_UnityTestAttribute_Solution"
+    },
+    {
+      "displayName": "Exercise 10: Long Running Tests",
+      "description": "This exercise will cover best practices and pitfalls for tests that have a long runtime, such as tests yielding back a WaitForSeconds.",
+      "interactiveImport": true,
+      "path": "Samples~/10_LongRunningTests"
+    },
+    {
+      "displayName": "Exercise 10: Solution",
+      "description": "This exercise will cover best practices and pitfalls for tests that have a long runtime, such as tests yielding back a WaitForSeconds.",
+      "interactiveImport": true,
+      "path": "Samples~/10_LongRunningTests_Solution"
+    },
+    {
+      "displayName": "Exercise 11: Scene Based Tests",
+      "description": "In this exercise, you will learn how to test content that is stored in a scene.",
+      "interactiveImport": true,
+      "path": "Samples~/11_SceneBasedTests"
+    },
+    {
+      "displayName": "Exercise 11: Solution",
+      "description": "In this exercise, you will learn how to test content that is stored in a scene.",
+      "interactiveImport": true,
+      "path": "Samples~/11_SceneBasedTests_Solution"
+    },
+    {
+      "displayName": "Exercise 12: Build Setup and Cleanup",
+      "description": "This section will introduce you to the hooks in the test framework for before and after the player build.",
+      "interactiveImport": true,
+      "path": "Samples~/12_BuildSetupCleanup"
+    },
+    {
+      "displayName": "Exercise 12: Solution",
+      "description": "This section will introduce you to the hooks in the test framework for before and after the player build.",
+      "interactiveImport": true,
+      "path": "Samples~/12_BuildSetupCleanup_Solution"
+    },
+    {
+      "displayName": "Exercise 13: Domain Reload",
+      "description": "In this section, you will learn how to invoke and wait for Domain Reloads.",
+      "interactiveImport": true,
+      "path": "Samples~/13_DomainReload"
+    },
+    {
+      "displayName": "Exercise 13: Solution",
+      "description": "In this section, you will learn how to invoke and wait for Domain Reloads.",
+      "interactiveImport": true,
+      "path": "Samples~/13_DomainReload_Solution"
+    },
+    {
+      "displayName": "Exercise 14: Preserve Test State",
+      "description": "This section will cover how to let variables and information in your tests survive domain reloads using serialization.",
+      "interactiveImport": true,
+      "path": "Samples~/14_PreserveTestState"
+    },
+    {
+      "displayName": "Exercise 14: Solution",
+      "description": "This section will cover how to let variables and information in your tests survive domain reloads using serialization.",
+      "interactiveImport": true,
+      "path": "Samples~/14_PreserveTestState_Solution"
+    },
+    {
+      "displayName": "Exercise 15: Test Cases",
+      "description": "This section will cover [TestCase] and similar NUnit attributes and how to work with them in UnityTests.",
+      "interactiveImport": true,
+      "path": "Samples~/15_TestCases"
+    },
+    {
+      "displayName": "Exercise 15: Solution",
+      "description": "This section will cover [TestCase] and similar NUnit attributes and how to work with them in UnityTests.",
+      "interactiveImport": true,
+      "path": "Samples~/15_TestCases_Solution"
+    },
+    {
+      "displayName": "Exercise 16: Custom Attributes",
+      "description": "In this section we will look at some ways of implementing custom NUnit attributes, which can be used to alter test execution.",
+      "interactiveImport": true,
+      "path": "Samples~/16_CustomAttributes"
+    },
+    {
+      "displayName": "Exercise 16: Solution",
+      "description": "In this section we will look at some ways of implementing custom NUnit attributes, which can be used to alter test execution.",
+      "interactiveImport": true,
+      "path": "Samples~/16_CustomAttributes_Solution"
+    },
+    {
+      "displayName": "Exercise 17: Runnings Tests Programmatically",
+      "description": "This section will introduce the TestRunnerApi, teaching you how to trigger a test run programmatically.",
+      "interactiveImport": true,
+      "path": "Samples~/17_RunningTestsProgrammatically"
+    },
+    {
+      "displayName": "Exercise 17: Solution",
+      "description": "This section will introduce the TestRunnerApi, teaching you how to trigger a test run programmatically.",
+      "interactiveImport": true,
+      "path": "Samples~/17_RunningTestsProgrammatically_Solution"
+    }
+  ],
+  "relatedPackages": {
+    "com.unity.test-framework.tests": "1.4.5"
+  },
+  "_upm": {
+    "changelog": "- Fixed an issue where batchmode test runs would never finish if a test yielded WaitForEndOfFrame (DSTR-1009).\n- Fixed an issue where the location prompt was required when using the Install all tests in 'build' folder option during test builds.\n- Canceling a PlayMode test run now correctly restores the scene setup, instead of leaving the editor in the test scene.\n- Fixed an issue where UnitySetUp did not fail when nested coroutines threw an exception (DSTR-1007).\n- When selecting multiple tests and running them, the test runner now correctly updates the details of the first selected test (UTF-602).\n- The interaction mode and application idle time settings is now being changes when running tests, resulting in faster test runs if not already in use (applies to 2020.3 and later) (DSTR-690).\n- Fixed an issue where some NUnit attributes caused errors and stopped async test runs (DSTR-1040).\n- Added support for the MaxTime attribute on async and UnityTest methods (DSTR-1040).\n- Fixed a memory leak issue where a large number of domain reloads within the same test could crash the editor (DSTR-1023).\n- Changed to use a progress bar inside the test runner window when running tests. This ensures that the progress bar is not fighting to display when e.g. compiling scripts and also makes it easier to cancel a run. This progress bar is displayed for all types of runs (EditMode, PlayMode and Player). (UTF-596).\n- Fixed an issue where ignored tests with an attributes did not display the ignore reason in the test runner UI.\n- Having multiple tests with the same unique id no longer gives a error with 'An item with the same key has already been added', but instead logs an warning about the duplicate id.\n- The result icons for test suites should no longer flicker when running tests.\n- Ensured that test results ignored in the editor but run on a player are not overwritten with ignore status when shown in the UI (DSTR-1042).\n- Fixed an issue where the RunStarted event was not invoked correctly during a test run (DSTR-1046).\n- Fixed an issue where TestStarted and TestFinished events were repeated for ignored test fixtures after a domain reload (DSTR-986)."
+  },
+  "upmCi": {
+    "footprint": "594e04e8fc9a267b604d2087599a8c6538f62574"
+  },
+  "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.test-framework@1.4/manual/index.html",
+  "_fingerprint": "0a21eb82d95cd331643a1e0ce4e8e9a5f18954c8"
+}

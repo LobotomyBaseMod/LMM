@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <script>Ppodae</script>
+  <stat>
+    <riskLevel>2</riskLevel>
+    
+    <maxWorkCount>15</maxWorkCount>
+
+    <workProb type="R">
+      <prob level="1">0.6</prob>
+      <prob level="2">0.6</prob>
+      <prob level="3">0.6</prob>
+      <prob level="4">0.6</prob>
+      <prob level="5">0.6</prob>
+    </workProb>
+
+    <workProb type="W">
+      <prob level="1">0.4</prob>
+      <prob level="2">0.4</prob>
+      <prob level="3">0.3</prob>
+      <prob level="4">0.3</prob>
+      <prob level="5">0.3</prob>
+    </workProb>
+
+    <workProb type="B">
+      <prob level="1">0.4</prob>
+      <prob level="2">0.4</prob>
+      <prob level="3">0.4</prob>
+      <prob level="4">0.4</prob>
+      <prob level="5">0.4</prob>
+    </workProb>
+
+    <workProb type="P">
+      <prob level="1">0.4</prob>
+      <prob level="2">0.4</prob>
+      <prob level="3">0.3</prob>
+      <prob level="4">0.3</prob>
+      <prob level="5">0.3</prob>
+    </workProb>
+
+    <escapeable>true</escapeable>
+
+    <workCooltime>15</workCooltime>
+    <feelingStateCubeBounds>
+      <cube>6</cube>
+      <cube>9</cube>
+      <cube>12</cube>
+    </feelingStateCubeBounds>
+
+    <workDamage type="R" min="2" max="3" />
+    <workSpeed>0.3</workSpeed>
+
+    <specialDamage>
+      <weapon id="1" weaponId="100105" />
+      <damage id="2" type="R" min="10" max="14" />
+    </specialDamage>
+
+    <defense id="1">
+      <defenseElement type="R">1.2</defenseElement>
+      <defenseElement type="W">0.8</defenseElement>
+      <defenseElement type="B">1</defenseElement>
+      <defenseElement type="P">2</defenseElement>
+    </defense>
+
+    <observeInfo total="52">
+      <observeElement name="stat" cost="12"/>
+      <observeElement name="defense" cost="12"/>
+      <observeElement name="work_r" cost="4"/>
+      <observeElement name="work_w" cost="4"/>
+      <observeElement name="work_b" cost="4"/>
+      <observeElement name="work_p" cost="4"/>
+
+      <observeElement name="care_0" cost="4"/>
+      <observeElement name="care_1" cost="4"/>
+      <observeElement name="care_2" cost="4"/>
+    </observeInfo>
+
+    <equipment level="3" cost="25" equipId="200106" />
+    <equipment level="3" cost="20" equipId="300106" />
+    <equipment level="2" prob="0.05" equipId="400106" />
+
+    <observeBonus level="1" type="speed">5</observeBonus>
+    <observeBonus level="2" type="prob">5</observeBonus>
+    <observeBonus level="3" type="speed">5</observeBonus>
+    <observeBonus level="4" type="prob">5</observeBonus>
+
+    <speed>4</speed>
+    <hp>230</hp>
+    <qliphoth>2</qliphoth>
+  </stat>
+
+  <graph>
+    <node id="creature" x="-1.6" y="-1.8" type="creature"/>
+    <node id="workspace" x="1.9" y="-1.8" type="workspace"/>
+
+    <!--<node id="door"  x="2" y="-1" type="entry"/>-->
+    <node id="outter" x="0" y="0" type="outterDoor"/>
+    <node id="inner" x="2" y="-1.8" type="innerDoor"/>
+
+    <!--<edge node1="workspace" node2="door" type="road" />-->
+    <edge node1="workspace" node2="inner" type="road" />
+    <edge node1="creature" node2="workspace" type="road" />
+  </graph>
+
+  <anim prefab="Unit/CreatureAnimator/PpodaeAnim" x="-1" y="-2"/>
+
+  <portrait src="Unit/creature/Ppodae"/>
+
+  <!--<sound action="attack" src="creature/match_girl/matchgirl_attack"/>
+  <sound action="enter" src="creature/match_girl/matchgirl_enter"/>-->
+</creature>

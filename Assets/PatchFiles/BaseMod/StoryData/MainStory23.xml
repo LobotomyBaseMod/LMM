@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <scene id="23">
+    <character id="angela" name="angela_name" color="FFBBFF" sprite="Angela" />
+
+
+
+
+    <bgm src="story-04_ogg" />
+
+    <position character="angela" to="right" />
+
+  
+    <speak speaker="angela">day23_angela_1</speak>
+    <speak speaker="angela">day23_angela_2</speak>
+    <speak speaker="angela">day23_angela_3</speak>
+    <speak speaker="angela">day23_angela_4</speak>
+    <speak speaker="angela">day23_angela_5</speak>
+    <speak speaker="angela" anim="Anger1">day23_angela_6</speak>
+    <speak speaker="angela">day23_angela_7</speak>
+    <speak speaker="angela">day23_angela_8</speak>
+    <speak speaker="angela">day23_angela_9</speak>
+    <speak speaker="angela">day23_angela_10</speak>
+    <speak speaker="angela" anim="Default1">day23_angela_11</speak>
+    <speak speaker="angela">day23_angela_12</speak>
+    <speak speaker="angela">day23_angela_13</speak>
+    <speak speaker="angela">day23_angela_14</speak>
+    <speak speaker="angela" anim="Glad1">day23_angela_15</speak>
+  
+
+  </scene>
+
+
+</root>

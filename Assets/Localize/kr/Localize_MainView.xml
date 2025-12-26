@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LocalizeDataList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <list>
+    <LocalizeData>
+      <id>UI_Btn_StartGame</id>
+      <value>게임실행</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_SearchNexus</id>
+      <value>넥서스 모드 탐색</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_AddLocalMod</id>
+      <value>로컬 모드 추가</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_SetGamePath</id>
+      <value>게임 경로 지정</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_RemoveMod</id>
+      <value>모드 제거</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_gotoModPage_Main</id>
+      <value>모드 페이지로</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_SearchGitHub</id>
+      <value>깃허브 모드 탐색</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_OpenModFolder_Main</id>
+      <value>모드 폴더 열기</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_LocalChange_Main</id>
+      <value>로컬 모드로 전환</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>UI_Text_UpdateCheck_Main</id>
+      <value>새 업데이트!</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>UI_Btn_ModState_None</id>
+      <value>로컬</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_ModState_Empty</id>
+      <value>미다운로드</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_ModState_Lastest</id>
+      <value>최신</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_ModState_Update</id>
+      <value>새업데이트</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_ModState_Downloading</id>
+      <value>다운로드중</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_ModState_UpdateCheck</id>
+      <value>새버전체크중</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_ModState_CantCheck</id>
+      <value>세션오류</value>
+    </LocalizeData>
+
+  </list>
+</LocalizeDataList>

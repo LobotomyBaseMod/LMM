@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<creature>
+  <script>Porccu</script>
+  <stat>
+    <riskLevel>3</riskLevel>
+    <maxWorkCount>3</maxWorkCount>
+    <workProb type="R">
+      <prob level="1">0.6</prob>
+      <prob level="2">0.6</prob>
+      <prob level="3">0.6</prob>
+      <prob level="4">0.6</prob>
+      <prob level="5">0.6</prob>
+    </workProb>
+    <workProb type="W">
+      <prob level="1">0.4</prob>
+      <prob level="2">0.4</prob>
+      <prob level="3">0.4</prob>
+      <prob level="4">0.4</prob>
+      <prob level="5">0.4</prob>
+    </workProb>
+    <workProb type="B">
+      <prob level="1">0.5</prob>
+      <prob level="2">0.5</prob>
+      <prob level="3">0.5</prob>
+      <prob level="4">0.5</prob>
+      <prob level="5">0.5</prob>
+    </workProb>
+    <workProb type="P">
+      <prob level="1">0.3</prob>
+      <prob level="2">0.3</prob>
+      <prob level="3">0.3</prob>
+      <prob level="4">0.3</prob>
+      <prob level="5">0.3</prob>
+    </workProb>
+    <escapeable>true</escapeable>
+    <workCooltime>10</workCooltime>
+    <feelingStateCubeBounds>
+      <cube>8</cube>
+      <cube>14</cube>
+      <cube>18</cube>
+    </feelingStateCubeBounds>
+    <workDamage type="B" min="1" max="5" />
+    <workSpeed>0.3</workSpeed>
+    <specialDamage>
+      <damage id="1" type="W" min="10" max="14" />
+    </specialDamage>
+    <defense id="1">
+      <defenseElement type="R">1</defenseElement>
+      <defenseElement type="W">0.5</defenseElement>
+      <defenseElement type="B">1</defenseElement>
+      <defenseElement type="P">1.5</defenseElement>
+    </defense>
+    <observeInfo total="72">
+      <observeElement name="stat" cost="16" />
+      <observeElement name="defense" cost="16" />
+      <observeElement name="work_r" cost="5" />
+      <observeElement name="work_w" cost="5" />
+      <observeElement name="work_b" cost="5" />
+      <observeElement name="work_p" cost="5" />
+      <observeElement name="care_0" cost="4" />
+      <observeElement name="care_1" cost="4" />
+      <observeElement name="care_2" cost="4" />
+      <observeElement name="care_3" cost="4" />
+      <observeElement name="care_4" cost="4" />
+    </observeInfo>
+    <equipment level="4" cost="45" equipId="200057" />
+    <equipment level="3" cost="30" equipId="300057" />
+    <equipment level="2" prob="0.04" equipId="400057" />
+    <observeBonus level="1" type="speed">4</observeBonus>
+    <observeBonus level="2" type="prob">4</observeBonus>
+    <observeBonus level="3" type="speed">4</observeBonus>
+    <observeBonus level="4" type="prob">4</observeBonus>
+    <speed>0</speed>
+    <hp>830</hp>
+    <qliphoth>2</qliphoth>
+  </stat>
+  <graph>
+    <node id="creature" x="-1.6" y="-1.8" type="creature" />
+    <node id="workspace" x="1.9" y="-1.8" type="workspace" />
+    <node id="outter" x="0" y="0" type="outterDoor" />
+    <node id="inner" x="2" y="-1.8" type="innerDoor" />
+    <edge node1="workspace" node2="inner" type="road" />
+    <edge node1="creature" node2="workspace" type="road" />
+  </graph>
+  <anim prefab="Unit/CreatureAnimator/Porccu" x="-1" y="-2" />
+  <returnImg src="Unit/CreatureReturnObject/nothing" />
+  <portrait src="Unit/creature/magicalGirl" />
+  <sound action="Atk1" src="creature/Porccu/Porccu_Atk1" />
+  <sound action="Atk2" src="creature/Porccu/Porccu_Atk2" />
+  <sound action="Dead" src="creature/Porccu/Porccu_Dead" />
+  <sound action="DScene1" src="creature/Porccu/Porccu_DeadScene1" />
+  <sound action="DScene2" src="creature/Porccu/Porccu_DeadScene2" />
+  <sound action="Special" src="creature/Porccu/Porccu_Special" />
+</creature>

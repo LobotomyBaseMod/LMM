@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LocalizeDataList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <list>
+    <LocalizeData>
+      <id>PopupView_Normal_Close</id>
+      <value>Закрыть</value>
+    </LocalizeData>
+	
+	<LocalizeData>
+      <id>PopupView_Choice_Yes</id>
+      <value>Да</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Choice_No</id>
+      <value>Нет</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_GameStartError_Title</id>
+      <value>Не удаётся запустить игру</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_GameStartError_Desc</id>
+      <value>Произошла ошибка во время установки патча для игры.</value>
+    </LocalizeData>
+	
+	<LocalizeData>
+      <id>PopupView_Normal_ModUploadSuccess_Title</id>
+      <value>Загрузка завершена</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_ModUploadSuccess_Desc</id>
+      <value>Загрузка мода успешно завершена.</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_ModUploadFail_Title</id>
+      <value>Ошибка загрузки</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_ModUploadFail_Desc</id>
+      <value>Загрузка мода завершилась неудачно.</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_ModDeleteSuccess_Title</id>
+      <value>Удаление завершено</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_ModDeleteSuccess_Desc</id>
+      <value>Удаление мода успешно завершено.</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_ModDeleteFail_Title</id>
+      <value>Ошибка удаления</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_ModDeleteFail_Desc</id>
+      <value>Удаление мода завершилось неудачно.</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_ModUploadCheck_ModNameContainBlank_Title</id>
+      <value>Загрузка отклонена</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_ModUploadCheck_ModNameContainBlank_Desc</id>
+      <value>Названия модов не должны содержать пробелов.</value>
+    </LocalizeData>
+
+
+
+    <LocalizeData>
+      <id>PopupView_Choice_ModDelete_Desc</id>
+      <value>Вы хотите удалить мод?</value>
+    </LocalizeData>
+
+  </list>
+</LocalizeDataList>

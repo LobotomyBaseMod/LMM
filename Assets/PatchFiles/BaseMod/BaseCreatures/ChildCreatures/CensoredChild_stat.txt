@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <stat>
+    <hp>300</hp>
+    <speed>1</speed>
+
+    <defense id="1">
+      <defenseElement type="R">0.8</defenseElement>
+      <defenseElement type="W">1.2</defenseElement>
+      <defenseElement type="B">0.5</defenseElement>
+      <defenseElement type="P">1</defenseElement>
+    </defense>
+
+  </stat>
+
+  <anim prefab="Unit/CreatureAnimator/CensoredChild" x="-1" y="-2"/>
+
+  <attackType openLevel="1">BLACK</attackType>
+  <riskLevel openLevel="1">ALEPH</riskLevel>
+  
+  <sound action="attack" src="creature/Censored/Child/CensoredChild_Atk"/>
+  <sound action="born" src="creature/Censored/Child/CensoredChild_Born"/>
+
+  <script>CensoredChild</script>
+</creature>

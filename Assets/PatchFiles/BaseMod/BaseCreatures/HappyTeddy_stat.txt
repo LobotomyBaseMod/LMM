@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<creature>
+  <script>HappyTeddy</script>
+  <stat>
+    <riskLevel>3</riskLevel>
+    <maxWorkCount>4</maxWorkCount>
+    <workProb type="R">
+      <prob level="1">0</prob>
+      <prob level="2">0</prob>
+      <prob level="3">0</prob>
+      <prob level="4">0</prob>
+      <prob level="5">0</prob>
+    </workProb>
+    <workProb type="W">
+      <prob level="1">0.4</prob>
+      <prob level="2">0.45</prob>
+      <prob level="3">0.45</prob>
+      <prob level="4">0.35</prob>
+      <prob level="5">0.35</prob>
+    </workProb>
+    <workProb type="B">
+      <prob level="1">0.6</prob>
+      <prob level="2">0.6</prob>
+      <prob level="3">0.6</prob>
+      <prob level="4">0.5</prob>
+      <prob level="5">0.45</prob>
+    </workProb>
+    <workProb type="P">
+      <prob level="1">0.4</prob>
+      <prob level="2">0.45</prob>
+      <prob level="3">0.45</prob>
+      <prob level="4">0.4</prob>
+      <prob level="5">0.35</prob>
+    </workProb>
+    <escapeable>false</escapeable>
+    <workCooltime>10</workCooltime>
+    <feelingStateCubeBounds>
+      <cube>5</cube>
+      <cube>10</cube>
+      <cube>15</cube>
+    </feelingStateCubeBounds>
+    <workDamage type="W" min="2" max="4" />
+    <workSpeed>0.25</workSpeed>
+    <specialDamage>
+      <damage id="1" type="R" min="10" max="14" />
+    </specialDamage>
+    <defense id="1">
+      <defenseElement type="R">1</defenseElement>
+      <defenseElement type="W">1</defenseElement>
+      <defenseElement type="B">1</defenseElement>
+      <defenseElement type="P">1</defenseElement>
+    </defense>
+    <observeInfo total="70">
+      <observeElement name="stat" cost="16" />
+      <observeElement name="defense" cost="16" />
+      <observeElement name="work_r" cost="5" />
+      <observeElement name="work_w" cost="5" />
+      <observeElement name="work_b" cost="5" />
+      <observeElement name="work_p" cost="5" />
+      <observeElement name="care_0" cost="9" />
+      <observeElement name="care_1" cost="9" />
+    </observeInfo>
+    <equipment level="4" cost="40" equipId="200002" />
+    <equipment level="3" cost="30" equipId="300002" />
+    <equipment level="2" prob="0.04" equipId="400002" />
+    <observeBonus level="1" type="prob">3</observeBonus>
+    <observeBonus level="2" type="speed">5</observeBonus>
+    <observeBonus level="3" type="prob">5</observeBonus>
+    <observeBonus level="4" type="speed">3</observeBonus>
+    <qliphoth>0</qliphoth>
+  </stat>
+  <graph>
+    <node id="creature" x="-1.6" y="-1.8" type="creature" />
+    <node id="workspace" x="1.9" y="-1.8" type="workspace" />
+    <!--<node id="door"  x="2" y="-1" type="entry"/>-->
+    <node id="outter" x="0" y="0" type="outterDoor" />
+    <node id="inner" x="2" y="-1.8" type="innerDoor" />
+    <node id="teddy" x="-0.6" y="-1.8" type="custom" />
+    <!--<edge node1="workspace" node2="door" type="road" />-->
+    <edge node1="teddy" node2="inner" type="road" />
+    <edge node1="workspace" node2="inner" type="road" />
+    <edge node1="creature" node2="workspace" type="road" />
+  </graph>
+  <anim prefab="Unit/CreatureAnimator/TeddyAnim" x="-1" y="-2" />
+  <portrait src="Unit/creature/magicalGirl" />
+  <sound action="attack" src="creature/match_girl/matchgirl_attack" />
+  <sound action="enter" src="creature/match_girl/matchgirl_enter" />
+</creature>

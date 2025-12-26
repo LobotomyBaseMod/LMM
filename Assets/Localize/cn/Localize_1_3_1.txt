@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LocalizeDataList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <list>
+    <LocalizeData>
+      <id>PopupView_Normal_ModUploadCheck_ModDependancy_Title</id>
+      <value>上传失败</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>PopupView_Normal_ModUploadCheck_ModDependancy_Desc</id>
+      <value>模组依赖错误。
+- {0}</value>
+    </LocalizeData>
+
+
+    <LocalizeData>
+      <id>PopupView_Choice_ModDependancyFound_Desc</id>
+      <value>你没有订阅本模组所依赖的模组。
+{0}如果没有依赖的模组，本模组可能无法正常运行。是否同时订阅？</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>DevView_ModDependancyTab</id>
+      <value>模组依赖</value>
+    </LocalizeData>
+  </list>
+</LocalizeDataList>

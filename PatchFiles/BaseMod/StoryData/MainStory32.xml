@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <scene id="32">
+    <character id="angela" name="angela_name" color="FFBBFF" sprite="Angela" />
+
+
+
+    <bgm src="story-03-ending" />
+
+    <position character="angela" to="right" />
+
+  
+    <speak speaker="angela">day32_angela_1</speak>
+    <speak speaker="angela" anim="Anger1">day32_angela_2</speak>
+    <speak speaker="angela">day32_angela_3</speak>
+    <speak speaker="angela">day32_angela_4</speak>
+    <speak speaker="angela">day32_angela_5</speak>
+    <speak speaker="angela">day32_angela_6</speak>
+    <speak speaker="angela" anim="Anger2">day32_angela_7</speak>
+    <speak speaker="angela">day32_angela_8</speak>
+    <speak speaker="angela">day32_angela_9</speak>
+    <speak speaker="angela">day32_angela_10</speak>
+    <speak speaker="angela">day32_angela_11</speak>
+    <speak speaker="angela">day32_angela_12</speak>
+    <speak speaker="angela">day32_angela_13</speak>
+    <speak speaker="angela" anim="Default1">day32_angela_14</speak>
+    <speak speaker="angela">day32_angela_15</speak>
+    <speak speaker="angela">day32_angela_16</speak>
+    <speak speaker="angela">day32_angela_17</speak>
+    <speak speaker="angela" anim="Glad1">day32_angela_18</speak>
+
+
+
+  </scene>
+
+
+</root>

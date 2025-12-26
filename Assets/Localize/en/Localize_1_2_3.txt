@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LocalizeDataList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <list>
+    <LocalizeData>
+      <id>PopupView_Normal_ModUploadCheck_ModFileNull_Title</id>
+      <value>Reject upload</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_ModUploadCheck_ModFileNull_Desc</id>
+      <value>You need to register the file (zip) to upload the mod.</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Choice_TPNewVersionDetect_Desc</id>
+      <value>A new version has been detected, do you want to run after the update? (Selecting No will run with the current version.)</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>UI_GitHubView_AuthorName</id>
+      <value>Author:</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>UI_GitHubView_AuthorSearchBtn</id>
+      <value>Search for authors</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>ThirdPartyView_ModdingTool_Title</id>
+      <value>Modding Tool</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>ThirdPartyView_ModdingTool_Creator</id>
+      <value>Created By harupon45359</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>ThirdPartyView_ModdingTool_Desc</id>
+      <value>Programs to help you create E.G.O equipment</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>ThirdPartyView_TPState_Checking</id>
+      <value>Checking...</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>ThirdPartyView_TPState_NeedDownload</id>
+      <value>Download</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>ThirdPartyView_TPState_NeedUpdate</id>
+      <value>Run (new update)</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>ThirdPartyView_TPState_Lastest</id>
+      <value>Run</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>ThirdPartyView_TPState_Error</id>
+      <value>Error occurred</value>
+    </LocalizeData>
+  </list>
+</LocalizeDataList>

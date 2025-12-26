@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LocalizeDataList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <list>
+    <LocalizeData>
+      <id>PopupView_Normal_Close</id>
+      <value>Close</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Choice_Yes</id>
+      <value>Yes</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Choice_No</id>
+      <value>No</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_GameStartError_Title</id>
+      <value>Game Failed to Launch</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_GameStartError_Desc</id>
+      <value>Something went wrong during a game patch.</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_ModUploadSuccess_Title</id>
+      <value>Upload Complete</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_ModUploadSuccess_Desc</id>
+      <value>The mod upload has completed successfully.</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_ModUploadFail_Title</id>
+      <value>Upload failed</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_ModUploadFail_Desc</id>
+      <value>The mod upload did not complete successfully.</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_ModDeleteSuccess_Title</id>
+      <value>Delete Complete</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_ModDeleteSuccess_Desc</id>
+      <value>The mod deleted has completed successfully.</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_ModDeleteFail_Title</id>
+      <value>Delete failed.</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_ModDeleteFail_Desc</id>
+      <value>The mod delete did not complete successfully.</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_ModUploadCheck_ModNameContainBlank_Title</id>
+      <value>Reject uploads</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_ModUploadCheck_ModNameContainBlank_Desc</id>
+      <value>Mod names can't contain spaces.</value>
+    </LocalizeData>
+
+
+
+    <LocalizeData>
+      <id>PopupView_Choice_ModDelete_Desc</id>
+      <value>Do you want to delete the mod?</value>
+    </LocalizeData>
+
+
+
+  </list>
+</LocalizeDataList>

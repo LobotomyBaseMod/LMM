@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<creature>
+  <script>DummyCreature</script>
+  <stat>
+    <qliphoth>1</qliphoth>
+  </stat>
+  <graph>
+    <node id="creature" x="-1.6" y="-1.8" type="creature" />
+    <node id="workspace" x="1.9" y="-1.8" type="workspace" />
+    <!--<node id="door"  x="2" y="-1" type="entry"/>-->
+    <node id="outter" x="0" y="0" type="outterDoor" />
+    <node id="inner" x="2" y="-1.8" type="innerDoor" />
+    <!--<edge node1="workspace" node2="door" type="road" />-->
+    <edge node1="workspace" node2="inner" type="road" />
+    <edge node1="creature" node2="workspace" type="road" />
+  </graph>
+  <anim prefab="Unit/CreatureAnimator/MagicalGirlAnim" x="-1" y="-2" />
+  <portrait src="Unit/creature/magicalGirl" />
+  <sound action="attack" src="creature/match_girl/matchgirl_attack" />
+  <sound action="enter" src="creature/match_girl/matchgirl_enter" />
+</creature>

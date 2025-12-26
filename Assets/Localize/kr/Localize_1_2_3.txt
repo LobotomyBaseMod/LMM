@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LocalizeDataList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <list>
+    <LocalizeData>
+      <id>PopupView_Normal_ModUploadCheck_ModFileNull_Title</id>
+      <value>업로드 거부</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_ModUploadCheck_ModFileNull_Desc</id>
+      <value>모드 업로드를 위해서 파일(zip)을 등록해야 합니다.</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Choice_TPNewVersionDetect_Desc</id>
+      <value>새 버전이 감지되었습니다. 업데이트 후 실행하시겠습니까?(아니오 선택 시 현재 버전으로 실행합니다.)</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>UI_GitHubView_AuthorName</id>
+      <value>작성자:</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>UI_GitHubView_AuthorSearchBtn</id>
+      <value>작성자검색</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>ThirdPartyView_ModdingTool_Title</id>
+      <value>모딩툴</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>ThirdPartyView_ModdingTool_Creator</id>
+      <value>Created By 鍵月輝はるな（kagituki haruna )</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>ThirdPartyView_ModdingTool_Desc</id>
+      <value>E.G.O 장비 작성을 보조하는 프로그램</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>ThirdPartyView_TPState_Checking</id>
+      <value>확인 중...</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>ThirdPartyView_TPState_NeedDownload</id>
+      <value>다운로드</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>ThirdPartyView_TPState_NeedUpdate</id>
+      <value>실행(새 업데이트)</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>ThirdPartyView_TPState_Lastest</id>
+      <value>실행</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>ThirdPartyView_TPState_Error</id>
+      <value>오류 발생</value>
+    </LocalizeData>
+  </list>
+</LocalizeDataList>

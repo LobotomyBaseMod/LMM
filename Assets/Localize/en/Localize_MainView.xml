@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LocalizeDataList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <list>
+    <LocalizeData>
+      <id>UI_Btn_StartGame</id>
+      <value>Start Game</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_SearchNexus</id>
+      <value>Explore Nexus Mod</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_AddLocalMod</id>
+      <value>Add LocalMod</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_SetGamePath</id>
+      <value>Set Game Path</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_RemoveMod</id>
+      <value>Remove Mod</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_gotoModPage_Main</id>
+      <value>ModPage</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>UI_Btn_SearchGitHub</id>
+      <value>Explore GitHub Mod</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_OpenModFolder_Main</id>
+      <value>Open Mod Folder</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_LocalChange_Main</id>
+      <value>Transfer to LocalMod</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>UI_Text_UpdateCheck_Main</id>
+      <value>New Update!</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>UI_Btn_ModState_None</id>
+      <value>Local</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_ModState_Empty</id>
+      <value>Not Downloaded</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_ModState_Lastest</id>
+      <value>Latest</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_ModState_Update</id>
+      <value>New Update</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_ModState_Downloading</id>
+      <value>DownLoading</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_ModState_UpdateCheck</id>
+      <value>Checking Version</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_ModState_CantCheck</id>
+      <value>Error</value>
+    </LocalizeData>
+
+  </list>
+</LocalizeDataList>

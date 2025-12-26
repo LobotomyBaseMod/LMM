@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LocalizeDataList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <list>
+    <LocalizeData>
+      <id>UI_Btn_gotoModPage</id>
+      <value>mod ページへ</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_Search</id>
+      <value>検索</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>UI_Btn_PageMove</id>
+      <value>Move</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>UI_Btn_Subscribe_yes</id>
+      <value>サブスクリプション中</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_Subscribe_do</id>
+      <value>サブスクリプション</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>UI_GitHubView_SortUpdate</id>
+      <value>最新の更新順に並べ替え：</value>
+    </LocalizeData>
+
+
+  </list>
+</LocalizeDataList>

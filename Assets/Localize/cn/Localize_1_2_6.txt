@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LocalizeDataList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <list>
+    <LocalizeData>
+      <id>GitHubView_UpdateSortDesc</id>
+      <value>按更新时间排列：</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>GitHubView_StarredSortDesc</id>
+      <value>按星数排列：</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>CommentView_CommentWirte</id>
+      <value>评论</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>CommentView_CommentSend</id>
+      <value>发送</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>CommentView_DoLogin_If_Comment</id>
+      <value>使用此功能前，需要登录到Github。</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>CommentView_CommentEdit</id>
+      <value>编辑评论</value>
+    </LocalizeData>
+  </list>
+</LocalizeDataList>

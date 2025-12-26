@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <stat>
+    <hp>1300</hp>
+    <speed>4</speed>
+
+    <defense id="1">
+      <defenseElement type="R">1.2</defenseElement>
+      <defenseElement type="W">0</defenseElement>
+      <defenseElement type="B">1</defenseElement>
+      <defenseElement type="P">2</defenseElement>
+    </defense>
+
+  </stat>
+
+  <anim prefab="Unit/CreatureAnimator/Piano_Creature_Escape" x="-1" y="-2"/>
+
+  <sound action="atk_dmg" src="creature/BlackSwan/Sis_Atk_Dmg"/>
+  <sound action="pre_atk" src="creature/BlackSwan/Sis_Pre_Atk"/>
+  <sound action="dead" src="creature/BlackSwan_Sis/Dead"/>
+  <sound action="reflect" src="creature/BlackSwan/Sis_Reflect"/>
+  <sound action="skill" src="creature/BlackSwan/Sis_Skill"/>
+  <sound action="trans" src="creature/BlackSwan/Sis_Trans"/>
+
+  <attackType openLevel="1">RED</attackType>
+  <riskLevel openLevel="1">WAW</riskLevel>
+
+  <script>PianoCreature</script>
+</creature>

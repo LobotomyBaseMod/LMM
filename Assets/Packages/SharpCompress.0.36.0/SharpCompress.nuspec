@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>SharpCompress</id>
+    <version>0.36.0</version>
+    <authors>Adam Hathcock</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <projectUrl>https://github.com/adamhathcock/sharpcompress</projectUrl>
+    <description>SharpCompress is a compression library for NET Standard 2.0/2.1/NET 6.0/NET 7.0 that can unrar, decompress 7zip, decompress xz, zip/unzip, tar/untar lzip/unlzip, bzip2/unbzip2 and gzip/ungzip with forward-only reading and file random access APIs. Write support for zip/tar/bzip2/gzip is implemented.</description>
+    <copyright>Copyright (c) 2014  Adam Hathcock</copyright>
+    <tags>rar unrar zip unzip bzip2 gzip tar 7zip lzip xz</tags>
+    <repository type="git" url="https://github.com/adamhathcock/sharpcompress" commit="f515ff36b684b395c1e65043e17ab442fd65c1f0" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.2">
+        <dependency id="System.Memory" version="4.5.5" exclude="Build,Analyzers" />
+        <dependency id="System.Text.Encoding.CodePages" version="8.0.0" exclude="Build,Analyzers" />
+        <dependency id="ZstdSharp.Port" version="0.7.4" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net6.0">
+        <dependency id="ZstdSharp.Port" version="0.7.4" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net7.0">
+        <dependency id="ZstdSharp.Port" version="0.7.4" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net8.0">
+        <dependency id="ZstdSharp.Port" version="0.7.4" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.Memory" version="4.5.5" exclude="Build,Analyzers" />
+        <dependency id="System.Text.Encoding.CodePages" version="8.0.0" exclude="Build,Analyzers" />
+        <dependency id="ZstdSharp.Port" version="0.7.4" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.1">
+        <dependency id="System.Text.Encoding.CodePages" version="8.0.0" exclude="Build,Analyzers" />
+        <dependency id="ZstdSharp.Port" version="0.7.4" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

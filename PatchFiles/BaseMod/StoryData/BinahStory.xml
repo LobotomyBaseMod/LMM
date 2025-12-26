@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  
+  <!-- 호드 표정
+  기본 표정 : Default, 2
+  Poker (살짝 웃음)
+  Serious , 2 (살짝 빡침)
+  Smile, 2 (많이 웃음)
+ -->
+  
+  <scene id="binah1_intro">
+    <character id="binah" name="binah_name" direction="right" color="FFFFFF" sprite="Binah"/>
+    <background src="binahBK" effect="none"/>
+    <bgm src="2 - Into The Deep" />
+    <position character="binah" to="center" />
+    <speak speaker="binah">binah1_intro_b1</speak>
+    <speak speaker="binah" anim="Poker">binah1_intro_b2</speak>
+    <speak speaker="binah">binah1_intro_b3</speak>
+    <speak speaker="binah" anim="Default2">binah1_intro_b4</speak>
+    <speak speaker="binah" anim="Default">binah1_intro_b5</speak>
+    <speak speaker="binah">binah1_intro_b6</speak>
+    <speak speaker="binah">binah1_intro_b7</speak>
+    <speak speaker="binah">binah1_intro_b8</speak>
+    <speak speaker="binah">binah1_intro_b9</speak>
+    <speak speaker="binah">binah1_intro_b10</speak>
+    <speak speaker="binah">binah1_intro_b11</speak>
+    <speak speaker="binah">binah1_intro_b12</speak>
+    <speak speaker="binah">binah1_intro_b13</speak>
+    <speak speaker="binah">binah1_intro_b14</speak>
+    <select>
+      <option text="binah1_selection1">
+        <speak speaker="binah">binah1_intro_b1_1</speak>
+        <speak speaker="binah">binah1_intro_b1_2</speak>
+        <speak speaker="binah">binah1_intro_b1_3</speak>
+      </option>
+      <option text="binah1_selection2">
+        <speak speaker="binah">binah1_intro_b2_1</speak>
+        <speak speaker="binah">binah1_intro_b2_2</speak>
+        <speak speaker="binah">binah1_intro_b2_3</speak>
+      </option>
+    </select>
+    <speak speaker="binah">binah1_intro_b15</speak>
+    <speak speaker="binah">binah1_intro_b16</speak>
+    <speak speaker="binah">binah1_intro_b17</speak>
+    <speak speaker="binah" anim="Poker">binah1_intro_b18</speak>
+    <speak speaker="binah" anim="Default">binah1_intro_b19</speak>
+    <speak speaker="binah">binah1_intro_b20</speak>
+    <speak speaker="binah">binah1_intro_b21</speak>
+    <speak speaker="binah" anim="Poker">binah1_intro_b22</speak>
+    
+    
+  </scene>
+  
+  
+  <scene id="binah2_intro">
+    <character id="binah" name="binah_name" direction="right" color="FFFFFF" sprite="Binah"/>
+    <character id="employee" name="employee_name" direction="right" color="FFFFFF" sprite="Employee"/>
+    <background src="binahBK" effect="none"/>
+    <position character="binah" to="center" />
+    <bgm src="2 - Into The Deep" />
+    
+    <speak speaker="binah">binah2_intro_b1</speak>
+    <speak speaker="binah">binah2_intro_b2</speak>
+    <speak speaker="binah">binah2_intro_b3</speak>
+    <speak speaker="binah">binah2_intro_b4</speak>
+    <speak speaker="binah">binah2_intro_b5</speak>
+    <speak speaker="binah">binah2_intro_b6</speak>
+    <speak speaker="binah" anim="Poker">binah2_intro_b7</speak>
+    <speak speaker="binah">binah2_intro_b8</speak>
+    <speak speaker="binah">binah2_intro_b9</speak>
+    <speak speaker="binah" anim="Default">binah2_intro_b10</speak>
+    <speak speaker="employee">binah2_intro_e1</speak>
+    <speak speaker="binah">binah2_intro_b11</speak>
+    <speak speaker="binah">binah2_intro_b12</speak>
+    <speak speaker="employee">binah2_intro_e2</speak>
+    <speak speaker="binah">binah2_intro_b13</speak>
+    <speak speaker="binah">binah2_intro_b14</speak>
+    <speak speaker="binah">binah2_intro_b15</speak>
+    <speak speaker="binah">binah2_intro_b16</speak>
+    <speak speaker="binah" anim="Poker">binah2_intro_b17</speak>
+    <speak speaker="binah" anim="Default">binah2_intro_b18</speak>
+    <speak speaker="employee">binah2_intro_e3</speak>
+    <speak speaker="binah">binah2_intro_b19</speak>
+    <speak speaker="employee">binah2_intro_e4</speak>
+    <speak speaker="binah">binah2_intro_b20</speak>
+    <speak speaker="employee">binah2_intro_e5</speak>
+    <speak speaker="binah">binah2_intro_b21</speak>
+    <speak speaker="employee">binah2_intro_e6</speak>
+    <speak speaker="binah" anim="Poker">binah2_intro_b22</speak>
+    <select>
+      <option text="binah2_selection1">
+        <speak speaker="binah">binah2_intro_b1_1</speak>
+        <speak speaker="binah">binah2_intro_b1_2</speak>
+      </option>
+      <option text="binah2_selection2">
+        <speak speaker="binah">binah2_intro_b2_1</speak>
+        <speak speaker="binah">binah2_intro_b2_2</speak>
+      </option>
+    </select>
+
+    <speak speaker="binah">binah2_intro_b23</speak>
+
+    <select>
+      <option text="binah2_selection3"></option>
+      <option text="binah2_selection4"></option>
+    </select>
+    
+   
+    <speak speaker="binah" anim="Default">binah2_intro_b24</speak>
+    <speak speaker="binah">binah2_intro_b25</speak>
+    <speak speaker="binah">binah2_intro_b26</speak>
+    <speak speaker="binah" anim="Serious">binah2_intro_b27</speak>
+    <speak speaker="binah">binah2_intro_b28</speak>
+    <speak speaker="binah" anim="Default">binah2_intro_b29</speak>
+    <speak speaker="binah">binah2_intro_b30</speak>
+    <speak speaker="binah">binah2_intro_b31</speak>
+    <speak speaker="binah">binah2_intro_b32</speak>
+    <speak speaker="binah" anim="Smile">binah2_intro_b33</speak>  
+  </scene>
+
+
+  <scene id="binah3_intro">
+    <character id="binah" name="binah_name" direction="right" color="FFFFFF" sprite="Binah"/>
+    <position character="binah" to="center" />
+    <background src="binahBK" effect="none"/>
+    <bgm src="2 - Into The Deep" />
+    <speak speaker="binah">binah3_intro_b1</speak>
+    <speak speaker="binah">binah3_intro_b2</speak>
+    <speak speaker="binah">binah3_intro_b3</speak>
+    <speak speaker="binah">binah3_intro_b4</speak>
+    <speak speaker="binah">binah3_intro_b5</speak>
+    <speak speaker="binah">binah3_intro_b6</speak>
+    <speak speaker="binah">binah3_intro_b7</speak>
+    <speak speaker="binah">binah3_intro_b8</speak>
+    <select>
+      <option text="binah3_selection1">
+        <speak speaker="binah">binah3_intro_b1_1</speak>
+      </option>
+      <option text="binah3_selection2">
+        <speak speaker="binah">binah3_intro_b2_1</speak>
+      </option>
+    </select>
+    <speak speaker="binah">binah3_intro_b9</speak>
+    <speak speaker="binah">binah3_intro_b10</speak>
+    <speak speaker="binah">binah3_intro_b11</speak>
+    <speak speaker="binah">binah3_intro_b11_1</speak>
+    <speak speaker="binah">binah3_intro_b11_2</speak>
+    <speak speaker="binah">binah3_intro_b12</speak>
+    <speak speaker="binah">binah3_intro_b13</speak>
+    <speak speaker="binah">binah3_intro_b14</speak>
+    <speak speaker="binah">binah3_intro_b15</speak>
+    <speak speaker="binah">binah3_intro_b16</speak>
+    <speak speaker="binah">binah3_intro_b17</speak>
+    <speak speaker="binah">binah3_intro_b18</speak>
+    <speak speaker="binah">binah3_intro_b19</speak>
+    <speak speaker="binah">binah3_intro_b20</speak>
+    <speak speaker="binah">binah3_intro_b21</speak>
+    <speak speaker="binah">binah3_intro_b22</speak>
+    <speak speaker="binah" anim="Poker">binah3_intro_b23</speak>
+    <speak speaker="binah" anim="Default">binah3_intro_b24</speak>
+  </scene>
+
+  <scene id="binah4_intro">
+    <character id="binah" name="binah_name" direction="right" color="FFFFFF" sprite="Binah"/>
+    <character id="employee" name="employee_name" direction="right" color="FFFFFF" sprite="Employee"/>
+    <bgm src="Unfolding"/>
+    <background src="binahBK" effect="none"/>
+    <position character="binah" to="center"/>
+    <speak speaker="binah">binah4_intro_b1</speak>
+    <speak speaker="binah">binah4_intro_b2</speak>
+    <speak speaker="binah">binah4_intro_b3</speak>
+    <speak speaker="binah">binah4_intro_b4</speak>
+    <speak speaker="binah">binah4_intro_b5</speak>
+    <speak speaker="binah">binah4_intro_b6</speak>
+    <speak speaker="binah">binah4_intro_b7</speak>
+    <speak speaker="binah">binah4_intro_b8</speak>
+    <speak speaker="binah">binah4_intro_b9</speak>
+    <speak speaker="binah">binah4_intro_b10</speak>
+    <speak speaker="binah">binah4_intro_b11</speak>
+    <speak speaker="binah">binah4_intro_b12</speak>
+    <speak speaker="binah">binah4_intro_b13</speak>
+    <speak speaker="binah">binah4_intro_b14</speak>
+    <speak speaker="binah" anim="Poker">binah4_intro_b15</speak>
+    <speak speaker="binah" anim="Default">binah4_intro_b16</speak>
+    <speak speaker="binah">binah4_intro_b17</speak>
+    <speak speaker="binah">binah4_intro_b18</speak>
+    <speak speaker="binah">binah4_intro_b19</speak>
+    <speak speaker="binah">binah4_intro_b20</speak>
+    <speak speaker="binah">binah4_intro_b21</speak>
+    <speak speaker="binah">binah4_intro_b22</speak>
+    <speak speaker="binah">binah4_intro_b23</speak>
+    <speak speaker="binah">binah4_intro_b24</speak>
+    <speak speaker="binah">binah4_intro_b25</speak>
+    <speak speaker="binah">binah4_intro_b26</speak >
+    <speak speaker="binah">binah4_intro_b27</speak>
+    <speak speaker="binah">binah4_intro_b28</speak>
+    <speak speaker="binah">binah4_intro_b29</speak>
+    <speak speaker="binah">binah4_intro_b30</speak>
+    <speak speaker="binah">binah4_intro_b31</speak>
+    <speak speaker="binah">binah4_intro_b32</speak>
+    <speak speaker="binah">binah4_intro_b33</speak>
+    <speak speaker="binah">binah4_intro_b34</speak>
+    <speak speaker="binah">binah4_intro_b35</speak>
+    <speak speaker="binah">binah4_intro_b36</speak>
+    <select>
+      <option text="binah4_selection1"></option>
+      <option text="binah4_selection2"></option>
+    </select>
+    <speak speaker="binah">binah4_intro_b37</speak>
+    <bgm src="3- Dark Fantasy Studio- Behind heaven"/>
+    <sound src="392898__screamstudio__creepy-transition"/>
+    <add_filter filter="matrix" />
+    <speak speaker="binah">binah4_intro_b38</speak>
+    <speak speaker="binah">binah4_intro_b39</speak>
+    <speak speaker="binah">binah4_intro_b40</speak>
+    <speak speaker="binah">binah4_intro_b41</speak>
+    <remove_filter filter="matrix" />
+    <speak speaker="binah">binah4_intro_b42</speak>
+    <speak speaker="binah">binah4_intro_b43</speak>
+    <speak speaker="binah">binah4_intro_b44</speak>
+    <speak speaker="binah">binah4_intro_b45</speak>
+    <speak speaker="binah">binah4_intro_b46</speak>
+    <speak speaker="employee">binah4_intro_e1</speak>
+    <speak speaker="binah">binah4_intro_b47</speak>
+    <speak speaker="binah">binah4_intro_b48</speak>
+    <speak speaker="binah">binah4_intro_b49</speak>
+    <speak speaker="binah">binah4_intro_b50</speak>
+    <sound src="240837__greenvwbeetle__creepy-sound"/>
+    <speak speaker="employee">binah4_intro_e2</speak>
+  
+    <speak speaker="employee">binah4_intro_e3</speak>
+    <speak speaker="employee">binah4_intro_e4</speak>
+    <speak speaker="binah" anim="ShockSmile">binah4_intro_b51</speak>
+    <speak speaker="binah">binah4_intro_b52</speak>
+    <speak speaker="binah">binah4_intro_b53</speak>
+    <speak speaker="binah">binah4_intro_b54</speak>
+    <speak speaker="binah" anim="ShockSmile2">binah4_intro_b55</speak>
+    <speak speaker="binah">binah4_intro_b56</speak>
+    <speak speaker="binah">binah4_intro_b57</speak>
+    <speak speaker="binah" anim="Smile2">binah4_intro_b58</speak>
+    <speak speaker="binah">binah4_intro_b59</speak>
+    <speak speaker="binah" anim="Smile">binah4_intro_b60</speak>
+    <sound src="352415__joseph-larralde__mic-scratching"/>
+    <speak speaker="employee">binah4_intro_e5</speak>
+    <speak speaker="binah" anim="Default">binah4_intro_b61</speak>
+    <speak speaker="binah">binah4_intro_b62</speak>
+    <speak speaker="binah">binah4_intro_b63</speak>
+    <speak speaker="binah">binah4_intro_b64</speak>
+    <speak speaker="binah">binah4_intro_b65</speak>
+    <speak speaker="binah">binah4_intro_b66</speak>
+    <speak speaker="binah">binah4_intro_b67</speak>
+    <speak speaker="binah">binah4_intro_b68</speak>
+    <speak speaker="binah">binah4_intro_b69</speak>
+    <speak speaker="binah">binah4_intro_b70</speak>
+    <speak speaker="binah">binah4_intro_b71</speak>
+    <speak speaker="binah">binah4_intro_b72</speak>
+    <speak speaker="binah">binah4_intro_b73</speak>
+    <speak speaker="binah">binah4_intro_b74</speak>
+    <speak speaker="binah">binah4_intro_b75</speak>
+    <speak speaker="binah">binah4_intro_b76</speak>
+    <speak speaker="binah">binah4_intro_b77</speak>
+    <speak speaker="binah">binah4_intro_b78</speak>
+    <speak speaker="binah">binah4_intro_b79</speak>
+  </scene>
+
+  <scene id="binah5_intro">
+    <character id="binah" name="binah_name" direction="right" color="FFFFFF" sprite="Binah"/>
+    <character id="a" name="a_name" direction="right" color="FFFFFF" sprite="A"/>
+    <bgm src="Maya"/>
+    <background src="blackCG" effect="none"/>
+    <speak speaker="a">binah5_intro_A1</speak>
+    <speak speaker="a">binah5_intro_A2</speak>
+    <speak speaker="a">binah5_intro_A3</speak>
+    <background src="binahBK" effect="fade"/>
+    <position character="binah" to="center"/>
+    <speak speaker="binah">binah5_intro_b1</speak>
+    <speak speaker="binah">binah5_intro_b2</speak>
+    <speak speaker="binah">binah5_intro_b3</speak>
+    <speak speaker="binah">binah5_intro_b4</speak>
+    <speak speaker="binah">binah5_intro_b5</speak>
+    <speak speaker="binah">binah5_intro_b6</speak>
+    <speak speaker="binah">binah5_intro_b7</speak>
+    <speak speaker="binah">binah5_intro_b8</speak>
+    <speak speaker="binah">binah5_intro_b9</speak>
+    <cg src="binahCG3" effect="fade" />
+    <add_filter filter="distortion_water_drop" />
+    <speak speaker="binah">binah5_intro_b10</speak>
+    <speak speaker="binah">binah5_intro_b11</speak>
+    <speak speaker="binah">binah5_intro_b12</speak>
+    <speak speaker="binah">binah5_intro_b13</speak>
+    <speak speaker="binah">binah5_intro_b14</speak>
+    <speak speaker="binah">binah5_intro_b15</speak>
+    <speak speaker="binah">binah5_intro_b16</speak>
+    <speak speaker="binah">binah5_intro_b17</speak>
+    <speak speaker="binah">binah5_intro_b18</speak>
+    <speak speaker="binah">binah5_intro_b19</speak>
+    <speak speaker="binah">binah5_intro_b20</speak>
+    <remove_cg effect="fade" />
+    <remove_filter filter="distortion_water_drop" />
+    <bgm src="Awake_In_Death"/>
+    <speak speaker="binah">binah5_intro_b21</speak>
+    <speak speaker="binah">binah5_intro_b22</speak>
+    <speak speaker="binah">binah5_intro_b23</speak>
+    <speak speaker="binah">binah5_intro_b24</speak>
+    <speak speaker="binah">binah5_intro_b25</speak>
+    <speak speaker="binah">binah5_intro_b26</speak>
+    <speak speaker="binah">binah5_intro_b27</speak>
+    <speak speaker="binah">binah5_intro_b28</speak>
+    <speak speaker="binah">binah5_intro_b29</speak>
+    <speak speaker="binah">binah5_intro_b30</speak>
+    <speak speaker="binah">binah5_intro_b31</speak>
+    <speak speaker="binah">binah5_intro_b32</speak>
+    <speak speaker="binah">binah5_intro_b33</speak>
+    <speak speaker="binah">binah5_intro_b34</speak>
+    <speak speaker="binah">binah5_intro_b35</speak>
+    <speak speaker="binah">binah5_intro_b36</speak>
+    <speak speaker="binah">binah5_intro_b37</speak>
+    <speak speaker="binah">binah5_intro_b38</speak>
+    <speak speaker="binah">binah5_intro_b39</speak>
+    <speak speaker="binah">binah5_intro_b40</speak>
+    <speak speaker="binah">binah5_intro_b41</speak>
+    <speak speaker="binah">binah5_intro_b42</speak>
+    <speak speaker="binah">binah5_intro_b43</speak>
+    <cg src="BlackCG" effect="fade" />
+    <speak speaker="a">binah5_intro_A4</speak>
+    <speak speaker="a">binah5_intro_A5</speak>
+
+    <select>
+      <option text="binah5_selection1"></option>
+      <option text="binah5_selection2"></option>
+      <option text="binah5_selection3"></option>
+    </select>
+    <speak speaker="a">binah5_intro_A6</speak>
+    <speak speaker="a">binah5_intro_A7</speak>
+    <cg src="BinahCG1_1" effext="fade"/>
+    <speak speaker="a">binah5_intro_A8</speak>
+    <cg src="BinahCG1_2" effext="fade"/>
+    <speak speaker="a">binah5_intro_A9</speak>
+    <cg src="BinahCG1_3" effext="fade"/>
+    <speak speaker="a">binah5_intro_A10</speak>
+    <speak speaker="a">binah5_intro_A11</speak>
+    <speak speaker="a">binah5_intro_A12</speak>
+  </scene>
+
+  <scene id="binah6_intro">
+    <character id="binah" name="binah_name" direction="right" color="FFFFFF" sprite="Binah"/>
+    <character id="binahPast" name="binahPast_name" direction="right" color="FFFFFF" sprite="Binah"/>
+    <character id="binahRobot" name="binah_name" direction="right" color="FFFFFF" sprite="BinahRobot"/>
+    <character id="employee" name="h_employee_name" direction="right" color="FFFFFF" sprite="Employee"/>
+    <bgm src="Vast Landscape"/>
+    <background src="blackCG" effect="none"/>
+    <speak speaker="binahPast">binah6_intro_b1</speak>
+    <speak speaker="employee">binah6_intro_e1</speak>
+    <speak speaker="binahPast">binah6_intro_b2</speak>
+    <speak speaker="binahPast">binah6_intro_b4</speak>
+    <speak speaker="binahPast">binah6_intro_b5</speak>
+    <speak speaker="binahPast">binah6_intro_b6</speak>
+    <speak speaker="binahPast">binah6_intro_b7</speak>
+    <speak speaker="binahPast">binah6_intro_b8</speak>
+    <speak speaker="employee">binah6_intro_e2</speak>
+    <speak speaker="binahPast">binah6_intro_b9</speak>
+    <speak speaker="binahPast">binah6_intro_b10</speak>
+    <speak speaker="binahPast">binah6_intro_b11</speak>
+    <speak speaker="binahPast">binah6_intro_b12</speak>
+    <speak speaker="binahPast">binah6_intro_b13</speak>
+    <speak speaker="binahPast">binah6_intro_b14</speak>
+    <speak speaker="employee">binah6_intro_e3</speak>
+    <speak speaker="binahPast">binah6_intro_b15</speak>
+    <speak speaker="employee">binah6_intro_e4</speak>
+    <speak speaker="binahPast">binah6_intro_b16</speak>
+    <sound src="scary"/>
+    <sound src="Screams_Shouts_monster_processed_236"/>
+    <wait time="3" />
+    <cg src="BinahCG2" effect="fade"/>
+    <add_filter filter="atmosphere_rain_pro" />
+    <dialogue type="hide"/>
+    <wait time="3"/>
+    <dialogue type="default"/>
+    <speak speaker="binahPast">binah6_intro_b17</speak>
+    <speak speaker="binahPast">binah6_intro_b18</speak>
+    <speak speaker="binahPast">binah6_intro_b19</speak>
+    <speak speaker="binahPast">binah6_intro_b20</speak>
+    <speak speaker="binahPast">binah6_intro_b21</speak>
+    <speak speaker="binahPast">binah6_intro_b22</speak>
+    <speak speaker="binahPast">binah6_intro_b23</speak>
+    <cg src="BlackCG" effect="fade" />
+    <wait time="1" />
+    <remove_filter filter="atmosphere_rain_pro" />
+    <remove_cg effect="fade" />  
+    <background src="binahBK" effect="none"/>
+    <position character="binah" to="center"/>
+    <speak speaker="binah">binah6_intro_b24</speak>
+    <speak speaker="binah">binah6_intro_b25</speak>
+    <speak speaker="binah">binah6_intro_b26</speak>
+    <speak speaker="binah">binah6_intro_b27</speak>
+    <speak speaker="binah" anim="Poker">binah6_intro_b28</speak>
+    <speak speaker="binah" anim="Default">binah6_intro_b29</speak>
+    <speak speaker="binah">binah6_intro_b30</speak>
+    <speak speaker="binah">binah6_intro_b31</speak>
+    <speak speaker="binah">binah6_intro_b32</speak>
+    <sound src="changenoise" />
+    <add_filter filter="tv_distorted_fade" />
+    <wait time="0.25"/>
+    <disappear character="binah"/>
+    <position character="binahRobot" to="center"/>
+    <wait time="0.25"/>
+    <remove_filter filter="tv_distorted_fade" />
+    <speak speaker="binahRobot">binah6_intro_b33</speak>
+    <speak speaker="binahRobot">binah6_intro_b34</speak>
+    <speak speaker="binahRobot">binah6_intro_b35</speak>
+  </scene>
+ 
+  
+  
+  
+  
+
+</root>

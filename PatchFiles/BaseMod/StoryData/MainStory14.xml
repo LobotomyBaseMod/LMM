@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <scene id="14">
+    <character id="angela" name="angela_name" color="FFBBFF" sprite="Angela" />
+    <character id="no" name="no_name" color="FFBBFF" sprite="Angela" />
+   
+
+    <bgm src="story-04_ogg" />
+
+    <position character="angela" to="right" />
+
+    <speak speaker="angela">day14_angela_1</speak>
+    <speak speaker="angela" anim="Glad1">day14_angela_2</speak>
+    <speak speaker="angela" anim="Default1">day14_angela_3</speak>
+    <speak speaker="angela">day14_angela_4</speak>
+    <speak speaker="angela">day14_angela_5</speak>
+    <speak speaker="angela" anim="Glad3">day14_angela_6</speak>
+    <speak speaker="angela" anim="Default1">day14_angela_7</speak>
+    <speak speaker="angela">day14_angela_8</speak>
+
+    <select>
+      <option text="day14_selection1">
+        <bgm src="Dear Lorenne" />
+        <speak speaker="angela">day14_angela_1_1</speak>
+        <speak speaker="angela">day14_angela_1_2</speak>
+        <speak speaker="angela" anim="Anger3">day14_angela_1_3</speak>
+        <speak speaker="angela" anim="Default1">day14_angela_1_4</speak>
+        <speak speaker="angela">day14_angela_1_5</speak>
+        <speak speaker="angela">day14_angela_1_6</speak>
+      </option>
+      <option text="day14_selection2">
+        <bgm src="Dear Lorenne" />
+        <speak speaker="angela">day14_angela_2_1</speak>
+        <speak speaker="angela">day14_angela_2_2</speak>
+        <speak speaker="angela" anim="Glad1">day14_angela_2_3</speak>
+        <speak speaker="angela">day14_angela_2_4</speak>
+        <speak speaker="angela" anim="Anger3">day14_angela_2_5</speak>
+        <speak speaker="angela" anim="Default1">day14_angela_2_6</speak>
+      </option>
+    </select>
+
+    <camera_filter filter="color_sepia" />
+    <dialogue type="hide"/>
+    <wait time="2.5" />
+    <camera_filter filter="none" />
+   
+  </scene> 
+  
+</root>

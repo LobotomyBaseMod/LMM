@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <scene id="24">
+    <character id="angela" name="angela_name" color="FFBBFF" sprite="Angela" />
+
+
+
+
+    <bgm src="Wake up" />
+
+    <position character="angela" to="right" />
+
+  
+    <speak speaker="angela" anim="Anger1">day24_angela_1</speak>
+    <speak speaker="angela">day24_angela_2</speak>
+    <speak speaker="angela">day24_angela_3</speak>
+    <speak speaker="angela" anim="Default1">day24_angela_4</speak>
+    <speak speaker="angela">day24_angela_5</speak>
+    <speak speaker="angela">day24_angela_6</speak>
+    <speak speaker="angela" anim="Glad1">day24_angela_7</speak>
+    <speak speaker="angela">day24_angela_8</speak>
+    <speak speaker="angela">day24_angela_9</speak>
+
+
+    <select>
+      <option text="day24_selection1">
+        <speak speaker="angela">day24_angela_1_1</speak>
+        <speak speaker="angela">day24_angela_1_2</speak>
+        <speak speaker="angela" anim="Default1">day24_angela_1_3</speak>
+      </option>
+      <option text="day24_selection2">
+        <speak speaker="angela">day24_angela_2_1</speak>
+        <speak speaker="angela">day24_angela_2_2</speak>
+        <speak speaker="angela" anim="Default1">day24_angela_2_3</speak>
+      </option>
+    </select>
+
+  </scene>
+
+
+</root>

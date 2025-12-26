@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <stat>
+    <hp>100</hp>
+    <speed>2</speed>
+
+    <defense id="1">
+      <!--slime pawn-->
+      <defenseElement type="R">0</defenseElement>
+      <defenseElement type="W">1</defenseElement>
+      <defenseElement type="B">2</defenseElement>
+      <defenseElement type="P">1</defenseElement>
+    </defense>
+
+    <!--slime lover-->
+    <defense id="2">
+      <defenseElement type="R">-1</defenseElement>
+      <defenseElement type="W">1</defenseElement>
+      <defenseElement type="B">2</defenseElement>
+      <defenseElement type="P">0.8</defenseElement>
+    </defense>
+  </stat>
+  
+  <anim prefab="Unit/CreatureAnimator/SlimePawn" x="-1" y="-2"/>
+
+  <attackType openLevel="1">BLACK</attackType>
+  <riskLevel openLevel="1">He</riskLevel>
+
+  <script>SlimeCreature</script>
+</creature>

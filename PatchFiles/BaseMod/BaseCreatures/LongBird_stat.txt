@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <script>LongBird</script>
+  <stat>
+    <riskLevel>4</riskLevel>
+    <maxWorkCount>3</maxWorkCount>
+    <workProb type="R">
+      <prob level="1">0.2</prob>
+      <prob level="2">0.2</prob>
+      <prob level="3">0.35</prob>
+      <prob level="4">0.45</prob>
+      <prob level="5">0.45</prob>
+    </workProb>
+    <workProb type="W">
+      <prob level="1">0.2</prob>
+      <prob level="2">0.2</prob>
+      <prob level="3">0.4</prob>
+      <prob level="4">0.5</prob>
+      <prob level="5">0.5</prob>
+    </workProb>
+    <workProb type="B">
+      <prob level="1">0.2</prob>
+      <prob level="2">0.2</prob>
+      <prob level="3">0.35</prob>
+      <prob level="4">0.45</prob>
+      <prob level="5">0.45</prob>
+    </workProb>
+    <workProb type="P">
+      <prob level="1">0</prob>
+      <prob level="2">0</prob>
+      <prob level="3">0</prob>
+      <prob level="4">0</prob>
+      <prob level="5">0</prob>
+    </workProb>
+    <workCooltime>15</workCooltime>
+    <feelingStateCubeBounds>
+      <cube>6</cube>
+      <cube>12</cube>
+      <cube>24</cube>
+    </feelingStateCubeBounds>
+    <workDamage type="P" min="5" max="7" />
+    <workSpeed>0.35</workSpeed>
+    <specialDamage>
+      <damage id="1" type="P" min="5" max="7" />
+    </specialDamage>
+    <defense id="1">
+      <defenseElement type="R">0.8</defenseElement>
+      <defenseElement type="W">0.8</defenseElement>
+      <defenseElement type="B">0.8</defenseElement>
+      <defenseElement type="P">2</defenseElement>
+    </defense>
+    <escapeable>true</escapeable>
+    <hp>800</hp>
+    <speed>3</speed>
+    <observeInfo total="98">
+      <observeElement name="stat" cost="20" />
+      <observeElement name="defense" cost="20" />
+      <observeElement name="work_r" cost="7" />
+      <observeElement name="work_w" cost="7" />
+      <observeElement name="work_b" cost="7" />
+      <observeElement name="work_p" cost="7" />
+      <observeElement name="care_0" cost="15" />
+      <observeElement name="care_1" cost="15" />
+    </observeInfo>
+    <equipment level="4" cost="150" equipId="200035" />
+    <equipment level="4" cost="120" equipId="300035" />
+    <equipment level="3" prob="0.02" equipId="400035" />
+    <observeBonus level="1" type="prob">4</observeBonus>
+    <observeBonus level="2" type="speed">2</observeBonus>
+    <observeBonus level="3" type="prob">4</observeBonus>
+    <observeBonus level="4" type="speed">2</observeBonus>
+    <hp>280</hp>
+    <speed>2</speed>
+    <qliphoth>2</qliphoth>
+  </stat>
+  <graph>
+    <node id="creature" x="-1.6" y="-1.8" type="creature" />
+    <node id="workspace" x="1.9" y="-1.8" type="workspace" />
+    <node id="outter" x="0" y="0" type="outterDoor" />
+    <node id="inner" x="2" y="-1.8" type="innerDoor" />
+    <edge node1="workspace" node2="inner" type="road" />
+    <edge node1="creature" node2="workspace" type="road" />
+  </graph>
+  <anim prefab="Unit/CreatureAnimator/LongBird" x="-1" y="-2" />
+  <returnImg src="" />
+  <portrait src="" />
+  <sound action="Balance" src="creature/LongBird/LongBird_On" />
+  <sound action="Stun" src="creature/LongBird/LongBird_Stun" />
+  <sound action="Break" src="creature/LongBird/LongBird_Down" />
+  <sound action="Hang" src="creature/SpiderMom/Spider_hook" />
+  <child>BossBird_stat</child>
+</creature>

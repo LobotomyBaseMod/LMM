@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  
+  <scene id="49_end">
+
+    <character id="adam" name="adam_name" direction="right" color="FFFFFF" sprite="Adam"/>
+    <character id="people1" name="people1" direction="right" color="FFFFFF" sprite=""/>
+    <character id="people2" name="people2" direction="right" color="FFFFFF" sprite=""/>
+
+    <background src="ketherBK4" effect="none"/>
+    
+    
+    <position character="adam" to="center"/>
+    
+    <speak speaker="adam" anim="Smile">day49_adamGameOver_1</speak>
+    <speak speaker="adam" anim="Smile">day49_adamGameOver_1_1</speak>
+    <speak speaker="adam" anim="Smile">day49_adamGameOver_1_2</speak>
+    <speak speaker="adam" anim="Smile2">day49_adamGameOver_2</speak>
+    <speak speaker="adam" anim="Laugh">day49_adamGameOver_3</speak>
+    <speak speaker="adam">day49_adamGameOver_4</speak>
+    <speak speaker="adam" anim="Laugh2">day49_adamGameOver_5</speak>
+    <speak speaker="adam" anim="Laugh">day49_adamGameOver_6</speak>
+
+
+    <cg src="BlackCG" effect="fade" />
+    <wait time="1" />
+    <disappear character="adam"/>
+    <remove_cg effect="fade" />
+
+    <dialogue type="hide"/>
+    <background src="day49_Ending" effect="fade" />
+    <add_filter filter="earthquake2" />
+    <sound src="earthquake"/>
+    <wait time="5" />
+    <dialogue type="default"/>
+
+
+    <speak speaker="adam">day49_adamFail_7</speak>
+    <speak speaker="adam">day49_adamFail_8</speak>
+    <speak speaker="adam">day49_adamFail_9</speak>
+    <remove_filter filter="earthquake2" />
+    <speak speaker="adam">day49_adamFail_10</speak>
+    <speak speaker="adam">day49_adamFail_11</speak>
+    <speak speaker="adam">day49_adamFail_12</speak>
+
+    <add_filter filter="blur_bloom" effect="fade" />
+
+    <wait time="1" />
+    <cg src="WhiteCG" effect="fade" />
+    <wait time="2"/>
+    <remove_filter filter="blur_bloom"/>
+
+
+    <dialogue type="hide"/>
+    <cg src="day49_Ending2" effect="fade" />
+    <add_filter filter="atmosphere_rain"/>
+    <add_filter filter="distortion_shockwave"/>
+    <sound src="MonsterEnding edit"/>
+
+    <wait time="2" />
+    <dialogue type="default"/>
+
+
+    <speak speaker="people1">day49_adamFail_6_1</speak>
+    <speak speaker="people2">day49_adamFail_6_2</speak>
+    <speak speaker="adam">day49_adamFail_13</speak>
+    <speak speaker="adam">day49_adamFail_13_1</speak>
+    <speak speaker="adam">day49_adamFail_14</speak>
+    <speak speaker="adam">day49_adamFail_15</speak>
+    <speak speaker="adam">day49_adamFail_16</speak>
+    <speak speaker="adam">day49_adamFail_17</speak>
+    <speak speaker="adam">day49_adamFail_18</speak>
+    <speak speaker="adam">day49_adamFail_19</speak>
+
+
+    <cg src="BlackCG" effect="fade" />
+    <wait time="5"/>
+    <remove_filter filter="atmosphere_rain"/>
+    <remove_filter filter="distortion_shockwave"/>
+    <!-- 스토리 자동으로 이어져서 임시로 붙인 시간-->
+    <return_title/>
+    <cg src="BlackCG" effect="fade" />
+
+    
+  </scene>
+ 
+</root>

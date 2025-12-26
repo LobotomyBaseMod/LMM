@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<creature>
+  <script>Theresia</script>
+  <workAnim face="unique">TheresiaUse</workAnim>
+  <stat>
+    <riskLevel>2</riskLevel>
+    <maxWorkCount>1</maxWorkCount>
+    <workType>kit</workType>
+    <kitType>channel</kitType>
+    <observeInfo>
+      <observeElement name="stat" cost="30" />
+      <observeElement name="care_0" cost="10" />
+      <observeElement name="care_1" cost="60" />
+      <observeElement name="care_2" cost="120" />
+      <observeElement name="care_3" cost="180" />
+    </observeInfo>
+    <observeBonus level="1" type="speed">5</observeBonus>
+    <observeBonus level="2" type="prob">5</observeBonus>
+    <observeBonus level="3" type="speed">5</observeBonus>
+    <observeBonus level="4" type="prob">5</observeBonus>
+    <escapeable>false</escapeable>
+    <qliphoth>0</qliphoth>
+  </stat>
+  <graph>
+    <node id="creature" x="-1.6" y="-1.8" type="creature" />
+    <node id="workspace" x="0.5" y="-1.8" type="workspace" />
+    <!--<node id="door"  x="2" y="-1" type="entry"/>-->
+    <node id="outter" x="0" y="0" type="outterDoor" />
+    <node id="inner" x="2" y="-1.8" type="innerDoor" />
+    <!--<edge node1="workspace" node2="door" type="road" />-->
+    <edge node1="workspace" node2="inner" type="road" />
+    <edge node1="creature" node2="workspace" type="road" />
+  </graph>
+  <anim prefab="Unit/CreatureAnimator/TheresiaAnim" />
+  <portrait src="Unit/creature/magicalGirl" />
+  <sound action="listen" src="creature/Theresia/Theresia" />
+</creature>

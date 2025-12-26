@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <scene id="34">
+    <character id="angela" name="angela_name" color="FFBBFF" sprite="Angela" />
+    <character id="m" name="m_name" color="FFBBFF" sprite="M_shadow" />
+    <character id="c" name="c_name" color="FFBBFF" sprite="C_shadow" />
+    <character id="a" name="a_name" color="FFBBFF" sprite="A" />
+    <character id="mm" name="mm_name" color="FFBBFF" sprite="M_shadow2" />
+  
+
+    <dialogue type="hide"/>
+    <cg src="BlackCG" effect="fade" />
+    <wait time="2" />
+    <remove_cg effect="fade" />
+    
+    <background src="carmenBK2" effect="none"/>
+    <add_filter filter="tv_oldMovie2"/>
+    <bgm src="My Inspiration"/>
+
+    <dialogue type="default"/>
+    <speak speaker="c">day34_carmen_1</speak>
+    <speak speaker="c">day34_carmen_2</speak>
+    <speak speaker="c">day34_carmen_3</speak>
+    <speak speaker="c">day34_carmen_4</speak>
+    <speak speaker="c">day34_carmen_5</speak>
+    <speak speaker="c">day34_carmen_6</speak>
+    <speak speaker="c">day34_carmen_7</speak>
+    <speak speaker="c">day34_carmen_8</speak>
+    <speak speaker="c">day34_carmen_9</speak>
+
+    <!-- 하얀색 페이드 아웃되는 동안 잠시 삭제-->
+    <remove_filter filter="tv_oldMovie2"/>
+    <add_filter filter="blur_bloom" effect="fade" />
+    
+    <wait time="1" />
+    <cg src="WhiteCG" effect="fade" />
+   
+    <wait time="4" />
+    <bgm src=""/>
+    <sound src="memeoryBack"/>
+
+    <!-- 페이드 아웃 끝나고 다시 필터 추가-->
+    <add_filter filter="tv_oldMovie2" burn="1.18"/>
+    <remove_cg effect="fade" />
+    <remove_filter filter="blur_bloom"/>
+    <bgm src="Sentimental Moment"/>
+    <background src="warehouseBK_2" effect="none"/>
+
+    <position character="m" to="center"/>
+
+    <speak speaker="m">day34_malkuth_1</speak>
+
+    <cg src="BlackCG" effect="fade" />
+    <wait time="2" />
+    <bgm src=""/>
+    <sound src="memeoryBack"/>
+    <remove_cg effect="fade" />
+    <disappear character="m"/>
+    <bgm src="malkuthDie" />
+    <sound src="floorScratch"/>
+    <position character="mm" to="center"/>
+
+    <speak speaker="a">day34_a_1</speak>
+    <speak speaker="m">day34_malkuth_2</speak>
+    <cg src="BlackCG" effect="fade" />
+    <wait time="4" />
+    <remove_cg effect="fade" />
+    <sound src="memeoryBack"/>
+    <disappear character="m"/>
+    <disappear character="mm"/>
+
+    <position character="angela" to="right"/>
+    <bgm src="Dungeon_-_Sewer_Crawler_remake" />
+    <background src="AngelaBackground" effect="none"/>
+    <speak speaker="angela">day34_angela_1</speak>
+    <speak speaker="angela">day34_angela_2</speak>
+    <speak speaker="angela">day34_angela_3</speak>
+    <speak speaker="angela">day34_angela_4</speak>
+    <speak speaker="angela">day34_angela_5</speak>
+    <speak speaker="angela">day34_angela_6</speak>
+    <speak speaker="angela">day34_angela_7</speak>
+
+    <cg src="BlackCG" effect="fade" />
+    <wait time="1" />
+    <remove_cg effect="fade" />
+    <bgm src=""/>
+    <sound src="memeoryBack"/>
+    <disappear character="angela"/>
+
+
+
+
+
+
+  </scene>
+
+
+</root>

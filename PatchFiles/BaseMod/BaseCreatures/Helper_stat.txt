@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<creature>
+  <script>Helper</script>
+  <stat>
+    <riskLevel>3</riskLevel>
+    <maxWorkCount>4</maxWorkCount>
+    <workProb type="R">
+      <prob level="1">0.5</prob>
+      <prob level="2">0.55</prob>
+      <prob level="3">0.55</prob>
+      <prob level="4">0.5</prob>
+      <prob level="5">0.45</prob>
+    </workProb>
+    <workProb type="W">
+      <prob level="1">0</prob>
+      <prob level="2">0</prob>
+      <prob level="3">-0.3</prob>
+      <prob level="4">-0.6</prob>
+      <prob level="5">-0.9</prob>
+    </workProb>
+    <workProb type="B">
+      <prob level="1">0.35</prob>
+      <prob level="2">0.4</prob>
+      <prob level="3">0.4</prob>
+      <prob level="4">0.35</prob>
+      <prob level="5">0.3</prob>
+    </workProb>
+    <workProb type="P">
+      <prob level="1">0.5</prob>
+      <prob level="2">0.55</prob>
+      <prob level="3">0.55</prob>
+      <prob level="4">0.5</prob>
+      <prob level="5">0.45</prob>
+    </workProb>
+    <workCooltime>15</workCooltime>
+    <feelingStateCubeBounds>
+      <cube>5</cube>
+      <cube>9</cube>
+      <cube>16</cube>
+    </feelingStateCubeBounds>
+    <workDamage type="R" min="3" max="5" />
+    <workSpeed>0.3</workSpeed>
+    <specialDamage>
+      <damage id="1" type="R" min="15" max="25" />
+    </specialDamage>
+    <defense id="1">
+      <defenseElement type="R">0.5</defenseElement>
+      <defenseElement type="W">1</defenseElement>
+      <defenseElement type="B">2</defenseElement>
+      <defenseElement type="P">2</defenseElement>
+    </defense>
+    <escapeable>true</escapeable>
+    <hp>300</hp>
+    <speed>4</speed>
+    <observeInfo total="70">
+      <observeElement name="stat" cost="16" />
+      <observeElement name="defense" cost="16" />
+      <observeElement name="work_r" cost="5" />
+      <observeElement name="work_w" cost="5" />
+      <observeElement name="work_b" cost="5" />
+      <observeElement name="work_p" cost="5" />
+      <observeElement name="care_0" cost="9" />
+      <observeElement name="care_1" cost="9" />
+    </observeInfo>
+    <equipment level="4" cost="50" equipId="200011" />
+    <equipment level="3" cost="30" equipId="300011" />
+    <equipment level="2" prob="0.04" equipId="400011" />
+    <observeBonus level="1" type="speed">4</observeBonus>
+    <observeBonus level="2" type="prob">4</observeBonus>
+    <observeBonus level="3" type="speed">4</observeBonus>
+    <observeBonus level="4" type="prob">4</observeBonus>
+    <hp>250</hp>
+    <speed>4</speed>
+    <qliphoth>2</qliphoth>
+  </stat>
+  <graph>
+    <node id="creature" x="-1.6" y="-1.8" type="creature" />
+    <node id="workspace" x="1.9" y="-1.8" type="workspace" />
+    <node id="outter" x="0" y="0" type="outterDoor" />
+    <node id="inner" x="2" y="-1.8" type="innerDoor" />
+    <edge node1="workspace" node2="inner" type="road" />
+    <edge node1="creature" node2="workspace" type="road" />
+  </graph>
+  <anim prefab="Unit/CreatureAnimator/Helper" x="-1" y="-2" />
+  <returnImg src="" />
+  <portrait src="CreatureSprite/Helper" />
+  <sound action="gage" src="creature/Helper/Robo_gaging" />
+  <sound action="gageMaxSequence" src="creature/Helper/Robo_gageMaxSequence" />
+  <sound action="gageMax" src="creature/Helper/Robo_gageMax" />
+  <sound action="wakeUp" src="creature/Helper/Robo_Rise" />
+  <sound action="shutDown" src="creature/Helper/Robo_SystemOff" />
+  <sound action="spark_00" src="creature/Helper/Robo_spark_01" />
+  <sound action="spark_01" src="creature/Helper/Robo_spark_02" />
+  <sound action="spark_02" src="creature/Helper/Robo_spark_03" />
+  <sound action="spark_03" src="creature/Helper/Robo_spark_04" />
+  <sound action="spark_04" src="creature/Helper/Robo_spark_05" />
+  <sound action="transform_00" src="creature/Helper/Robo_transform_01" />
+  <sound action="transform_01" src="creature/Helper/Robo_transform_02" />
+  <sound action="transform_02" src="creature/Helper/Robo_transform_03" />
+</creature>

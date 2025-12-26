@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <scene id="12">
+    <character id="angela" name="angela_name" color="FFBBFF" sprite="Angela" />
+   
+
+    <bgm src="story-01_ogg" />
+
+    <position character="angela" to="right" />
+
+    <speak speaker="angela">day12_angela_1</speak>
+    <speak speaker="angela">day12_angela_2</speak>
+    <speak speaker="angela">day12_angela_3</speak>
+    <speak speaker="angela">day12_angela_4</speak>
+    <speak speaker="angela">day12_angela_5</speak>
+    <speak speaker="angela">day12_angela_6</speak>
+    <speak speaker="angela">day12_angela_7</speak>
+    <speak speaker="angela">day12_angela_8</speak>
+    <speak speaker="angela">day12_angela_9</speak>
+    
+    
+   
+  </scene> 
+  
+</root>

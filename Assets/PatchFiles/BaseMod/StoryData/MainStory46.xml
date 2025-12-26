@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  
+ <!-- 표정 : 1_Sad , 1_Sad2 , 1_Default , 1_Default2 , 1_Smile , 1_Smile2-->
+  
+  <scene id="46">    
+    <character id="abel" name="nobody_name" direction="right" color="FFFFFF" sprite="Abel"/>
+
+
+    
+    <bgm src="endStory/City Of Light_piano" />
+
+    
+    
+    
+    <background src="ketherBK1" effect="none"/>
+
+
+    
+    <dialogue type="hide"/>
+    <add_filter filter="distortion_heat" effect="fade" />
+     <wait time="2"/>
+    <add_filter filter="noise_tv_2" />
+    <wait time="0.3" />
+    <remove_filter filter="noise_tv_2"/>
+    <wait time="1"/>
+    <remove_filter filter="distortion_heat"/>
+    <dialogue type="default"/>
+        
+    <speak speaker="abel">day46_abel_1</speak>
+    
+    <position character="abel" to="center" />
+    
+    <set_anim character="abel" anim="1_Smile"/> 
+    
+    <speak speaker="abel" anim="1_Smile2">day46_abel_2</speak>
+    <speak speaker="abel" anim="1_Smile">day46_abel_3</speak>
+    <speak speaker="abel">day46_abel_4</speak>
+    <speak speaker="abel">day46_abel_5</speak>
+    <speak speaker="abel">day46_abel_6</speak>
+    <speak speaker="abel" anim="1_Smile2">day46_abel_7</speak>
+    <speak speaker="abel" anim="1_Smile">day46_abel_8</speak>
+    <speak speaker="abel">day46_abel_9</speak>
+    <speak speaker="abel">day46_abel_10</speak>
+    <speak speaker="abel">day46_abel_11</speak>
+    <speak speaker="abel">day46_abel_12</speak>
+    <speak speaker="abel">day46_abel_13</speak>
+    <speak speaker="abel">day46_abel_14</speak>
+    <speak speaker="abel">day46_abel_15</speak>
+    <speak speaker="abel">day46_abel_16</speak>
+    <speak speaker="abel">day46_abel_17</speak>
+    <speak speaker="abel">day46_abel_18</speak>
+    <speak speaker="abel">day46_abel_19</speak>
+    <speak speaker="abel">day46_abel_20</speak>
+    <speak speaker="abel">day46_abel_21</speak>
+    <speak speaker="abel">day46_abel_22</speak>
+    <speak speaker="abel" anim="1_Default">day46_abel_23</speak>
+    <speak speaker="abel" anim="1_Default2">day46_abel_24</speak>
+    <speak speaker="abel" anim="1_Sad">day46_abel_25</speak>
+    <speak speaker="abel" anim="1_Sad2">day46_abel_26</speak>
+    <speak speaker="abel">day46_abel_27</speak>
+    <speak speaker="abel" anim="1_Default">day46_abel_28</speak>
+    <speak speaker="abel">day46_abel_29</speak>
+    <speak speaker="abel">day46_abel_30</speak>
+    <speak speaker="abel">day46_abel_31</speak>
+    <speak speaker="abel">day46_abel_32</speak>
+    <speak speaker="abel">day46_abel_33</speak>
+    <speak speaker="abel">day46_abel_34</speak>
+    <speak speaker="abel">day46_abel_35</speak>
+    <speak speaker="abel" anim="1_Smile">day46_abel_36</speak>
+    <speak speaker="abel">day46_abel_37</speak>
+    <speak speaker="abel">day46_abel_38</speak>
+    <speak speaker="abel" anim="1_Smile2">day46_abel_39</speak>
+    <speak speaker="abel" anim="1_Default">day46_abel_40</speak>
+    <speak speaker="abel">day46_abel_41</speak>
+    <speak speaker="abel">day46_abel_42</speak>
+    <speak speaker="abel">day46_abel_43</speak>
+    <speak speaker="abel" anim="1_Default2">day46_abel_44</speak>
+    <speak speaker="abel">day46_abel_45</speak>
+    <speak speaker="abel" anim="1_Default">day46_abel_46</speak>
+    <speak speaker="abel">day46_abel_47</speak>
+    <speak speaker="abel">day46_abel_48</speak>
+    <speak speaker="abel">day46_abel_49</speak>
+    <speak speaker="abel" anim="1_Sad">day46_abel_50</speak>
+    <speak speaker="abel" anim="1_Sad2">day46_abel_51</speak>
+    <speak speaker="abel" anim="1_Default">day46_abel_52</speak>
+    <speak speaker="abel" anim="1_Default2">day46_abel_53</speak>
+    <speak speaker="abel" anim="1_Smile">day46_abel_54</speak>
+
+    <cg src="BlackCG" effect="fade" />
+    <wait time="2"/>
+    
+    
+ 
+  </scene>
+
+ 
+ 
+</root>

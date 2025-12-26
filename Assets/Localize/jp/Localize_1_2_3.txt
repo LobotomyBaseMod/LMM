@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LocalizeDataList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <list>
+    <LocalizeData>
+      <id>PopupView_Normal_ModUploadCheck_ModFileNull_Title</id>
+      <value>アップロードを拒否</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_ModUploadCheck_ModFileNull_Desc</id>
+      <value>MODアップロードのためのファイル(zip)を登録する必要があります。</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Choice_TPNewVersionDetect_Desc</id>
+      <value>新しいバージョンが検出されました。アップデート後に実行しますか？(いいえ選択時に現在のバージョンで実行します。)</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>UI_GitHubView_AuthorName</id>
+      <value>作成者:</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>UI_GitHubView_AuthorSearchBtn</id>
+      <value>作成者の検索</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>ThirdPartyView_ModdingTool_Title</id>
+      <value>Moddingツール</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>ThirdPartyView_ModdingTool_Creator</id>
+      <value>作成者 はるぽん45359</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>ThirdPartyView_ModdingTool_Desc</id>
+      <value>E.G.O装備の作成を支援するプログラム</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>ThirdPartyView_TPState_Checking</id>
+      <value>確認中...</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>ThirdPartyView_TPState_NeedDownload</id>
+      <value>ダウンロード</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>ThirdPartyView_TPState_NeedUpdate</id>
+      <value>実行（新しいアップデート）</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>ThirdPartyView_TPState_Lastest</id>
+      <value>実行</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>ThirdPartyView_TPState_Error</id>
+      <value>エラー発生</value>
+    </LocalizeData>
+  </list>
+</LocalizeDataList>

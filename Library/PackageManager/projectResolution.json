@@ -1,0 +1,280 @@
+{
+  "context": {
+    "projectPath": "C:/Users/kj022/LobotomyModManager/Packages",
+    "unityVersion": "6000.0.32f1"
+  },
+  "inputs": [
+    "C:\\Users\\kj022\\LobotomyModManager\\Packages\\manifest.json",
+    "C:\\Users\\kj022\\LobotomyModManager\\Packages\\packages-lock.json"
+  ],
+  "outputs": {
+    "com.unity.2d.sprite@1.0.0": {
+      "name": "com.unity.2d.sprite",
+      "resolvedPath": "C:\\Users\\kj022\\LobotomyModManager\\Library\\PackageCache\\com.unity.2d.sprite",
+      "fingerprint": "6e37a90069af6bceba270d5e592cd6f3521c7a27",
+      "editorCompatibility": "2019.2.0a1",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.collab-proxy@2.6.0": {
+      "name": "com.unity.collab-proxy",
+      "resolvedPath": "C:\\Users\\kj022\\LobotomyModManager\\Library\\PackageCache\\com.unity.collab-proxy",
+      "fingerprint": "001b54a8988a14785c8e209d6c788bb15f9e58cf",
+      "editorCompatibility": "2021.3.0f1",
+      "version": "2.6.0",
+      "source": "registry"
+    },
+    "com.unity.ide.visualstudio@2.0.22": {
+      "name": "com.unity.ide.visualstudio",
+      "resolvedPath": "C:\\Users\\kj022\\LobotomyModManager\\Library\\PackageCache\\com.unity.ide.visualstudio",
+      "fingerprint": "8140e851d83e922ca2021b04a89519de94ebe38c",
+      "editorCompatibility": "2019.4.25f1",
+      "version": "2.0.22",
+      "source": "registry"
+    },
+    "com.unity.multiplayer.center@1.0.0": {
+      "name": "com.unity.multiplayer.center",
+      "resolvedPath": "C:\\Users\\kj022\\LobotomyModManager\\Library\\PackageCache\\com.unity.multiplayer.center",
+      "fingerprint": "f502d8ac613fa076192423e73892fbd89eb4049b",
+      "editorCompatibility": "6000.0.0a1",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.test-framework@1.4.5": {
+      "name": "com.unity.test-framework",
+      "resolvedPath": "C:\\Users\\kj022\\LobotomyModManager\\Library\\PackageCache\\com.unity.test-framework",
+      "fingerprint": "0a21eb82d95cd331643a1e0ce4e8e9a5f18954c8",
+      "editorCompatibility": "2019.4.0a10",
+      "version": "1.4.5",
+      "source": "registry"
+    },
+    "com.unity.ugui@2.0.0": {
+      "name": "com.unity.ugui",
+      "resolvedPath": "C:\\Users\\kj022\\LobotomyModManager\\Library\\PackageCache\\com.unity.ugui",
+      "fingerprint": "fd5da3b4bec8d043b01c30177bd62059c5fa36d0",
+      "editorCompatibility": "2019.2.0a1",
+      "version": "2.0.0",
+      "source": "builtin"
+    },
+    "com.unity.visualscripting@1.9.5": {
+      "name": "com.unity.visualscripting",
+      "resolvedPath": "C:\\Users\\kj022\\LobotomyModManager\\Library\\PackageCache\\com.unity.visualscripting",
+      "fingerprint": "1b53f46e931bea668e53f1feb0ac9138170c9455",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "1.9.5",
+      "source": "registry"
+    },
+    "com.unity.modules.accessibility@1.0.0": {
+      "name": "com.unity.modules.accessibility",
+      "resolvedPath": "C:\\Users\\kj022\\LobotomyModManager\\Library\\PackageCache\\com.unity.modules.accessibility",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.ai@1.0.0": {
+      "name": "com.unity.modules.ai",
+      "resolvedPath": "C:\\Users\\kj022\\LobotomyModManager\\Library\\PackageCache\\com.unity.modules.ai",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.androidjni@1.0.0": {
+      "name": "com.unity.modules.androidjni",
+      "resolvedPath": "C:\\Users\\kj022\\LobotomyModManager\\Library\\PackageCache\\com.unity.modules.androidjni",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.animation@1.0.0": {
+      "name": "com.unity.modules.animation",
+      "resolvedPath": "C:\\Users\\kj022\\LobotomyModManager\\Library\\PackageCache\\com.unity.modules.animation",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.assetbundle@1.0.0": {
+      "name": "com.unity.modules.assetbundle",
+      "resolvedPath": "C:\\Users\\kj022\\LobotomyModManager\\Library\\PackageCache\\com.unity.modules.assetbundle",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.audio@1.0.0": {
+      "name": "com.unity.modules.audio",
+      "resolvedPath": "C:\\Users\\kj022\\LobotomyModManager\\Library\\PackageCache\\com.unity.modules.audio",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.cloth@1.0.0": {
+      "name": "com.unity.modules.cloth",
+      "resolvedPath": "C:\\Users\\kj022\\LobotomyModManager\\Library\\PackageCache\\com.unity.modules.cloth",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.director@1.0.0": {
+      "name": "com.unity.modules.director",
+      "resolvedPath": "C:\\Users\\kj022\\LobotomyModManager\\Library\\PackageCache\\com.unity.modules.director",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.imageconversion@1.0.0": {
+      "name": "com.unity.modules.imageconversion",
+      "resolvedPath": "C:\\Users\\kj022\\LobotomyModManager\\Library\\PackageCache\\com.unity.modules.imageconversion",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.imgui@1.0.0": {
+      "name": "com.unity.modules.imgui",
+      "resolvedPath": "C:\\Users\\kj022\\LobotomyModManager\\Library\\PackageCache\\com.unity.modules.imgui",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.jsonserialize@1.0.0": {
+      "name": "com.unity.modules.jsonserialize",
+      "resolvedPath": "C:\\Users\\kj022\\LobotomyModManager\\Library\\PackageCache\\com.unity.modules.jsonserialize",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.particlesystem@1.0.0": {
+      "name": "com.unity.modules.particlesystem",
+      "resolvedPath": "C:\\Users\\kj022\\LobotomyModManager\\Library\\PackageCache\\com.unity.modules.particlesystem",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.physics@1.0.0": {
+      "name": "com.unity.modules.physics",
+      "resolvedPath": "C:\\Users\\kj022\\LobotomyModManager\\Library\\PackageCache\\com.unity.modules.physics",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.physics2d@1.0.0": {
+      "name": "com.unity.modules.physics2d",
+      "resolvedPath": "C:\\Users\\kj022\\LobotomyModManager\\Library\\PackageCache\\com.unity.modules.physics2d",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.screencapture@1.0.0": {
+      "name": "com.unity.modules.screencapture",
+      "resolvedPath": "C:\\Users\\kj022\\LobotomyModManager\\Library\\PackageCache\\com.unity.modules.screencapture",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.terrain@1.0.0": {
+      "name": "com.unity.modules.terrain",
+      "resolvedPath": "C:\\Users\\kj022\\LobotomyModManager\\Library\\PackageCache\\com.unity.modules.terrain",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.terrainphysics@1.0.0": {
+      "name": "com.unity.modules.terrainphysics",
+      "resolvedPath": "C:\\Users\\kj022\\LobotomyModManager\\Library\\PackageCache\\com.unity.modules.terrainphysics",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.tilemap@1.0.0": {
+      "name": "com.unity.modules.tilemap",
+      "resolvedPath": "C:\\Users\\kj022\\LobotomyModManager\\Library\\PackageCache\\com.unity.modules.tilemap",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.ui@1.0.0": {
+      "name": "com.unity.modules.ui",
+      "resolvedPath": "C:\\Users\\kj022\\LobotomyModManager\\Library\\PackageCache\\com.unity.modules.ui",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.uielements@1.0.0": {
+      "name": "com.unity.modules.uielements",
+      "resolvedPath": "C:\\Users\\kj022\\LobotomyModManager\\Library\\PackageCache\\com.unity.modules.uielements",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.umbra@1.0.0": {
+      "name": "com.unity.modules.umbra",
+      "resolvedPath": "C:\\Users\\kj022\\LobotomyModManager\\Library\\PackageCache\\com.unity.modules.umbra",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.unityanalytics@1.0.0": {
+      "name": "com.unity.modules.unityanalytics",
+      "resolvedPath": "C:\\Users\\kj022\\LobotomyModManager\\Library\\PackageCache\\com.unity.modules.unityanalytics",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.unitywebrequest@1.0.0": {
+      "name": "com.unity.modules.unitywebrequest",
+      "resolvedPath": "C:\\Users\\kj022\\LobotomyModManager\\Library\\PackageCache\\com.unity.modules.unitywebrequest",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.unitywebrequestassetbundle@1.0.0": {
+      "name": "com.unity.modules.unitywebrequestassetbundle",
+      "resolvedPath": "C:\\Users\\kj022\\LobotomyModManager\\Library\\PackageCache\\com.unity.modules.unitywebrequestassetbundle",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.unitywebrequestaudio@1.0.0": {
+      "name": "com.unity.modules.unitywebrequestaudio",
+      "resolvedPath": "C:\\Users\\kj022\\LobotomyModManager\\Library\\PackageCache\\com.unity.modules.unitywebrequestaudio",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.unitywebrequesttexture@1.0.0": {
+      "name": "com.unity.modules.unitywebrequesttexture",
+      "resolvedPath": "C:\\Users\\kj022\\LobotomyModManager\\Library\\PackageCache\\com.unity.modules.unitywebrequesttexture",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.unitywebrequestwww@1.0.0": {
+      "name": "com.unity.modules.unitywebrequestwww",
+      "resolvedPath": "C:\\Users\\kj022\\LobotomyModManager\\Library\\PackageCache\\com.unity.modules.unitywebrequestwww",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.vehicles@1.0.0": {
+      "name": "com.unity.modules.vehicles",
+      "resolvedPath": "C:\\Users\\kj022\\LobotomyModManager\\Library\\PackageCache\\com.unity.modules.vehicles",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.video@1.0.0": {
+      "name": "com.unity.modules.video",
+      "resolvedPath": "C:\\Users\\kj022\\LobotomyModManager\\Library\\PackageCache\\com.unity.modules.video",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.vr@1.0.0": {
+      "name": "com.unity.modules.vr",
+      "resolvedPath": "C:\\Users\\kj022\\LobotomyModManager\\Library\\PackageCache\\com.unity.modules.vr",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.wind@1.0.0": {
+      "name": "com.unity.modules.wind",
+      "resolvedPath": "C:\\Users\\kj022\\LobotomyModManager\\Library\\PackageCache\\com.unity.modules.wind",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.xr@1.0.0": {
+      "name": "com.unity.modules.xr",
+      "resolvedPath": "C:\\Users\\kj022\\LobotomyModManager\\Library\\PackageCache\\com.unity.modules.xr",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.subsystems@1.0.0": {
+      "name": "com.unity.modules.subsystems",
+      "resolvedPath": "C:\\Users\\kj022\\LobotomyModManager\\Library\\PackageCache\\com.unity.modules.subsystems",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.hierarchycore@1.0.0": {
+      "name": "com.unity.modules.hierarchycore",
+      "resolvedPath": "C:\\Users\\kj022\\LobotomyModManager\\Library\\PackageCache\\com.unity.modules.hierarchycore",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.ext.nunit@2.0.5": {
+      "name": "com.unity.ext.nunit",
+      "resolvedPath": "C:\\Users\\kj022\\LobotomyModManager\\Library\\PackageCache\\com.unity.ext.nunit",
+      "fingerprint": "60ef35ffd3cd5e2f5c8887a4a4ca6148854cd092",
+      "editorCompatibility": "2019.4.0a1",
+      "version": "2.0.5",
+      "source": "registry"
+    }
+  }
+}

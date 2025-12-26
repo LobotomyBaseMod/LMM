@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  
+    <!-- 표정 
+     보통 표정 2개 : Default1, 2
+     화난 표정 2개 : Angry1, 2-
+     씁쓸한 표정 2개 : Bitter1, 2
+     입은 웃지만 눈은 아니다 2개 : Annoy1, 2
+     웃는 표정 2개 : Smile1, 2
+     눈 감으면서 웃는 표정 : Close1, 2
+     젊은 헤세드 보통 2개: DefaultPast1, 2
+     젊은 헤세드 웃음 2개: SmilePast1, 2
+     젊은 헤세드 충격 2개: ShockPast1, 2
+     젊은 헤세드 화남 2개: AngryPast1, 2-->
+  
+  <scene id="chesed1_intro">
+    <background src="chesedBK" effect="none"/>
+    <character id="chesed" name="chesed_name" direction="right" color="FFFFFF" sprite="Chesed"/>
+    <character id="employee" name="employee_name" direction="right" color="FFFFFF" sprite="Employee"/>
+
+    <position character="chesed" to="center" />
+    <bgm src="Town_-_VIP_Lounge" />
+    <speak speaker="chesed">chesed1_intro_c1</speak>
+    <speak speaker="chesed" anim="Smile1">chesed1_intro_c2</speak>
+    <speak speaker="chesed">chesed1_intro_c3</speak>
+    <speak speaker="chesed">chesed1_intro_c4</speak>
+    <speak speaker="chesed" anim="Smile2">chesed1_intro_c5</speak>
+    <speak speaker="chesed" anim="Smile1">chesed1_intro_c6</speak>
+    <speak speaker="chesed" anim="Default1">chesed1_intro_c7</speak>
+    <speak speaker="chesed" anim="Smile1">chesed1_intro_c8</speak>
+    <speak speaker="chesed">chesed1_intro_c9</speak>
+    <speak speaker="chesed">chesed1_intro_c10</speak>
+    <speak speaker="chesed" anim="Bitter1">chesed1_intro_c11</speak>
+    <speak speaker="chesed" anim="Smile1">chesed1_intro_c12</speak>
+    <speak speaker="employee">chesed1_intro_e1</speak>
+    <speak speaker="chesed">chesed1_intro_c13</speak>
+    <speak speaker="employee">chesed1_intro_e2</speak>
+    <speak speaker="chesed" anim="Smile2">chesed1_intro_c14</speak>
+    <speak speaker="employee">chesed1_intro_e3</speak>
+    <speak speaker="chesed" anim="Smile1">chesed1_intro_c15</speak>
+    <speak speaker="chesed">chesed1_intro_c16</speak>
+    <speak speaker="employee">chesed1_intro_e4</speak>
+    <speak speaker="chesed" anim="Smile2">chesed1_intro_c17</speak>
+    <speak speaker="chesed" anim="Smile1">chesed1_intro_c18</speak>
+    <speak speaker="chesed" anim="Smile2">chesed1_intro_c19</speak>
+    <speak speaker="chesed">chesed1_intro_c20</speak>
+    <speak speaker="chesed" anim="Smile1">chesed1_intro_c21</speak>
+    <speak speaker="chesed" anim="Bitter1">chesed1_intro_c22</speak>
+    <sound src="SFX_water_drain_02"/>
+    <speak speaker="chesed" anim="Smile1">chesed1_intro_c23</speak>
+    <speak speaker="chesed" anim="Default1">chesed1_intro_c24</speak>
+  </scene>
+
+
+  <scene id="chesed2_intro">
+    <background src="chesedBK" effect="none"/>
+    <character id="chesed" name="chesed_name" direction="right" color="FFFFFF" sprite="Chesed"/>
+  
+    <position character="chesed" to="center" />
+   <bgm src="Town_-_VIP_Lounge" />"
+    <speak speaker="chesed" anim="Smile1">chesed2_intro_c1</speak>
+    <speak speaker="chesed">chesed2_intro_c2</speak>
+    <speak speaker="chesed" anim="Default1">chesed2_intro_c3</speak>
+    <speak speaker="chesed">chesed2_intro_c4</speak>
+    <speak speaker="chesed">chesed2_intro_c5</speak>
+    <speak speaker="chesed" anim="Smile1">chesed2_intro_c6</speak>
+    <speak speaker="chesed">chesed2_intro_c7</speak>
+    <speak speaker="chesed" anim="Default1">chesed2_intro_c8</speak>
+    <speak speaker="chesed" anim="Smile2">chesed2_intro_c9</speak>
+    <speak speaker="chesed" anim="Smile1">chesed2_intro_c10</speak>
+    <speak speaker="chesed" anim="Default1">chesed2_intro_c11</speak>
+    <speak speaker="chesed">chesed2_intro_c12</speak>   
+       <select>
+      <option text="chesed2_selection1">
+      </option>
+      <option text="chesed2_selection2">
+      </option>
+    </select>
+    <speak speaker="chesed" anim="Smile1">chesed2_intro_c13</speak>
+    <speak speaker="chesed">chesed2_intro_c14</speak>
+    <speak speaker="chesed" anim="Smile2">chesed2_intro_c15</speak>
+    <cg src="BlackCG" effect="fade" />
+    <disappear character="chesed"/>
+    <bgm src="Dungeon_-_Psych_Ward_ALT"/>
+    <speak speaker="chesed">chesed2_intro_c16</speak>
+    <remove_cg effect="fade" />
+
+    <position character="chesed" to="center"/>
+
+    <speak speaker="chesed" anim="Angry1">chesed2_intro_c17</speak>
+    <speak speaker="chesed" anim="Bitter1">chesed2_intro_c18</speak>
+  </scene>
+
+  <scene id="chesed3_intro">
+    <background src="chesedBK" effect="none"/>
+    <character id="chesed" name="chesed_name" direction="right" color="FFFFFF" sprite="Chesed"/>
+    <character id="angela" name="angela_name" direction="right" color="FFFFFF" sprite="Angela"/>
+    <character id="chesedPast" name="chesedPast_name" direction="right" color="FFFFFF" sprite="ChesedPast"/>
+    <character id="tiphereth_a" name="tiphereth_a_name" direction="right" color="FFFFFF" sprite="Tiphereth1"/>   
+   
+    <bgm src="Tilarids - Forgotten Entrance Of Memories" />
+   
+    <position character="chesed" to="center"/>
+   
+    
+    <speak speaker="chesed" anim="Smile1">chesed3_intro_c1</speak>
+    <speak speaker="chesed" anim="Smile2">chesed3_intro_c2</speak>
+    <speak speaker="chesed" anim="Default2">chesed3_intro_c3</speak>
+    <speak speaker="chesed" anim="Bitter1">chesed3_intro_c4</speak>
+    <speak speaker="chesed" anim="Default1">chesed3_intro_c5</speak>
+    <speak speaker="chesed" anim="Smile1">chesed3_intro_c6</speak>
+    <speak speaker="chesed" anim="Smile2">chesed3_intro_c7</speak>
+    <speak speaker="chesed" anim="Smile1">chesed3_intro_c8</speak>
+    <speak speaker="chesed" anim="Smile2">chesed3_intro_c9</speak> 
+    <speak speaker="chesed" anim="Close1">chesed3_intro_c10</speak> 
+    <speak speaker="chesed" anim="Smile1">chesed3_intro_c11</speak> 
+    <speak speaker="chesed" anim="Default1">chesed3_intro_c12</speak> 
+    <speak speaker="chesed" anim="Bitter2">chesed3_intro_c13</speak> 
+   
+   <position character="chesed" to="center" />
+    <cg src="BlackCG" effect="fade" />
+    <wait time="1" />
+    <remove_cg effect="fade" />
+    <camera_filter filter="grayscale" />
+    <disappear character="chesed"/>
+    
+    <position character="chesedPast" to="right"/>
+    <position character="angela" to="left" direction="right" />
+    
+    <bgm src="Romantic Memories" />
+  
+    <speak speaker="chesedPast" anim="SmilePast2">chesed3_intro_c14</speak> 
+    <speak speaker="angela" anim="Default1">chesed3_intro_a1</speak> 
+    <speak speaker="chesedPast">chesed3_intro_c15</speak> 
+    <speak speaker="angela" anim="Default1">chesed3_intro_a2</speak> 
+    <speak speaker="chesedPast" anim="AngryPast2">chesed3_intro_c16</speak> 
+    <speak speaker="chesedPast" anim="AngryPast1">chesed3_intro_c17</speak> 
+    <speak speaker="angela" anim="Default1">chesed3_intro_a3</speak> 
+    <speak speaker="chesedPast" anim="AngryPast2">chesed3_intro_c18</speak>
+    
+    <cg src="BlackCG" effect="fade" />
+    <wait time="1" />
+    <remove_cg effect="fade" />
+    <camera_filter filter="none" />
+    
+    <disappear character="chesedPast"/>
+    <disappear character="angela"/>
+    
+    <position character="tiphereth_a" to="left" direction="right"/>
+    <position character="chesed" to="right"/>
+    
+    <bgm src="Tilarids - Forgotten Entrance Of Memories" />
+    <set_anim character="chesed" anim="Default1"/> <!-- 헤세드 등장할때부터 표정 바뀜-->
+    <speak speaker="tiphereth_a">chesed3_intro_ta1</speak>
+    <speak speaker="tiphereth_a">chesed3_intro_ta2</speak>
+    <speak speaker="chesed" anim="Default1">chesed3_intro_c19</speak>
+    
+    <disappear character="tiphereth_a" to="left"/>
+   
+    <speak speaker="chesed" anim="Smile1">chesed3_intro_c20</speak>
+    
+    <select>
+      <option text="chesed3_selection1">
+      </option>
+      <option text="chesed3_selection2">
+      </option>
+    </select>
+    
+    <speak speaker="chesed" anim="Smile1">chesed3_intro_c21</speak>
+    <speak speaker="chesed">chesed3_intro_c22</speak>
+    <speak speaker="chesed" anim="Bitter2">chesed3_intro_c23</speak> 
+  </scene>
+
+
+  <scene id="chesed4_intro">
+   <character id="chesed" name="chesed_name" direction="right" color="FFFFFF" sprite="Chesed"/>
+   <character id="angela" name="angela_name" direction="right" color="FFFFFF" sprite="Angela"/>
+   <character id="chesedPast" name="chesedPast_name" direction="right" color="FFFFFF" sprite="ChesedPast"/>
+    <background src="chesedBK" effect="none"/>
+   <bgm src="Tilarids -  never frozen bottom flows" />
+   <position character="chesed" to="center"/>
+    
+  <speak speaker="chesed" anim="Default1">chesed4_intro_c1</speak>
+  <speak speaker="chesed" anim="Default2">chesed4_intro_c2</speak>
+  <speak speaker="chesed" anim="Smile1">chesed4_intro_c3</speak> 
+  <speak speaker="chesed" anim="Smile2">chesed4_intro_c4</speak> 
+  <speak speaker="chesed" anim="Annoy2">chesed4_intro_c5</speak> 
+  <speak speaker="chesed">chesed4_intro_c6</speak> 
+  <speak speaker="chesed" anim="Annoy1">chesed4_intro_c7</speak> 
+  <speak speaker="chesed" anim="Smile1">chesed4_intro_c8</speak> 
+  <speak speaker="chesed" anim="Close1">chesed4_intro_c9</speak> 
+  <speak speaker="chesed" anim="Smile1">chesed4_intro_c10</speak> 
+  <speak speaker="chesed" anim="Smile2">chesed4_intro_c11</speak> 
+  <speak speaker="chesed" anim="Smile1">chesed4_intro_c12</speak> 
+  <speak speaker="chesed" anim="Default1">chesed4_intro_c13</speak> 
+  
+  <cg src="BlackCG" effect="fade" />
+  <wait time="1" />
+  <remove_cg effect="fade" />
+  <camera_filter filter="grayscale" />
+  <disappear character="chesed"/>
+    <background src = "AngelaBackground" effect="none"/>
+  <position character="chesedPast" to="right"/>
+  <position character="angela" to="left" direction="right" />
+  <bgm src="Tilarids - Frozen Moon" />
+  <speak speaker="chesedPast" anim="DefaultPast1">chesed4_intro_c14</speak> 
+  <speak speaker="chesedPast" anim="DefaultPast2">chesed4_intro_c15</speak> 
+  <speak speaker="angela">chesed4_intro_a1</speak>
+  <speak speaker="chesedPast" anim="DefaultPast1">chesed4_intro_c16</speak> 
+  <speak speaker="angela">chesed4_intro_a2</speak>
+  <speak speaker="chesedPast" anim="AngryPast1">chesed4_intro_c17</speak>
+  <speak speaker="angela">chesed4_intro_c18</speak>
+  <speak speaker="chesedPast" anim="AngryPast2">chesed4_intro_c19</speak>
+  <speak speaker="angela" anim="Glad1">chesed4_intro_a3</speak>
+  <speak speaker="chesedPast" anim="AngryPast1">chesed4_intro_c20</speak>
+  <speak speaker="angela" anim="Default1">chesed4_intro_a4</speak>
+  <speak speaker="angela">chesed4_intro_a5</speak>
+  <speak speaker="angela">chesed4_intro_a6</speak>
+  <speak speaker="chesedPast" anim="ShockPast1">chesed4_intro_c21</speak>
+  <speak speaker="angela">chesed4_intro_a7</speak>
+  <speak speaker="angela">chesed4_intro_a8</speak>
+  <speak speaker="angela">chesed4_intro_a9</speak>
+  <speak speaker="angela">chesed4_intro_a10</speak>
+  <speak speaker="chesedPast" anim="ShockPast2">chesed4_intro_c22</speak> 
+  <speak speaker="angela">chesed4_intro_a11</speak> 
+  <speak speaker="angela" anim="Glad1">chesed4_intro_a12</speak> 
+  <speak speaker="angela" anim="Anger1">chesed4_intro_a13</speak> 
+  <speak speaker="chesedPast" anim="ShockPast1">chesed4_intro_c23</speak> 
+  <speak speaker="angela" anim="Default1">chesed4_intro_a14</speak> 
+  <speak speaker="chesedPast">chesed4_intro_c24</speak> 
+  <speak speaker="angela">chesed4_intro_a15</speak> 
+  <speak speaker="chesedPast">chesed4_intro_c25</speak> 
+  <speak speaker="angela">chesed4_intro_a16</speak> 
+  <speak speaker="angela">chesed4_intro_a17</speak> 
+  <speak speaker="angela">chesed4_intro_a18</speak> 
+  <speak speaker="angela" anim="Glad1">chesed4_intro_a19</speak> 
+  <speak speaker="angela" anim="Glad3">chesed4_intro_a20</speak>
+
+    <cg src="BlackCG" effect="fade" />
+    <wait time="1" />
+    <remove_cg effect="fade" />
+    <camera_filter filter="none" />
+    <disappear character="chesedPast"/>
+    <disappear character="angela"/>
+
+    <background src="chesedBK" effect="none"/>
+    <position character="chesed" to="right"/>
+    
+  <bgm src="Tilarids - Forgotten Entrance Of Memories" />
+  
+  <speak speaker="chesed" anim="Default1">chesed4_intro_c26</speak>
+  <speak speaker="chesed">chesed4_intro_c27</speak>
+  <speak speaker="chesed" anim="Bitter1">chesed4_intro_c28</speak>
+  
+  
+  </scene>
+
+  <scene id="chesed5_intro">
+    <background src="chesedBK" effect="none"/>
+    <character id="chesed" name="chesed_name" direction="right" color="FFFFFF" sprite="Chesed"/>
+    <character id="chesedPastPast" name="chesedPastPast_name" direction="right" color="FFFFFF" sprite="ChesedPastPast"/> <!-- Chesed Past는 옛날 헤세드, Chesed PastPast는 전생 헤세드....-->
+    <character id="angela" name="angela_name" direction="right" color="FFFFFF" sprite="Angela"/>
+    <character id="employee" name="employee_name" direction="right" color="FFFFFF" sprite="Employee"/>
+    <character id="gebura" name="gebura_name" direction="right" color="FFFFFF" sprite="Gebura"/>
+    <character id="binahShadow" name="binahShadow_name" direction="right" color="FFFFFF" sprite="BinahShadow"/>
+    <character id="a" name="a_name" direction="right" color="FFFFFF" sprite="A"/>
+    <bgm src="When_It_Rains" />
+    <position character="chesed" to="center"/>
+
+    <speak speaker="chesed" anim="Smile1">chesed5_intro_c1</speak>
+    <speak speaker="chesed" anim="Smile2">chesed5_intro_c2</speak>
+    <speak speaker="chesed" anim="Smile1">chesed5_intro_c3</speak>
+    <speak speaker="chesed">chesed5_intro_c4</speak>
+    <speak speaker="chesed">chesed5_intro_c5</speak>
+    <speak speaker="chesed" anim="Smile2">chesed5_intro_c6</speak>
+    <speak speaker="chesed" anim="Smile1">chesed5_intro_c7</speak>
+    <speak speaker="chesed">chesed5_intro_c8</speak>
+    <speak speaker="chesed">chesed5_intro_c9</speak>
+    <speak speaker="chesed" anim="Smile2">chesed5_intro_c10</speak>
+    <speak speaker="chesed" anim="Smile1">chesed5_intro_c11</speak>
+    <speak speaker="employee">chesed5_intro_e1</speak>
+    <speak speaker="chesed" anim="Smile2">chesed5_intro_c12</speak>
+    <speak speaker="employee">chesed5_intro_e2</speak>
+    <speak speaker="employee">chesed5_intro_e3</speak>
+    <speak speaker="chesed" anim="Smile1">chesed5_intro_c13</speak>
+    <speak speaker="employee">chesed5_intro_e4</speak>
+    <speak speaker="employee">chesed5_intro_e5</speak>
+    <speak speaker="chesed">chesed5_intro_c14</speak>
+    <speak speaker="employee">chesed5_intro_e6</speak>
+    <speak speaker="chesed" anim="Smile2">chesed5_intro_c15</speak>
+    <speak speaker="chesed" anim="Smile1">chesed5_intro_c16</speak>
+    <speak speaker="chesed">chesed5_intro_c17</speak>
+    <speak speaker="chesed">chesed5_intro_c18</speak>
+    <speak speaker="chesed">chesed5_intro_c19</speak>
+    <speak speaker="chesed">chesed5_intro_c20</speak>
+    <speak speaker="chesed" anim="Default1">chesed5_intro_c21</speak>
+    <speak speaker="chesed" anim="Annoy2">chesed5_intro_c22</speak>
+    <speak speaker="chesed" anim="Annoy1">chesed5_intro_c23</speak>
+    <speak speaker="chesed" anim="Smile1">chesed5_intro_c24</speak>
+    <speak speaker="chesed">chesed5_intro_c25</speak>
+    <speak speaker="chesed">chesed5_intro_c26</speak>
+    <speak speaker="chesed">chesed5_intro_c27</speak>
+    <speak speaker="chesed">chesed5_intro_c28</speak>
+    <speak speaker="chesed" anim="Smile2">chesed5_intro_c29</speak>
+    <speak speaker="chesed" anim="Smile1">chesed5_intro_c30</speak>
+    <speak speaker="chesed">chesed5_intro_c31</speak>
+    <speak speaker="chesed">chesed5_intro_c32</speak>
+    <speak speaker="chesed" anim="Annoy2">chesed5_intro_c33</speak>
+    <sound src="alertBeep" />
+    <camera_filter filter="color_sepia" />
+    <wait time="2"/>
+    <camera_filter filter="none" />
+    <position character="gebura" to="left-more"/>
+    
+    <speak speaker="gebura" anim="Angry1">chesed5_intro_g1</speak>
+    <speak speaker="gebura">chesed5_intro_g2</speak>
+    <speak speaker="chesed" anim="Smile1">chesed5_intro_c34</speak>
+    <speak speaker="gebura" anim="Angry2">chesed5_intro_g3</speak>
+    <speak speaker="gebura" anim="Angry1">chesed5_intro_g4</speak>
+    <speak speaker="gebura">chesed5_intro_g5</speak>
+    <speak speaker="gebura">chesed5_intro_g6</speak>
+    <speak speaker="chesed" anim="Smile2">chesed5_intro_c35</speak>
+    <speak speaker="gebura" anim="Default1">chesed5_intro_g7</speak>
+    <speak speaker="gebura" anim="Annoy1">chesed5_intro_g8</speak>
+    <speak speaker="gebura">chesed5_intro_g9</speak>
+    <speak speaker="gebura">chesed5_intro_g10</speak>
+    <disappear character="gebura"/>
+    <speak speaker="chesed" anim="Bitter1">chesed5_intro_c36</speak>
+
+    <position character="angela" to="right" direction="left"/>
+    <speak speaker="angela" anim="Default1">chesed5_intro_a1</speak>
+    <speak speaker="chesed" anim="Default1">chesed5_intro_c37</speak>
+    <speak speaker="angela">chesed5_intro_a2</speak>
+    <speak speaker="angela" anim="Glad3">chesed5_intro_a3</speak>
+    <speak speaker="angela" anim="Default1">chesed5_intro_a4</speak>
+    <speak speaker="chesed" anim="Smile1">chesed5_intro_c38</speak>
+    <speak speaker="angela">chesed5_intro_a5</speak>
+    <speak speaker="chesed" anim="Annoy2">chesed5_intro_c39</speak>
+    <speak speaker="angela" anim="Glad4">chesed5_intro_a6</speak>
+    <speak speaker="angela" anim="Glad3">chesed5_intro_a7</speak>
+    <speak speaker="angela">chesed5_intro_a8</speak>
+    <speak speaker="angela" anim="Default1">chesed5_intro_a9</speak>
+    <speak speaker="angela">chesed5_intro_a10</speak>
+    <speak speaker="chesed" anim="Smile1">chesed5_intro_c40</speak>
+    <speak speaker="chesed" anim="Smile2">chesed5_intro_c41</speak>
+    <speak speaker="chesed" anim="Smile1">chesed5_intro_c42</speak>
+    <speak speaker="angela" anim="Glad4">chesed5_intro_a11</speak>
+    <speak speaker="angela">chesed5_intro_a12</speak>
+    <speak speaker="angela">chesed5_intro_a13</speak>
+    <speak speaker="angela" anim="Default1">chesed5_intro_a14</speak>
+    <speak speaker="angela">chesed5_intro_a15</speak>
+    <speak speaker="angela">chesed5_intro_a16</speak>
+    <cg src="BlackCG" effect="fade" />
+    <wait time="2" />
+    <disappear character="chesed"/>
+    <disappear character="angela"/>
+    <remove_cg effect="fade" />
+    <camera_filter filter="grayscale" />
+    <bgm src="Smokey Lounge Jazz Combo" />
+    <background src="officeBK" effect="none"/>
+
+    <position character="chesedPastPast" to="right"/>
+    <wait time="2"/>
+    <speak speaker="chesedPastPast" anim="SmilePast1">chesed5_intro_c431</speak>
+    <sound src="knockTheDoor"/>
+    <speak speaker="binahShadow">chesed5_intro_b1</speak>
+    <speak speaker="chesedPastPast" anim="ShockPast1">chesed5_intro_c43</speak>
+    <speak speaker="binahShadow">chesed5_intro_b2</speak>
+    <speak speaker="binahShadow">chesed5_intro_b3</speak>
+    <speak speaker="chesedPastPast" anim="ShockPast2">chesed5_intro_c44</speak>
+    <sound src="159197__justbrando__glass-breaking"/>
+    <wait time="1.5"/>
+    <position character="binahShadow" to="left" direction="right"/>
+    <speak speaker="binahShadow">chesed5_intro_b4</speak>
+    <speak speaker="chesedPastPast">chesed5_intro_c45</speak>
+    <speak speaker="binahShadow">chesed5_intro_b5</speak>
+    <speak speaker="binahShadow">chesed5_intro_b6</speak>
+    <speak speaker="binahShadow">chesed5_intro_b7</speak>
+    <bgm src="Awake_In_Death_edit" />
+    <speak speaker="binahShadow">chesed5_intro_b8</speak>
+    <speak speaker="employee">chesed5_intro_e7</speak>
+    <speak speaker="binahShadow">chesed5_intro_b9</speak>
+    <speak speaker="binahShadow">chesed5_intro_b10</speak>
+    <speak speaker="binahShadow">chesed5_intro_b11</speak>
+    <speak speaker="binahShadow">chesed5_intro_b12</speak>
+    <speak speaker="binahShadow">chesed5_intro_b13</speak>
+    <speak speaker="binahShadow">chesed5_intro_b14</speak>
+    <speak speaker="binahShadow">chesed5_intro_b15</speak>
+    <cg src="BlackCG" effect="fade" />
+    <disappear character="chesedPastPast"/>
+    <disappear character="binahShadow"/>
+    <camera_filter filter="none" />
+
+    <speak speaker="chesed">chesed5_intro_c46</speak>
+    <speak speaker="chesed">chesed5_intro_c47</speak>
+    <speak speaker="chesed">chesed5_intro_c48</speak>
+    <speak speaker="chesed">chesed5_intro_c49</speak>
+    <speak speaker="chesed">chesed5_intro_c50</speak>
+
+    <remove_cg effect="fade" />
+    <background src="chesedBK" effect="none"/>
+    <position character="chesed" to="center"/>
+    <speak speaker="chesed" anim="Smile1">chesed5_intro_c51</speak>
+    <speak speaker="chesed">chesed5_intro_c52</speak>
+    <speak speaker="chesed" anim="Bitter1">chesed5_intro_c53</speak>
+    <speak speaker="chesed">chesed5_intro_c54</speak>
+    <speak speaker="chesed">chesed5_intro_c55</speak>
+    <speak speaker="chesed">chesed5_intro_c56</speak>
+    <speak speaker="chesed">chesed5_intro_c57</speak>
+    <speak speaker="chesed" anim="Close1">chesed5_intro_c58</speak>
+    <speak speaker="chesed" anim="Bitter2">chesed5_intro_c59</speak>
+    <cg src="BlackCG" effect="fade" />
+    <disappear character="chesed"/>
+    <wait time ="1"/>
+    <speak speaker="chesedPastPast" anim="SmilePast1">chesed5_intro_c60</speak>
+    <speak speaker="chesedPastPast" anim="SmilePast1">chesed5_intro_c61</speak>
+    <speak speaker="chesedPastPast" anim="SmilePast1">chesed5_intro_c62</speak>
+    <speak speaker="chesedPastPast" anim="SmilePast1">chesed5_intro_c63</speak>
+    <speak speaker="chesedPastPast" anim="SmilePast1">chesed5_intro_c64</speak>
+    <speak speaker="chesedPastPast" anim="SmilePast1">chesed5_intro_c65</speak>
+    <speak speaker="chesedPastPast" anim="SmilePast1">chesed5_intro_c66</speak>
+    <cg src="chesedCG1" effect="fade"/>
+    <speak speaker="a">chesed5_intro_A1</speak>
+    <speak speaker="a">chesed5_intro_A2</speak>
+    <speak speaker="a">chesed5_intro_A3</speak>
+    <speak speaker="a">chesed5_intro_A4</speak>
+
+    <select>
+      <option text="chesed5_selection1"></option>
+      <option text="chesed5_selection2"></option>
+      <option text="chesed5_selection3"></option>
+    </select>
+
+    <speak speaker="a">chesed5_intro_A5</speak>
+    <speak speaker="a">chesed5_intro_A6</speak>
+    <speak speaker="a">chesed5_intro_A7</speak>
+    <speak speaker="a">chesed5_intro_A8</speak>
+    <speak speaker="a">chesed5_intro_A9</speak>
+    <speak speaker="a">chesed5_intro_A10</speak>
+    <speak speaker="a">chesed5_intro_A11</speak>
+    <speak speaker="a">chesed5_intro_A12</speak>
+    <speak speaker="a">chesed5_intro_A13</speak>   
+  </scene>
+
+  <scene id="chesed6_intro">
+    <background src="officeBK" effect="none"/>
+    <character id="chesed" name="chesed_name" direction="right" color="FFFFFF" sprite="Chesed"/>
+    <character id="chesedRobot" name="chesed_name" direction="right" color="FFFFFF" sprite="ChesedRobot"/>
+    <character id="chesedPastPast" name="chesedPastPast_name" direction="right" color="FFFFFF" sprite="ChesedPastPast"/>
+    <character id="angela" name="angela_name" direction="right" color="FFFFFF" sprite="Angela"/>
+    <character id="c" name="c_name" color="FFBBFF" sprite="C_shadow" />
+    <character id="a" name="a_name" direction="right" color="FFFFFF" sprite="A"/>
+    <bgm src="Smokey Lounge Jazz Kit Track 1" />
+    <position character="chesedPastPast" to="center"/>
+
+    <speak speaker="chesedPastPast" anim="SmilePast2">chesed6_intro_c1</speak>
+    <speak speaker="chesedPastPast">chesed6_intro_c2</speak>
+    <speak speaker="chesedPastPast" anim="SmilePast1">chesed6_intro_c3</speak>
+    <speak speaker="chesedPastPast" anim="SmilePast2">chesed6_intro_c4</speak>
+    <speak speaker="chesedPastPast">chesed6_intro_c5</speak>
+    <speak speaker="chesedPastPast">chesed6_intro_c6</speak>
+    <speak speaker="chesedPastPast" anim="SmilePast1">chesed6_intro_c7</speak>
+    <speak speaker="chesedPastPast">chesed6_intro_c8</speak>
+    <speak speaker="chesedPastPast" anim="SmilePast2">chesed6_intro_c9</speak>
+    <speak speaker="chesedPastPast" anim="SmilePast1">chesed6_intro_c10</speak>
+    <speak speaker="chesedPastPast" anim="SmilePast2">chesed6_intro_c11</speak>
+    <speak speaker="chesedPastPast">chesed6_intro_c12</speak>
+    <speak speaker="chesedPastPast" anim="SmilePast1">chesed6_intro_c13</speak>
+    <speak speaker="chesedPastPast">chesed6_intro_c14</speak>
+    <speak speaker="c">chesed6_intro_ca1</speak>
+    <speak speaker="chesedPastPast" anim="SmilePast2">chesed6_intro_c15</speak>
+    <speak speaker="c">chesed6_intro_ca2</speak>
+    <speak speaker="chesedPastPast" anim="SmilePast1">chesed6_intro_c16</speak>
+    <speak speaker="c">chesed6_intro_ca3</speak>
+    <speak speaker="chesedPastPast">chesed6_intro_c17</speak>
+    <speak speaker="chesedPastPast">chesed6_intro_c18</speak>
+    <speak speaker="chesedPastPast">chesed6_intro_c19</speak>
+    <speak speaker="chesedPastPast" anim="SmilePast2">chesed6_intro_c20</speak>
+    <cg src="BlackCG" effect="fade" />
+    <disappear character="chesedPastPast"/>
+    <cg src="chesedCG2" effect="fade"/>
+    <speak speaker="a">chesed6_intro_A1</speak>
+    <speak speaker="a">chesed6_intro_A2</speak>
+    <speak speaker="a">chesed6_intro_A3</speak>
+    <speak speaker="a">chesed6_intro_A4</speak>
+    <speak speaker="a">chesed6_intro_A5</speak>
+    <speak speaker="a">chesed6_intro_A6</speak>
+    <speak speaker="a">chesed6_intro_A7</speak>
+    <cg src="BlackCG" effect="fade" />
+    <wait time="2" />
+    <remove_cg effect="fade" />
+    <background src="chesedBK" effect="none"/>
+    <position character="chesed" to="center"/>
+
+    <bgm src="Tilarids - Strange Dream"/>
+    <speak speaker="chesed" anim="Default1">chesed6_intro_c21</speak>
+    <speak speaker="chesed" anim="Smile1">chesed6_intro_c22</speak>
+    <speak speaker="chesed">chesed6_intro_c23</speak>
+    <speak speaker="chesed" anim="Bitter1">chesed6_intro_c24</speak>
+    <speak speaker="chesed" anim="Bitter2">chesed6_intro_c25</speak>
+    <speak speaker="chesed" anim="Smile1">chesed6_intro_c26</speak>
+
+    <position character="angela" to="right"/>
+    <speak speaker="angela">chesed6_intro_a1</speak>
+    <speak speaker="angela">chesed6_intro_a2</speak>
+    <speak speaker="angela">chesed6_intro_a3</speak>
+    <speak speaker="angela">chesed6_intro_a4</speak>
+    <speak speaker="angela">chesed6_intro_a5</speak>
+    <speak speaker="chesed">chesed6_intro_c27</speak>
+    <speak speaker="chesed">chesed6_intro_c28</speak>
+    <speak speaker="chesed">chesed6_intro_c29</speak>
+    <speak speaker="chesed">chesed6_intro_c30</speak>
+    <speak speaker="chesed">chesed6_intro_c31</speak>
+    <speak speaker="chesed">chesed6_intro_c32</speak>
+    <speak speaker="chesed">chesed6_intro_c33</speak>
+    <speak speaker="angela" anim="Anger1">chesed6_intro_a6</speak>
+    <speak speaker="chesed" anim="Smile2">chesed6_intro_c34</speak>
+    <speak speaker="angela" anim="Default1">chesed6_intro_a7</speak>
+    <speak speaker="chesed" anim="Smile2">chesed6_intro_c35</speak>
+    <speak speaker="chesed" anim="Smile1">chesed6_intro_c36</speak>
+    <speak speaker="chesed">chesed6_intro_c37</speak>
+    <speak speaker="angela">chesed6_intro_a8</speak>
+    <speak speaker="angela">chesed6_intro_a9</speak>
+    <speak speaker="angela">chesed6_intro_a10</speak>
+    <speak speaker="angela">chesed6_intro_a11</speak>
+    <disappear character="angela"/>
+    <bgm src="Smokey Lounge Jazz Kit Track 2" />
+    <speak speaker="chesed" anim="Bitter1">chesed6_intro_c38</speak>
+    <speak speaker="chesed">chesed6_intro_c39</speak>
+    <speak speaker="chesed" anim="Annoy1">chesed6_intro_c40</speak>
+    <sound src="changenoise" />
+    <add_filter filter="tv_distorted_fade" />
+    <wait time="0.25"/>
+    <disappear character="chesed"/>
+    <position character="chesedRobot" to="center"/>
+    <wait time="0.25"/>
+    <remove_filter filter="tv_distorted_fade" />
+    <speak speaker="chesedRobot">chesed6_intro_c41</speak>
+
+  </scene>
+
+</root>

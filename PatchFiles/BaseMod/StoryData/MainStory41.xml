@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <scene id="41">
+    <character id="angela" name="angela_name" color="FFBBFF" sprite="Angela" />
+
+
+    <bgm src="Ominous (Long Version)" />
+
+    <position character="angela" to="right" />
+
+  
+    <speak speaker="angela">day41_angela_1</speak>
+    <speak speaker="angela">day41_angela_2</speak>
+    <speak speaker="angela">day41_angela_3</speak>
+    <speak speaker="angela">day41_angela_4</speak>
+    <cg src="BlackCG" effect="fade" />
+    <wait time="1.5" />
+    <remove_cg effect="fade" />
+    <add_filter filter="tv_oldMovie2" />
+    <cg src="wingCG" effect="none" />
+ 
+    <speak speaker="angela">day41_angela_5</speak>
+    <speak speaker="angela">day41_angela_6</speak>
+    <speak speaker="angela">day41_angela_7</speak>
+    <speak speaker="angela">day41_angela_8</speak>
+    <speak speaker="angela">day41_angela_9</speak>
+    <speak speaker="angela">day41_angela_10</speak>
+    <speak speaker="angela">day41_angela_11</speak>
+    <speak speaker="angela">day41_angela_12</speak>
+    <speak speaker="angela">day41_angela_13</speak>
+    <speak speaker="angela">day41_angela_14</speak>
+    <speak speaker="angela">day41_angela_15</speak>
+    <speak speaker="angela">day41_angela_16</speak>
+    <speak speaker="angela">day41_angela_17</speak>
+    <remove_cg effect="fade" />
+    <remove_filter filter="tv_oldMovie2"/>
+    <speak speaker="angela">day41_angela_18</speak>
+    <speak speaker="angela">day41_angela_19</speak>
+    <speak speaker="angela">day41_angela_20</speak>
+    <speak speaker="angela">day41_angela_21</speak>
+    <speak speaker="angela">day41_angela_22</speak>
+    <speak speaker="angela">day41_angela_23</speak>
+    <speak speaker="angela">day41_angela_24</speak>
+    <speak speaker="angela">day41_angela_25</speak>
+    <speak speaker="angela">day41_angela_26</speak>
+    
+    
+    
+    
+
+    
+
+
+
+
+  </scene>
+
+
+</root>

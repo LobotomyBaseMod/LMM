@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<creature>
+  <script>Censored</script>
+  <stat>
+    <riskLevel>5</riskLevel>
+    <maxWorkCount>3</maxWorkCount>
+    <workProb type="R">
+      <prob level="1">0.8</prob>
+      <prob level="2">0.7</prob>
+      <prob level="3">0.6</prob>
+      <prob level="4">0.5</prob>
+      <prob level="5">0.4</prob>
+    </workProb>
+    <workProb type="W">
+      <prob level="1">0.9</prob>
+      <prob level="2">0.8</prob>
+      <prob level="3">0.7</prob>
+      <prob level="4">0.6</prob>
+      <prob level="5">0.5</prob>
+    </workProb>
+    <workProb type="B">
+      <prob level="1">0.7</prob>
+      <prob level="2">0.6</prob>
+      <prob level="3">0.5</prob>
+      <prob level="4">0.4</prob>
+      <prob level="5">0.3</prob>
+    </workProb>
+    <workProb type="P">
+      <prob level="1">0</prob>
+      <prob level="2">0</prob>
+      <prob level="3">0</prob>
+      <prob level="4">0</prob>
+      <prob level="5">0</prob>
+    </workProb>
+    <workCooltime>15</workCooltime>
+    <feelingStateCubeBounds>
+      <cube>16</cube>
+      <cube>32</cube>
+    </feelingStateCubeBounds>
+    <workDamage type="B" min="5" max="10" />
+    <workSpeed>0.33</workSpeed>
+    <specialDamage>
+      <damage id="1" type="B" min="10" max="14" />
+    </specialDamage>
+    <hp>1500</hp>
+    <speed>1.5</speed>
+    <defense id="1">
+      <defenseElement type="R">0.6</defenseElement>
+      <defenseElement type="W">0.8</defenseElement>
+      <defenseElement type="B">0.4</defenseElement>
+      <defenseElement type="P">1</defenseElement>
+    </defense>
+    <observeInfo total="140">
+      <observeElement name="stat" cost="30" />
+      <observeElement name="defense" cost="30" />
+      <observeElement name="work_r" cost="10" />
+      <observeElement name="work_w" cost="10" />
+      <observeElement name="work_b" cost="10" />
+      <observeElement name="work_p" cost="10" />
+      <observeElement name="care_0" cost="10" />
+      <observeElement name="care_1" cost="10" />
+      <observeElement name="care_2" cost="10" />
+      <observeElement name="care_3" cost="10" />
+    </observeInfo>
+    <equipment level="4" cost="222" equipId="200056" />
+    <equipment level="4" prob="0.01" equipId="400056" />
+    <observeBonus level="1" type="prob">3</observeBonus>
+    <observeBonus level="2" type="speed">3</observeBonus>
+    <observeBonus level="3" type="prob">3</observeBonus>
+    <observeBonus level="4" type="speed">3</observeBonus>
+    <qliphoth>2</qliphoth>
+  </stat>
+  <graph>
+    <node id="creature" x="-1.6" y="-1.8" type="creature" />
+    <node id="workspace" x="1.9" y="-1.8" type="workspace" />
+    <node id="outter" x="0" y="0" type="outterDoor" />
+    <node id="inner" x="2" y="-1.8" type="innerDoor" />
+    <node id="spider" x="0.15" y="-1.8" type="custom" />
+    <edge node1="spider" node2="workspace" type="road" />
+    <edge node1="workspace" node2="inner" type="road" />
+    <edge node1="creature" node2="workspace" type="road" />
+  </graph>
+  <anim prefab="Unit/CreatureAnimator/Censored" x="-1" y="-2" />
+  <returnImg src="" />
+  <portrait src="CreatureSprite/Dummy" />
+  <sound action="attack" src="creature/Censored/Censored_Atk" />
+  <sound action="deadScene" src="creature/Censored/Censored_DeadScene" />
+  <sound action="heal" src="creature/Censored/Censored_Heal" />
+  <sound action="sacrifice" src="creature/Censored/Censored_Sacrifice" />
+  <child>CensoredChild_stat</child>
+</creature>

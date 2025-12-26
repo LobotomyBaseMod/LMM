@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LocalizeDataList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <list>
+       <LocalizeData>
+      <id>PopupView_Normal_Close</id>
+      <value>閉じる</value>
+    </LocalizeData>
+      <LocalizeData>
+      <id>PopupView_Choice_Yes</id>
+      <value>はい</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Choice_No</id>
+      <value>いいえ</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_GameStartError_Title</id>
+      <value>ゲームの起動に失敗しました。</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_GameStartError_Desc</id>
+      <value>ゲームのパッチ適用中に問題が発生しました。</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_ModUploadSuccess_Title</id>
+      <value>アップロード完了</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_ModUploadSuccess_Desc</id>
+      <value>MODのアップロードが正常に完了しました。</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_ModUploadFail_Title</id>
+      <value>アップロード失敗</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_ModUploadFail_Desc</id>
+      <value>MODのアップロードが正常に完了しませんでした。</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_ModDeleteSuccess_Title</id>
+      <value>削除成功</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_ModDeleteSuccess_Desc</id>
+      <value>MODが正常に削除されました。</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_ModDeleteFail_Title</id>
+      <value>削除失敗。</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_ModDeleteFail_Desc</id>
+      <value>MOD削除に失敗しました。</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_ModUploadCheck_ModNameContainBlank_Title</id>
+      <value>アップロード拒否</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_ModUploadCheck_ModNameContainBlank_Desc</id>
+      <value>MOD名にはスペースを含めることはできません。</value>
+    </LocalizeData>
+
+
+
+    <LocalizeData>
+      <id>PopupView_Choice_ModDelete_Desc</id>
+      <value>そのMODを削除しますか？</value>
+    </LocalizeData>
+
+
+
+  </list>
+</LocalizeDataList>

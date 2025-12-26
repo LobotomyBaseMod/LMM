@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <script>BossEggBase</script>
+  <stat>
+    <riskLevel>5</riskLevel>
+    <maxWorkCount>0</maxWorkCount>
+    <workProb type="R">
+      <prob level="1">1</prob>
+      <prob level="2">1</prob>
+      <prob level="3">1</prob>
+      <prob level="4">1</prob>
+      <prob level="5">1</prob>
+    </workProb>
+    <workProb type="W">
+      <prob level="1">1</prob>
+      <prob level="2">1</prob>
+      <prob level="3">1</prob>
+      <prob level="4">1</prob>
+      <prob level="5">1</prob>
+    </workProb>
+    <workProb type="B">
+      <prob level="1">1</prob>
+      <prob level="2">1</prob>
+      <prob level="3">1</prob>
+      <prob level="4">1</prob>
+      <prob level="5">1</prob>
+    </workProb>
+    <workProb type="P">
+      <prob level="1">1</prob>
+      <prob level="2">1</prob>
+      <prob level="3">1</prob>
+      <prob level="4">1</prob>
+      <prob level="5">1</prob>
+    </workProb>
+    <workCooltime>15</workCooltime>
+    <feelingStateCubeBounds>
+      <cube>3</cube>
+      <cube>7</cube>
+      <cube>12</cube>
+    </feelingStateCubeBounds>
+    <workDamage type="R" min="1" max="3" />
+    <workSpeed>1</workSpeed>
+    <defense id="1">
+      <defenseElement type="R">0.5</defenseElement>
+      <defenseElement type="W">1.2</defenseElement>
+      <defenseElement type="B">-2.0</defenseElement>
+      <defenseElement type="P">0.8</defenseElement>
+    </defense>
+    <hp>6400</hp>
+    <speed>0</speed>
+    <observeInfo total="52">
+      <observeElement name="stat" cost="12" />
+      <observeElement name="defense" cost="12" />
+      <observeElement name="work_r" cost="4" />
+      <observeElement name="work_w" cost="4" />
+      <observeElement name="work_b" cost="4" />
+      <observeElement name="work_p" cost="4" />
+      <observeElement name="care_0" cost="12" />
+    </observeInfo>
+    <observeBonus level="1" type="speed">5</observeBonus>
+    <observeBonus level="2" type="prob">5</observeBonus>
+    <observeBonus level="3" type="speed">5</observeBonus>
+    <observeBonus level="4" type="prob">5</observeBonus>
+    <qliphoth>0</qliphoth>
+  </stat>
+  <graph>
+    <node id="creature" x="-1.6" y="-1.8" type="creature" />
+    <node id="workspace" x="1.9" y="-1.8" type="workspace" />
+    <node id="outter" x="0" y="0" type="outterDoor" />
+    <node id="inner" x="2" y="-1.8" type="innerDoor" />
+    <edge node1="workspace" node2="inner" type="road" />
+    <edge node1="creature" node2="workspace" type="road" />
+  </graph>
+  <anim prefab="Unit/CreatureAnimator/BigEgg" x="-1" y="-2" />
+  <returnImg src="" />
+  <portrait src="CreatureSprite/Dummy" />
+  <sound action="default" src="creature/Cosmos/Cosmos_Default" />
+</creature>

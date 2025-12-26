@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<creature>
+  <script>SnowWhite</script>
+  <stat>
+    <riskLevel>4</riskLevel>
+    <maxWorkCount>3</maxWorkCount>
+    <workProb type="R">
+      <prob level="1">0</prob>
+      <prob level="2">0</prob>
+      <prob level="3">0.4</prob>
+      <prob level="4">0.4</prob>
+      <prob level="5">0.4</prob>
+    </workProb>
+    <workProb type="W">
+      <prob level="1">0.1</prob>
+      <prob level="2">0.2</prob>
+      <prob level="3">0.45</prob>
+      <prob level="4">0.45</prob>
+      <prob level="5">0.5</prob>
+    </workProb>
+    <workProb type="B">
+      <prob level="1">0</prob>
+      <prob level="2">0</prob>
+      <prob level="3">0</prob>
+      <prob level="4">0</prob>
+      <prob level="5">0</prob>
+    </workProb>
+    <workProb type="P">
+      <prob level="1">0.2</prob>
+      <prob level="2">0.3</prob>
+      <prob level="3">0.55</prob>
+      <prob level="4">0.55</prob>
+      <prob level="5">0.6</prob>
+    </workProb>
+    <workCooltime>15</workCooltime>
+    <feelingStateCubeBounds>
+      <cube>7</cube>
+      <cube>13</cube>
+      <cube>20</cube>
+    </feelingStateCubeBounds>
+    <workDamage type="B" min="3" max="5" />
+    <workSpeed>0.3</workSpeed>
+    <specialDamage>
+      <damage id="1" type="B" min="10" max="13" />
+    </specialDamage>
+    <defense id="1">
+      <defenseElement type="R">0.5</defenseElement>
+      <defenseElement type="W">1</defenseElement>
+      <defenseElement type="B">0</defenseElement>
+      <defenseElement type="P">1.5</defenseElement>
+    </defense>
+    <hp>800</hp>
+    <speed>0</speed>
+    <observeInfo total="100">
+      <observeElement name="stat" cost="20" />
+      <observeElement name="defense" cost="20" />
+      <observeElement name="work_r" cost="7" />
+      <observeElement name="work_w" cost="7" />
+      <observeElement name="work_b" cost="7" />
+      <observeElement name="work_p" cost="7" />
+      <observeElement name="care_0" cost="8" />
+      <observeElement name="care_1" cost="8" />
+      <observeElement name="care_2" cost="8" />
+      <observeElement name="care_3" cost="8" />
+    </observeInfo>
+    <equipment level="4" cost="50" equipId="200023" />
+    <equipment level="3" cost="50" equipId="300023" />
+    <equipment level="3" prob="0.03" equipId="400023" />
+    <observeBonus level="1" type="speed">4</observeBonus>
+    <observeBonus level="2" type="prob">4</observeBonus>
+    <observeBonus level="3" type="speed">4</observeBonus>
+    <observeBonus level="4" type="prob">4</observeBonus>
+    <damageSection>
+      <section openLevel="0" bound="100" attackType="complex" phyiscal="6.0" mental="6.0" />
+    </damageSection>
+    <escapeable>true</escapeable>
+    <speed>0</speed>
+    <hp>600</hp>
+    <qliphoth>1</qliphoth>
+  </stat>
+  <graph>
+    <node id="creature" x="-1.6" y="-1.8" type="creature" />
+    <node id="workspace" x="1.9" y="-1.8" type="workspace" />
+    <!--<node id="door"  x="2" y="-1" type="entry"/>-->
+    <node id="outter" x="0" y="0" type="outterDoor" />
+    <node id="inner" x="2" y="-1.8" type="innerDoor" />
+    <!--<edge node1="workspace" node2="door" type="road" />-->
+    <edge node1="workspace" node2="inner" type="road" />
+    <edge node1="creature" node2="workspace" type="road" />
+  </graph>
+  <anim prefab="Unit/CreatureAnimator/SnowWhiteAnim" x="-1" y="-2" />
+  <returnImg src="" />
+  <portrait src="Unit/creature/magicalGirl" />
+  <!--
+    <sound action="attack" src="creature/onebad_good/oneBad_special_sry"/>
+    <sound action="enter" src="creature/onebad_good/oneBad_enter"/>-->
+</creature>

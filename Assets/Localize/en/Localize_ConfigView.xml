@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LocalizeDataList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <list>
+    <LocalizeData>
+      <id>UI_Btn_UpdateCheck</id>
+      <value>Update LMM</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_Apply</id>
+      <value>Apply</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Text_sidSetting</id>
+      <value>sid Setting</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>UI_Text_UpdateCheck_check</id>
+      <value>Update Checking...</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Text_UpdateCheck_error</id>
+      <value>Connection Error</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Text_UpdateCheck_recent</id>
+      <value>Latest Version</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Text_UpdateCheck_exist</id>
+      <value>New Update Exists</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>UI_Text_sidCheck_check</id>
+      <value>Session Checking...</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Text_sidCheck_ok</id>
+      <value>Valid Session</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Text_sidCheck_error</id>
+      <value>Invalid Session</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>UI_Btn_Language</id>
+      <value>Change Language</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>UI_Text_updateWarn</id>
+      <value>Updates are only possible after session settings have been completed.</value>
+    </LocalizeData>
+
+  </list>
+</LocalizeDataList>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <scene id="27">
+    <character id="angela" name="angela_name" color="FFBBFF" sprite="Angela" />
+
+
+    <bgm src="Dear Lorenne" />
+
+    <position character="angela" to="right" />
+
+  
+    <speak speaker="angela">day27_angela_1</speak>
+    <speak speaker="angela">day27_angela_2</speak>
+    <speak speaker="angela">day27_angela_3</speak>
+    <speak speaker="angela">day27_angela_4</speak>
+    <speak speaker="angela" anim="Anger1">day27_angela_5</speak>
+    <speak speaker="angela">day27_angela_6</speak>
+    <speak speaker="angela">day27_angela_7</speak>
+    <speak speaker="angela">day27_angela_8</speak>
+    <speak speaker="angela">day27_angela_9</speak>
+    <speak speaker="angela" anim="Anger2">day27_angela_10</speak>
+    <speak speaker="angela">day27_angela_11</speak>
+    <speak speaker="angela">day27_angela_12</speak>
+    <speak speaker="angela">day27_angela_13</speak>
+    <speak speaker="angela" anim="Default1">day27_angela_14</speak>
+    <speak speaker="angela" anim="Glad1">day27_angela_15</speak>
+    <speak speaker="angela" anim="Anger1">day27_angela_16</speak>
+    <speak speaker="angela">day27_angela_17</speak>
+    <speak speaker="angela" anim="Anger2">day27_angela_18</speak>
+    <speak speaker="angela">day27_angela_19</speak>
+    <speak speaker="angela" anim="Default1">day27_angela_20</speak>
+    <speak speaker="angela">day27_angela_21</speak>
+    <speak speaker="angela">day27_angela_22</speak>
+    <speak speaker="angela">day27_angela_23</speak>
+    <speak speaker="angela">day27_angela_24</speak>
+    <speak speaker="angela" anim="Glad1">day27_angela_25</speak>
+    <speak speaker="angela" anim="Glad2">day27_angela_26</speak>
+    <speak speaker="angela">day27_angela_27</speak>
+    <speak speaker="angela" anim="Glad1">day27_angela_28</speak>
+    <speak speaker="angela" anim="Default1">day27_angela_29</speak>
+    <speak speaker="angela">day27_angela_30</speak>
+    <speak speaker="angela" anim="Anger1">day27_angela_31</speak>
+    <bgm src="memoryDelete" />
+    <speak speaker="angela" anim="Default1" type="auto">day27_angela_32</speak>
+    <add_filter filter="super_hexagon"/>
+    <add_filter filter="super_computer"/>
+    <wait time="3"/>
+
+
+
+  </scene>
+
+
+</root>

@@ -1,0 +1,4720 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<equipment_list>
+
+  <equipment id="177777" type="weapon">
+    <name>Default_weapon_name</name>
+    <no>Default_weapon_no</no>
+
+
+    <weaponClassType>mace</weaponClassType>
+    <sprite>Mace_Set_01_6</sprite>
+
+    <animation>Attack1</animation>
+
+    <damage type="P" min="9999" max="99999">
+      <soundInfo type="damage">Weapons/mace1</soundInfo>
+    </damage>
+    <range>3</range>
+    <script></script>
+
+    <!--dummy For UI-->
+    <attackSpeed>2</attackSpeed>
+    <grade>1</grade>
+    <maxNum>5</maxNum>
+  </equipment>
+
+  <equipment id="277777" type="armor">
+    <name>Default_armor_name</name>
+    <no>Default_armor_no</no>
+
+    <armorId>0</armorId>
+
+    <defense>
+      <defenseElement type="R">0</defenseElement>
+      <defenseElement type="W">0</defenseElement>
+      <defenseElement type="B">0</defenseElement>
+      <defenseElement type="P">0</defenseElement>
+    </defense>
+
+    <script></script>
+    <maxNum>5</maxNum>
+  </equipment>
+
+  <equipment id="1" type="weapon">
+    <name>Default_weapon_name</name>
+    <no>Default_weapon_no</no>
+
+
+    <weaponClassType>mace</weaponClassType>
+    <sprite>Mace_Set_01_4</sprite>
+
+    <animation>Attack1</animation>
+
+    <damage type="R" min="4" max="6">
+      <soundInfo type="damage">Weapons/mace1</soundInfo>
+    </damage>
+    <range>3</range>
+    <script></script>
+
+    <!--dummy For UI-->
+    <attackSpeed>2</attackSpeed>
+    <grade>1</grade>
+  </equipment>
+
+  <equipment id="2" type="weapon">
+    <name>OfficerWeapon</name>
+
+    <weaponClassType>officer</weaponClassType>
+
+    <animation>Attack1</animation>
+
+    <!--damageInfo 사용 안함-->
+    <damage type="R" min="1" max="1">
+      <soundInfo type="damage">Weapons/officerGun</soundInfo>
+    </damage>
+    <range>5</range>
+    <script>OfficerWeapon</script>
+
+    <!--dummy For UI-->
+    <attackSpeed>2</attackSpeed>
+    <grade>1</grade>
+  </equipment>
+
+  <!-- 토끼팀 검 -->
+  <equipment id="4" type="weapon">
+    <name>Default_weapon_name</name>
+    <no>Default_weapon_no</no>
+
+    <weaponClassType>mace</weaponClassType>
+    <sprite></sprite>
+
+    <animation>knife1</animation>
+    <animation>knife2</animation>
+    <animation>knife3</animation>
+
+    <damage type="R" min="17" max="19">
+    </damage>
+    <damage type="R" min="5" max="7">
+    </damage>
+    <damage type="R" min="17" max="19">
+    </damage>
+
+    <!-- 원거리 데미지 -->
+    <damage type="R" min="2" max="3">
+      <soundInfo type="damage">Rabbit/RabbitTeam_GunFire</soundInfo>
+    </damage>
+    <range>3</range>
+    <script>RabbitKnifeWeapon</script>
+
+    <!--dummy For UI-->
+    <attackSpeed>2</attackSpeed>
+    <grade>1</grade>
+  </equipment>
+
+  <equipment id="5" type="armor">
+    <name></name>
+
+    <defense>
+      <defenseElement type="R">0.6</defenseElement>
+      <defenseElement type="W">0.6</defenseElement>
+      <defenseElement type="B">0.6</defenseElement>
+      <defenseElement type="P">0.6</defenseElement>
+    </defense>
+
+    <script></script>
+  </equipment>
+
+  <!-- Temp weapon -->
+  <equipment id="11" type="weapon">
+    <name></name>
+
+    <weaponClassType>rifle</weaponClassType>
+    <sprite>Rifle_Set_01_0</sprite>
+
+    <animation>Attack1</animation>
+    <animation>Attack2</animation>
+
+    <require type="level">2</require>
+    <require type="R">2</require>
+    <require type="W">2</require>
+    <require type="B">2</require>
+    <require type="P">2</require>
+
+    <no>BeautyBeast_armor_no</no>
+
+
+    <damage type="R" min="400" max="500">
+    </damage>
+    <damage type="R" min="6" max="7">
+    </damage>
+    <range>2</range>
+    <script>OneBadManyGoodWeapon</script>
+
+    <!--dummy For UI-->
+    <attackSpeed>1</attackSpeed>
+    <grade>1</grade>
+  </equipment>
+  <!-- *********** -->
+
+  <!-- redShoes attracted -->
+  <equipment id="101" type="weapon">
+    <name></name>
+
+    <weaponClassType>special</weaponClassType>
+    <sprite>Axe_Set_01_0</sprite>
+
+    <animation>Attack1</animation>
+    <animation>Attack2</animation>
+
+    <damage type="R" min="3" max="4">
+      <soundInfo type="damage">Weapons/axe1</soundInfo>
+    </damage>
+    <damage type="R" min="10" max="15">
+      <soundInfo type="damage">Weapons/axe1</soundInfo>
+    </damage>
+    <range>2</range>
+
+    <script>RedShoesAttractedWeapon</script>
+    <grade>3</grade>
+  </equipment>
+
+  <!-- strait jactket -->
+  <equipment id="100018" type="weapon">
+    <name></name>
+
+    <animation>Attack</animation>
+
+    <damage type="R" min="3" max="5">
+      <soundInfo type="damage">Weapons/axe1</soundInfo>
+    </damage>
+    <range>3</range>
+
+    <script></script>
+
+    <splash type="penetration" />
+
+    <!--dummy For UI-->
+    <attackSpeed>4</attackSpeed>
+    <grade>S</grade>
+
+  </equipment>
+
+  <equipment id="100105" type="weapon">
+    <name></name>
+
+    <animation>Attack</animation>
+
+    <damage type="R" min="3" max="5">
+      <soundInfo type="damage">Weapons/axe1</soundInfo>
+    </damage>
+    <range>3</range>
+
+    <script></script>
+
+    <splash type="penetration" />
+
+    <!--dummy For UI-->
+    <attackSpeed>1.5</attackSpeed>
+    <grade>S</grade>
+
+  </equipment>
+
+  <!-- viscus snake infested -->
+  <equipment id="100046" type="weapon">
+    <name>ViscusInfestedWeapon</name>
+
+    <animation>Attack1</animation>
+    <animation>Attack2</animation>
+    <animation>Attack3</animation>
+
+    <damage type="R" min="3" max="5">
+    </damage>
+    <range>1</range>
+
+    <script>ViscusInfestedWeapon</script>
+
+    <!--dummy For UI-->
+    <attackSpeed>1</attackSpeed>
+    <grade>S</grade>
+
+  </equipment>
+
+
+  <!-- cosmos -->
+  <equipment id="100036" type="weapon">
+    <name></name>
+
+    <animation>Attack</animation>
+
+    <damage type="B" min="2" max="4">
+    </damage>
+    <range>3</range>
+
+    <!--dummy For UI-->
+    <attackSpeed>4</attackSpeed>
+    <grade>S</grade>
+
+  </equipment>
+
+  <!-- SnowQueen First Kiss. no bonus.-->
+  <equipment id="1021" type="special">
+    <name>SnowQueenKiss_gift_name</name>
+    <desc>SnowQueenKiss_gift_Desc</desc>
+    <attachPos>body_up</attachPos>
+    <attachType>special_add</attachType>
+    <bonus>
+      <hp>0</hp>
+    </bonus>
+    <sprite>SnowQueen_firstkiss_acc</sprite>
+  </equipment>
+
+  <!-- SnowQueen temp gift when agent goes to snowqueen for dual. no bonus.-->
+  <equipment id="1022" type="special">
+    <name>SnowQueenDual_gift_name</name>
+    <desc>SnowQueenDual_gift_Desc</desc>
+    <attachPos>right_hand</attachPos>
+    <attachType>special_add</attachType>
+    <bonus>
+      <hp>0</hp>
+    </bonus>
+    <sprite>Snowqueen_em_sword</sprite>
+  </equipment>
+
+  <!-- littleWitch Monster-->
+  <equipment id="100041" type="weapon">
+    <name></name>
+
+    <animation>Attack</animation>
+
+    <damage type="R" min="8" max="10">
+    </damage>
+    <range>2</range>
+
+    <script></script>
+
+    <!--dummy For UI-->
+    <attackSpeed>1.33</attackSpeed>
+    <grade>1</grade>
+
+  </equipment>
+
+  <!-- MachineDawn -->
+  <equipment id="1200001" type="weapon">
+    <name></name>
+
+    <animation>Attack</animation>
+
+    <damage type="R" min="3" max="5">
+    </damage>
+    <range>2</range>
+
+    <!--dummy For UI-->
+    <attackSpeed>4</attackSpeed>
+    <grade>S</grade>
+
+    <script>MachineDawnInnerWeapon</script>
+  </equipment>
+
+  <equipment id="3" type="armor">
+    <name></name>
+
+    <defense>
+      <defenseElement type="R">0</defenseElement>
+      <defenseElement type="W">1</defenseElement>
+      <defenseElement type="B">2</defenseElement>
+      <defenseElement type="P">3</defenseElement>
+    </defense>
+
+    <script></script>
+  </equipment>
+  <!-- dummy armor-->
+  <equipment id="200" type="armor">
+    <name></name>
+
+    <armorId>2</armorId>
+
+    <defense>
+      <defenseElement type="R">0</defenseElement>
+      <defenseElement type="W">1</defenseElement>
+      <defenseElement type="B">2</defenseElement>
+      <defenseElement type="P">3</defenseElement>
+    </defense>
+  </equipment>
+
+  <!-- tutorial-->
+  <equipment id="300000" type="armor">
+    <name>Dummy_weapon_name</name>
+    <desc>Dummy_armor_desc</desc>
+
+    <armorId>52</armorId>
+
+    <defense>
+      <defenseElement type="R">0.5</defenseElement>
+      <defenseElement type="W">1</defenseElement>
+      <defenseElement type="B">1.5</defenseElement>
+      <defenseElement type="P">2</defenseElement>
+    </defense>
+
+    <grade>2</grade>
+    <maxNum>5</maxNum>
+  </equipment>
+
+  <equipment id="200000" type="weapon">
+    <name>Dummy_weapon_name</name>
+    <desc>Dummy_weapon_desc</desc>
+
+    <weaponClassType>mace</weaponClassType>
+    <sprite>Mace_Set_01_6</sprite>
+
+    <animation>Attack1</animation>
+
+    <damage type="W" min="5" max="7">
+      <soundInfo type="damage">Weapons/mace1</soundInfo>
+    </damage>
+    <range>3</range>
+    <!-- <script>OneBadManyGoodWeapon</script>-->
+    <maxNum>5</maxNum>
+    <!--dummy For UI-->
+    <attackSpeed>2</attackSpeed>
+    <grade>2</grade>
+  </equipment>
+
+  <equipment id="400000" type="special">
+    <name>Dummy_weapon_name</name>
+    <desc>Dummy_gift_Desc</desc>
+    <attachPos>head</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <hp>2</hp>
+      <mental>2</mental>
+    </bonus>
+    <sprite>DummyGift</sprite>
+  </equipment>
+
+
+  <!-- Temp Armor -->
+  <equipment id="22" type="armor">
+    <name>Default_armor_name</name>
+    <no>Default_armor_no</no>
+
+    <armorId>0</armorId>
+
+    <defense>
+      <defenseElement type="R">1</defenseElement>
+      <defenseElement type="W">1</defenseElement>
+      <defenseElement type="B">1.5</defenseElement>
+      <defenseElement type="P">2</defenseElement>
+    </defense>
+
+    <script></script>
+  </equipment>
+
+  <equipment id="300009" type="armor">
+    <name>OneBadManyGood_weapon_name</name>
+    <no>OneBadManyGood_armor_no</no>
+    <desc>OneBadManyGood_armor_desc</desc>
+    <specialDesc>OneBadManyGood_armor_specialDesc</specialDesc>
+
+    <armorId>7</armorId>
+    <defense>
+      <defenseElement type="R">0.9</defenseElement>
+      <defenseElement type="W">0.8</defenseElement>
+      <defenseElement type="B">0.9</defenseElement>
+      <defenseElement type="P">2</defenseElement>
+    </defense>
+    <grade>1</grade>
+    <maxNum>5</maxNum>
+    <script>OneBadManyGoodArmor</script>
+  </equipment>
+
+  <equipment id="300013" type="armor">
+    <name>BeautyBeast_weapon_name</name>
+    <no>BeautyBeast_armor_no</no>
+    <desc>BeautyBeast_armor_desc</desc>
+
+    <armorId>15</armorId>
+    <defense>
+      <defenseElement type="R">0.8</defenseElement>
+      <defenseElement type="W">0.8</defenseElement>
+      <defenseElement type="B">1.5</defenseElement>
+      <defenseElement type="P">2</defenseElement>
+    </defense>
+    <grade>2</grade>
+    <maxNum>3</maxNum>
+  </equipment>
+
+  <equipment id="300001" type="armor">
+    <name>Matchgirl_weapon_name</name>
+    <no>Matchgirl_armor_no</no>
+    <desc>Matchgirl_armor_desc</desc>
+
+    <armorId>5</armorId>
+
+    <defense>
+      <defenseElement type="R">0.6</defenseElement>
+      <defenseElement type="W">1</defenseElement>
+      <defenseElement type="B">1.2</defenseElement>
+      <defenseElement type="P">2</defenseElement>
+    </defense>
+    <grade>2</grade>
+    <maxNum>2</maxNum>
+  </equipment>
+
+  <equipment id="300012" type="armor">
+
+    <name>SpiderMom_weapon_name</name>
+    <no>SpiderMom_armor_no</no>
+    <desc>SpiderMom_armor_desc</desc>
+    <specialDesc>SpiderMom_armor_specialDesc</specialDesc>
+
+    <require type="R">2</require>
+
+    <armorId>11</armorId>
+
+    <defense>
+      <defenseElement type="R">0.8</defenseElement>
+      <defenseElement type="W">0.8</defenseElement>
+      <defenseElement type="B">0.8</defenseElement>
+      <defenseElement type="P">2</defenseElement>
+    </defense>
+    <grade>2</grade>
+    <maxNum>1</maxNum>
+    <script>SpiderMomArmor</script>
+  </equipment>
+
+  <equipment id="300018" type="armor">
+
+    <name>StraitJacket_weapon_name</name>
+    <no>StraitJacket_armor_no</no>
+    <desc>StraitJacket_armor_desc</desc>
+
+
+    <armorId>12</armorId>
+
+    <defense>
+      <defenseElement type="R">0.7</defenseElement>
+      <defenseElement type="W">1.2</defenseElement>
+      <defenseElement type="B">0.8</defenseElement>
+      <defenseElement type="P">2</defenseElement>
+    </defense>
+    <grade>2</grade>
+    <maxNum>2</maxNum>
+  </equipment>
+
+  <equipment id="300022" type="armor">
+
+    <name>LadyLookingAtWall_weapon_name</name>
+    <no>LadyLookingAtWall_armor_no</no>
+    <desc>LadyLookingAtWall_armor_desc</desc>
+
+
+    <armorId>14</armorId>
+
+    <defense>
+      <defenseElement type="R">1.2</defenseElement>
+      <defenseElement type="W">0.6</defenseElement>
+      <defenseElement type="B">1</defenseElement>
+      <defenseElement type="P">2</defenseElement>
+    </defense>
+    <grade>2</grade>
+    <maxNum>2</maxNum>
+  </equipment>
+
+  <equipment id="300036" type="armor">
+
+    <name>Cosmos_weapon_name</name>
+    <no>Cosmos_armor_no</no>
+    <desc>Cosmos_armor_desc</desc>
+
+    <armorId>3</armorId>
+
+    <defense>
+      <defenseElement type="R">1</defenseElement>
+      <defenseElement type="W">1.2</defenseElement>
+      <defenseElement type="B">0.6</defenseElement>
+      <defenseElement type="P">2.0</defenseElement>
+    </defense>
+    <grade>2</grade>
+    <maxNum>2</maxNum>
+  </equipment>
+
+  <equipment id="300003" type="armor">
+
+    <name>RedShoes_weapon_name</name>
+    <no>RedShoes_armor_no</no>
+    <desc>RedShoes_armor_desc</desc>
+
+    <require type="B">3</require>
+
+    <armorId>17</armorId>
+
+    <defense>
+      <defenseElement type="R">0.5</defenseElement>
+      <defenseElement type="W">1.2</defenseElement>
+      <defenseElement type="B">0.8</defenseElement>
+      <defenseElement type="P">1.5</defenseElement>
+    </defense>
+    <grade>3</grade>
+    <maxNum>1</maxNum>
+  </equipment>
+
+  <equipment id="300016" type="armor">
+
+    <name>Rudolph_weapon_name</name>
+    <no>Rudolph_armor_no</no>
+    <desc>Rudolph_armor_desc</desc>
+
+    <require type="R">2</require>
+
+    <armorId>8</armorId>
+
+    <defense>
+      <defenseElement type="R">0.8</defenseElement>
+      <defenseElement type="W">0.6</defenseElement>
+      <defenseElement type="B">1.3</defenseElement>
+      <defenseElement type="P">1.5</defenseElement>
+    </defense>
+    <grade>3</grade>
+    <maxNum>2</maxNum>
+  </equipment>
+
+  <equipment id="300011" type="armor">
+
+    <name>Helper_weapon_name</name>
+    <no>Helper_armor_no</no>
+    <desc>Helper_armor_desc</desc>
+
+    <require type="W">2</require>
+
+    <armorId>2</armorId>
+
+    <defense>
+      <defenseElement type="R">0.6</defenseElement>
+      <defenseElement type="W">1.3</defenseElement>
+      <defenseElement type="B">0.9</defenseElement>
+      <defenseElement type="P">1.5</defenseElement>
+    </defense>
+    <grade>3</grade>
+    <maxNum>3</maxNum>
+  </equipment>
+
+  <equipment id="300002" type="armor">
+    <name>HappyTeddy_weapon_name</name>
+    <no>HappyTeddy_armor_no</no>
+    <desc>HappyTeddy_armor_desc</desc>
+
+    <require type="level">2</require>
+
+    <armorId>13</armorId>
+
+    <defense>
+      <defenseElement type="R">0.8</defenseElement>
+      <defenseElement type="W">1</defenseElement>
+      <defenseElement type="B">1</defenseElement>
+      <defenseElement type="P">1.5</defenseElement>
+    </defense>
+    <grade>3</grade>
+    <maxNum>3</maxNum>
+  </equipment>
+
+  <equipment id="300039" type="armor">
+
+    <name>MagicalGirl2_weapon_name</name>
+    <no>MagicalGirl2_armor_no</no>
+    <desc>MagicalGirl2_armor_desc</desc>
+
+    <require type="B">4</require>
+    <require type="level">4</require>
+
+    <armorId>16</armorId>
+
+    <defense>
+      <defenseElement type="R">0.4</defenseElement>
+      <defenseElement type="W">0.7</defenseElement>
+      <defenseElement type="B">0.8</defenseElement>
+      <defenseElement type="P">2</defenseElement>
+    </defense>
+    <grade>4</grade>
+    <maxNum>1</maxNum>
+  </equipment>
+
+  <equipment id="300026" type="armor">
+
+    <name>QueenBee_weapon_name</name>
+    <no>QueenBee_armor_no</no>
+    <desc>QueenBee_armor_desc</desc>
+
+    <require type="level">3</require>
+
+    <armorId>6</armorId>
+
+    <defense>
+      <defenseElement type="R">0.7</defenseElement>
+      <defenseElement type="W">0.7</defenseElement>
+      <defenseElement type="B">0.7</defenseElement>
+      <defenseElement type="P">1.5</defenseElement>
+    </defense>
+    <grade>4</grade>
+    <maxNum>2</maxNum>
+  </equipment>
+
+  <equipment id="300023" type="armor">
+
+    <name>SnowWhite_weapon_name</name>
+    <no>SnowWhite_armor_no</no>
+    <desc>SnowWhite_armor_desc</desc>
+
+    <require type="W">3</require>
+
+
+    <armorId>10</armorId>
+
+    <defense>
+      <defenseElement type="R">0.8</defenseElement>
+      <defenseElement type="W">1.2</defenseElement>
+      <defenseElement type="B">0.6</defenseElement>
+      <defenseElement type="P">1.5</defenseElement>
+    </defense>
+    <grade>4</grade>
+    <maxNum>2</maxNum>
+  </equipment>
+
+  <equipment id="300035" type="armor">
+
+    <name>LongBird_weapon_name</name>
+    <no>LongBird_armor_no</no>
+    <desc>LongBird_armor_desc</desc>
+
+    <require type="P">5</require>
+    <require type="level">5</require>
+
+    <armorId>4</armorId>
+
+    <defense>
+      <defenseElement type="R">0.5</defenseElement>
+      <defenseElement type="W">0.5</defenseElement>
+      <defenseElement type="B">0.5</defenseElement>
+      <defenseElement type="P">0.5</defenseElement>
+    </defense>
+    <grade>5</grade>
+    <maxNum>1</maxNum>
+  </equipment>
+
+  <equipment id="300019" type="armor">
+
+    <name>SilentOrchestra_weapon_name</name>
+    <no>SilentOrchestra_armor_no</no>
+    <desc>SilentOrchestra_armor_desc</desc>
+
+    <require type="level">5</require>
+    <require type="W">5</require>
+
+    <armorId>9</armorId>
+
+    <defense>
+      <defenseElement type="R">0.5</defenseElement>
+      <defenseElement type="W">0.2</defenseElement>
+      <defenseElement type="B">0.5</defenseElement>
+      <defenseElement type="P">1.5</defenseElement>
+    </defense>
+    <grade>5</grade>
+    <maxNum>1</maxNum>
+    <script>OrchestraArmor</script>
+  </equipment>
+
+  <equipment id="300034" type="armor">
+
+    <name>Bald_weapon_name</name>
+    <desc>Bald_armor_desc</desc>
+    <specialDesc>Bald_armor_specialDesc</specialDesc>
+
+    <armorId>23</armorId>
+
+    <defense>
+      <defenseElement type="R">1</defenseElement>
+      <defenseElement type="W">1</defenseElement>
+      <defenseElement type="B">0.8</defenseElement>
+      <defenseElement type="P">2.0</defenseElement>
+    </defense>
+    <grade>1</grade>
+    <maxNum>5</maxNum>
+  </equipment>
+
+  <equipment id="300028" type="armor">
+
+    <name>Wellcheers_weapon_name</name>
+    <no>Wellcheers_armor_no</no>
+    <desc>Wellcheers_armor_desc</desc>
+
+    <armorId>19</armorId>
+
+    <defense>
+      <defenseElement type="R">0.8</defenseElement>
+      <defenseElement type="W">1</defenseElement>
+      <defenseElement type="B">1</defenseElement>
+      <defenseElement type="P">2.0</defenseElement>
+    </defense>
+    <grade>1</grade>
+    <maxNum>5</maxNum>
+  </equipment>
+
+  <equipment id="300021" type="armor">
+
+    <name>OldLady_weapon_name</name>
+    <no>OldLady_armor_no</no>
+    <desc>OldLady_armor_desc</desc>
+
+    <armorId>22</armorId>
+
+    <defense>
+      <defenseElement type="R">1.5</defenseElement>
+      <defenseElement type="W">0.8</defenseElement>
+      <defenseElement type="B">0.8</defenseElement>
+      <defenseElement type="P">2.0</defenseElement>
+    </defense>
+    <grade>2</grade>
+    <maxNum>3</maxNum>
+  </equipment>
+
+  <equipment id="300020" type="armor">
+
+    <name>SmallBird_weapon_name</name>
+    <no>SmallBird_armor_no</no>
+    <desc>SmallBird_armor_desc</desc>
+
+    <armorId>20</armorId>
+
+    <defense>
+      <defenseElement type="R">0.7</defenseElement>
+      <defenseElement type="W">0.8</defenseElement>
+      <defenseElement type="B">1.2</defenseElement>
+      <defenseElement type="P">2.0</defenseElement>
+    </defense>
+    <grade>2</grade>
+    <maxNum>2</maxNum>
+  </equipment>
+
+  <equipment id="300027" type="armor">
+
+    <name>BloodBath_weapon_name</name>
+    <no>BloodBath_armor_no</no>
+    <desc>BloodBath_armor_desc</desc>
+
+    <armorId>18</armorId>
+
+    <defense>
+      <defenseElement type="R">1</defenseElement>
+      <defenseElement type="W">0.6</defenseElement>
+      <defenseElement type="B">1.2</defenseElement>
+      <defenseElement type="P">2.0</defenseElement>
+    </defense>
+    <grade>2</grade>
+    <maxNum>2</maxNum>
+  </equipment>
+
+  <equipment id="300029" type="armor">
+
+    <name>Alriune_weapon_name</name>
+    <no>Alriune_armor_no</no>
+    <desc>Alriune_armor_desc</desc>
+
+    <require type="R">3</require>
+
+    <armorId>21</armorId>
+
+    <defense>
+      <defenseElement type="R">1.2</defenseElement>
+      <defenseElement type="W">0.6</defenseElement>
+      <defenseElement type="B">0.8</defenseElement>
+      <defenseElement type="P">1.5</defenseElement>
+    </defense>
+    <grade>4</grade>
+    <maxNum>2</maxNum>
+  </equipment>
+
+  <equipment id="300005" type="armor">
+
+    <name>Nullthing_weapon_name</name>
+    <no>Nullthing_armor_no</no>
+    <desc>Nullthing_armor_desc</desc>
+
+    <require type="R">5</require>
+    <require type="level">5</require>
+
+    <armorId>26</armorId>
+
+    <defense>
+      <defenseElement type="R">0.2</defenseElement>
+      <defenseElement type="W">0.5</defenseElement>
+      <defenseElement type="B">0.5</defenseElement>
+      <defenseElement type="P">1</defenseElement>
+    </defense>
+    <grade>5</grade>
+    <maxNum>1</maxNum>
+  </equipment>
+
+  <equipment id="300102" type="armor">
+
+    <name>SnowQueen_weapon_name</name>
+    <no>SnowQueen_armor_no</no>
+    <desc>SnowQueen_armor_desc</desc>
+
+    <require type="R">2</require>
+
+    <armorId>24</armorId>
+
+    <defense>
+      <defenseElement type="R">1.3</defenseElement>
+      <defenseElement type="W">0.6</defenseElement>
+      <defenseElement type="B">0.8</defenseElement>
+      <defenseElement type="P">1.5</defenseElement>
+    </defense>
+    <grade>3</grade>
+    <maxNum>2</maxNum>
+  </equipment>
+
+  <equipment id="300041" type="armor">
+
+    <name>LittleWitch_weapon_name</name>
+    <no>LittleWitch_armor_no</no>
+    <desc>LittleWitch_armor_desc</desc>
+
+    <require type="level">3</require>
+
+    <armorId>27</armorId>
+
+    <defense>
+      <defenseElement type="R">0.7</defenseElement>
+      <defenseElement type="W">0.7</defenseElement>
+      <defenseElement type="B">0.7</defenseElement>
+      <defenseElement type="P">1.5</defenseElement>
+    </defense>
+    <grade>3</grade>
+    <maxNum>1</maxNum>
+  </equipment>
+
+  <equipment id="300037" type="armor">
+
+    <name>ArmorCreature_weapon_name</name>
+    <no>ArmorCreature_armor_no</no>
+    <desc>ArmorCreature_armor_desc</desc>
+
+    <require type="B">2</require>
+
+    <armorId>25</armorId>
+
+    <defense>
+      <defenseElement type="R">0.6</defenseElement>
+      <defenseElement type="W">0.9</defenseElement>
+      <defenseElement type="B">0.9</defenseElement>
+      <defenseElement type="P">2</defenseElement>
+    </defense>
+    <grade>2</grade>
+    <maxNum>1</maxNum>
+  </equipment>
+
+  <equipment id="300043" type="armor">
+
+    <name>Butterfly_weapon_name</name>
+    <no>Butterfly_armor_no</no>
+    <desc>Butterfly_armor_desc</desc>
+
+    <require type="P">3</require>
+
+    <armorId>35</armorId>
+
+    <defense>
+      <defenseElement type="R">1.2</defenseElement>
+      <defenseElement type="W">0.8</defenseElement>
+      <defenseElement type="B">0.5</defenseElement>
+      <defenseElement type="P">1.5</defenseElement>
+    </defense>
+    <grade>3</grade>
+    <maxNum>1</maxNum>
+  </equipment>
+
+  <equipment id="300047" type="armor">
+
+    <name>Shark_armor_name</name>
+    <no>Shark_armor_no</no>
+    <desc>Shark_armor_desc</desc>
+
+    <require type="level">2</require>
+    <require type="B">2</require>
+
+    <armorId>33</armorId>
+
+    <defense>
+      <defenseElement type="R">0.8</defenseElement>
+      <defenseElement type="W">0.8</defenseElement>
+      <defenseElement type="B">0.8</defenseElement>
+      <defenseElement type="P">1.5</defenseElement>
+    </defense>
+    <grade>4</grade>
+    <maxNum>3</maxNum>
+  </equipment>
+
+  <equipment id="300049" type="armor">
+
+    <name>LookAtMe_armor_name</name>
+    <no>LookAtMe_armor_no</no>
+    <desc>LookAtMe_armor_desc</desc>
+    <specialDesc>LookAtMe_armor_specialDesc</specialDesc>
+
+    <armorId>32</armorId>
+
+    <defense>
+      <defenseElement type="R">1</defenseElement>
+      <defenseElement type="W">0.8</defenseElement>
+      <defenseElement type="B">1</defenseElement>
+      <defenseElement type="P">1.5</defenseElement>
+    </defense>
+    <grade>3</grade>
+    <maxNum>3</maxNum>
+    <script>LookAtMeArmor</script>
+  </equipment>
+
+  <equipment id="300046" type="armor">
+
+    <name>ViscusSnake_armor_name</name>
+    <no>ViscusSnake_armor_no</no>
+    <desc>ViscusSnake_armor_desc</desc>
+
+    <require type="level">3</require>
+
+    <armorId>34</armorId>
+
+    <defense>
+      <defenseElement type="R">0.6</defenseElement>
+      <defenseElement type="W">0.8</defenseElement>
+      <defenseElement type="B">1.2</defenseElement>
+      <defenseElement type="P">1.5</defenseElement>
+    </defense>
+    <grade>4</grade>
+    <maxNum>2</maxNum>
+  </equipment>
+
+  <equipment id="300045" type="armor">
+
+    <name>BlackSwan_weapon_name</name>
+    <no>BlackSwan_armor_no</no>
+    <desc>BlackSwan_armor_desc</desc>
+
+    <require type="B">3</require>
+
+    <armorId>28</armorId>
+
+    <defense>
+      <defenseElement type="R">0.6</defenseElement>
+      <defenseElement type="W">1.2</defenseElement>
+      <defenseElement type="B">0.8</defenseElement>
+      <defenseElement type="P">1.5</defenseElement>
+    </defense>
+    <grade>4</grade>
+    <maxNum>2</maxNum>
+  </equipment>
+
+  <equipment id="300042" type="armor">
+
+    <name>DangoCreature_weapon_name</name>
+    <no>DangoCreature_armor_no</no>
+    <desc>DangoCreature_armor_desc</desc>
+    <specialDesc>DangoCreature_armor_specialDesc</specialDesc>
+
+    <require type="B">5</require>
+    <require type="level">5</require>
+
+    <armorId>29</armorId>
+
+    <defense>
+      <defenseElement type="R">0.5</defenseElement>
+      <defenseElement type="W">0.5</defenseElement>
+      <defenseElement type="B">0.2</defenseElement>
+      <defenseElement type="P">1</defenseElement>
+    </defense>
+    <grade>5</grade>
+    <maxNum>1</maxNum>
+    <script>DangoCreatureArmor</script>
+  </equipment>
+
+  <equipment id="300048" type="armor">
+
+    <name>KnightOfDespair_weapon_name</name>
+    <no>KnightOfDespair_armor_no</no>
+    <desc>KnightOfDespair_armor_desc</desc>
+
+    <require type="P">4</require>
+
+    <armorId>30</armorId>
+
+    <defense>
+      <defenseElement type="R">0.8</defenseElement>
+      <defenseElement type="W">0.8</defenseElement>
+      <defenseElement type="B">0.8</defenseElement>
+      <defenseElement type="P">0.8</defenseElement>
+    </defense>
+    <grade>4</grade>
+    <maxNum>1</maxNum>
+  </equipment>
+
+  <equipment id="300007" type="armor">
+
+    <name>1.76mhz_armor_name</name>
+    <no>1.76mhz_armor_no</no>
+    <desc>1.76mhz_armor_desc</desc>
+
+    <require type="W">2</require>
+
+    <armorId>31</armorId>
+
+    <defense>
+      <defenseElement type="R">1.2</defenseElement>
+      <defenseElement type="W">0.7</defenseElement>
+      <defenseElement type="B">0.6</defenseElement>
+      <defenseElement type="P">2</defenseElement>
+    </defense>
+    <grade>2</grade>
+    <maxNum>1</maxNum>
+  </equipment>
+
+  <equipment id="300054" type="armor">
+
+    <name>Bunny_armor_name</name>
+    <no>Bunny_armor_no</no>
+    <desc>Bunny_armor_desc</desc>
+
+    <armorId>37</armorId>
+
+    <defense>
+      <defenseElement type="R">0.8</defenseElement>
+      <defenseElement type="W">0.7</defenseElement>
+      <defenseElement type="B">1.2</defenseElement>
+      <defenseElement type="P">2</defenseElement>
+    </defense>
+    <grade>2</grade>
+    <maxNum>2</maxNum>
+  </equipment>
+
+  <equipment id="300053" type="armor">
+
+    <name>Fairy_weapon_name</name>
+    <no>Fairy_armor_no</no>
+    <desc>Fairy_armor_desc</desc>
+
+    <armorId>36</armorId>
+
+    <defense>
+      <defenseElement type="R">0.8</defenseElement>
+      <defenseElement type="W">0.8</defenseElement>
+      <defenseElement type="B">1</defenseElement>
+      <defenseElement type="P">2</defenseElement>
+    </defense>
+    <grade>1</grade>
+    <maxNum>5</maxNum>
+  </equipment>
+
+  <equipment id="300031" type="armor">
+
+    <name>GalaxyBoy_armor_name</name>
+    <no>GalaxyBoy_armor_no</no>
+    <desc>GalaxyBoy_armor_desc</desc>
+    <specialDesc>GalaxyBoy_armor_specialDesc</specialDesc>
+
+    <armorId>40</armorId>
+
+    <defense>
+      <defenseElement type="R">0.8</defenseElement>
+      <defenseElement type="W">0.8</defenseElement>
+      <defenseElement type="B">1.2</defenseElement>
+      <defenseElement type="P">1.5</defenseElement>
+    </defense>
+    <grade>3</grade>
+    <maxNum>3</maxNum>
+  </equipment>
+
+  <equipment id="300052" type="armor">
+
+    <name>ShyThing_armor_name</name>
+    <no>ShyThing_armor_no</no>
+    <desc>ShyThing_armor_desc</desc>
+
+    <armorId>38</armorId>
+
+    <require type="R">2</require>
+
+    <defense>
+      <defenseElement type="R">0.7</defenseElement>
+      <defenseElement type="W">0.6</defenseElement>
+      <defenseElement type="B">1.5</defenseElement>
+      <defenseElement type="P">2</defenseElement>
+    </defense>
+    <grade>2</grade>
+    <maxNum>1</maxNum>
+  </equipment>
+
+  <equipment id="300058" type="armor">
+
+    <name>BlueStar_weapon_name</name>
+    <no>BlueStar_armor_no</no>
+    <desc>BlueStar_armor_desc</desc>
+    <specialDesc>BlueStar_armor_specialDesc</specialDesc>
+
+    <armorId>39</armorId>
+
+    <require type="level">5</require>
+    <require type="W">5</require>
+    <require type="B">5</require>
+
+    <defense>
+      <defenseElement type="R">0.4</defenseElement>
+      <defenseElement type="W">0.4</defenseElement>
+      <defenseElement type="B">0.4</defenseElement>
+      <defenseElement type="P">1</defenseElement>
+    </defense>
+    <script>BlueStarArmor</script>
+    <grade>5</grade>
+    <maxNum>1</maxNum>
+  </equipment>
+
+  <equipment id="300032" type="armor">
+
+    <name>RedHood_weapon_name</name>
+    <no>RedHood_armor_no</no>
+    <desc>RedHood_armor_desc</desc>
+    <specialDesc>RedHood_armor_specialDesc</specialDesc>
+
+    <armorId>41</armorId>
+
+    <require type="level">4</require>
+    <require type="R">3</require>
+    <require type="P">3</require>
+
+    <defense>
+      <defenseElement type="R">0.6</defenseElement>
+      <defenseElement type="W">0.6</defenseElement>
+      <defenseElement type="B">0.6</defenseElement>
+      <defenseElement type="P">1.5</defenseElement>
+    </defense>
+    <grade>4</grade>
+    <maxNum>1</maxNum>
+  </equipment>
+
+
+  <equipment id="300033" type="armor">
+
+    <name>BigBadWolf_weapon_name</name>
+    <no>BBigBadWolf_armor_no</no>
+    <desc>BigBadWolf_armor_desc</desc>
+
+    <armorId>42</armorId>
+
+    <require type="level">4</require>
+    <require type="R">4</require>
+
+    <defense>
+      <defenseElement type="R">0.4</defenseElement>
+      <defenseElement type="W">0.8</defenseElement>
+      <defenseElement type="B">0.7</defenseElement>
+      <defenseElement type="P">2</defenseElement>
+    </defense>
+    <grade>4</grade>
+    <maxNum>1</maxNum>
+  </equipment>
+
+
+  <equipment id="300040" type="armor">
+
+    <name>YoungPrince_weapon_name</name>
+    <no>YoungPrince_armor_no</no>
+    <desc>YoungPrince_armor_desc</desc>
+
+    <armorId>43</armorId>
+
+    <require type="W">2</require>
+    <require type="B">2</require>
+
+    <defense>
+      <defenseElement type="R">0.8</defenseElement>
+      <defenseElement type="W">0.6</defenseElement>
+      <defenseElement type="B">1.2</defenseElement>
+      <defenseElement type="P">1.5</defenseElement>
+    </defense>
+    <grade>4</grade>
+    <maxNum>3</maxNum>
+  </equipment>
+
+  <equipment id="300008" type="armor">
+
+    <name>BigBird_armor_name</name>
+    <no>BigBird_armor_no</no>
+    <desc>BigBird_armor_desc</desc>
+
+    <armorId>44</armorId>
+
+    <require type="B">3</require>
+    <require type="P">3</require>
+    <require type="level">4</require>
+
+    <defense>
+      <defenseElement type="R">0.8</defenseElement>
+      <defenseElement type="W">0.7</defenseElement>
+      <defenseElement type="B">0.4</defenseElement>
+      <defenseElement type="P">1.5</defenseElement>
+    </defense>
+    <grade>4</grade>
+    <maxNum>1</maxNum>
+  </equipment>
+
+
+  <equipment id="300038" type="armor">
+
+    <name>BossBird_weapon_name</name>
+    <no>BossBird_armor_no</no>
+    <desc>BossBird_armor_desc</desc>
+    <specialDesc>BossBird_armor_specialDesc</specialDesc>
+
+    <armorId>45</armorId>
+
+    <require type="R">6</require>
+    <require type="W">6</require>
+    <require type="B">6</require>
+    <require type="P">6</require>
+
+    <defense>
+      <defenseElement type="R">0.3</defenseElement>
+      <defenseElement type="W">0.3</defenseElement>
+      <defenseElement type="B">0.3</defenseElement>
+      <defenseElement type="P">0.5</defenseElement>
+    </defense>
+    <grade>5</grade>
+    <maxNum>1</maxNum>
+
+    <script>BossBirdArmor</script>
+  </equipment>
+
+  <equipment id="300059" type="armor">
+
+    <name>Sakura_weapon_name</name>
+    <no>Sakura_armor_no</no>
+    <desc>Sakura_armor_desc</desc>
+
+    <armorId>46</armorId>
+
+    <require type="B">2</require>
+
+    <defense>
+      <defenseElement type="R">1.2</defenseElement>
+      <defenseElement type="W">0.6</defenseElement>
+      <defenseElement type="B">0.7</defenseElement>
+      <defenseElement type="P">2</defenseElement>
+    </defense>
+    <grade>2</grade>
+    <maxNum>1</maxNum>
+
+  </equipment>
+
+  <equipment id="300060" type="armor">
+
+    <name>Baku_weapon_name</name>
+    <no>Baku_armor_no</no>
+    <desc>Baku_armor_desc</desc>
+
+    <armorId>47</armorId>
+
+    <defense>
+      <defenseElement type="R">1.2</defenseElement>
+      <defenseElement type="W">0.8</defenseElement>
+      <defenseElement type="B">0.7</defenseElement>
+      <defenseElement type="P">2</defenseElement>
+    </defense>
+    <grade>2</grade>
+    <maxNum>2</maxNum>
+
+  </equipment>
+
+  <equipment id="300004" type="armor">
+
+    <name>MagicalGirl_weapon_name</name>
+    <no>MagicalGirl_armor_no</no>
+    <desc>MagicalGirl_armor_desc</desc>
+
+    <armorId>48</armorId>
+
+    <require type="W">3</require>
+    <require type="B">3</require>
+    <require type="level">4</require>
+
+    <defense>
+      <defenseElement type="R">0.7</defenseElement>
+      <defenseElement type="W">0.8</defenseElement>
+      <defenseElement type="B">0.4</defenseElement>
+      <defenseElement type="P">2</defenseElement>
+    </defense>
+
+    <grade>4</grade>
+    <maxNum>1</maxNum>
+
+    <script>MagicalGirlArmor</script>
+
+  </equipment>
+
+  <equipment id="300061" type="armor">
+
+    <name>FireBird_weapon_name</name>
+    <no>FireBird_armor_no</no>
+    <desc>FireBird_armor_desc</desc>
+
+    <armorId>49</armorId>
+
+    <require type="R">3</require>
+    <require type="level">3</require>
+
+    <defense>
+      <defenseElement type="R">0.6</defenseElement>
+      <defenseElement type="W">0.6</defenseElement>
+      <defenseElement type="B">1.3</defenseElement>
+      <defenseElement type="P">2</defenseElement>
+    </defense>
+
+    <grade>4</grade>
+    <maxNum>2</maxNum>
+
+    <!--<script>FireBirdArmor</script>-->
+
+  </equipment>
+
+  <equipment id="300104" type="armor">
+
+    <name>Yin_weapon_name</name>
+    <no>Yin_armor_no</no>
+    <desc>Yin_armor_desc</desc>
+
+    <armorId>50</armorId>
+
+    <require type="B">3</require>
+
+    <defense>
+      <defenseElement type="R">1.2</defenseElement>
+      <defenseElement type="W">0.8</defenseElement>
+      <defenseElement type="B">0.6</defenseElement>
+      <defenseElement type="P">1.5</defenseElement>
+    </defense>
+
+    <grade>4</grade>
+    <maxNum>2</maxNum>
+
+  </equipment>
+
+  <equipment id="300015" type="armor">
+
+    <name>DeathAngel_weapon_name</name>
+    <no>DeathAngel_armor_no</no>
+    <desc>DeathAngel_armor_desc</desc>
+    <specialDesc>DeathAngel_armor_specialDesc</specialDesc>
+
+    <armorId>51</armorId>
+
+    <require type="R">5</require>
+    <require type="W">5</require>
+    <require type="B">5</require>
+    <require type="P">5</require>
+
+    <defense>
+      <defenseElement type="R">0.2</defenseElement>
+      <defenseElement type="W">0.2</defenseElement>
+      <defenseElement type="B">0.2</defenseElement>
+      <defenseElement type="P">0.2</defenseElement>
+    </defense>
+
+    <grade>5</grade>
+    <maxNum>1</maxNum>
+
+    <script>DeathAngelArmor</script>
+
+  </equipment>
+
+  <equipment id="300106" type="armor">
+
+    <name>Ppodae_weapon_name</name>
+    <no>Ppodae_armor_no</no>
+    <desc>Ppodae_weapon_desc</desc>
+
+    <armorId>61</armorId>
+
+    <defense>
+      <defenseElement type="R">0.8</defenseElement>
+      <defenseElement type="W">1.5</defenseElement>
+      <defenseElement type="B">0.8</defenseElement>
+      <defenseElement type="P">2</defenseElement>
+    </defense>
+
+    <grade>2</grade>
+    <maxNum>3</maxNum>
+
+  </equipment>
+
+
+  <equipment id="300103" type="armor">
+
+    <name>Freischutz_weapon_name</name>
+    <no>Freischutz_weapon_no</no>
+    <desc>Freischutz_weapon_desc</desc>
+    <specialDesc>Freischutz_armor_specialDesc</specialDesc>
+
+    <require type="R">3</require>
+    <require type="P">3</require>
+
+    <armorId>55</armorId>
+
+    <defense>
+      <defenseElement type="R">0.7</defenseElement>
+      <defenseElement type="W">0.7</defenseElement>
+      <defenseElement type="B">0.7</defenseElement>
+      <defenseElement type="P">1.5</defenseElement>
+    </defense>
+
+    <grade>3</grade>
+    <maxNum>1</maxNum>
+
+    <!--<script>FreischutzArmor</script>-->
+
+  </equipment>
+
+  <equipment id="300017" type="armor">
+
+    <name>NamelessFetus_weapon_name</name>
+    <no>NamelessFetus_weapon_no</no>
+    <desc>NamelessFetus_weapon_desc</desc>
+
+    <require type="B">3</require>
+
+    <armorId>57</armorId>
+
+    <defense>
+      <defenseElement type="R">1.2</defenseElement>
+      <defenseElement type="W">0.5</defenseElement>
+      <defenseElement type="B">0.8</defenseElement>
+      <defenseElement type="P">1.5</defenseElement>
+    </defense>
+
+    <grade>3</grade>
+    <maxNum>1</maxNum>
+
+  </equipment>
+
+  <equipment id="300050" type="armor">
+
+    <name>Scarecrow_weapon_name</name>
+    <no>Scarecrow_weapon_no</no>
+    <desc>Scarecrow_weapon_desc</desc>
+
+    <require type="W">2</require>
+
+    <armorId>62</armorId>
+
+    <defense>
+      <defenseElement type="R">0.6</defenseElement>
+      <defenseElement type="W">0.8</defenseElement>
+      <defenseElement type="B">1.3</defenseElement>
+      <defenseElement type="P">1.5</defenseElement>
+    </defense>
+
+    <grade>3</grade>
+    <maxNum>2</maxNum>
+
+  </equipment>
+
+  <equipment id="300051" type="armor">
+
+    <name>Lumberjack_weapon_name</name>
+    <no>Lumberjack_weapon_no</no>
+    <desc>Lumberjack_weapon_desc</desc>
+
+    <armorId>56</armorId>
+
+    <defense>
+      <defenseElement type="R">0.8</defenseElement>
+      <defenseElement type="W">1.2</defenseElement>
+      <defenseElement type="B">0.8</defenseElement>
+      <defenseElement type="P">1.5</defenseElement>
+    </defense>
+
+    <grade>3</grade>
+    <maxNum>3</maxNum>
+
+  </equipment>
+
+  <equipment id="300057" type="armor">
+
+    <name>Porccu_weapon_name</name>
+    <no>Porccu_weapon_no</no>
+    <desc>Porccu_weapon_desc</desc>
+
+    <armorId>60</armorId>
+
+    <defense>
+      <defenseElement type="R">1.2</defenseElement>
+      <defenseElement type="W">0.8</defenseElement>
+      <defenseElement type="B">0.8</defenseElement>
+      <defenseElement type="P">1.5</defenseElement>
+    </defense>
+
+    <grade>3</grade>
+    <maxNum>3</maxNum>
+
+  </equipment>
+
+  <equipment id="300044" type="armor">
+
+    <name>BloodyTree_weapon_name</name>
+    <no>BloodyTree_weapon_no</no>
+    <desc>BloodyTree_weapon_desc</desc>
+
+    <require type="R">3</require>
+
+    <armorId>53</armorId>
+
+    <defense>
+      <defenseElement type="R">1.2</defenseElement>
+      <defenseElement type="W">0.8</defenseElement>
+      <defenseElement type="B">0.6</defenseElement>
+      <defenseElement type="P">1.5</defenseElement>
+    </defense>
+
+    <grade>4</grade>
+    <maxNum>2</maxNum>
+
+  </equipment>
+
+  <equipment id="300105" type="armor">
+
+    <name>FengYun_weapon_name</name>
+    <no>FengYun_armor_no</no>
+    <desc>FengYun_armor_desc</desc>
+
+    <require type="W">2</require>
+    <require type="B">2</require>
+
+    <armorId>54</armorId>
+
+    <defense>
+      <defenseElement type="R">0.5</defenseElement>
+      <defenseElement type="W">1.3</defenseElement>
+      <defenseElement type="B">0.7</defenseElement>
+      <defenseElement type="P">1.5</defenseElement>
+    </defense>
+
+    <grade>4</grade>
+    <maxNum>2</maxNum>
+
+  </equipment>
+
+  <equipment id="300065" type="armor">
+
+    <name>Piano_weapon_name</name>
+    <no>Piano_armor_no</no>
+    <desc>Piano_armor_desc</desc>
+
+    <require type="B">3</require>
+
+    <armorId>58</armorId>
+
+    <defense>
+      <defenseElement type="R">0.8</defenseElement>
+      <defenseElement type="W">0.4</defenseElement>
+      <defenseElement type="B">0.7</defenseElement>
+      <defenseElement type="P">2</defenseElement>
+    </defense>
+
+    <grade>4</grade>
+    <maxNum>1</maxNum>
+
+  </equipment>
+
+  <equipment id="300062" type="armor">
+
+    <name>Yggdrasil_weapon_name</name>
+    <no>Yggdrasil_armor_no</no>
+    <desc>Yggdrasil_armor_desc</desc>
+    <specialDesc>Yggdrasil_armor_specialDesc</specialDesc>
+
+    <require type="W">3</require>
+
+    <armorId>64</armorId>
+
+    <defense>
+      <defenseElement type="R">0.7</defenseElement>
+      <defenseElement type="W">0.5</defenseElement>
+      <defenseElement type="B">1.3</defenseElement>
+      <defenseElement type="P">1.5</defenseElement>
+    </defense>
+
+    <grade>4</grade>
+    <maxNum>1</maxNum>
+    <script>YggdrasilArmor</script>
+  </equipment>
+
+  <equipment id="300063" type="armor">
+
+    <name>SlimeGirl_weapon_name</name>
+    <no>SlimeGirl_armor_no</no>
+    <desc>SlimeGirl_armor_desc</desc>
+    <specialDesc>SlimeGirl_armor_specialDesc</specialDesc>
+
+    <require type="R">5</require>
+    <require type="level">5</require>
+
+    <armorId>63</armorId>
+
+    <defense>
+      <defenseElement type="R">0.3</defenseElement>
+      <defenseElement type="W">0.6</defenseElement>
+      <defenseElement type="B">0.3</defenseElement>
+      <defenseElement type="P">1</defenseElement>
+    </defense>
+
+    <grade>5</grade>
+    <maxNum>1</maxNum>
+    <script>SlimeGirlArmor</script>
+
+  </equipment>
+
+
+  <equipment id="300064" type="armor">
+
+    <name>PinkCorps_weapon_name</name>
+    <no>PinkCorps_armor_no</no>
+    <desc>PinkCorps_armor_desc</desc>
+
+    <require type="R">5</require>
+    <require type="level">5</require>
+
+    <armorId>59</armorId>
+
+    <defense>
+      <defenseElement type="R">0.5</defenseElement>
+      <defenseElement type="W">0.3</defenseElement>
+      <defenseElement type="B">0.4</defenseElement>
+      <defenseElement type="P">1</defenseElement>
+    </defense>
+
+    <grade>5</grade>
+    <maxNum>1</maxNum>
+
+  </equipment>
+
+  <!-- ego gift-->
+
+  <equipment id="400009" type="special">
+    <name>OneBadManyGood_weapon_name</name>
+    <desc>OneBadManyGood_gift_Desc</desc>
+    <attachPos>head</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <mental>2</mental>
+    </bonus>
+    <sprite>Hat_0</sprite>
+  </equipment>
+  <equipment id="400013" type="special">
+    <name>BeautyBeast_weapon_name</name>
+    <desc>BeautyBeast_gift_Desc</desc>
+    <attachPos>head</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <hp>2</hp>
+      <mental>2</mental>
+    </bonus>
+    <sprite>Hat_1</sprite>
+  </equipment>
+  <equipment id="400001" type="special">
+    <name>Matchgirl_weapon_name</name>
+    <desc>Matchgirl_gift_Desc</desc>
+    <attachPos>mouth</attachPos>
+    <attachType>replace</attachType>
+    <bonus>
+      <hp>4</hp>
+    </bonus>
+    <sprite>Mouth_0_1</sprite>
+  </equipment>
+  <equipment id="400012" type="special">
+    <name>SpiderMom_weapon_name</name>
+    <desc>SpiderMom_gift_Desc</desc>
+    <attachPos>eye</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <workProb>3</workProb>
+      <cubeSpeed>3</cubeSpeed>
+    </bonus>
+    <sprite>Glass_0</sprite>
+  </equipment>
+  <equipment id="400003" type="special">
+    <name>RedShoes_weapon_name</name>
+    <desc>RedShoes_gift_Desc</desc>
+    <attachPos>mouth</attachPos>
+    <attachType>replace</attachType>
+    <bonus>
+      <hp>4</hp>
+    </bonus>
+    <sprite>Mouth_0_0</sprite>
+  </equipment>
+  <equipment id="400011" type="special">
+    <name>Helper_weapon_name</name>
+    <desc>Helper_gift_Desc</desc>
+    <attachPos>eye</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <workProb>4</workProb>
+      <cubeSpeed>4</cubeSpeed>
+    </bonus>
+    <sprite>Glass_2</sprite>
+  </equipment>
+  <equipment id="400002" type="special">
+    <name>HappyTeddy_weapon_name</name>
+    <desc>HappyTeddy_gift_Desc</desc>
+    <attachPos>head</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <mental>4</mental>
+    </bonus>
+    <sprite>Hat_2</sprite>
+  </equipment>
+  <equipment id="400039" type="special">
+    <name>MagicalGirl2_weapon_name</name>
+    <desc>MagicalGirl2_gift_Desc</desc>
+    <attachPos>right_hand</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <hp>6</hp>
+    </bonus>
+    <sprite>Glove_0_0</sprite>
+  </equipment>
+  <equipment id="400035" type="special">
+    <name>LongBird_weapon_name</name>
+    <desc>LongBird_gift_Desc</desc>
+    <sprite>Glass_3</sprite>
+
+    <attachPos>eye</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <movement>6</movement>
+      <attackSpeed>6</attackSpeed>
+    </bonus>
+  </equipment>
+  <equipment id="400023" type="special">
+    <name>SnowWhite_weapon_name</name>
+    <desc>SnowWhite_gift_Desc</desc>
+    <attachPos>body_up</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <mental>6</mental>
+    </bonus>
+    <sprite>Brooch_0_2</sprite>
+  </equipment>
+  <equipment id="400019" type="special">
+    <name>SilentOrchestra_weapon_name</name>
+    <desc>SilentOrchestra_gift_Desc</desc>
+    <attachPos>eye</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <workProb>4</workProb>
+      <cubeSpeed>4</cubeSpeed>
+    </bonus>
+    <sprite>Glass_1</sprite>
+  </equipment>
+  <equipment id="400021" type="special">
+    <name>OldLady_weapon_name</name>
+    <desc>OldLady_gift_Desc</desc>
+    <attachPos>eye</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <workProb>3</workProb>
+      <cubeSpeed>3</cubeSpeed>
+    </bonus>
+    <sprite>Glass_4</sprite>
+  </equipment>
+  <equipment id="400029" type="special">
+    <name>Alriune_weapon_name</name>
+    <desc>Alriune_gift_Desc</desc>
+    <attachPos>head</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <mental>4</mental>
+      <cubeSpeed>2</cubeSpeed>
+      <workProb>2</workProb>
+    </bonus>
+    <sprite>Hat_3</sprite>
+  </equipment>
+  <equipment id="4000371" type="special">
+    <name>ArmorCreature_gift_name_1</name>
+    <desc>ArmorCreature_gift_desc_1</desc>
+    <attachPos>head</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <movement>10</movement>
+      <attackSpeed>10</attackSpeed>
+    </bonus>
+    <sprite>ArmorCreatureGiftBlue_1</sprite>
+    <script>ArmorCreatureGiftBlue_1</script>
+  </equipment>
+  <equipment id="4000372" type="special">
+    <name>ArmorCreature_gift_name_2</name>
+    <desc>ArmorCreature_gift_desc_2</desc>
+    <attachPos>head</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <hp>-5</hp>
+      <movement>10</movement>
+      <attackSpeed>10</attackSpeed>
+    </bonus>
+    <sprite>ArmorCreatureGiftBlue_2</sprite>
+    <script>ArmorCreatureGiftBlue_2</script>
+  </equipment>
+  <equipment id="4000373" type="special">
+    <name>ArmorCreature_gift_name_2</name>
+    <desc>ArmorCreature_gift_desc_3</desc>
+    <attachPos>head</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <hp>-10</hp>
+      <movement>15</movement>
+      <attackSpeed>15</attackSpeed>
+    </bonus>
+    <sprite>ArmorCreatureGiftOrange</sprite>
+    <script>ArmorCreatureGiftOrange</script>
+  </equipment>
+  <equipment id="4000374" type="special">
+    <name>ArmorCreature_gift_name_2</name>
+    <desc>ArmorCreature_gift_desc_4</desc>
+    <attachPos>head</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <hp>-20</hp>
+      <movement>20</movement>
+      <attackSpeed>20</attackSpeed>
+    </bonus>
+    <sprite>ArmorCreatureGiftRed</sprite>
+    <script>ArmorCreatureGiftRed</script>
+  </equipment>
+  <equipment id="400048" type="special">
+    <name>KnightOfDespair_weapon_name</name>
+    <desc>KnightOfDespair_gift_Desc</desc>
+    <attachPos>right_cheek</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <mental>2</mental>
+      <movement>4</movement>
+      <attackSpeed>4</attackSpeed>
+    </bonus>
+    <sprite>RightCheek_1</sprite>
+  </equipment>
+  <equipment id="400042" type="special">
+    <name>DangoCreature_weapon_name</name>
+    <desc>DangoCreature_gift_Desc</desc>
+    <attachPos>eye</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <mental>5</mental>
+      <hp>5</hp>
+    </bonus>
+    <sprite>Mask_0</sprite>
+  </equipment>
+  <equipment id="400032" type="special">
+    <name>RedHood_weapon_name</name>
+    <desc>RedHood_gift_Desc</desc>
+    <attachPos>mouth</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <hp>2</hp>
+      <movement>4</movement>
+      <attackSpeed>4</attackSpeed>
+    </bonus>
+    <sprite>RedHood_2</sprite>
+  </equipment>
+
+  <equipment id="400033" type="special">
+    <name>BigBadWolf_weapon_name</name>
+    <desc>BigBadWolf_gift_Desc</desc>
+    <attachPos>face</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <hp>4</hp>
+      <movement>2</movement>
+      <attackSpeed>2</attackSpeed>
+    </bonus>
+    <sprite>BigBadWolf_Scar</sprite>
+  </equipment>
+
+  <equipment id="400059" type="special">
+    <name>Sakura_weapon_name</name>
+    <desc>Sakura_gift_Desc</desc>
+    <attachPos>head</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <mental>2</mental>
+      <movement>2</movement>
+      <attackSpeed>2</attackSpeed>
+    </bonus>
+    <sprite>Hat_6</sprite>
+  </equipment>
+
+  <equipment id="400060" type="special">
+    <name>Baku_weapon_name</name>
+    <desc>Baku_gift_Desc</desc>
+    <attachPos>head</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <mental>4</mental>
+    </bonus>
+    <sprite>Hat_5</sprite>
+  </equipment>
+
+  <equipment id="400004" type="special">
+    <name>MagicalGirl_weapon_name</name>
+    <desc>MagicalGirl_gift_Desc</desc>
+    <attachPos>head</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <workProb>2</workProb>
+      <cubeSpeed>2</cubeSpeed>
+      <movement>4</movement>
+      <attackSpeed>4</attackSpeed>
+    </bonus>
+    <sprite>Hat_7</sprite>
+  </equipment>
+
+  <equipment id="400014" type="special">
+    <name>PlaugeDoctor_weapon_name</name>
+    <desc>PlaugeDoctor_gift_Desc</desc>
+    <attachPos>headback</attachPos>
+    <attachType>special_add</attachType>
+    <bonus>
+      <hp>6</hp>
+      <mental>6</mental>
+      <workProb>6</workProb>
+      <cubeSpeed>6</cubeSpeed>
+      <movement>6</movement>
+      <attackSpeed>6</attackSpeed>
+    </bonus>
+    <sprite>Halo_Glow</sprite>
+  </equipment>
+
+  <equipment id="400015" type="special">
+    <name>DeathAngel_weapon_name</name>
+    <desc>DeathAngel_gift_Desc</desc>
+    <attachPos>back2</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <hp>10</hp>
+      <mental>10</mental>
+      <movement>10</movement>
+      <attackSpeed>10</attackSpeed>
+    </bonus>
+    <sprite>DeathAngel_Wing</sprite>
+  </equipment>
+
+  <equipment id="400052" type="special">
+    <name>ShyThing_armor_name</name>
+    <desc>ShyThing_gift_Desc</desc>
+    <attachPos>eye</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <mental>-2</mental>
+      <workProb>4</workProb>
+      <cubeSpeed>4</cubeSpeed>
+    </bonus>
+    <sprite>Mask_3</sprite>
+  </equipment>
+
+  <equipment id="400056" type="special">
+    <name>Censored_weapon_name</name>
+    <desc>Censored_gift_Desc</desc>
+    <attachPos>eye</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <mental>10</mental>
+    </bonus>
+    <sprite>Mask_1</sprite>
+  </equipment>
+
+  <equipment id="400058" type="special">
+    <name>BlueStar_weapon_name</name>
+    <desc>BlueStar_gift_Desc</desc>
+    <attachPos>eye</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <movement>10</movement>
+    </bonus>
+    <sprite>Mask_2</sprite>
+  </equipment>
+
+  <equipment id="400020" type="special">
+    <name>SmallBird_weapon_name</name>
+    <desc>SmallBird_gift_Desc</desc>
+    <attachPos>ribborn</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <movement>2</movement>
+      <attackSpeed>2</attackSpeed>
+    </bonus>
+    <sprite>Ribborn_0_2</sprite>
+  </equipment>
+
+  <equipment id="400050" type="special">
+    <name>Scarecrow_weapon_name</name>
+    <desc>Scarecrow_gift_Desc</desc>
+    <attachPos>ribborn</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <mental>4</mental>
+    </bonus>
+    <sprite>Ribborn_0_1</sprite>
+  </equipment>
+
+  <equipment id="400031" type="special">
+    <name>GalaxyBoy_armor_name</name>
+    <desc>GalaxyBoy_gift_Desc</desc>
+    <attachPos>ribborn</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <workProb>3</workProb>
+      <cubeSpeed>3</cubeSpeed>
+    </bonus>
+    <sprite>Ribborn_0_3</sprite>
+    <script>GalaxyBoyGift</script>
+  </equipment>
+
+  <equipment id="400057" type="special">
+    <name>Porccu_weapon_name</name>
+    <desc>Porccu_gift_Desc</desc>
+    <attachPos>ribborn</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <mental>10</mental>
+      <workProb>-6</workProb>
+      <cubeSpeed>-6</cubeSpeed>
+    </bonus>
+    <sprite>Ribborn_0_4</sprite>
+  </equipment>
+
+  <equipment id="400106" type="special">
+    <name>Ppodae_weapon_name</name>
+    <desc>Ppodae_gift_Desc</desc>
+    <attachPos>head</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <hp>4</hp>
+      <workProb>-2</workProb>
+      <cubeSpeed>-2</cubeSpeed>
+    </bonus>
+    <sprite>Hat_0_8</sprite>
+  </equipment>
+
+  <equipment id="400016" type="special">
+    <name>Rudolph_weapon_name</name>
+    <desc>Rudolph_gift_Desc</desc>
+    <attachPos>head</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <hp>-4</hp>
+      <mental>8</mental>
+    </bonus>
+    <sprite>Hat_0_11</sprite>
+  </equipment>
+
+  <equipment id="400045" type="special">
+    <name>BlackSwan_weapon_name</name>
+    <desc>BlackSwan_gift_Desc</desc>
+    <attachPos>head</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <hp>-4</hp>
+      <mental>-4</mental>
+      <workProb>10</workProb>
+      <cubeSpeed>10</cubeSpeed>
+    </bonus>
+    <sprite>Hat_0_10</sprite>
+  </equipment>
+
+  <equipment id="400061" type="special">
+    <name>FireBird_weapon_name</name>
+    <desc>FireBird_gift_Desc</desc>
+    <attachPos>head</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <mental>2</mental>
+      <movement>4</movement>
+      <attackSpeed>4</attackSpeed>
+    </bonus>
+    <sprite>Hat_0_9</sprite>
+  </equipment>
+
+  <equipment id="400036" type="special">
+    <name>Cosmos_weapon_name</name>
+    <desc>Cosmos_gift_Desc</desc>
+    <attachPos>body_up</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <workProb>2</workProb>
+      <cubeSpeed>2</cubeSpeed>
+    </bonus>
+    <sprite>Brooch_0_1</sprite>
+  </equipment>
+
+  <equipment id="400007" type="special">
+    <name>1.76mhz_armor_name</name>
+    <desc>1.76mhz_gift_Desc</desc>
+    <attachPos>body_up</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <movement>2</movement>
+      <attackSpeed>2</attackSpeed>
+    </bonus>
+    <sprite>Brooch_0_3</sprite>
+    <script>Mhz_1_76Gift</script>
+  </equipment>
+
+  <equipment id="400051" type="special">
+    <name>Lumberjack_weapon_name</name>
+    <desc>Lumberjack_gift_Desc</desc>
+    <attachPos>body_up</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <hp>2</hp>
+      <workProb>2</workProb>
+      <cubeSpeed>2</cubeSpeed>
+    </bonus>
+    <sprite>Brooch_0_4</sprite>
+  </equipment>
+
+  <equipment id="400065" type="special">
+    <name>Piano_weapon_name</name>
+    <desc>Piano_gift_Desc</desc>
+    <attachPos>body_up</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <hp>1</hp>
+      <movement>1</movement>
+      <attackSpeed>1</attackSpeed>
+      <mental>1</mental>
+      <workProb>1</workProb>
+      <cubeSpeed>1</cubeSpeed>
+    </bonus>
+    <sprite>Brooch_0_0</sprite>
+  </equipment>
+
+  <equipment id="400006" type="special">
+    <name>SingingMachine_weapon_name</name>
+    <desc>SingingMachine_gift_Desc</desc>
+    <attachPos>right_cheek</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <hp>8</hp>
+      <mental>-4</mental>
+    </bonus>
+    <sprite>RightCheek_3</sprite>
+    <script>SingingMachineGift</script>
+  </equipment>
+
+  <equipment id="400005" type="special">
+    <name>Nullthing_weapon_name</name>
+    <desc>Nullthing_gift_Desc</desc>
+    <attachPos>right_cheek</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <hp>10</hp>
+    </bonus>
+    <sprite>RightCheek_2</sprite>
+  </equipment>
+
+  <equipment id="400054" type="special">
+    <name>Bunny_armor_name</name>
+    <desc>Bunny_gift_Desc</desc>
+    <attachPos>mouth</attachPos>
+    <attachType>replace</attachType>
+    <bonus>
+      <hp>5</hp>
+    </bonus>
+    <sprite>Mouth_0_2</sprite>
+  </equipment>
+
+  <equipment id="400018" type="special">
+    <name>StraitJacket_weapon_name</name>
+    <desc>StraitJacket_gift_Desc</desc>
+    <attachPos>mouth</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <hp>2</hp>
+      <mental>2</mental>
+    </bonus>
+    <sprite>Mouth_0_6</sprite>
+  </equipment>
+
+  <equipment id="400103" type="special">
+    <name>Freischutz_weapon_name</name>
+    <desc>Freischutz_gift_Desc</desc>
+    <attachPos>mouth</attachPos>
+    <attachType>replace</attachType>
+    <bonus>
+      <hp>-5</hp>
+      <mental>-5</mental>
+      <movement>10</movement>
+      <attackSpeed>10</attackSpeed>
+    </bonus>
+    <sprite>Mouth_0_4</sprite>
+    <script>FreischutzGift</script>
+  </equipment>
+
+  <equipment id="400047" type="special">
+    <name>Shark_armor_name</name>
+    <desc>Shark_gift_Desc</desc>
+    <attachPos>mouth</attachPos>
+    <attachType>replace</attachType>
+    <bonus>
+      <mental>6</mental>
+    </bonus>
+    <sprite>Mouth_0_3</sprite>
+  </equipment>
+
+  <equipment id="400049" type="special">
+    <name>LookAtMe_armor_name</name>
+    <desc>LookAtMe_gift_Desc</desc>
+    <attachPos>right_hand</attachPos>
+    <attachType>replace</attachType>
+    <bonus>
+      <hp>4</hp>
+    </bonus>
+    <sprite>Glove_0_3</sprite>
+  </equipment>
+
+  <equipment id="400046" type="special">
+    <name>ViscusSnake_armor_name</name>
+    <desc>ViscusSnake_gift_Desc</desc>
+    <attachPos>right_hand</attachPos>
+    <attachType>replace</attachType>
+    <bonus>
+      <hp>5</hp>
+      <mental>2</mental>
+    </bonus>
+    <sprite>Glove_0_5</sprite>
+  </equipment>
+
+  <equipment id="400040" type="special">
+    <name>YoungPrince_weapon_name</name>
+    <desc>YoungPrince_gift_Desc</desc>
+    <attachPos>right_hand</attachPos>
+    <attachType>replace</attachType>
+    <bonus>
+      <mental>5</mental>
+      <workProb>2</workProb>
+      <cubeSpeed>2</cubeSpeed>
+    </bonus>
+    <sprite>Glove_0_1</sprite>
+  </equipment>
+
+  <equipment id="400105" type="special">
+    <name>FengYun_weapon_name</name>
+    <desc>FengYun_gift_Desc</desc>
+    <attachPos>right_hand</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <hp>10</hp>
+      <mental>-4</mental>
+    </bonus>
+    <sprite>Glove_0_4</sprite>
+  </equipment>
+
+  <equipment id="400027" type="special">
+    <name>BloodBath_weapon_name</name>
+    <desc>BloodBath_gift_Desc</desc>
+    <attachPos>right_hand</attachPos>
+    <attachType>replace</attachType>
+    <bonus>
+      <workProb>2</workProb>
+      <cubeSpeed>2</cubeSpeed>
+    </bonus>
+    <sprite>Glove_0_2</sprite>
+  </equipment>
+
+  <equipment id="400043" type="special">
+    <name>Butterfly_weapon_name</name>
+    <desc>Butterfly_gift_Desc</desc>
+    <attachPos>back</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <hp>1</hp>
+      <mental>1</mental>
+      <workProb>1</workProb>
+      <cubeSpeed>1</cubeSpeed>
+      <movement>1</movement>
+      <attackSpeed>1</attackSpeed>
+    </bonus>
+    <sprite>ButterFly</sprite>
+  </equipment>
+
+  <equipment id="400063" type="special">
+    <name>SlimeGirl_weapon_name</name>
+    <desc>SlimeGirl_gift_Desc</desc>
+    <attachPos>hair</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <hp>5</hp>
+      <mental>10</mental>
+      <workProb>-5</workProb>
+      <cubeSpeed>-5</cubeSpeed>
+    </bonus>
+    <sprite>Helmet_0_9</sprite>
+  </equipment>
+
+  <equipment id="400055" type="special">
+    <name>Wraith_weapon_name</name>
+    <desc>Wraith_gift_Desc</desc>
+    <attachPos>hair</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <mental>6</mental>
+    </bonus>
+    <sprite>Helmet_0_7</sprite>
+  </equipment>
+
+  <equipment id="400064" type="special">
+    <name>PinkCorps_weapon_name</name>
+    <desc>PinkCorps_gift_Desc</desc>
+    <attachPos>hair</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <mental>5</mental>
+      <attackSpeed>5</attackSpeed>
+    </bonus>
+    <sprite>Helmet_0_0</sprite>
+    <script>PinkCorpsGift</script>
+  </equipment>
+
+  <equipment id="400017" type="special">
+    <name>NamelessFetus_weapon_name</name>
+    <desc>NamelessFetus_gift_Desc</desc>
+    <attachPos>hair</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <hp>-2</hp>
+      <mental>-2</mental>
+      <movement>6</movement>
+      <attackSpeed>6</attackSpeed>
+    </bonus>
+    <sprite>Helmet_0_2</sprite>
+    <script>NamelessFetusGift</script>
+  </equipment>
+
+  <equipment id="400041" type="special">
+    <name>LittleWitch_weapon_name</name>
+    <desc>LittleWitch_gift_Desc</desc>
+    <attachPos>hair</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <mental>4</mental>
+    </bonus>
+    <sprite>Helmet_0_8</sprite>
+  </equipment>
+
+  <equipment id="400044" type="special">
+    <name>BloodyTree_weapon_name</name>
+    <desc>BloodyTree_gift_Desc</desc>
+    <attachPos>hair</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <hp>4</hp>
+      <workProb>2</workProb>
+      <cubeSpeed>2</cubeSpeed>
+    </bonus>
+    <sprite>Helmet_0_3</sprite>
+  </equipment>
+
+  <equipment id="400026" type="special">
+    <name>QueenBee_weapon_name</name>
+    <desc>QueenBee_gift_Desc</desc>
+    <attachPos>hair</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <hp>2</hp>
+      <mental>4</mental>
+    </bonus>
+    <sprite>Helmet_0_1</sprite>
+  </equipment>
+
+  <equipment id="400008" type="special">
+    <name>BigBird_armor_name</name>
+    <desc>BigBird_gift_Desc</desc>
+    <attachPos>hair</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <hp>3</hp>
+      <workProb>3</workProb>
+      <cubeSpeed>3</cubeSpeed>
+    </bonus>
+    <sprite>Helmet_0_5</sprite>
+  </equipment>
+
+  <equipment id="400104" type="special">
+    <name>Yin_weapon_name</name>
+    <desc>Yin_gift_Desc</desc>
+    <attachPos>hair</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <hp>-10</hp>
+      <mental>-10</mental>
+      <movement>20</movement>
+      <attackSpeed>20</attackSpeed>
+    </bonus>
+    <sprite>Helmet_0_6</sprite>
+    <script>YinGift</script>
+  </equipment>
+
+  <equipment id="400062" type="special">
+    <name>Yggdrasil_weapon_name</name>
+    <desc>Yggdrasil_gift_Desc</desc>
+    <attachPos>hair</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <hp>3</hp>
+      <mental>3</mental>
+    </bonus>
+    <sprite>Helmet_0_4</sprite>
+  </equipment>
+
+  <equipment id="400028" type="special">
+    <name>Wellcheers_weapon_name</name>
+    <desc>Wellcheers_gift_Desc</desc>
+    <attachPos>mouth</attachPos>
+    <attachType>replace</attachType>
+    <bonus>
+      <hp>2</hp>
+    </bonus>
+    <sprite>Mouth_0_5</sprite>
+  </equipment>
+
+  <equipment id="400053" type="special">
+    <name>Fairy_weapon_name</name>
+    <desc>Fairy_gift_Desc</desc>
+    <attachPos>right_hand</attachPos>
+    <attachType>replace</attachType>
+    <bonus>
+      <workProb>2</workProb>
+      <cubeSpeed>2</cubeSpeed>
+    </bonus>
+    <sprite>Glove_0_6</sprite>
+  </equipment>
+
+  <equipment id="400034" type="special">
+    <name>Bald_weapon_name</name>
+    <desc>Bald_gift_Desc</desc>
+    <attachPos>eye</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <movement>2</movement>
+      <attackSpeed>2</attackSpeed>
+    </bonus>
+    <sprite>Glass_5</sprite>
+  </equipment>
+
+
+  <!-- SnowQueen Dual Win Gift-->
+  <equipment id="1023" type="special">
+    <name>SnowQueen_gift_name</name>
+    <desc>SnowQueen_gift_Desc</desc>
+    <attachPos>right_cheek</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <hp>6</hp>
+      <mental>6</mental>
+    </bonus>
+    <sprite>SnowQueen_Gift</sprite>
+  </equipment>
+
+  <!-- BigBadWolf Win Gift-->
+  <equipment id="1033" type="special">
+    <name>BigBadWolf_Special_name</name>
+    <desc>BigBadWolf_Special_gift_Desc</desc>
+    <attachPos>head</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <hp>9</hp>
+      <mental>-3</mental>
+    </bonus>
+    <sprite>BigBadWolf_Scar</sprite>
+  </equipment>
+
+  <equipment id="400038" type="special">
+    <name>BossBird_Special_name</name>
+    <desc>BossBird_Special_gift_Desc</desc>
+    <attachPos>back</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <hp>7</hp>
+      <mental>7</mental>
+      <cubeSpeed>7</cubeSpeed>
+      <workProb>7</workProb>
+      <movement>7</movement>
+      <attackSpeed>7</attackSpeed>
+    </bonus>
+    <sprite>BossBirdWing</sprite>
+  </equipment>
+
+
+  <!-- *********** -->
+
+  <!-- EGO Weapons-->
+  <!-- 환상체 제작 무기 시작 -->
+  <equipment id="200009" type="weapon">
+    <name>OneBadManyGood_weapon_name</name>
+    <no>OneBadManyGood_weapon_no</no>
+    <desc>OneBadManyGood_weapon_desc</desc>
+    <specialDesc>OneBadManyGood_weapon_specialDesc</specialDesc>
+
+    <weaponClassType>mace</weaponClassType>
+    <sprite>Mace_Set_01_1</sprite>
+
+    <animation>Attack1</animation>
+
+    <damage type="W" min="5" max="7">
+      <soundInfo type="damage">Weapons/mace1</soundInfo>
+    </damage>
+    <range>3</range>
+    <script>OneBadManyGoodWeapon</script>
+    <maxNum>5</maxNum>
+    <!--dummy For UI-->
+    <attackSpeed>2</attackSpeed>
+    <grade>1</grade>
+  </equipment>
+
+  <equipment id="200013" type="weapon">
+    <name>BeautyBeast_weapon_name</name>
+    <no>BeautyBeast_weapon_no</no>
+    <desc>BeautyBeast_weapon_desc</desc>
+
+    <weaponClassType>spear</weaponClassType>
+    <sprite>Spear_Set_01_2</sprite>
+
+    <animation>Attack1</animation>
+
+    <damage type="R" min="5" max="9">
+      <soundInfo type="damage">Weapons/spear1</soundInfo>
+    </damage>
+    <range>4</range>
+    <script>BeautyBeastWeapon</script>
+    <maxNum>3</maxNum>
+    <!--dummy For UI-->
+    <attackSpeed>1.5</attackSpeed>
+    <grade>2</grade>
+  </equipment>
+
+  <equipment id="200012" type="weapon">
+    <name>SpiderMom_weapon_name</name>
+    <no>SpiderMom_weapon_no</no>
+    <desc>SpiderMom_weapon_desc</desc>
+    <specialDesc>SpiderMom_weapon_specialDesc</specialDesc>
+
+    <weaponClassType>mace</weaponClassType>
+    <sprite>Mace_Set_01_0</sprite>
+
+    <animation>Attack1</animation>
+
+    <damage type="R" min="7" max="9">
+      <soundInfo type="damage">Weapons/mace1</soundInfo>
+    </damage>
+    <range>3</range>
+    <script>SpiderMomWeapon</script>
+    <maxNum>3</maxNum>
+    <!--dummy For UI-->
+    <attackSpeed>2</attackSpeed>
+    <grade>2</grade>
+  </equipment>
+
+  <equipment id="200018" type="weapon">
+    <name>StraitJacket_weapon_name</name>
+    <no>StraitJacket_weapon_no</no>
+    <desc>StraitJacket_weapon_desc</desc>
+
+    <weaponClassType>hammer</weaponClassType>
+    <sprite>Hammer_Set_01_0</sprite>
+
+    <animation>Attack1</animation>
+
+    <damage type="R" min="12" max="18">
+      <soundInfo type="damage">Weapons/hammer</soundInfo>
+    </damage>
+    <range>5</range>
+    <splash type="splash" range="2" />
+
+    <script>StraitJacketWeapon</script>
+    <maxNum>2</maxNum>
+    <!--dummy For UI-->
+    <attackSpeed>3</attackSpeed>
+    <grade>2</grade>
+  </equipment>
+
+  <equipment id="200001" type="weapon">
+    <name>Matchgirl_weapon_name</name>
+    <no>Matchgirl_weapon_no</no>
+    <desc>Matchgirl_weapon_desc</desc>
+
+    <weaponClassType>cannon</weaponClassType>
+    <sprite>Cannon_Set_01_0</sprite>
+
+    <animation>Attack1</animation>
+
+    <damage type="R" min="20" max="30">
+      <soundInfo type="damage">Weapons/cannon</soundInfo>
+
+      <effectInfo type="damage">
+        <src>MatchgirlFire</src>
+        <pos>
+          <x>1.544</x>
+          <y>1.088</y>
+        </pos>
+        <rot>0</rot>
+        <lifetime>1</lifetime>
+        <unscaled>false</unscaled>
+      </effectInfo>
+
+      <effectInfo type="damage">
+        <src>MatchgirlVictim</src>
+        <pos>
+          <x>0</x>
+          <y>1.088</y>
+        </pos>
+        <rot>0</rot>
+        <lifetime>3</lifetime>
+        <unscaled>false</unscaled>
+        <attach>victim</attach>
+      </effectInfo>
+    </damage>
+    <range>15</range>
+    <splash type="splash" range="4" />
+
+    <script>MatchgirlWeapon</script>
+    <maxNum>1</maxNum>
+    <!--dummy For UI-->
+    <attackSpeed>5</attackSpeed>
+    <grade>2</grade>
+  </equipment>
+
+  <equipment id="200022" type="weapon">
+    <name>LadyLookingAtWall_weapon_name</name>
+    <no>LadyLookingAtWall_weapon_no</no>
+    <desc>LadyLookingAtWall_weapon_desc</desc>
+    <specialDesc>LadyLookingAtWall_weapon_specialDesc</specialDesc>
+
+    <weaponClassType>bowgun</weaponClassType>
+    <sprite>BowGun_Set_01_0</sprite>
+
+    <require type="W">2</require>
+
+    <animation>Attack1</animation>
+
+    <damage type="W" min="7" max="14">
+      <soundInfo type="damage">Weapons/bowgun</soundInfo>
+    </damage>
+    <range>20</range>
+    <splash type="penetration" />
+
+    <script>LadyLookingAtWallWeapon</script>
+    <maxNum>2</maxNum>
+    <!--dummy For UI-->
+    <attackSpeed>2</attackSpeed>
+    <grade>3</grade>
+  </equipment>
+
+  <equipment id="200036" type="weapon">
+    <name>Cosmos_weapon_name</name>
+    <no>Cosmos_weapon_no</no>
+    <desc>Cosmos_weapon_desc</desc>
+    <specialDesc>Cosmos_weapon_specialDesc</specialDesc>
+
+    <weaponClassType>spear</weaponClassType>
+    <sprite>Spear_Set_01_1</sprite>
+
+    <animation>Attack1</animation>
+
+    <damage type="B" min="5" max="9">
+      <soundInfo type="damage">Weapons/spear1</soundInfo>
+    </damage>
+    <range>4</range>
+
+    <script>CosmosWeapon</script>
+    <maxNum>3</maxNum>
+    <!--dummy For UI-->
+    <attackSpeed>1.5</attackSpeed>
+    <grade>2</grade>
+  </equipment>
+
+  <equipment id="200003" type="weapon">
+    <name>RedShoes_weapon_name</name>
+    <no>RedShoes_weapon_no</no>
+    <desc>RedShoes_weapon_desc</desc>
+    <specialDesc>RedShoes_weapon_specialDesc</specialDesc>
+
+    <weaponClassType>axe</weaponClassType>
+    <sprite>Axe_Set_01_0</sprite>
+
+    <animation>Attack1</animation>
+
+    <damage type="R" min="5" max="7">
+      <soundInfo type="damage">Weapons/axe1</soundInfo>
+    </damage>
+    <range>2</range>
+
+    <script>RedShoesWeapon</script>
+    <maxNum>2</maxNum>
+    <!--dummy For UI-->
+    <attackSpeed>1</attackSpeed>
+    <grade>3</grade>
+  </equipment>
+
+  <equipment id="200002" type="weapon">
+    <name>HappyTeddy_weapon_name</name>
+    <no>HappyTeddy_weapon_no</no>
+    <desc>HappyTeddy_weapon_desc</desc>
+
+    <require type="R">2</require>
+
+    <weaponClassType>fist</weaponClassType>
+    <!-- <sprite>Fist_Set_01_0</sprite> -->
+    <sprite>0</sprite>
+
+    <animation>Attack1</animation>
+
+    <damage type="R" min="7" max="7">
+      <soundInfo type="damage">Weapons/fist1</soundInfo>
+    </damage>
+    <range>2</range>
+
+    <script>HappyTeddyWeapon</script>
+    <maxNum>2</maxNum>
+    <!--dummy For UI-->
+    <attackSpeed>2</attackSpeed>
+    <grade>3</grade>
+  </equipment>
+
+  <equipment id="200016" type="weapon">
+    <name>Rudolph_weapon_name</name>
+    <no>Rudolph_weapon_no</no>
+    <desc>Rudolph_weapon_desc</desc>
+
+    <weaponClassType>mace</weaponClassType>
+    <sprite>Mace_Set_01_2</sprite>
+
+    <animation>Attack1</animation>
+
+    <damage type="W" min="11" max="13">
+      <soundInfo type="damage">Weapons/mace1</soundInfo>
+    </damage>
+    <range>3</range>
+
+    <script>RudolphWeapon</script>
+    <maxNum>3</maxNum>
+    <!--dummy For UI-->
+    <attackSpeed>2</attackSpeed>
+    <grade>3</grade>
+  </equipment>
+
+  <equipment id="200011" type="weapon">
+    <name>Helper_weapon_name</name>
+    <no>Helper_weapon_no</no>
+    <desc>Helper_weapon_desc</desc>
+    <sprite>Helper</sprite>
+
+    <require type="R">2</require>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>HelperWeapon</specialWeaponAnim>
+
+    <animation>Attack1</animation>
+
+    <damage type="R" min="1" max="3">
+      <soundInfo type="damage">Weapons/helper</soundInfo>
+    </damage>
+    <range>4</range>
+
+    <script>HelperWeapon</script>
+    <maxNum>1</maxNum>
+    <!--dummy For UI-->
+    <attackSpeed>1.6</attackSpeed>
+    <grade>3</grade>
+  </equipment>
+
+  <equipment id="200026" type="weapon">
+    <name>QueenBee_weapon_name</name>
+    <no>QueenBee_weapon_no</no>
+    <desc>QueenBee_weapon_desc</desc>
+
+    <require type="R">3</require>
+
+    <weaponClassType>rifle</weaponClassType>
+    <sprite>Rifle_Set_01_0</sprite>
+
+    <animation>Attack1</animation>
+
+    <damage type="R" min="7" max="8">
+      <soundInfo type="damage">Weapons/rifle</soundInfo>
+    </damage>
+
+    <range>25</range>
+
+    <script>QueenBeeWeapon</script>
+    <maxNum>2</maxNum>
+    <!--dummy For UI-->
+    <attackSpeed>1</attackSpeed>
+    <grade>4</grade>
+  </equipment>
+
+  <equipment id="200023" type="weapon">
+    <name>SnowWhite_weapon_name</name>
+    <no>SnowWhite_weapon_no</no>
+    <desc>SnowWhite_weapon_desc</desc>
+
+    <require type="B">3</require>
+
+    <weaponClassType>spear</weaponClassType>
+    <sprite>Spear_Set_01_0</sprite>
+
+    <animation>Attack1</animation>
+
+    <damage type="B" min="8" max="16">
+      <soundInfo type="damage">Weapons/spear1</soundInfo>
+    </damage>
+    <range>4</range>
+    <maxNum>3</maxNum>
+    <script>SnowWhiteWeapon</script>
+
+    <!--dummy For UI-->
+    <attackSpeed>1.5</attackSpeed>
+    <grade>4</grade>
+  </equipment>
+
+  <equipment id="200039" type="weapon">
+    <name>MagicalGirl2_weapon_name</name>
+    <no>MagicalGirl2_weapon_no</no>
+    <desc>MagicalGirl2_weapon_desc</desc>
+    <specialDesc>MagicalGirl2_weapon_specialDesc</specialDesc>
+
+    <sprite>KingOfGreed</sprite>
+    <require type="level">5</require>
+    <require type="R">5</require>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>GreedWeapon</specialWeaponAnim>
+
+    <animation>Attack1</animation>
+    <animation>Attack2</animation>
+
+    <damage type="R" min="5" max="6">
+      <soundInfo type="damage">Weapons/greed1_1</soundInfo>
+    </damage>
+    <damage type="R" min="40" max="60">
+      <soundInfo type="damage">Weapons/greed2</soundInfo>
+    </damage>
+    <range>2</range>
+
+    <script>MagicalGirl_2Weapon</script>
+    <maxNum>1</maxNum>
+    <!--dummy For UI-->
+    <attackSpeed>1.5</attackSpeed>
+    <grade>5</grade>
+  </equipment>
+
+  <equipment id="200035" type="weapon">
+    <name>LongBird_weapon_name</name>
+    <no>LongBird_weapon_no</no>
+    <desc>LongBird_weapon_desc</desc>
+    <sprite>LongBird</sprite>
+
+    <require type="level">5</require>
+    <require type="P">5</require>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>LongBirdWeapon</specialWeaponAnim>
+
+    <animation>Attack1</animation>
+    <animation>Attack2</animation>
+
+    <!--패턴 1-->
+    <damage type="P" min="2" max="4">
+      <soundInfo type="damage">Weapons/judgement1</soundInfo>
+    </damage>
+
+
+    <!--패턴 2-1  사운드 때문에 분리-->
+    <damage type="P" min="7" max="10">
+      <soundInfo type="damage">Weapons/judgement2_1</soundInfo>
+    </damage>
+    <damage type="P" min="7" max="10">
+      <soundInfo type="damage">Weapons/judgement2_2</soundInfo>
+    </damage>
+    <damage type="P" min="7" max="10">
+      <soundInfo type="damage">Weapons/judgement2_3</soundInfo>
+    </damage>
+
+    <!--패턴 2-2-->
+    <damage type="P" min="2" max="4">
+      <soundInfo type="damage">Weapons/judgement2_2</soundInfo>
+    </damage>
+    <range>4</range>
+    <splash type="penetration" />
+
+    <script>LongBirdWeapon</script>
+    <maxNum>1</maxNum>
+    <!--dummy For UI-->
+    <attackSpeed>2</attackSpeed>
+    <grade>5</grade>
+  </equipment>
+
+  <equipment id="200019" type="weapon">
+    <name>SilentOrchestra_weapon_name</name>
+    <no>SilentOrchestra_weapon_no</no>
+    <desc>SilentOrchestra_weapon_desc</desc>
+    <sprite>SilentOrchestra</sprite>
+
+    <require type="level">5</require>
+    <require type="W">5</require>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>SilentOrchestraWeapon</specialWeaponAnim>
+
+    <animation>Attack1</animation>
+    <animation>Attack2</animation>
+
+    <!--패턴1-->
+    <damage type="W" min="4 " max="5">
+      <soundInfo type="damage">Weapons/silent1</soundInfo>
+    </damage>
+
+    <!--패턴2 : 사운드를 위해 데미지 나눔-->
+    <damage type="W" min="16 " max="18">
+      <soundInfo type="damage">Weapons/silent2_1</soundInfo>
+    </damage>
+    <damage type="W" min="16 " max="18">
+      <soundInfo type="damage">Weapons/silent2_2</soundInfo>
+    </damage>
+    <damage type="W" min="16 " max="18">
+      <soundInfo type="damage">Weapons/silent2_3</soundInfo>
+    </damage>
+
+    <range>4</range>
+    <splash type="penetration" />
+
+    <script>OrchestraWeapon</script>
+    <maxNum>1</maxNum>
+    <!--dummy For UI-->
+    <attackSpeed>1.5</attackSpeed>
+    <grade>5</grade>
+  </equipment>
+
+
+  <equipment id="200027" type="weapon">
+    <name>BloodBath_weapon_name</name>
+    <no>BloodBath_weapon_no</no>
+    <desc>BloodBath_weapon_desc</desc>
+
+    <weaponClassType>knife</weaponClassType>
+    <sprite>Knife_Set_01_0</sprite>
+
+    <animation>Attack1</animation>
+
+    <damage type="W" min="2" max="3">
+      <soundInfo type="damage">Weapons/dagger1</soundInfo>
+    </damage>
+
+    <range>2</range>
+
+    <script>BloodBathWeapon</script>
+    <maxNum>2</maxNum>
+
+    <attackSpeed>0.667</attackSpeed>
+    <grade>2</grade>
+  </equipment>
+
+
+  <equipment id="200020" type="weapon">
+    <name>SmallBird_weapon_name</name>
+    <no>SmallBird_weapon_no</no>
+    <desc>SmallBird_weapon_desc</desc>
+
+    <weaponClassType>pistol</weaponClassType>
+    <sprite>Pistol_Set_01_0</sprite>
+
+    <animation>Attack1</animation>
+
+    <damage type="R" min="2" max="3">
+      <soundInfo type="damage">Weapons/gun</soundInfo>
+    </damage>
+    <range>10</range>
+
+    <script>SmallBirdWeapon</script>
+    <maxNum>2</maxNum>
+
+    <attackSpeed>0.667</attackSpeed>
+    <grade>2</grade>
+  </equipment>
+
+
+
+  <equipment id="200028" type="weapon">
+    <name>Wellcheers_weapon_name</name>
+    <no>Wellcheers_weapon_no</no>
+    <desc>Wellcheers_weapon_desc</desc>
+
+    <weaponClassType>pistol</weaponClassType>
+    <sprite>Pistol_Set_01_1</sprite>
+
+    <animation>Attack1</animation>
+
+    <damage type="R" min="1" max="2">
+      <soundInfo type="damage">Weapons/gun</soundInfo>
+    </damage>
+    <range>10</range>
+
+    <script>WellcheersWeapon</script>
+    <maxNum>2</maxNum>
+
+    <attackSpeed>0.667</attackSpeed>
+    <grade>1</grade>
+  </equipment>
+
+
+  <equipment id="200021" type="weapon">
+    <name>OldLady_weapon_name</name>
+    <no>OldLady_weapon_no</no>
+    <desc>OldLady_weapon_desc</desc>
+
+    <weaponClassType>pistol</weaponClassType>
+    <sprite>Pistol_Set_01_2</sprite>
+
+    <animation>Attack1</animation>
+
+    <damage type="W" min="2" max="3">
+      <soundInfo type="damage">Weapons/revolver</soundInfo>
+      <effectInfo type="damage">
+        <src>GunFireRight</src>
+        <pos>
+          <x>1.344</x>
+          <y>1.088</y>
+        </pos>
+        <rot>0</rot>
+        <lifetime>0.3</lifetime>
+        <unscaled>false</unscaled>
+      </effectInfo>
+    </damage>
+    <range>10</range>
+
+    <script>OldLadyWeapon</script>
+    <maxNum>2</maxNum>
+
+    <attackSpeed>0.667</attackSpeed>
+    <grade>2</grade>
+  </equipment>
+
+  <equipment id="200029" type="weapon">
+    <name>Alriune_weapon_name</name>
+    <no>Alriune_weapon_no</no>
+    <desc>Alriune_weapon_desc</desc>
+
+    <weaponClassType>bowgun</weaponClassType>
+    <sprite>BowGun_Set_01_1</sprite>
+
+    <require type="W">3</require>
+    <animation>Attack1</animation>
+
+    <damage type="W" min="10" max="20">
+      <soundInfo type="damage">Weapons/bowgun</soundInfo>
+    </damage>
+    <range>20</range>
+
+    <script>AlriuneWeapon</script>
+    <maxNum>2</maxNum>
+
+    <attackSpeed>2</attackSpeed>
+    <grade>4</grade>
+  </equipment>
+
+  <equipment id="200005" type="weapon">
+    <name>Nullthing_weapon_name</name>
+    <no>Nullthing_weapon_no</no>
+    <desc>Nullthing_weapon_desc</desc>
+    <specialDesc>Nullthing_weapon_specialDesc</specialDesc>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>NothingWeapon</specialWeaponAnim>
+    <sprite>Nothing</sprite>
+
+    <animation>Attack1</animation>
+    <animation>Attack2</animation>
+
+    <require type="R">5</require>
+    <require type="level">5</require>
+
+    <damage type="R" min="10" max="14">
+      <soundInfo type="damage">creature/NullthingSounds/Nullthing_Attack1</soundInfo>
+    </damage>
+    <damage type="R" min="40" max="90">
+      <soundInfo type="damage">creature/NullthingSounds/Nullthing_Skill3_Finish</soundInfo>
+    </damage>
+    <range>4</range>
+
+    <script>NothingWeapon</script>
+    <maxNum>1</maxNum>
+
+    <attackSpeed>1.2</attackSpeed>
+    <grade>5</grade>
+  </equipment>
+
+
+  <equipment id="200037" type="weapon">
+    <name>ArmorCreature_weapon_name</name>
+    <no>ArmorCreature_weapon_no</no>
+    <desc>ArmorCreature_weapon_desc</desc>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>SamuraiWeapon</specialWeaponAnim>
+    <sprite>Samurai</sprite>
+
+    <animation>Attack1</animation>
+    <animation>Attack2</animation>
+
+    <require type="P">2</require>
+
+    <damage type="P" min="7" max="9">
+      <soundInfo type="damage">Weapons/katana</soundInfo>
+    </damage>
+    <damage type="P" min="7" max="9">
+      <soundInfo type="damage">Weapons/katana</soundInfo>
+    </damage>
+    <range>4</range>
+
+    <script>ArmorCreatureWeapon</script>
+    <maxNum>1</maxNum>
+
+    <attackSpeed>1.3</attackSpeed>
+    <grade>3</grade>
+  </equipment>
+
+
+  <equipment id="200102" type="weapon">
+    <name>SnowQueen_weapon_name</name>
+    <no>SnowQueen_weapon_no</no>
+    <desc>SnowQueen_weapon_desc</desc>
+    <specialDesc>SnowQueen_weapon_specialDesc</specialDesc>
+
+    <weaponClassType>spear</weaponClassType>
+    <sprite>Spear_Set_01_3</sprite>
+
+    <animation>Attack1</animation>
+
+    <damage type="W" min="6" max="12">
+      <soundInfo type="damage">Weapons/spear1</soundInfo>
+    </damage>
+    <range>4</range>
+
+    <script>SnowQueenWeapon</script>
+    <maxNum>3</maxNum>
+
+    <attackSpeed>1.5</attackSpeed>
+    <grade>3</grade>
+  </equipment>
+
+
+  <equipment id="200041" type="weapon">
+    <name>LittleWitch_weapon_name</name>
+    <no>LittleWitch_weapon_no</no>
+    <desc>LittleWitch_weapon_desc</desc>
+
+    <weaponClassType>rifle</weaponClassType>
+    <sprite>Rifle_Set_01_1</sprite>
+
+    <animation>Attack1</animation>
+    <require type="B">2</require>
+
+    <damage type="B" min="5" max="6">
+      <soundInfo type="damage">Weapons/rifle</soundInfo>
+      <effectInfo type="damage">
+        <src>GunFireRight</src>
+        <pos>
+          <x>1.544</x>
+          <y>1.088</y>
+        </pos>
+        <rot>0</rot>
+        <lifetime>0.3</lifetime>
+        <unscaled>false</unscaled>
+      </effectInfo>
+
+      <!--
+      <effectInfo type="damage">
+        <src>MatchgirlVictim</src>
+        <pos>
+          <x>0</x>
+          <y>1.088</y>
+        </pos>
+        <rot>0</rot>
+        <lifetime>3</lifetime>
+        <unscaled>false</unscaled>
+        <attach>victim</attach>
+      </effectInfo>-->
+    </damage>
+    <range>25</range>
+
+    <script>LittleWitchWeapon</script>
+    <maxNum>2</maxNum>
+
+    <attackSpeed>1</attackSpeed>
+    <grade>3</grade>
+  </equipment>
+
+
+  <equipment id="200017" type="weapon">
+    <name>NamelessFetus_weapon_name</name>
+    <no>NamelessFetus_weapon_no</no>
+    <desc>NamelessFetus_weapon_desc</desc>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>FetusWeapon</specialWeaponAnim>
+    <sprite>NamelessFetus</sprite>
+
+    <require type="R">2</require>
+    <require type="level">2</require>
+
+    <animation>Attack1</animation>
+
+    <damage type="W" min="3" max="3">
+    </damage>
+    <range>10</range>
+
+    <script>NamelessFetusWeapon</script>
+    <maxNum>1</maxNum>
+
+    <attackSpeed>0.5</attackSpeed>
+    <grade>3</grade>
+  </equipment>
+
+  <equipment id="200048" type="weapon">
+    <name>KnightOfDespair_weapon_name</name>
+    <no>KnightOfDespair_weapon_no</no>
+    <desc>KnightOfDespair_weapon_desc</desc>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>KnightOfDespairWeapon</specialWeaponAnim>
+    <sprite>KnightOfDespair</sprite>
+
+    <require type="level">4</require>
+
+    <animation>Attack1</animation>
+    <animation>Attack2</animation>
+
+    <damage type="W" min="9" max="12">
+      <soundInfo type="damage">Weapons/rapier2</soundInfo>
+
+      <effectInfo type="damage">
+        <src>DespairWeaponAttackEffect</src>
+        <pos>
+          <x>2</x>
+          <y>0.6</y>
+        </pos>
+        <rot>0</rot>
+        <lifetime>1</lifetime>
+        <unscaled>false</unscaled>
+      </effectInfo>
+    </damage>
+
+    <damage type="W" min="1" max="2">
+      <soundInfo type="damage">Weapons/rapier1</soundInfo>
+
+      <effectInfo type="damage">
+        <src>DespairWeaponAttackEffectMulti</src>
+        <pos>
+          <x>2</x>
+          <y>0.6</y>
+        </pos>
+        <rot>0</rot>
+        <lifetime>1</lifetime>
+        <unscaled>false</unscaled>
+      </effectInfo>
+    </damage>
+
+    <range>4</range>
+
+    <script>KnightOfDespairWeapon</script>
+    <maxNum>1</maxNum>
+    <!--dummy For UI-->
+    <attackSpeed>1.3</attackSpeed>
+    <grade>4</grade>
+  </equipment>
+
+  <equipment id="200042" type="weapon">
+    <name>DangoCreature_weapon_name</name>
+    <no>DangoCreature_weapon_no</no>
+    <desc>DangoCreature_weapon_desc</desc>
+    <specialDesc>DangoCreature_weapon_specialDesc</specialDesc>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>DangoCreatureWeapon</specialWeaponAnim>
+    <sprite>DangoCreature</sprite>
+
+    <require type="B">5</require>
+    <require type="level">5</require>
+
+    <animation>Attack1</animation>
+    <animation>Attack2</animation>
+
+    <damage type="B" min="12" max="18">
+      <soundInfo type="damage">Weapons/hammer</soundInfo>
+    </damage>
+
+    <damage type="B" min="35" max="45">
+      <soundInfo type="damage">creature/DangoCreature/Danggo_Lv3_Atk</soundInfo>
+
+      <effectInfo type="damage">
+        <src>DangoWeaponShockwave</src>
+        <pos>
+          <x>2.1</x>
+          <y>0.2</y>
+        </pos>
+        <rot>0</rot>
+        <lifetime>1</lifetime>
+        <unscaled>false</unscaled>
+      </effectInfo>
+    </damage>
+
+    <damage type="B" min="4" max="4">
+      <!--<soundInfo type="damage">creature/DangoCreature/Danggo_Lv1_Atk</soundInfo>-->
+
+      <effectInfo type="damage">
+        <src>DangoWeaponBlood</src>
+        <pos>
+          <x>2.1</x>
+          <y>0.2</y>
+        </pos>
+        <rot>0</rot>
+        <lifetime>1</lifetime>
+        <unscaled>false</unscaled>
+      </effectInfo>
+    </damage>
+
+    <splash type="penetration"/>
+    <range>5</range>
+
+    <script>DangoCreatureWeapon</script>
+    <maxNum>1</maxNum>
+    <!--dummy For UI-->
+    <attackSpeed>1.5</attackSpeed>
+    <grade>5</grade>
+  </equipment>
+
+  <equipment id="200103" type="weapon">
+    <name>Freischutz_weapon_name</name>
+    <no>Freischutz_weapon_no</no>
+    <desc>Freischutz_weapon_desc</desc>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>FreischutzWeapon</specialWeaponAnim>
+    <sprite>Freischutz</sprite>
+
+    <require type="B">3</require>
+
+    <animation>Attack1</animation>
+
+    <damage type="B" min="20" max="22">
+      <soundInfo type="damage">creature/Freischutz/Freischutz_Shot</soundInfo>
+    </damage>
+    <range>50</range>
+    <splash type="penetration" iff ="false"/>
+
+    <script>FreischutzWeapon</script>
+    <maxNum>1</maxNum>
+
+    <attackSpeed>2.3</attackSpeed>
+    <grade>4</grade>
+  </equipment>
+
+  <equipment id="200045" type="weapon">
+    <name>BlackSwan_weapon_name</name>
+    <no>BlackSwan_weapon_no</no>
+    <desc>BlackSwan_weapon_desc</desc>
+    <specialDesc>BlackSwan_weapon_specialDesc</specialDesc>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>BlackSwanWeapon</specialWeaponAnim>
+    <sprite>BlackSwan</sprite>
+
+    <require type="W">3</require>
+
+    <animation>Attack1</animation>
+
+    <damage type="B" min="6" max="7">
+      <soundInfo type="damage">Weapons/blackSwan1</soundInfo>
+
+      <effectInfo type="damage">
+        <src>BlackSwanWeaponEffect</src>
+        <pos>
+          <x>0</x>
+          <y>1.4</y>
+        </pos>
+        <rot>0</rot>
+        <lifetime>1</lifetime>
+        <unscaled>false</unscaled>
+        <attach>victim</attach>
+      </effectInfo>
+    </damage>
+
+    <damage type="B" min="6" max="7">
+      <soundInfo type="damage">Weapons/blackSwan2</soundInfo>
+
+      <effectInfo type="damage">
+        <src>BlackSwanWeaponEffect</src>
+        <pos>
+          <x>0</x>
+          <y>1</y>
+        </pos>
+        <rot>0</rot>
+        <lifetime>1</lifetime>
+        <unscaled>false</unscaled>
+        <attach>victim</attach>
+      </effectInfo>
+    </damage>
+    <range>3</range>
+
+    <script>BlackSwanWeapon</script>
+    <maxNum>2</maxNum>
+
+    <attackSpeed>1.6</attackSpeed>
+    <grade>4</grade>
+  </equipment>
+
+  <equipment id="200043" type="weapon">
+    <name>Butterfly_weapon_name</name>
+    <no>Butterfly_weapon_no</no>
+    <desc>Butterfly_weapon_desc</desc>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>ButterflyWeapon</specialWeaponAnim>
+    <sprite>ButterflyWeapon</sprite>
+
+    <require type="P">3</require>
+
+    <animation>Attack1</animation>
+
+    <damage type="W" min="2" max="2">
+      <!--<soundInfo type="damage">Weapons/blackSwan1</soundInfo>-->
+
+      <effectInfo type="damage">
+        <src>ButterflyWeaponEffect</src>
+        <pos>
+          <x>0</x>
+          <y>1.4</y>
+        </pos>
+        <rot>0</rot>
+        <lifetime>1</lifetime>
+        <unscaled>false</unscaled>
+        <attach>victim</attach>
+      </effectInfo>-->
+    </damage>
+
+    <damage type="B" min="2" max="2">
+      <!--<soundInfo type="damage">Weapons/blackSwan2</soundInfo>-->
+
+      <effectInfo type="damage">
+        <src>ButterflyWeaponEffect</src>
+        <pos>
+          <x>0</x>
+          <y>1.4</y>
+        </pos>
+        <rot>0</rot>
+        <lifetime>1</lifetime>
+        <unscaled>false</unscaled>
+        <attach>victim</attach>
+      </effectInfo>-->
+    </damage>
+    <range>10</range>
+
+    <script>ButterflyWeapon</script>
+    <maxNum>1</maxNum>
+
+    <attackSpeed>0.5</attackSpeed>
+    <grade>4</grade>
+  </equipment>
+
+  <equipment id="200044" type="weapon">
+    <name>BloodyTree_weapon_name</name>
+    <no>BloodyTree_weapon_no</no>
+    <desc>BloodyTree_weapon_desc</desc>
+
+    <weaponClassType>spear</weaponClassType>
+    <sprite>Spear_Set_01_4</sprite>
+
+    <require type="level">3</require>
+
+    <animation>Attack1</animation>
+
+    <damage type="R" min="8" max="16">
+      <soundInfo type="damage">Weapons/spear1</soundInfo>
+    </damage>
+    <range>4</range>
+
+    <script>BloodyTreeWeapon</script>
+    <maxNum>3</maxNum>
+
+    <attackSpeed>1.5</attackSpeed>
+    <grade>4</grade>
+  </equipment>
+
+  <!-- 환상체 제작 무기 끝-->
+
+  <equipment id="200051" type="weapon">
+    <name>Lumberjack_weapon_name</name>
+    <no>Lumberjack_weapon_no</no>
+    <desc>Lumberjack_weapon_desc</desc>
+
+    <weaponClassType>hammer</weaponClassType>
+    <sprite>Hammer_Set_01_1</sprite>
+
+    <require type="B">2</require>
+
+    <animation>Attack1</animation>
+
+    <damage type="R" min="15" max="21">
+      <soundInfo type="damage">creature/Lumberjack/Lumberjack_Atk2</soundInfo>
+    </damage>
+    <range>5</range>
+
+    <script>LumberjackWeapon</script>
+    <maxNum>2</maxNum>
+
+    <attackSpeed>3</attackSpeed>
+    <grade>3</grade>
+  </equipment>
+
+  <equipment id="200053" type="weapon">
+    <name>Fairy_weapon_name</name>
+    <no>Fairy_weapon_no</no>
+    <desc>Fairy_weapon_desc</desc>
+
+    <weaponClassType>mace</weaponClassType>
+    <sprite>Mace_Set_01_3</sprite>
+
+    <animation>Attack1</animation>
+
+    <damage type="R" min="5" max="7">
+      <soundInfo type="damage">Weapons/mace1</soundInfo>
+    </damage>
+
+    <range>3</range>
+
+    <script>FairyWeapon</script>
+    <maxNum>5</maxNum>
+
+    <attackSpeed>2</attackSpeed>
+    <grade>1</grade>
+  </equipment>
+
+  <equipment id="200055" type="weapon">
+    <name>Wraith_weapon_name</name>
+    <no>Wraith_weapon_no</no>
+    <desc>Wraith_weapon_desc</desc>
+
+    <weaponClassType>mace</weaponClassType>
+    <sprite>Mace_Set_01_5</sprite>
+
+    <require type="W">3</require>
+
+    <animation>Attack1</animation>
+
+    <damage type="W" min="15" max="17">
+      <soundInfo type="damage">Weapons/mace1</soundInfo>
+    </damage>
+
+    <damage type="W" min="15" max="17">
+      <soundInfo type="damage">Weapons/mace2</soundInfo>
+    </damage>
+
+    <range>3</range>
+
+    <script>WraithWeapon</script>
+    <maxNum>3</maxNum>
+
+    <attackSpeed>2</attackSpeed>
+    <grade>4</grade>
+  </equipment>
+
+  <equipment id="200050" type="weapon">
+    <name>Scarecrow_weapon_name</name>
+    <no>Scarecrow_weapon_no</no>
+    <desc>Scarecrow_weapon_desc</desc>
+
+    <weaponClassType>spear</weaponClassType>
+    <sprite>Spear_Set_01_6</sprite>
+
+    <animation>Attack1</animation>
+
+    <damage type="B" min="6" max="12">
+      <soundInfo type="damage">Weapons/spear1</soundInfo>
+    </damage>
+    <damage type="B" min="6" max="12">
+      <soundInfo type="damage">Weapons/spear2</soundInfo>
+    </damage>
+
+    <range>4</range>
+    <script>ScarecrowWeapon</script>
+    <maxNum>3</maxNum>
+    <!--dummy For UI-->
+    <attackSpeed>1.5</attackSpeed>
+    <grade>3</grade>
+  </equipment>
+
+  <equipment id="200056" type="weapon">
+    <name>Censored_weapon_name</name>
+    <no>Censored_weapon_no</no>
+    <desc>Censored_weapon_desc</desc>
+    <specialDesc>Censored_weapon_specialDesc</specialDesc>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>CensoredWeapon</specialWeaponAnim>
+    <sprite>Censored</sprite>
+
+    <require type="R">5</require>
+    <require type="level">5</require>
+
+    <animation>Attack1</animation>
+    <animation>Attack2</animation>
+
+    <damage type="B" min="15" max="30">
+      <soundInfo type="damage">Weapons/Censored1</soundInfo>
+    </damage>
+
+    <damage type="B" min="15" max="30">
+    </damage>
+
+    <damage type="B" min="15" max="30">
+    </damage>
+
+    <damage type="B" min="7" max="11">
+      <soundInfo type="damage">Weapons/Censored2_1</soundInfo>
+    </damage>
+
+    <damage type="B" min="7" max="11">
+      <soundInfo type="damage">Weapons/Censored2_2</soundInfo>
+    </damage>
+
+    <range>3</range>
+
+    <script>CensoredWeapon</script>
+    <maxNum>1</maxNum>
+
+    <attackSpeed>1.5</attackSpeed>
+    <grade>5</grade>
+  </equipment>
+
+  <equipment id="200057" type="weapon">
+    <name>Porccu_weapon_name</name>
+    <no>Porccu_weapon_no</no>
+    <desc>Porccu_weapon_desc</desc>
+    <specialDesc>Porccu_weapon_specialDesc</specialDesc>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>PorccuWeapon</specialWeaponAnim>
+    <sprite>Porccu</sprite>
+
+    <require type="B">3</require>
+
+    <animation>Attack1</animation>
+
+    <damage type="B" min="1" max="4">
+      <soundInfo type="damage">Weapons/Porccu</soundInfo>
+    </damage>
+
+    <range>5</range>
+
+    <script>PorccuWeapon</script>
+    <maxNum>1</maxNum>
+
+    <attackSpeed>1.5</attackSpeed>
+    <grade>3</grade>
+  </equipment>
+
+  <equipment id="200058" type="weapon">
+    <name>BlueStar_weapon_name</name>
+    <no>BlueStar_weapon_no</no>
+    <desc>BlueStar_weapon_desc</desc>
+    <specialDesc>BlueStar_weapon_specialDesc</specialDesc>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>BlueStarWeapon</specialWeaponAnim>
+    <sprite>BlueStar</sprite>
+
+    <require type="level">5</require>
+    <require type="W">5</require>
+    <require type="B">5</require>
+
+    <animation>Attack3</animation>
+    <animation>Attack2</animation>
+    <animation>Attack1</animation>
+
+    <damage type="W" min="8" max="12">
+      <soundInfo type="damage">Weapons/blueStar</soundInfo>
+      <!--<effectInfo type="damage">
+        <src>ShockwaveEffect</src>
+        <pos>
+          <x>0</x>
+          <y>1</y>
+        </pos>
+        <rot>0</rot>
+        <lifetime>0.48</lifetime>
+        <unscaled>false</unscaled>
+        <attach>victim</attach>
+      </effectInfo>-->
+
+      <effectInfo type="damage">
+        <src>BlueStarWeaponEffect</src>
+        <pos>
+          <x>0</x>
+          <y>1</y>
+        </pos>
+        <rot>0</rot>
+        <lifetime>0.48</lifetime>
+        <unscaled>false</unscaled>
+        <attach>victim</attach>
+      </effectInfo>
+    </damage>
+
+    <damage type="W" min="9" max="11">
+      <soundInfo type="damage">Weapons/blueStar</soundInfo>
+      <!--<effectInfo type="damage">
+        <src>ShockwaveEffect</src>
+        <pos>
+          <x>0</x>
+          <y>1</y>
+        </pos>
+        <rot>0</rot>
+        <lifetime>0.48</lifetime>
+        <unscaled>false</unscaled>
+        <attach>victim</attach>
+      </effectInfo>-->
+
+      <effectInfo type="damage">
+        <src>BlueStarWeaponEffect</src>
+        <pos>
+          <x>0</x>
+          <y>1</y>
+        </pos>
+        <rot>0</rot>
+        <lifetime>0.48</lifetime>
+        <unscaled>false</unscaled>
+        <attach>victim</attach>
+      </effectInfo>
+    </damage>
+
+    <damage type="W" min="11" max="16">
+      <soundInfo type="damage">Weapons/blueStar</soundInfo>
+      <!--<effectInfo type="damage">
+        <src>ShockwaveEffect</src>
+        <pos>
+          <x>0</x>
+          <y>1</y>
+        </pos>
+        <rot>0</rot>
+        <lifetime>0.48</lifetime>
+        <unscaled>false</unscaled>
+        <attach>victim</attach>
+      </effectInfo>-->
+
+      <effectInfo type="damage">
+        <src>BlueStarWeaponEffect</src>
+        <pos>
+          <x>0</x>
+          <y>1</y>
+        </pos>
+        <rot>0</rot>
+        <lifetime>0.48</lifetime>
+        <unscaled>false</unscaled>
+        <attach>victim</attach>
+      </effectInfo>
+    </damage>
+
+    <range>25</range>
+
+    <splash type="penetration"/>
+
+    <script>BlueStarWeapon</script>
+    <maxNum>1</maxNum>
+
+    <attackSpeed>1.5</attackSpeed>
+    <grade>5</grade>
+  </equipment>
+
+  <equipment id="200006" type="weapon">
+    <name>SingingMachine_weapon_name</name>
+    <no>SingingMachine_weapon_no</no>
+    <desc>SingingMachine_weapon_desc</desc>
+    <specialDesc>SingingMachine_weapon_specialDesc</specialDesc>
+
+    <weaponClassType>cannon</weaponClassType>
+    <sprite>Cannon_Set_01_1</sprite>
+
+    <animation>Attack1</animation>
+
+    <require type="R">2</require>
+    <require type="level">2</require>
+
+    <damage type="W" min="30" max="50">
+      <soundInfo type="damage">Weapons/cannon</soundInfo>
+
+      <effectInfo type="damage">
+        <src>SingingMachineWeaponVictim</src>
+        <pos>
+          <x>0</x>
+          <y>1</y>
+        </pos>
+        <rot>0</rot>
+        <lifetime>2</lifetime>
+        <unscaled>false</unscaled>
+        <attach>victim</attach>
+      </effectInfo>
+
+      <effectInfo type="damage">
+        <src>SingingMachineWeaponAttacker</src>
+        <pos>
+          <x>1.544</x>
+          <y>1.088</y>
+        </pos>
+        <rot>0</rot>
+        <lifetime>2</lifetime>
+        <unscaled>false</unscaled>
+      </effectInfo>
+    </damage>
+
+    <range>15</range>
+    <script>SingingMachineWeapon</script>
+    <maxNum>2</maxNum>
+
+    <attackSpeed>5</attackSpeed>
+    <grade>3</grade>
+  </equipment>
+
+  <equipment id="200032" type="weapon">
+    <name>RedHood_weapon_name</name>
+    <no>RedHood_weapon_no</no>
+    <desc>RedHood_weapon_desc</desc>
+    <specialDesc>RedHood_weapon_specialDesc</specialDesc>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>RedHoodWeapon</specialWeaponAnim>
+    <sprite>RedHood</sprite>
+
+    <animation>Attack1</animation>
+    <animation>Attack2</animation>
+
+    <require type="R">3</require>
+    <require type="P">3</require>
+    <require type="level">3</require>
+
+    <damage type="R" min="11" max="13">
+      <soundInfo type="damage">creature/RedHood/RedHood_Atk1</soundInfo>
+    </damage>
+
+    <damage type="R" min="11" max="13">
+      <soundInfo type="damage">creature/RedHood/RedHood_Atk2</soundInfo>
+    </damage>
+
+    <damage type="R" min="11" max="13">
+    </damage>
+
+    <range>2</range>
+    <script>RedHoodWeapon</script>
+    <maxNum>1</maxNum>
+
+    <attackSpeed>1.53</attackSpeed>
+    <grade>4</grade>
+  </equipment>
+
+  <equipment id="200033" type="weapon">
+    <name>BigBadWolf_weapon_name</name>
+    <no>BigBadWolf_weapon_no</no>
+    <desc>BigBadWolf_weapon_desc</desc>
+    <specialDesc>BigBadWolf_weapon_specialDesc</specialDesc>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>BigBadWolfWeapon</specialWeaponAnim>
+    <sprite>BigBadWolf</sprite>
+
+    <animation>Attack1</animation>
+    <animation>Attack2</animation>
+
+    <require type="R">3</require>
+    <require type="B">3</require>
+    <require type="level">3</require>
+
+    <damage type="R" min="12" max="17">
+      <soundInfo type="damage">creature/BigBadWolf/Wolf_Scratch</soundInfo>
+    </damage>
+    <damage type="R" min="12" max="22">
+      <soundInfo type="damage">creature/BigBadWolf/Wolf_Scratch</soundInfo>
+    </damage>
+
+    <range>3</range>
+    <script>BigBadWolfWeapon</script>
+    <maxNum>1</maxNum>
+
+    <attackSpeed>1.83</attackSpeed>
+    <grade>4</grade>
+  </equipment>
+
+  <equipment id="200040" type="weapon">
+    <name>YoungPrince_weapon_name</name>
+    <no>YoungPrince_weapon_no</no>
+    <desc>YoungPrince_weapon_desc</desc>
+    <specialDesc>YoungPrince_weapon_specialDesc</specialDesc>
+
+    <weaponClassType>spear</weaponClassType>
+    <sprite>Spear_Set_01_7</sprite>
+
+    <animation>Attack1</animation>
+
+    <require type="B">2</require>
+    <require type="level">2</require>
+
+    <damage type="W" min="8" max="16">
+      <soundInfo type="damage">Weapons/spear1</soundInfo>
+    </damage>
+
+    <range>4</range>
+    <script>YoungPrinceWeapon</script>
+    <maxNum>3</maxNum>
+
+    <attackSpeed>1.5</attackSpeed>
+    <grade>4</grade>
+  </equipment>
+
+  <equipment id="200038" type="weapon">
+    <name>BossBird_weapon_name</name>
+    <no>BossBird_weapon_no</no>
+    <desc>BossBird_weapon_desc</desc>
+    <specialDesc>BossBird_weapon_specialDesc</specialDesc>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>BossBirdWeapon</specialWeaponAnim>
+    <sprite>BossBird</sprite>
+
+    <animation>Attack1</animation>
+    <animation>Attack2</animation>
+
+    <require type="R">6</require>
+    <require type="W">6</require>
+    <require type="B">6</require>
+    <require type="P">6</require>
+
+    <damage type="R" min="12" max="18">
+      <soundInfo type="damage">Weapons/judgement1</soundInfo>
+    </damage>
+    <damage type="W" min="12" max="18">
+    </damage>
+    <damage type="B" min="12" max="18">
+    </damage>
+    <damage type="P" min="12" max="18">
+    </damage>
+    <damage type="R" min="40" max="60">
+      <soundInfo type="damage">Weapons/judgement2_1</soundInfo>
+    </damage>
+    <damage type="W" min="40" max="60">
+      <soundInfo type="damage">Weapons/judgement2_2</soundInfo>
+    </damage>
+    <damage type="B" min="40" max="60">
+      <soundInfo type="damage">Weapons/judgement2_3</soundInfo>
+    </damage>
+    <damage type="P" min="40" max="60">
+      <soundInfo type="damage">Weapons/judgement2_4</soundInfo>
+    </damage>
+    <damage type="R" min="20" max="30">
+    </damage>
+    <damage type="W" min="20" max="30">
+    </damage>
+    <damage type="B" min="20" max="30">
+    </damage>
+    <damage type="P" min="20" max="30">
+    </damage>
+
+    <range>6</range>
+    <script>BossBirdWeapon</script>
+    <maxNum>1</maxNum>
+    <attackSpeed>2</attackSpeed>
+    <grade>5</grade>
+  </equipment>
+
+  <equipment id="200059" type="weapon">
+    <name>Sakura_weapon_name</name>
+    <no>Sakura_weapon_no</no>
+    <desc>Sakura_weapon_desc</desc>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>SakuraWeapon</specialWeaponAnim>
+    <sprite>Sakura</sprite>
+
+    <animation>Attack1</animation>
+
+    <damage type="W" min="1" max="2">
+      <soundInfo type="damage">Weapons/Sakura</soundInfo>
+    </damage>
+    <damage type="W" min="1" max="2">
+    </damage>
+
+    <range>5</range>
+    <script>SakuraWeapon</script>
+    <maxNum>1</maxNum>
+
+    <attackSpeed>1</attackSpeed>
+    <grade>2</grade>
+  </equipment>
+
+  <equipment id="200060" type="weapon">
+    <name>Baku_weapon_name</name>
+    <no>Baku_weapon_no</no>
+    <desc>Baku_weapon_desc</desc>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>BakuWeapon</specialWeaponAnim>
+    <sprite>VoidDream</sprite>
+
+    <animation>Attack1</animation>
+
+    <damage type="W" min="1" max="2">
+      <soundInfo type="damage">Weapons/Dreamy1</soundInfo>
+      <effectInfo type="damage">
+        <src>BakuWeaponEffect</src>
+        <pos>
+          <x>1.544</x>
+          <y>1.088</y>
+        </pos>
+        <rot>0</rot>
+        <lifetime>1</lifetime>
+        <unscaled>false</unscaled>
+      </effectInfo>
+    </damage>
+
+    <damage type="W" min="1" max="2">
+      <soundInfo type="damage">Weapons/Dreamy2</soundInfo>
+      <effectInfo type="damage">
+        <src>BakuWeaponEffect</src>
+        <pos>
+          <x>1.544</x>
+          <y>1.088</y>
+        </pos>
+        <rot>0</rot>
+        <lifetime>1</lifetime>
+        <unscaled>false</unscaled>
+      </effectInfo>
+    </damage>
+
+    <range>8</range>
+    <script>BakuWeapon</script>
+    <maxNum>2</maxNum>
+
+    <attackSpeed>1</attackSpeed>
+    <grade>2</grade>
+  </equipment>
+
+  <equipment id="200004" type="weapon">
+    <name>MagicalGirl_weapon_name</name>
+    <no>MagicalGirl_weapon_no</no>
+    <desc>MagicalGirl_weapon_desc</desc>
+    <specialDesc>MagicalGirl_weapon_specialDesc</specialDesc>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>MagicalGirlWeapon</specialWeaponAnim>
+    <sprite>MagicalGirl</sprite>
+
+    <animation>Attack1</animation>
+
+    <require type="R">3</require>
+    <require type="P">3</require>
+    <require type="level">4</require>
+
+    <damage type="B" min="5" max="8">
+      <soundInfo type="damage">Weapons/magicalgirl</soundInfo>
+    </damage>
+
+    <range>80</range>
+    <script>MagicalGirlWeapon</script>
+    <maxNum>1</maxNum>
+
+    <attackSpeed>0.83</attackSpeed>
+    <grade>4</grade>
+  </equipment>
+
+  <equipment id="200104" type="weapon">
+    <name>Yin_weapon_name</name>
+    <no>Yin_weapon_no</no>
+    <desc>Yin_weapon_desc</desc>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>YinWeapon</specialWeaponAnim>
+    <sprite>Yin</sprite>
+
+    <animation>Attack1</animation>
+    <animation>Attack2</animation>
+
+    <require type="B">3</require>
+    <require type="level">3</require>
+
+    <!--패턴1-->
+    <damage type="B" min="8" max="13">
+      <soundInfo type="damage">Weapons/YinYang1</soundInfo>
+
+      <effectInfo type="damage">
+        <src>YinWeaponEffect</src>
+        <pos>
+          <x>1.544</x>
+          <y>1.088</y>
+        </pos>
+        <rot>0</rot>
+        <lifetime>2</lifetime>
+        <unscaled>false</unscaled>
+      </effectInfo>
+    </damage>
+
+    <!--패턴2-->
+    <damage type="B" min="2" max="3">
+      <soundInfo type="damage">Weapons/YinYang2</soundInfo>
+    </damage>
+    <damage type="B" min="2" max="3">
+      <soundInfo type="damage">Weapons/YinYang2</soundInfo>
+    </damage>
+    <damage type="B" min="2" max="3">
+      <soundInfo type="damage">Weapons/YinYang2</soundInfo>
+    </damage>
+    <damage type="B" min="2" max="3">
+      <soundInfo type="damage">Weapons/YinYang2</soundInfo>
+    </damage>
+    <damage type="B" min="18" max="24">
+      <soundInfo type="damage">Weapons/YinYang1</soundInfo>
+
+      <effectInfo type="damage">
+        <src>YinWeaponEffect</src>
+        <pos>
+          <x>1.544</x>
+          <y>1.088</y>
+        </pos>
+        <rot>0</rot>
+        <lifetime>2</lifetime>
+        <unscaled>false</unscaled>
+      </effectInfo>
+    </damage>
+
+    <range>5</range>
+    <script>YinWeapon</script>
+    <maxNum>2</maxNum>
+
+    <attackSpeed>1.34</attackSpeed>
+    <grade>4</grade>
+  </equipment>
+
+  <equipment id="200061" type="weapon">
+    <name>FireBird_weapon_name</name>
+    <no>FireBird_weapon_no</no>
+    <desc>FireBird_weapon_desc</desc>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>FireBirdWeapon</specialWeaponAnim>
+    <sprite>Firebird</sprite>
+
+    <animation>Attack1</animation>
+
+    <require type="R">3</require>
+
+    <!--공속 1 기준 공격횟수 초당 2회-->
+    <damage type="W" min="4" max="5">
+      <soundInfo type="damage">Weapons/Firebird</soundInfo>
+
+      <effectInfo type="damage">
+        <src>FireBirdWeaponHit</src>
+        <pos>
+          <x>0</x>
+          <y>1.088</y>
+        </pos>
+        <rot>0</rot>
+        <lifetime>3</lifetime>
+        <unscaled>false</unscaled>
+        <attach>victim</attach>
+      </effectInfo>
+    </damage>
+
+    <range>15</range>
+    <script>FireBirdWeapon</script>
+    <maxNum>3</maxNum>
+
+    <attackSpeed>1</attackSpeed>
+    <grade>4</grade>
+  </equipment>
+
+  <equipment id="200015" type="weapon">
+    <name>DeathAngel_weapon_name</name>
+    <no>DeathAngel_weapon_no</no>
+    <desc>DeathAngel_weapon_desc</desc>
+    <specialDesc>DeathAngel_weapon_specialDesc</specialDesc>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>DeathAngelWeapon</specialWeaponAnim>
+    <sprite>DeathAngel</sprite>
+
+    <animation>Attack1</animation>
+    <animation>Attack2</animation>
+
+    <require type="R">5</require>
+    <require type="W">5</require>
+    <require type="B">5</require>
+    <require type="P">5</require>
+
+    <!--첫번째 패턴 데미지 (UI 표시용, 실적용 안 됨)-->
+    <damage type="P" min="22" max="28">
+      <soundInfo type="damage">Weapons/DeathAngel1</soundInfo>
+    </damage>
+
+    <!--두번째 패턴 데미지-->
+    <damage type="P" min="50" max="60">
+      <soundInfo type="damage">Weapons/DeathAngel2</soundInfo>
+
+      <effectInfo type="damage">
+        <src>DeathAngelWeaponSpecial</src>
+        <pos>
+          <x>8</x>
+          <y>1.088</y>
+        </pos>
+        <rot>0</rot>
+        <lifetime>2</lifetime>
+        <unscaled>false</unscaled>
+      </effectInfo>
+    </damage>
+
+    <!--첫번째 패턴 데미지, 두번째 패턴 사거리 등 각종 수치는 DeathAngelWeapon.cs에 있음-->
+    <range>80</range>
+    <script>DeathAngelWeapon</script>
+    <maxNum>1</maxNum>
+
+    <splash type="penetration" />
+
+    <attackSpeed>1.83</attackSpeed>
+    <grade>5</grade>
+  </equipment>
+
+
+
+  <equipment id="200054" type="weapon">
+    <name>Bunny_armor_name</name>
+    <no>Bunny_armor_no</no>
+    <desc>Bunny_armor_desc</desc>
+
+    <weaponClassType>hammer</weaponClassType>
+    <sprite>Hammer_Set_01_3</sprite>
+
+    <animation>Attack1</animation>
+
+    <damage type="B" min="12" max="18">
+      <soundInfo type="damage">Weapons/hammer</soundInfo>
+    </damage>
+    <range>5</range>
+    <splash type="splash" range="2" />
+
+    <maxNum>2</maxNum>
+    <!--dummy For UI-->
+    <attackSpeed>3</attackSpeed>
+    <grade>2</grade>
+  </equipment>
+
+  <equipment id="200052" type="weapon">
+    <name>ShyThing_armor_name</name>
+    <no>ShyThing_armor_no</no>
+    <desc>ShyThing_armor_desc</desc>
+
+    <weaponClassType>pistol</weaponClassType>
+    <sprite>Pistol_Set_01_3</sprite>
+
+    <animation>Attack1</animation>
+
+    <damage type="B" min="2" max="3">
+      <soundInfo type="damage">Weapons/gun</soundInfo>
+    </damage>
+    <range>10</range>
+
+    <maxNum>2</maxNum>
+
+    <attackSpeed>0.667</attackSpeed>
+    <grade>2</grade>
+  </equipment>
+
+
+  <equipment id="200031" type="weapon">
+    <name>GalaxyBoy_armor_name</name>
+    <no>GalaxyBoy_armor_no</no>
+    <desc>GalaxyBoy_armor_desc</desc>
+
+    <require type="W">2</require>
+    <require type="level">2</require>
+
+    <weaponClassType>mace</weaponClassType>
+    <sprite>Mace_Set_01_7</sprite>
+
+    <animation>Attack1</animation>
+
+    <damage type="B" min="9" max="15">
+      <soundInfo type="damage">Weapons/Galaxy</soundInfo>
+
+      <effectInfo type="damage">
+        <src>GalaxyboyWeaponEffect</src>
+        <pos>
+          <x>0</x>
+          <y>1.088</y>
+        </pos>
+        <rot>0</rot>
+        <lifetime>3</lifetime>
+        <unscaled>false</unscaled>
+        <attach>victim</attach>
+      </effectInfo>
+    </damage>
+    <range>8</range>
+
+    <script>GalaxyBoyWeapon</script>
+    <maxNum>1</maxNum>
+    <!--dummy For UI-->
+    <attackSpeed>2</attackSpeed>
+    <grade>3</grade>
+  </equipment>
+
+  <equipment id="200049" type="weapon">
+    <name>LookAtMe_armor_name</name>
+    <no>LookAtMe_armor_no</no>
+    <desc>LookAtMe_armor_desc</desc>
+    <specialDesc>LookAtMe_weapon_specialDesc</specialDesc>
+    <sprite>LookAtMe</sprite>
+
+    <require type="B">2</require>
+    <require type="W">2</require>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>LookAtMeWeapon</specialWeaponAnim>
+
+    <animation>Attack1</animation>
+
+    <damage type="R" min="1" max="4">
+      <soundInfo type="anim">Weapons/DontWatch</soundInfo>
+    </damage>
+
+    <range>4</range>
+
+    <script>LookAtMeWeapon</script>
+    <maxNum>1</maxNum>
+    <!--dummy For UI-->
+    <attackSpeed>2.9</attackSpeed>
+    <grade>3</grade>
+  </equipment>
+
+  <equipment id="200105" type="weapon">
+    <name>FengYun_weapon_name</name>
+    <no>FengYun_weapon_no</no>
+    <desc>FengYun_weapon_desc</desc>
+    <sprite>FengYun</sprite>
+
+    <require type="B">3</require>
+    <require type="level">3</require>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>FengYunWeapon</specialWeaponAnim>
+
+    <animation>Attack1</animation>
+
+    <!--첫번째 데미지 사운드용-->
+    <damage type="R" min="3" max="4">
+      <soundInfo type="damage">Weapons/Templer</soundInfo>
+    </damage>
+
+    <damage type="R" min="3" max="4">
+    </damage>
+
+    <range>4</range>
+
+    <script>FengYunWeapon</script>
+    <maxNum>1</maxNum>
+    <!--dummy For UI-->
+    <attackSpeed>1.26</attackSpeed>
+    <grade>4</grade>
+  </equipment>
+
+  <equipment id="200047" type="weapon">
+    <name>Shark_armor_name</name>
+    <no>Shark_armor_no</no>
+    <desc>Shark_weapon_desc</desc>
+
+    <require type="R">2</require>
+    <require type="level">3</require>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>SharkWeapon</specialWeaponAnim>
+    <sprite>Shark</sprite>
+
+    <animation>Attack1</animation>
+
+    <!--첫번째 데미지 사운드용-->
+    <damage type="W" min="2" max="4">
+      <soundInfo type="damage">Weapons/Shark</soundInfo>
+      <effectInfo type="damage">
+        <src>SharkWeaponEffect</src>
+        <pos>
+          <x>1.044</x>
+          <y>1.088</y>
+        </pos>
+        <rot>0</rot>
+        <lifetime>1</lifetime>
+        <unscaled>false</unscaled>
+      </effectInfo>
+    </damage>
+
+    <damage type="W" min="2" max="4">
+    </damage>
+
+    <range>10</range>
+
+    <script>SharkWeapon</script>
+    <maxNum>2</maxNum>
+
+    <attackSpeed>1.5</attackSpeed>
+    <grade>4</grade>
+  </equipment>
+
+  <equipment id="200065" type="weapon">
+    <name>Piano_weapon_name</name>
+    <no>Piano_weapon_no</no>
+    <desc>Piano_weapon_desc</desc>
+    <specialDesc>Piano_weapon_specialDesc</specialDesc>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>PianoWeapon</specialWeaponAnim>
+    <sprite>Piano</sprite>
+
+    <require type="R">3</require>
+    <require type="level">4</require>
+
+    <animation>Attack1</animation>
+    <animation>Attack2</animation>
+
+    <damage type="W" min="8" max="10">
+      <soundInfo type="damage">Weapons/blackSwan1</soundInfo>
+    </damage>
+
+    <!--특별 공격 3타-->
+    <damage type="B" min="5" max="6">
+      <soundInfo type="damage">Weapons/blackSwan2</soundInfo>
+    </damage>
+    <damage type="B" min="5" max="6">
+      <soundInfo type="damage">Weapons/blackSwan1</soundInfo>
+    </damage>
+    <damage type="B" min="10" max="10">
+      <soundInfo type="damage">Weapons/Moon</soundInfo>
+    </damage>
+
+    <range>3</range>
+
+    <script>PianoWeapon</script>
+    <maxNum>1</maxNum>
+
+    <attackSpeed>1.6</attackSpeed>
+    <grade>4</grade>
+  </equipment>
+
+  <equipment id="200008" type="weapon">
+    <name>BigBird_armor_name</name>
+    <no>BigBird_armor_no</no>
+    <desc>BigBird_weapon_desc</desc>
+    <specialDesc>BigBird_weapon_specialDesc</specialDesc>
+
+    <require type="R">3</require>
+    <require type="W">3</require>
+
+    <weaponClassType>hammer</weaponClassType>
+    <sprite>Hammer_Set_01_2</sprite>
+
+    <animation>Attack1</animation>
+
+    <damage type="B" min="22" max="28">
+      <soundInfo type="damage">Weapons/hammer</soundInfo>
+      <effectInfo type="damage">
+        <src>BigBirdWeaponEffect</src>
+        <pos>
+          <x>0</x>
+          <y>1.088</y>
+        </pos>
+        <rot>0</rot>
+        <lifetime>3</lifetime>
+        <unscaled>false</unscaled>
+        <attach>victim</attach>
+      </effectInfo>
+
+    </damage>
+    <range>5</range>
+    <splash type="splash" range="2" />
+
+    <script>BigBirdWeapon</script>
+    <maxNum>1</maxNum>
+    <!--dummy For UI-->
+    <attackSpeed>3</attackSpeed>
+    <grade>4</grade>
+  </equipment>
+
+  <equipment id="200062" type="weapon">
+    <name>Yggdrasil_weapon_name</name>
+    <no>Yggdrasil_weapon_no</no>
+    <desc>Yggdrasil_weapon_desc</desc>
+
+    <weaponClassType>bowgun</weaponClassType>
+    <sprite>BowGun_Set_01_2</sprite>
+
+    <require type="W">3</require>
+    <animation>Attack1</animation>
+
+    <damage type="R" min="10" max="20">
+      <soundInfo type="damage">Weapons/bowgun</soundInfo>
+    </damage>
+    <range>20</range>
+
+    <maxNum>2</maxNum>
+
+    <attackSpeed>2</attackSpeed>
+    <grade>4</grade>
+  </equipment>
+
+  <equipment id="200046" type="weapon">
+    <name>ViscusSnake_armor_name</name>
+    <no>ViscusSnake_armor_no</no>
+    <desc>ViscusSnake_weapon_desc</desc>
+    <specialDesc>ViscusSnake_weapon_specialDesc</specialDesc>
+
+    <weaponClassType>cannon</weaponClassType>
+    <sprite>Cannon_Set_01_2</sprite>
+
+    <animation>Attack1</animation>
+
+    <require type="level">4</require>
+
+    <damage type="R" min="35" max="50">
+      <soundInfo type="damage">Weapons/Viscus</soundInfo>
+
+      <effectInfo type="damage">
+        <src>ViscusSnakeWeaponEffect</src>
+        <pos>
+          <x>0</x>
+          <y>1.088</y>
+        </pos>
+        <rot>0</rot>
+        <lifetime>3</lifetime>
+        <unscaled>false</unscaled>
+        <attach>victim</attach>
+      </effectInfo>
+    </damage>
+
+    <range>15</range>
+    <script>ViscusSnakeWeapon</script>
+    <maxNum>2</maxNum>
+
+    <attackSpeed>5</attackSpeed>
+    <grade>4</grade>
+  </equipment>
+
+  <equipment id="200063" type="weapon">
+    <name>SlimeGirl_weapon_name</name>
+    <no>SlimeGirl_weapon_no</no>
+    <desc>SlimeGirl_weapon_desc</desc>
+    <specialDesc>SlimeGirl_weapon_specialDesc</specialDesc>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>SlimeGirlWeapon</specialWeaponAnim>
+    <sprite>SlimeGirl</sprite>
+
+    <animation>Attack1</animation>
+
+    <require type="B">5</require>
+    <require type="level">5</require>
+
+    <damage type="B" min="22" max="44">
+      <soundInfo type="damage">Weapons/Slime</soundInfo>
+    </damage>
+
+    <range>15</range>
+    <script>SlimeGirlWeapon</script>
+    <maxNum>1</maxNum>
+
+    <attackSpeed>3.47</attackSpeed>
+    <grade>5</grade>
+  </equipment>
+
+  <equipment id="200064" type="weapon">
+    <name>PinkCorps_weapon_name</name>
+    <no>PinkCorps_weapon_no</no>
+    <desc>PinkCorps_weapon_desc</desc>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>PinkCorpsWeapon</specialWeaponAnim>
+    <sprite>PinkCorps</sprite>
+
+    <animation>Attack1</animation>
+
+    <require type="W">5</require>
+    <require type="level">5</require>
+
+    <damage type="W" min="20" max="24">
+      <soundInfo type="damage">Weapons/PinkArmy2</soundInfo>
+    </damage>
+
+    <range>35</range>
+    <script>PinkCorpsWeapon</script>
+    <maxNum>1</maxNum>
+
+    <attackSpeed>2</attackSpeed>
+    <grade>5</grade>
+  </equipment>
+
+  <equipment id="200106" type="weapon">
+    <name>Ppodae_weapon_name</name>
+    <no>Ppodae_weapon_no</no>
+    <desc>Ppodae_weapon_desc</desc>
+
+    <weaponClassType>fist</weaponClassType>
+    <!-- <sprite>Fist_Set_01_0</sprite> -->
+    <sprite>1</sprite>
+
+    <animation>Attack1</animation>
+
+    <damage type="R" min="4" max="6">
+      <soundInfo type="damage">Weapons/fist1</soundInfo>
+    </damage>
+    <range>2</range>
+
+    <maxNum>2</maxNum>
+    <!--dummy For UI-->
+    <attackSpeed>2</attackSpeed>
+    <grade>2</grade>
+  </equipment>
+
+  <equipment id="200034" type="weapon">
+    <name>Bald_weapon_name</name>
+    <no>Bald_armor_no</no>
+    <desc>Bald_weapon_desc</desc>
+    <specialDesc>Bald_armor_specialDesc</specialDesc>
+
+    <weaponClassType>pistol</weaponClassType>
+    <sprite>Pistol_Set_01_4</sprite>
+
+    <animation>Attack1</animation>
+
+    <damage type="W" min="2" max="4">
+      <soundInfo type="damage">Weapons/gun</soundInfo>
+    </damage>
+    <range>10</range>
+
+    <maxNum>3</maxNum>
+
+    <attackSpeed>0.667</attackSpeed>
+    <grade>2</grade>
+  </equipment>
+
+</equipment_list>

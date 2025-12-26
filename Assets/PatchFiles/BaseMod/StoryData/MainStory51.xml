@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  
+  <!-- Default , Default2 , Angry , Angry2 , Smile , Smile2 , Sad , Sad2-->
+  
+  <scene id="51">
+
+    <character id="angela" name="angela_name" direction="right" color="FFFFFF" sprite="Angela"/>
+    <character id="malkuth" name="malkuth_name" direction="right" color="FFFFFF" sprite="Malkuth"/>
+    <character id="yesod" name="yesod_name" direction="right" color="FFFFFF" sprite="Yesod"/>
+    <character id="netzach" name="netzach_name" direction="right" color="FFFFFF" sprite="Netzach"/>
+    <character id="chesed" name="chesed_name" direction="right" color="FFFFFF" sprite="Chesed"/>
+    <character id="gebura" name="gebura_name" direction="right" color="FFFFFF" sprite="Geburah"/>
+    <character id="hod" name="hod_name" direction="right" color="FFFFFF" sprite="Hod"/>
+    <character id="tiphereth_a" name="tiphereth_a_name" direction="right" color="FFFFFF" sprite="Tiphereth1"/>
+    <character id="hokma" name="hokma_name" direction="right" color="FFFFFF" sprite="Chokmah"/>
+    <character id="no" name="no_name" direction="right" color="FFFFFF" sprite="No"/>
+
+
+
+
+    
+
+    <hide_ui/>
+  <!--  <bgm src="endStory/One Way" />-->
+    <bgm src="EndTitle edit"/>
+    
+    <add_filter filter="earthquake" />
+    <dialogue type="hide"/>
+    <add_filter filter="tv_vignetting" />
+    
+    <cg src="lightCG" effect="none" />
+    <wait time="2"/>
+    <remove_filter filter="earthquake" />
+    <wait time="2"/>
+    
+    <dialogue type="narration"/>
+    
+    <speak speaker="no">day51_no_1</speak>
+    <speak speaker="no">day51_no_2</speak>
+    <speak speaker="no">day51_no_3</speak>
+    <speak speaker="no">day51_no_4</speak>
+    <speak speaker="no">day51_no_5</speak>
+    <speak speaker="no">day51_no_6</speak>
+    <speak speaker="no" type="auto">day51_no_6</speak>
+    
+    <cg src="blackCG" effect="fade" />
+
+    <wait time="1"/>
+    <remove_filter filter="tv_vignetting" />
+
+    <dialogue type="default"/>
+
+    <speak speaker="malkuth">day51_malkuth_1</speak>
+    <speak speaker="hod">day51_hod_1</speak>
+    <speak speaker="tiphereth_a">day51_tiphereth_1</speak>
+    <speak speaker="hokma">day51_hokma_1</speak>
+    <speak speaker="hokma">day51_hokma_2</speak>
+    <speak speaker="chesed">day51_chesed_1</speak>
+    <speak speaker="yesod">day51_yesod_1</speak>
+    <speak speaker="hokma">day51_hokma_3</speak>
+    <speak speaker="hokma">day51_hokma_4</speak>
+    <speak speaker="chesed">day51_chesed_2</speak>
+    <speak speaker="hokma">day51_hokma_5</speak>
+    <speak speaker="hokma">day51_hokma_6</speak>
+    <speak speaker="hokma">day51_hokma_7</speak>
+    <speak speaker="hod">day51_hod_2</speak>
+    <speak speaker="netzach">day51_netzach_1</speak>
+    <speak speaker="hokma">day51_hokma_8</speak>
+    <speak speaker="hokma">day51_hokma_9</speak>
+    
+    
+    
+    
+    
+    
+    <dialogue type="hide"/>
+    <wait time="2"/>
+    
+    <cg src="angelaCG1" effect="fade" />
+
+    <dialogue type="default"/>
+
+    <bgm src=""/>
+    
+    
+    
+    
+    
+    <speak speaker="angela">day51_angela_1</speak>
+
+    <speak speaker="malkuth">day51_malkuth_2</speak>
+
+    <speak speaker="angela">day51_angela_2</speak>
+
+    <speak speaker="hod">day51_hod_3</speak>
+    <speak speaker="netzach">day51_netzach_2</speak>
+    <speak speaker="yesod">day51_yesod_2</speak>
+    <speak speaker="chesed">day51_chesed_3</speak>
+    
+    <speak speaker="gebura">day51_gebura_1</speak>
+    <speak speaker="gebura">day51_gebura_2</speak>
+    
+    <speak speaker="angela">day51_angela_3</speak>
+    <speak speaker="angela">day51_angela_4</speak>
+
+    <speak speaker="malkuth">day51_malkuth_3</speak>
+    <speak speaker="chesed">day51_chesed_4</speak>
+
+    <speak speaker="angela">day51_angela_5</speak>
+    <speak speaker="angela">day51_angela_6</speak>
+    <speak speaker="angela">day51_angela_7</speak>
+    <speak speaker="angela">day51_angela_8</speak>
+    <speak speaker="angela">day51_angela_9</speak>
+    <speak speaker="angela">day51_angela_10</speak>
+    <speak speaker="angela">day51_angela_11</speak>
+    <speak speaker="angela">day51_angela_12</speak>
+
+    <bgm src="endStory/15- Dark Fantasy Studio- After dark" />
+    <speak speaker="angela">day51_angela_13</speak>
+
+    <speak speaker="gebura">day51_gebura_3</speak>
+
+
+    <speak speaker="angela">day51_angela_14</speak>
+    <speak speaker="angela">day51_angela_15</speak>
+ 
+
+    <speak speaker="hokma">day51_hokma_10</speak>
+
+    <speak speaker="angela">day51_angela_16</speak>
+
+    <speak speaker="angela">day51_angela_17</speak>
+    <speak speaker="angela">day51_angela_18</speak>
+    <speak speaker="angela">day51_angela_19</speak>
+    <speak speaker="angela">day51_angela_20</speak>
+    <speak speaker="angela">day51_angela_21</speak>
+    <speak speaker="angela">day51_angela_22</speak>
+    <speak speaker="angela">day51_angela_23</speak>
+    <speak speaker="angela">day51_angela_24</speak>
+    <speak speaker="angela">day51_angela_25</speak>
+
+    <speak speaker="angela">day51_angela_26</speak>
+    <speak speaker="angela">day51_angela_27</speak>
+    <speak speaker="angela">day51_angela_28</speak>
+    <speak speaker="angela">day51_angela_29</speak>
+    <speak speaker="angela">day51_angela_30</speak>
+    <speak speaker="angela">day51_angela_31</speak>
+    <speak speaker="angela">day51_angela_32</speak>
+    <speak speaker="angela">day51_angela_33</speak>
+    <speak speaker="angela">day51_angela_34</speak>
+    <speak speaker="angela">day51_angela_35</speak>
+    <speak speaker="angela">day51_angela_36</speak>
+    <speak speaker="angela">day51_angela_37</speak>
+    <speak speaker="angela">day51_angela_38</speak>
+    <speak speaker="angela">day51_angela_39</speak>
+    <speak speaker="angela">day51_angela_40</speak>
+    <speak speaker="angela">day51_angela_41</speak>
+
+    <cg src="blackCG" effect="none" />
+    <cg src="angelaCG2" effect="fade" />
+    <dialogue type="hide"/>
+    <wait time="2"/>
+    <dialogue type="default"/>
+    
+    
+    <speak speaker="angela">day51_angela_42</speak>
+    <speak speaker="angela">day51_angela_43</speak>
+    <speak speaker="angela">day51_angela_44</speak>
+    <speak speaker="angela">day51_angela_45</speak>
+    <speak speaker="angela">day51_angela_46</speak>
+ <!--   <speak speaker="angela">day51_angela_47</speak> -->
+    <speak speaker="angela">day51_angela_48</speak>
+    <speak speaker="angela">day51_angela_49</speak>
+    <speak speaker="angela">day51_angela_50</speak>
+    <speak speaker="angela">day51_angela_51</speak>
+    <speak speaker="angela">day51_angela_52</speak>
+    <speak speaker="angela">day51_angela_53</speak>
+    <speak speaker="angela">day51_angela_54</speak>
+    <speak speaker="angela">day51_angela_55</speak>
+    <speak speaker="angela">day51_angela_56</speak>
+    <speak speaker="angela">day51_angela_57</speak>
+    <speak speaker="angela">day51_angela_58</speak>
+    <speak speaker="angela">day51_angela_59</speak>
+    <speak speaker="angela">day51_angela_60</speak>
+    <speak speaker="angela">day51_angela_61</speak>
+    <speak speaker="angela">day51_angela_62</speak>
+    <speak speaker="angela">day51_angela_63</speak>
+    <cg src="blackCG" effect="fade" />
+    <wait time="1"/>
+
+
+
+
+
+    <dialogue type="hide"/>
+    <add_filter filter="tv_vignetting" />
+
+    <bgm src="endStory/13-Dark Fantasy Studio-Transfiguration" />
+
+    <cg src="blackCG" effect="fade" />
+    <wait time="1"/>
+    <cg src="lightCG" effect="fade" />
+    <wait time="2.5"/>
+    <cg src="lightOffCG" effect="fade" />
+    <wait time="2"/>
+    <dialogue type="narration"/>
+
+    <speak speaker="no">day51_no_7</speak>
+    <speak speaker="no">day51_no_8</speak>
+    <speak speaker="no">day51_no_9</speak>
+    <speak speaker="no">day51_no_10</speak>
+    <speak speaker="no">day51_no_11</speak>
+ 
+
+
+    <speak speaker="angela">day51_angela_64</speak>
+    <speak speaker="angela">day51_angela_65</speak>
+    <speak speaker="angela">day51_angela_66</speak>
+    <speak speaker="angela">day51_angela_67</speak>
+    <speak speaker="angela">day51_angela_68</speak>
+    <speak speaker="angela">day51_angela_69</speak>
+    <speak speaker="angela">day51_angela_70</speak>
+    <speak speaker="angela">day51_angela_71</speak>
+    <speak speaker="angela">day51_angela_72</speak>
+
+
+    <cg src="blackCG" effect="fade" />
+
+    <wait time="2"/>
+    <remove_filter filter="tv_vignetting" />
+
+    <add_filter filter="wing" />
+    <cg src="angelaCG3" effect="fade" />
+    <wait time="2"/>
+
+
+
+    <speak speaker="angela">day51_angela_73</speak>
+    <speak speaker="angela">day51_angela_74</speak>
+    <speak speaker="angela">day51_angela_75</speak>
+    <speak speaker="angela">day51_angela_76</speak>
+    <speak speaker="angela">day51_angela_77</speak>
+    <speak speaker="angela">day51_angela_78</speak>
+
+
+
+
+    <cg src="blackCG" effect="fade" />
+    <wait time="2"/>
+    <remove_filter filter="wing" />
+    <speak speaker="angela">day51_angela_79</speak>
+    <speak speaker="angela">day51_angela_80</speak>
+    <hide_option/>
+
+
+
+
+    <dialogue type="hide"/>
+    <wait time="2"/>
+    <cg src="theEndCG2" effect="fade" />
+    <wait time="1"/>
+    <add_filter filter="fire_gradient" effect="fade"/>
+    <add_filter filter="tv_noise" effect="fade"/>
+    <wait time="4"/>
+    <add_filter filter="tv_distorted_fade" />
+    <sound src="changenoise" />
+    <wait time="0.3"/>
+
+
+    <remove_filter filter="tv_distorted_fade" />
+
+    <wait time="0.1"/>
+
+    <add_filter filter="tv_distorted_fade" />
+
+    <sound src="changenoise" />
+    <wait time="0.3"/>
+
+
+
+    <remove_filter filter="tv_distorted_fade" />
+
+    <wait time="0.2"/>
+
+    <add_filter filter="tv_vhs" />
+    <sound src="changenoise" />
+    <wait time="0.5"/>
+
+    <remove_filter filter="fire_gradient" />
+    <remove_filter filter="tv_noise" />
+    <remove_filter filter="tv_vhs" />
+
+    <!--  <add_filter filter="blur_blurry" effect="amount"/>
+    <cg src="theEndCG3" effect="none" />
+    <wait time="2"/>
+    <remove_filter filter="blur_blurry" />
+    <wait time="1.7"/>
+    <cg src="blackCG" effect="fade" /> -->
+    <cg src="blackCG" effect="none" />
+    <wait time="3"/>
+
+    <ending/>
+  </scene>
+
+ 
+ 
+</root>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <stat>
+    <hp>400</hp>
+    <speed>0</speed>
+
+    <defense id="1">
+      <defenseElement type="R">1.2</defenseElement>
+      <defenseElement type="W">0.6</defenseElement>
+      <defenseElement type="B">0.8</defenseElement>
+      <defenseElement type="P">0.8</defenseElement>
+    </defense>
+  </stat>
+
+  <anim prefab="Unit/CreatureAnimator/Yggdrasil_Sapling" x="-1" y="-2"/>
+
+  <attackType openLevel="0">WHITE</attackType>
+  <riskLevel openLevel="0">HE</riskLevel>
+
+  <script>Yggdrasil_Sapling</script>
+</creature>

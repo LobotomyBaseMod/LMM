@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<creature>
+  <script>MatchGirl</script>
+  <stat>
+    <riskLevel>2</riskLevel>
+    <maxWorkCount>3</maxWorkCount>
+    <workProb type="R">
+      <prob level="1">0.4</prob>
+      <prob level="2">0.4</prob>
+      <prob level="3">0.4</prob>
+      <prob level="4">0.4</prob>
+      <prob level="5">0.4</prob>
+    </workProb>
+    <workProb type="W">
+      <prob level="1">0.6</prob>
+      <prob level="2">0.6</prob>
+      <prob level="3">0.5</prob>
+      <prob level="4">0.5</prob>
+      <prob level="5">0.5</prob>
+    </workProb>
+    <workProb type="B">
+      <prob level="1">0.3</prob>
+      <prob level="2">0.15</prob>
+      <prob level="3">0</prob>
+      <prob level="4">-0.4</prob>
+      <prob level="5">-0.5</prob>
+    </workProb>
+    <workProb type="P">
+      <prob level="1">0.5</prob>
+      <prob level="2">0.5</prob>
+      <prob level="3">0.4</prob>
+      <prob level="4">0.4</prob>
+      <prob level="5">0.4</prob>
+    </workProb>
+    <workCooltime>15</workCooltime>
+    <feelingStateCubeBounds>
+      <cube>4</cube>
+      <cube>7</cube>
+      <cube>12</cube>
+    </feelingStateCubeBounds>
+    <workDamage type="R" min="2" max="4" />
+    <workSpeed>0.33</workSpeed>
+    <specialDamage>
+      <damage id="1" type="R" min="25" max="30" />
+    </specialDamage>
+    <defense id="1">
+      <defenseElement type="R">0.5</defenseElement>
+      <defenseElement type="W">2</defenseElement>
+      <defenseElement type="B">1</defenseElement>
+      <defenseElement type="P">2</defenseElement>
+    </defense>
+    <escapeable>true</escapeable>
+    <hp>120</hp>
+    <speed>2</speed>
+    <observeInfo total="52">
+      <observeElement name="stat" cost="12" />
+      <observeElement name="defense" cost="12" />
+      <observeElement name="work_r" cost="4" />
+      <observeElement name="work_w" cost="4" />
+      <observeElement name="work_b" cost="4" />
+      <observeElement name="work_p" cost="4" />
+      <observeElement name="care_0" cost="4" />
+      <observeElement name="care_1" cost="4" />
+      <observeElement name="care_2" cost="4" />
+    </observeInfo>
+    <equipment level="4" cost="35" equipId="200001" />
+    <equipment level="3" cost="25" equipId="300001" />
+    <equipment level="2" prob="0.05" equipId="400001" />
+    <observeBonus level="1" type="prob">5</observeBonus>
+    <observeBonus level="2" type="speed">5</observeBonus>
+    <observeBonus level="3" type="prob">5</observeBonus>
+    <observeBonus level="4" type="speed">5</observeBonus>
+    <qliphoth>2</qliphoth>
+  </stat>
+  <graph>
+    <node id="creature" x="-1.6" y="-1.8" type="creature" />
+    <node id="workspace" x="1.9" y="-1.8" type="workspace" />
+    <!--<node id="door"  x="2" y="-1" type="entry"/>-->
+    <node id="outter" x="0" y="0" type="outterDoor" />
+    <node id="inner" x="2" y="-1.8" type="innerDoor" />
+    <!--<edge node1="workspace" node2="door" type="road" />-->
+    <edge node1="workspace" node2="inner" type="road" />
+    <edge node1="creature" node2="workspace" type="road" />
+  </graph>
+  <anim prefab="Unit/CreatureAnimator/MatchGirl" x="-1" y="-2" />
+  <returnImg src="" />
+  <portrait src="Unit/creature/matchgirl" />
+  <sound action="smallExplode" src="creature/match_girl/explosion_small_04" />
+  <sound action="stackOverflow" src="creature/match_girl/fuse_burning_bomb_dynamite_loop_01" />
+  <sound action="explosion" src="creature/match_girl/explosion_large_01" />
+  <sound action="walking" src="creature/match_girl/footstep_concrete_land_02" />
+  <sound action="escape" src="creature/match_girl/Weeping (female)" />
+</creature>

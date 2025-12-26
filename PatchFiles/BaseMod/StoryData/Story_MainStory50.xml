@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  
+  <!-- Default , Default2 , Angry , Angry2 , Smile , Smile2 , Sad , Sad2-->
+  
+  <scene id="50">
+
+
+    <character id="ayinNo" name="nobody_name" direction="right" color="FFFFFF" sprite="Ayin"/>
+    <character id="ayin" name="ayin_name" direction="right" color="FFFFFF" sprite="Ayin"/>
+    <character id="angela" name="angela_name" direction="right" color="FFFFFF" sprite="Angela"/>
+
+  <dialogue type="hide"/>
+
+
+    <background src="BlackCG" effect="none" />
+    <sound src="Laser_Cast_edit2"/>
+ 
+   <add_filter filter="blur_focus" effect="fade" />
+   
+   <background src="ketherBK5" effect="fade"/>
+   <wait time="3"/>
+
+    <cg src="WhiteCG" effect="fade"/>
+   
+    <remove_filter filter="blur_focus" />
+    <remove_cg effect="fade" />
+    <wait time="1.5"/>
+
+    <dialogue type="default"/>
+    <bgm src="3_Dark Fantasy Studio-You are a giant" />
+    <position character="ayinNo" to="center" />
+ 
+    <speak speaker="ayinNo" anim="Default">day50_ayin_1</speak>
+    <speak speaker="ayinNo">day50_ayin_2</speak>
+    <speak speaker="ayinNo">day50_ayin_3</speak>
+    <speak speaker="ayinNo" anim="Smile">day50_ayin_4</speak>
+    <speak speaker="ayinNo" anim="Default">day50_ayin_5</speak>
+    <speak speaker="ayinNo" anim="Default2">day50_ayin_6</speak>
+    <speak speaker="ayinNo" anim="Default">day50_ayin_6_1</speak>
+    <speak speaker="ayinNo">day50_ayin_7</speak>
+    <speak speaker="ayinNo">day50_ayin_8</speak>
+    <speak speaker="ayinNo" anim="Sad">day50_ayin_9</speak>
+    <speak speaker="ayinNo" anim="Sad2">day50_ayin_10</speak>
+    <speak speaker="ayinNo">day50_ayin_11</speak>
+    <speak speaker="ayinNo" anim="Sad">day50_ayin_12</speak>
+    <speak speaker="ayinNo" anim="Smile">day50_ayin_13</speak>
+    <speak speaker="ayinNo">day50_ayin_14</speak>
+    <speak speaker="ayinNo" anim="Smile">day50_ayin_15</speak>
+    <speak speaker="ayinNo" anim="Default">day50_ayin_16</speak>
+    <speak speaker="ayinNo" anim="Default2">day50_ayin_17</speak>
+    <speak speaker="ayinNo" anim="Default">day50_ayin_18</speak>
+    <speak speaker="ayinNo">day50_ayin_19</speak>
+    <speak speaker="ayinNo" anim="Sad">day50_ayin_20</speak>
+    <speak speaker="ayinNo" anim="Sad2">day50_ayin_21</speak>
+    <speak speaker="ayinNo" anim="Default">day50_ayin_22</speak>
+    <speak speaker="ayinNo"  anim="Default2">day50_ayin_23</speak>
+    <speak speaker="ayinNo" anim="Default">day50_ayin_24</speak>
+    <speak speaker="ayinNo" anim="Default2">day50_ayin_25</speak>
+    <speak speaker="ayinNo">day50_ayin_26</speak>
+    <speak speaker="ayinNo">day50_ayin_27</speak>
+    <speak speaker="ayinNo" anim="Smile2">day50_ayin_28</speak>
+    <speak speaker="ayinNo" anim="Smile">day50_ayin_29</speak>
+    <speak speaker="ayinNo" anim="Default">day50_ayin_30</speak>
+    <speak speaker="ayinNo" anim="Smile">day50_ayin_30_1</speak>
+    <speak speaker="ayinNo">day50_ayin_30_2</speak>
+    <speak speaker="ayinNo">day50_ayin_30_3</speak>
+    <speak speaker="ayinNo" anim="Smile2">day50_ayin_30_4</speak>
+    <speak speaker="ayinNo">day50_ayin_30_5</speak>
+    <cg src="BlackCG" effect="fade" />
+    <wait time="2"/>
+    
+ 
+
+  </scene>
+
+ 
+ 
+</root>

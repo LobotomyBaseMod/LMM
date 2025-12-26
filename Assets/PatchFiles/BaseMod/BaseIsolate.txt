@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <sefira name="Malkut">
+    <node id="left-upper-way5" x="-25.75" y="-5" pos="UP" index="0">
+      <exclusive>100001,100004</exclusive>
+    </node>
+    <node id="right-upper-way4" x="25.75" y="-5" pos="UP" index="1">
+      <exclusive>100001,100004</exclusive>
+    </node>
+    
+    <node id="left-down-way2" x="-7" y="-10" pos="DOWN" index="2">
+    </node>
+    
+    <node id="right-down-way2" x="7" y="-10" pos="DOWN" index="3">
+    </node>
+
+    <node id="left-way2" x="-30" y="10" pos="DOWN" index="4">
+    </node>
+
+    <node id="right-way2" x="33" y="10" pos="DOWN" index="5">
+    </node>
+  </sefira>
+
+  <sefira name="Netzach">
+  	<node id="N-upper-way2" x="-43" y="-10" pos="DOWN" index="0">
+  	</node>
+  	<node id="N-upper-way4" x="-56" y="-10" pos="DOWN" index="1">
+  	</node>
+
+  	<node id="N-down-way2" x="-43" y="-40" pos="DOWN" index="2">
+  	</node>
+
+  	<node id="N-down-way4" x="-56" y="-40" pos="DOWN" index="3">
+  	</node>
+
+    <node id="N-down-way3" x="-56" y="-51.8" pos="UP" index="4">
+    </node>
+
+    <node id="N-down-way1-1" x="-43" y="-51.8" pos="UP" index="4">
+    </node>
+  </sefira>
+
+  <sefira name="Hod">
+  	<node id="H-upper-way4" x="43" y="-10" pos="DOWN" index="0">
+  	</node>
+  	<node id="H-upper-way2" x="56" y="-10" pos="DOWN" index="1">
+  	</node>
+
+  	<node id="H-down-way4" x="43" y="-40" pos="DOWN" index="2">
+  	</node>
+
+  	<node id="H-down-way2" x="56" y="-40" pos="DOWN" index="3">
+  	</node>
+
+    <node id="H-down-way3" x="43" y="-51.8" pos="UP" index="4">
+    </node>
+
+    <node id="H-down-way1-1" x="56" y="-51.8" pos="UP" index="4">
+    </node>
+  </sefira>
+  
+  <sefira name="Yesod">
+    <node id="T-left-way4" x="-22" y="-25" pos="DOWN" index="0">
+      <exclusive>100001,100004</exclusive>
+    </node>
+    <node id="T-right-way4" x="22" y="-25" pos="DOWN" index="1">
+      <exclusive>100001,100004</exclusive>
+    </node>
+    <node id="T-leftdown-way3" x="-25" y="-40" pos="DOWN" index="2">
+    </node>
+    <node id="T-rightdown-way3" x="25" y="-40" pos="DOWN" index="3">
+    </node>
+
+    <node id="T-leftdown-way4" x="-25" y="-51.8" pos="UP" index="4">
+    </node>
+    <node id="T-rightdown-way4" x="25" y="-51.8" pos="UP" index="5">
+    </node>
+    
+  </sefira>
+
+  <sefira name="Tiphereth1">
+    <node id="Tiphereth1-left-way2" x="-31" y="-71" pos="DOWN" index="0">
+    </node>
+    <node id="Tiphereth1-left-way5" x="-43" y="-71" pos="DOWN" index="1">
+    </node>
+    <node id="Tiphereth1-right-way3" x="31" y="-71" pos="DOWN" index="2">
+    </node>
+    <node id="Tiphereth1-right-way6" x="43" y="-71" pos="DOWN" index="3">
+    </node>
+  </sefira>
+
+  <sefira name="Tiphereth2">
+    <node id="Tiphereth2-left-way2" x="-31" y="-90" pos="DOWN" index="0">
+    </node>
+    <node id="Tiphereth2-left-way5" x="-43" y="-90" pos="DOWN" index="1">
+    </node>
+    <node id="Tiphereth2-right-way3" x="31" y="-90" pos="DOWN" index="2">
+    </node>
+    <node id="Tiphereth2-right-way6" x="43" y="-90" pos="DOWN" index="3">
+    </node>
+  </sefira>
+
+  <sefira name="Geburah">
+    <node id="Geburah-rb-way2" x="82" y="-90" pos="DOWN" index="0">
+    </node>
+    <node id="Geburah-rb-way4" x="94" y="-90" pos="DOWN" index="1">
+    </node>
+    <node id="Geburah-ru-way2" x="82" y="-71" pos="DOWN" index="2">
+    </node>
+    <node id="Geburah-ru-way4" x="94" y="-71" pos="DOWN" index="3">
+    </node>
+  </sefira>
+
+  <sefira name="Chesed">
+    <node id="Chesed-rb-way4" x="-82" y="-90" pos="DOWN" index="0">
+    </node>
+    <node id="Chesed-rb-way2" x="-94" y="-90" pos="DOWN" index="1">
+    </node>
+    <node id="Chesed-ru-way4" x="-82" y="-71" pos="DOWN" index="2">
+    </node>
+    <node id="Chesed-ru-way2" x="-94" y="-71" pos="DOWN" index="3">
+    </node>
+  </sefira>
+
+  <sefira name="Binah">
+    <node id="binah-way3" x="25" y="-119" pos="DOWN" index="0">
+    </node>
+    <node id="binah-way4" x="35" y="-119" pos="DOWN" index="1">
+    </node>
+    <node id="binah-way5" x="45" y="-119" pos="DOWN" index="2">
+    </node>
+    <node id="binah-way6" x="55" y="-119" pos="DOWN" index="3">
+    </node>
+  </sefira>
+
+  <sefira name="Chokhmah">
+    <node id="chokhmah-way6" x="-55" y="-119" pos="DOWN" index="0">
+    </node>
+    <node id="chokhmah-way5" x="-45" y="-119" pos="DOWN" index="1">
+    </node>
+    <node id="chokhmah-way4" x="-35" y="-119" pos="DOWN" index="2">
+    </node>
+    <node id="chokhmah-way3" x="-25" y="-119" pos="DOWN" index="3">
+    </node>
+  </sefira>
+
+  <sefira name="Kether">
+    <node id="kether-leftway2" x="-48" y="-150" pos="DOWN" index="0">
+    </node>
+    <node id="kether-rightway2" x="48" y="-150" pos="DOWN" index="4">
+    </node>
+    
+    <node id="kether-leftway3" x="-62" y="-150" pos="DOWN" index="1">
+    </node>
+    <node id="kether-rightway3" x="62" y="-150" pos="DOWN" index="5">
+    </node>
+    
+    <node id="kether-leftway5" x="-76" y="-150" pos="DOWN" index="2">
+    </node>
+    <node id="kether-rightway5" x="76" y="-150" pos="DOWN" index="6">
+    </node>
+    
+    <node id="kether-leftway6" x="-90" y="-150" pos="DOWN" index="3">
+    </node>
+    <node id="kether-rightway6" x="90" y="-150" pos="DOWN" index="7">
+    </node>
+  </sefira>
+</root>

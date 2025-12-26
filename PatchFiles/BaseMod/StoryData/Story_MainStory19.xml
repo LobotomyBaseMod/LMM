@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <scene id="19">
+    <character id="angela" name="angela_name" color="FFBBFF" sprite="Angela" />
+
+
+
+    <bgm src="Sentimental Moment" />
+
+    <position character="angela" to="right" />
+
+    <speak speaker="angela">day19_angela_1</speak>
+    <speak speaker="angela" anim="Glad1">day19_angela_2</speak>
+    <speak speaker="angela">day19_angela_3</speak>
+    <speak speaker="angela" anim="Sigh">day19_angela_4</speak>
+    <speak speaker="angela" anim="Anger1">day19_angela_5</speak>
+    <speak speaker="angela" anim="Glad1">day19_angela_6</speak>
+    <speak speaker="angela" anim="Anger3">day19_angela_7</speak>
+    <speak speaker="angela" anim="Anger1">day19_angela_8</speak>
+    <speak speaker="angela" anim="Glad1">day19_angela_9</speak>
+    <speak speaker="angela" anim="Glad3">day19_angela_10</speak>
+
+    <var_set_random id="rand_var" max="4"/>
+
+    <if op="=" val1="rand_var" val2="1">
+      <speak speaker="angela">day19_angela_11_r1</speak>
+    </if>
+    <if op="=" val1="rand_var" val2="2">
+      <speak speaker="angela" anim="Anger1">day19_angela_11_r2</speak>
+    </if>
+    <if op="=" val1="rand_var" val2="3">
+      <speak speaker="angela" anim="Glad1">day19_angela_11_r3</speak>
+    </if>
+    <if op="=" val1="rand_var" val2="4">
+      <speak speaker="angela" anim="Glad3">day19_angela_11_r4</speak>
+    </if>
+
+
+    <var_set_random id="rand_var" max="2"/>
+
+    <if op="=" val1="rand_var" val2="1">
+      <speak speaker="angela" anim="Glad1">day19_angela_12_r1</speak>
+    </if>
+    <if op="=" val1="rand_var" val2="2">
+      <speak speaker="angela" anim="Glad1">day19_angela_12_r2</speak>
+    </if>
+
+
+  </scene>
+
+
+</root>

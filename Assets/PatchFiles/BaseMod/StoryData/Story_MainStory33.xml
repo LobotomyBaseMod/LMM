@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <scene id="33">
+    <character id="angela" name="angela_name" color="FFBBFF" sprite="Angela" />
+    <character id="b" name="b_name" color="FFBBFF" sprite="B_shadow" />
+    <character id="a" name="a_name" color="FFBBFF" sprite="A" />
+
+
+    <bgm src="Tilarids - triumph of the scratching demons" />
+    
+    <background src="warehouseBK_2" effect="none"/>
+    <add_filter filter="tv_oldMovie2" burn="1.18"/>
+    
+    <position character="angela" to="right" />
+
+  
+    <speak speaker="angela">day33_angela_1</speak>
+
+    <cg src="BlackCG" effect="fade" />
+    <wait time="1" />
+    <bgm src=""/>
+    <sound src="memeoryBack"/>
+    <remove_cg effect="fade" />
+
+    <disappear character="angela" position="left"/>
+    
+
+    <position character="b" to="right" />
+
+    <bgm src="Romantic Memories"/>
+
+    <speak speaker="b">day33_b_1</speak>
+    <speak speaker="a">day33_a_1</speak>
+    <speak speaker="b">day33_b_2</speak>
+    <speak speaker="a">day33_a_2</speak>
+    <speak speaker="b">day33_b_3</speak>
+    <speak speaker="b">day33_b_4</speak>
+    <speak speaker="b">day33_b_5</speak>
+    <speak speaker="a">day33_a_3</speak>
+    <speak speaker="b">day33_b_6</speak>
+    <speak speaker="b">day33_b_7</speak>
+    <speak speaker="b">day33_b_8</speak>
+
+  </scene>
+
+
+</root>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <script>RedHood</script>
+  <stat>
+    <riskLevel>4</riskLevel>
+    <maxWorkCount>1</maxWorkCount>
+    <workProb type="R">
+      <prob level="1">0</prob>
+      <prob level="2">0</prob>
+      <prob level="3">0.45</prob>
+      <prob level="4">0.45</prob>
+      <prob level="5">0.5</prob>
+    </workProb>
+    <workProb type="W">
+      <prob level="1">0.45</prob>
+      <prob level="2">0.5</prob>
+      <prob level="3">0.5</prob>
+      <prob level="4">0.55</prob>
+      <prob level="5">0.55</prob>
+    </workProb>
+    <workProb type="B">
+      <prob level="1">0</prob>
+      <prob level="2">0</prob>
+      <prob level="3">0</prob>
+      <prob level="4">0</prob>
+      <prob level="5">0</prob>
+    </workProb>
+    <workProb type="P">
+      <prob level="1">0.3</prob>
+      <prob level="2">0.3</prob>
+      <prob level="3">0.3</prob>
+      <prob level="4">0.3</prob>
+      <prob level="5">0.3</prob>
+    </workProb>
+    <workCooltime>15</workCooltime>
+    <feelingStateCubeBounds>
+      <cube>8</cube>
+      <cube>16</cube>
+      <cube>20</cube>
+    </feelingStateCubeBounds>
+    <escapeable>true</escapeable>
+    <workDamage type="R" min="4" max="6" />
+    <workSpeed>0.3</workSpeed>
+    <specialDamage>
+      <damage id="1" type="R" min="9" max="12" />
+      <damage id="2" type="R" min="15" max="18" />
+      <damage id="3" type="R" min="7" max="13" />
+    </specialDamage>
+    <defense id="1">
+      <defenseElement type="R">0.9</defenseElement>
+      <defenseElement type="W">0.6</defenseElement>
+      <defenseElement type="B">0.8</defenseElement>
+      <defenseElement type="P">1.2</defenseElement>
+    </defense>
+    <hp>1000</hp>
+    <speed>12</speed>
+    <observeInfo total="98">
+      <observeElement name="stat" cost="20" />
+      <observeElement name="defense" cost="20" />
+      <observeElement name="work_r" cost="7" />
+      <observeElement name="work_w" cost="7" />
+      <observeElement name="work_b" cost="7" />
+      <observeElement name="work_p" cost="7" />
+      <observeElement name="care_0" cost="5" />
+      <observeElement name="care_1" cost="5" />
+      <observeElement name="care_2" cost="5" />
+      <observeElement name="care_3" cost="5" />
+      <observeElement name="care_4" cost="5" />
+      <observeElement name="care_5" cost="5" />
+    </observeInfo>
+    <equipment level="4" cost="70" equipId="200032" />
+    <equipment level="4" cost="60" equipId="300032" />
+    <equipment level="3" prob="0.03" equipId="400032" />
+    <observeBonus level="1" type="speed">3</observeBonus>
+    <observeBonus level="2" type="prob">3</observeBonus>
+    <observeBonus level="3" type="speed">3</observeBonus>
+    <observeBonus level="4" type="prob">3</observeBonus>
+    <qliphoth>3</qliphoth>
+  </stat>
+  <graph>
+    <node id="creature" x="-1.6" y="-1.8" type="creature" />
+    <node id="workspace" x="1.9" y="-1.8" type="workspace" />
+    <node id="outter" x="0" y="0" type="outterDoor" />
+    <node id="inner" x="2" y="-1.8" type="innerDoor" />
+    <edge node1="workspace" node2="inner" type="road" />
+    <edge node1="creature" node2="workspace" type="road" />
+  </graph>
+  <anim prefab="Unit/CreatureAnimator/RedHood" x="-1" y="-2" />
+  <returnImg src="" />
+  <portrait src="" />
+  <!--
+  <sound action="AxeEnd" src="creature/RedHood/RedHood_Axe_End"/>
+  <sound action="AxeHit" src="creature/RedHood/RedHood_Axe_Hit"/>
+  <sound action="AxeThrow" src="creature/RedHood/RedHood_Axe_Throw"/>
+  <sound action="Change" src="creature/RedHood/RedHood_Change"/>
+  <sound action="Gun" src="creature/RedHood/RedHood_Gun"/>
+  <sound action="hit" src="creature/RedHood/RedHood_Hit"/>
+  <sound action="Hit1" src="creature/RedHood/RedHood_Hit_Woosh1"/>
+  <sound action="Hit2" src="creature/RedHood/RedHood_Hit_Woosh2"/>
+  <sound action="Hit3" src="creature/RedHood/RedHood_Hit_Woosh3"/>
+  -->
+  <sound action="Attack1" src="creature/RedHood/RedHood_Atk1" />
+  <sound action="Attack2" src="creature/RedHood/RedHood_Atk2" />
+  <sound action="PowerAttack" src="creature/RedHood/RedHood_Atk_Power" />
+  <sound action="Change" src="creature/RedHood/RedHood_Change" />
+  <sound action="Gun" src="creature/RedHood/RedHood_Gun" />
+  <sound action="Throw" src="creature/RedHood/RedHood_Throw" />
+</creature>

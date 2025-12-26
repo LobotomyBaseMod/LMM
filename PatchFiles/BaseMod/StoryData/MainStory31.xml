@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <scene id="31">
+    
+    <character id="angela" name="angela_name" color="FFBBFF" sprite="Angela" />
+    <character id="a" name="a_name" color="FFBBFF" sprite="A" />
+    <character id="b" name="b_name" color="FFBBFF" sprite="B_shadow" />
+
+    <bgm src="Dungeon_-_Spooky_Subway"/>
+ 
+    
+    <background src="smokeWarBK" effect="none"/>
+    <add_filter filter="tv_oldMovie2" burn="1.18"/>
+    
+    <dialogue type="hide"/>
+    <wait time="4"/>
+
+
+    <dialogue type="default"/>
+    <speak speaker="a">day31_a_1</speak>
+
+    <cg src="BlackCG" effect="fade" />
+    <wait time="2" />
+    <bgm src=""/>
+    <sound src="memeoryBack"/>
+    <remove_cg effect="fade" />
+
+
+    <background src="warehouseBK_2"/>
+    <bgm src="Wake up" />
+    <position character="b" to="left"/>
+
+    
+    <speak speaker="b">day31_b_1</speak>
+    <speak speaker="b">day31_b_2</speak>
+    <speak speaker="b">day31_b_3</speak>
+    <speak speaker="b">day31_b_4</speak>
+    <speak speaker="b">day31_b_5</speak>
+    <speak speaker="b">day31_b_6</speak>
+    <speak speaker="b">day31_b_7</speak>
+    <speak speaker="b">day31_b_8</speak>
+    <speak speaker="b">day31_b_9</speak>
+    <speak speaker="b">day31_b_10</speak>
+    <speak speaker="b">day31_b_11</speak>
+
+
+    <position character="angela" to="right" />
+  
+    
+    <speak speaker="angela">day31_angela_1</speak>
+    <speak speaker="angela">day31_angela_2</speak>
+    <speak speaker="angela">day31_angela_3</speak>
+    <speak speaker="angela">day31_angela_4</speak>
+    <speak speaker="angela">day31_angela_5</speak>
+
+
+
+  </scene>
+
+
+</root>

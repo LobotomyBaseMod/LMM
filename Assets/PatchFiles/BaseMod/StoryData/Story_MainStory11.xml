@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <scene id="11">
+    <character id="angela" name="angela_name" color="FFBBFF" sprite="Angela" />
+    <character id="b" name="b_name" color="FFBBFF" sprite="B" />
+    <bgm src="SFX_radio_broken_01" />
+
+<!-- 이때 치직거리는 이펙트-->
+
+    <position character="b" to="center" />
+
+    <camera_filter filter="tv_distorted" />
+
+    <speak speaker="b">day11_b_1</speak>
+    <bgm src="Dungeon_-_Wrong_Way_Street" />
+    <speak speaker="b">day11_b_2</speak>
+    <speak speaker="b">day11_b_3</speak>
+    <speak speaker="b">day11_b_4</speak>
+    <speak speaker="b">day11_b_5</speak>
+    <speak speaker="b">day11_b_6</speak>
+    <speak speaker="b">day11_b_7</speak>
+    <speak speaker="b">day11_b_8</speak>
+    <speak speaker="b">day11_b_9</speak>
+    <speak speaker="b">day11_b_10</speak>
+
+    <select>
+      <option text="day11_selection1">
+      </option>
+      <option text="day11_selection2">
+      </option>
+    </select>
+   
+
+    <speak speaker="b">day11_b_11</speak>
+    <speak speaker="b">day11_b_12</speak>
+    <speak speaker="b">day11_b_13</speak>
+    <speak speaker="b">day11_b_14</speak>
+    <speak speaker="b">day11_b_15</speak>
+
+    <disappear character="b" />
+    <camera_filter filter="none" />
+    
+   
+  </scene> 
+  
+</root>

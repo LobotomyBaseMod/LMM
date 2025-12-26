@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LocalizeDataList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <list>
+    <LocalizeData>
+      <id>PopupView_Normal_ModUploadCheck_ModFileNull_Title</id>
+      <value>Не удалось опубликовать мод</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_ModUploadCheck_ModFileNull_Desc</id>
+      <value>Для публикации мода необходимо выбрать файл архива (zip).</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Choice_TPNewVersionDetect_Desc</id>
+      <value>Обнаружена новая версия. Желаете обновить перед запуском? (При выборе "Нет" запустится текущая версия.)</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>UI_GitHubView_AuthorName</id>
+      <value>автору:</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>UI_GitHubView_AuthorSearchBtn</id>
+      <value>Поиск по автору</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>ThirdPartyView_ModdingTool_Title</id>
+      <value>Инструментарий для моддинга</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>ThirdPartyView_ModdingTool_Creator</id>
+      <value>Создатель: 鍵月輝はるな（kagituki haruna )</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>ThirdPartyView_ModdingTool_Desc</id>
+      <value>Программа для помощи в создании Э.П.О.С. Снаряжения.</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>ThirdPartyView_TPState_Checking</id>
+      <value>Проверка...</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>ThirdPartyView_TPState_NeedDownload</id>
+      <value>Скачать</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>ThirdPartyView_TPState_NeedUpdate</id>
+      <value>Запуск (Доступно обновление!)</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>ThirdPartyView_TPState_Lastest</id>
+      <value>Запуск</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>ThirdPartyView_TPState_Error</id>
+      <value>Возникла ошибка!</value>
+    </LocalizeData>
+  </list>
+</LocalizeDataList>

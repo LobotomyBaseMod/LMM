@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <script>BlackCorps</script>
+  <stat>
+    <hp>450</hp>
+    <speed>1</speed>
+
+    <defense id="1">
+      <defenseElement type="R">1.2</defenseElement>
+      <defenseElement type="W">0.6</defenseElement>
+      <defenseElement type="B">1</defenseElement>
+      <defenseElement type="P">0.8</defenseElement>
+    </defense>
+
+  </stat>
+
+  <anim prefab="Unit/CreatureAnimator/BlackCorpsAnim" x="-1" y="-2"/>
+
+  <attackType openLevel="1">BLACK</attackType>
+  <riskLevel openLevel="1">ALEPH</riskLevel>
+
+  <sound action="Attack" src="creature/PinkCorps/PinkCorps_Black_Atk1" />
+  <sound action="Cast" src="creature/PinkCorps/PinkCorps_Black_Cast" />
+  <sound action="Default" src="creature/PinkCorps/PinkCorps_Black_Default" />
+  <sound action="Explosion" src="creature/PinkCorps/PinkCorps_Black_Explosion" />
+  
+</creature>

@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<creature>
+  <script>Piano</script>
+  <stat>
+    <riskLevel>4</riskLevel>
+    <maxWorkCount>3</maxWorkCount>
+    <workProb type="R">
+      <prob level="1">0.2</prob>
+      <prob level="2">0.3</prob>
+      <prob level="3">0.4</prob>
+      <prob level="4">0.5</prob>
+      <prob level="5">0.55</prob>
+    </workProb>
+    <workProb type="W">
+      <prob level="1">0.4</prob>
+      <prob level="2">0.45</prob>
+      <prob level="3">0.5</prob>
+      <prob level="4">0.55</prob>
+      <prob level="5">0.55</prob>
+    </workProb>
+    <workProb type="B">
+      <prob level="1">0.3</prob>
+      <prob level="2">0.3</prob>
+      <prob level="3">0.5</prob>
+      <prob level="4">0.5</prob>
+      <prob level="5">0.55</prob>
+    </workProb>
+    <workProb type="P">
+      <prob level="1">0.3</prob>
+      <prob level="2">0.3</prob>
+      <prob level="3">0.3</prob>
+      <prob level="4">0.3</prob>
+      <prob level="5">0.3</prob>
+    </workProb>
+    
+    <workCooltime>15</workCooltime>
+    
+    <feelingStateCubeBounds>
+      <cube>6</cube>
+      <cube>12</cube>
+      <cube>20</cube>
+    </feelingStateCubeBounds>
+    
+    <escapeable>false</escapeable>
+    <workDamage type="W" min="5" max="7" />
+    <workSpeed>0.25</workSpeed>
+    
+    <specialDamage>
+      <damage id="1" type="R" min="10" max="14" />
+    </specialDamage>
+    
+    <defense id="1">
+      <defenseElement type="R">1.2</defenseElement>
+      <defenseElement type="W">0</defenseElement>
+      <defenseElement type="B">1</defenseElement>
+      <defenseElement type="P">2</defenseElement>
+    </defense>
+    
+    <observeInfo total="98">
+      <observeElement name="stat" cost="20" />
+      <observeElement name="defense" cost="20" />
+      <observeElement name="work_r" cost="7" />
+      <observeElement name="work_w" cost="7" />
+      <observeElement name="work_b" cost="7" />
+      <observeElement name="work_p" cost="7" />
+      
+      <observeElement name="care_0" cost="5" />
+      <observeElement name="care_1" cost="5" />
+      <observeElement name="care_2" cost="5" />
+      <observeElement name="care_3" cost="5" />
+      <observeElement name="care_4" cost="5" />
+      <observeElement name="care_5" cost="5" />
+    </observeInfo>
+    
+    <equipment level="4" cost="70" equipId="200065" />
+    <equipment level="4" cost="60" equipId="300065" />
+    <equipment level="3" prob="0.03" equipId="400065" />
+    
+
+    <observeBonus level="1" type="prob">4</observeBonus>
+    <observeBonus level="2" type="speed">2</observeBonus>
+    <observeBonus level="3" type="prob">4</observeBonus>
+    <observeBonus level="4" type="speed">2</observeBonus>
+    
+    <qliphoth>3</qliphoth>
+  
+  </stat>
+  <graph>
+    <node id="creature" x="-1.6" y="-1.8" type="creature" />
+    <node id="workspace" x="1.9" y="-1.8" type="workspace" />
+    <node id="chair" x="-0.4" y="-1.8" type="custom" />
+    <node id="outter" x="0" y="0" type="outterDoor" />
+    <node id="inner" x="2" y="-1.8" type="innerDoor" />
+    <edge node1="creature" node2="chair" type="road" />
+    <edge node1="chair" node2="workspace" type="road" />
+    <edge node1="workspace" node2="inner" type="road" />
+  </graph>
+  <anim prefab="Unit/CreatureAnimator/PianoAnim" x="-1" y="-2" />
+  <returnImg src="" />
+  <portrait src="CreatureSprite/Dummy" />
+  
+  <sound action="agent_dead" src="creature/Piano/Moon_AgentDead"/>
+  <sound action="attack" src="creature/Piano/Moon_Atk"/>
+  <sound action="dead" src="creature/Piano/Moon_Dead"/>
+  <sound action="escape" src="creature/Piano/Moon_Escape"/>
+  <sound action="piano" src="creature/Piano/Moon_Piano"/>
+  <sound action="piano_escape" src="creature/Piano/Moon_Piano_Escape"/>
+  <sound action="skill" src="creature/Piano/Moon_Skill"/>
+  
+  <child>PianoCreature_stat</child>
+</creature>

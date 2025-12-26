@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LocalizeDataList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <list>
+    <LocalizeData>
+      <id>UI_Btn_gotoModPage</id>
+      <value>На страницу мода</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_Search</id>
+      <value>Обзор</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>UI_Btn_PageMove</id>
+      <value>Перейти</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>UI_Btn_Subscribe_yes</id>
+      <value>Подписан</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_Subscribe_do</id>
+      <value>Подписаться</value>
+    </LocalizeData>
+	
+	<LocalizeData>
+      <id>UI_GitHubView_SortUpdate</id>
+      <value>Отсортировать по недавним обновлениям:</value>
+    </LocalizeData>
+
+  </list>
+</LocalizeDataList>

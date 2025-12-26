@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LocalizeDataList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <list>
+    <LocalizeData>
+      <id>PopupView_Normal_Close</id>
+      <value>닫기</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Choice_Yes</id>
+      <value>예</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Choice_No</id>
+      <value>아니오</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_GameStartError_Title</id>
+      <value>게임 실행 실패</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_GameStartError_Desc</id>
+      <value>게임 패치 중 문제가 발생했습니다.</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_ModUploadSuccess_Title</id>
+      <value>업로드 완료</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_ModUploadSuccess_Desc</id>
+      <value>모드 업로드가 성공적으로 완료되었습니다.</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_ModUploadFail_Title</id>
+      <value>업로드 실패</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_ModUploadFail_Desc</id>
+      <value>모드 업로드가 정상적으로 완료되지 않았습니다.</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_ModDeleteSuccess_Title</id>
+      <value>삭제 성공</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_ModDeleteSuccess_Desc</id>
+      <value>모드가 정상적으로 삭제되었습니다.</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_ModDeleteFail_Title</id>
+      <value>삭제 실패.</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_ModDeleteFail_Desc</id>
+      <value>모드 삭제가 실패하였습니다.</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_ModUploadCheck_ModNameContainBlank_Title</id>
+      <value>업로드 거부</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_ModUploadCheck_ModNameContainBlank_Desc</id>
+      <value>모드 이름엔 공백이 포함될 수 없습니다.</value>
+    </LocalizeData>
+
+
+
+    <LocalizeData>
+      <id>PopupView_Choice_ModDelete_Desc</id>
+      <value>해당 모드를 삭제하겠습니까?</value>
+    </LocalizeData>
+
+
+
+  </list>
+</LocalizeDataList>

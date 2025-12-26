@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--BlueStar-->
+<creature>
+  <script>BlueStar</script>
+  <stat>
+    <riskLevel>5</riskLevel>
+    <maxWorkCount>1</maxWorkCount>
+    <workProb type="R">
+      <prob level="1">0.3</prob>
+      <prob level="2">0.3</prob>
+      <prob level="3">0.3</prob>
+      <prob level="4">0.3</prob>
+      <prob level="5">0.3</prob>
+    </workProb>
+    <workProb type="W">
+      <prob level="1">0.5</prob>
+      <prob level="2">0.5</prob>
+      <prob level="3">0.5</prob>
+      <prob level="4">0.5</prob>
+      <prob level="5">0.5</prob>
+    </workProb>
+    <workProb type="B">
+      <prob level="1">0</prob>
+      <prob level="2">0</prob>
+      <prob level="3">0</prob>
+      <prob level="4">0</prob>
+      <prob level="5">0</prob>
+    </workProb>
+    <workProb type="P">
+      <prob level="1">0.4</prob>
+      <prob level="2">0.4</prob>
+      <prob level="3">0.4</prob>
+      <prob level="4">0.4</prob>
+      <prob level="5">0.4</prob>
+    </workProb>
+    <workCooltime>15</workCooltime>
+    <feelingStateCubeBounds>
+      <cube>6</cube>
+      <cube>27</cube>
+      <cube>33</cube>
+    </feelingStateCubeBounds>
+    <workDamage type="W" min="6" max="9" />
+    <workSpeed>0.32</workSpeed>
+    <defense id="1">
+      <defenseElement type="R">0.4</defenseElement>
+      <defenseElement type="W">0.2</defenseElement>
+      <defenseElement type="B">0.8</defenseElement>
+      <defenseElement type="P">1.2</defenseElement>
+    </defense>
+    <hp>2200</hp>
+    <speed>0</speed>
+    <specialDamage>
+      <damage id="1" type="W" min="15" max="20" />
+    </specialDamage>
+    <observeInfo total="142">
+      <observeElement name="stat" cost="30" />
+      <observeElement name="defense" cost="30" />
+      <observeElement name="work_r" cost="10" />
+      <observeElement name="work_w" cost="10" />
+      <observeElement name="work_b" cost="10" />
+      <observeElement name="work_p" cost="10" />
+      <observeElement name="care_0" cost="7" />
+      <observeElement name="care_1" cost="7" />
+      <observeElement name="care_2" cost="7" />
+      <observeElement name="care_3" cost="7" />
+      <observeElement name="care_4" cost="7" />
+      <observeElement name="care_5" cost="7" />
+    </observeInfo>
+    <equipment level="4" cost="222" equipId="200058" />
+    <equipment level="4" cost="150" equipId="300058" />
+    <equipment level="4" prob="0.01" equipId="400058" />
+    <observeBonus level="1" type="prob">4</observeBonus>
+    <observeBonus level="2" type="speed">2</observeBonus>
+    <observeBonus level="3" type="prob">4</observeBonus>
+    <observeBonus level="4" type="speed">2</observeBonus>
+    <qliphoth>2</qliphoth>
+  </stat>
+  <graph>
+    <node id="creature" x="-1.6" y="-1.8" type="creature" />
+    <node id="workspace" x="1.9" y="-1.8" type="workspace" />
+    <node id="outter" x="0" y="0" type="outterDoor" />
+    <node id="inner" x="2" y="-1.8" type="innerDoor" />
+    <edge node1="workspace" node2="inner" type="road" />
+    <edge node1="creature" node2="workspace" type="road" />
+  </graph>
+  <anim prefab="Unit/CreatureAnimator/BlueStar" x="-1" y="-2" />
+  <returnImg src="" />
+  <portrait src="Sprites/Unit/creature/BlueStar" />
+  <sound action="Attack" src="creature/BlueStar/BlueStar_Atk" />
+  <sound action="Bgm" src="creature/BlueStar/BlueStar_Bgm" />
+  <sound action="Dead" src="creature/BlueStar/BlueStar_Dead" />
+  <sound action="In" src="creature/BlueStar/BlueStar_In" />
+  <sound action="Start" src="creature/BlueStar/BlueStar_Start" />
+</creature>

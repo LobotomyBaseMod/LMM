@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <scene id="8">
+    <character id="angela" name="angela_name" color="FFBBFF" sprite="Angela" />
+
+    <bgm src="story-02_ogg" />
+
+    <position character="angela" to="right" />
+
+    <speak speaker="angela">day8_angela_1</speak>
+    <speak speaker="angela">day8_angela_2</speak>
+    <speak speaker="angela">day8_angela_3</speak>
+    <speak speaker="angela">day8_angela_4</speak>
+    <speak speaker="angela">day8_angela_5</speak>
+
+
+    <select>
+      <option text="day8_selection1">
+        <speak speaker="angela">day8_angela_1_1</speak>
+        <speak speaker="angela">day8_angela_1_3</speak>
+        <speak speaker="angela">day8_angela_1_4</speak>
+        <speak speaker="angela" anim="Glad3">day8_angela_1_5</speak>
+        <speak speaker="angela">day8_angela_1_6</speak>
+      </option>
+      <option text="day8_selection2">
+        <speak speaker="angela" anim="Anger1">day8_angela_2_1</speak>
+        <speak speaker="angela">day8_angela_2_2</speak>
+        <speak speaker="angela">day8_angela_2_3</speak>
+        <speak speaker="angela">day8_angela_2_4</speak>
+        <speak speaker="angela">day8_angela_2_5</speak>
+        <speak speaker="angela">day8_angela_2_6</speak>
+        <speak speaker="angela">day8_angela_2_7</speak>
+        <speak speaker="angela">day8_angela_2_8</speak>
+        <speak speaker="angela">day8_angela_2_9</speak>
+        <speak speaker="angela"  anim="Glad1">day8_angela_2_10</speak>
+        <speak speaker="angela" anim="Glad3">day8_angela_2_11</speak>
+      </option>
+    </select>
+ 
+  </scene> 
+  
+</root>

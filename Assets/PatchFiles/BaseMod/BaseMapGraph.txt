@@ -1,0 +1,1399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map_graph>
+  <node_list>
+    <area name="1" sub="4">
+      <passage x="0" y="1.6" passageGroup="1" rabbitTeamGroup="M1" src="Map/Passage/PassageMalcuteRoom" passageType="sefira">
+        <ground height="-10.5" />
+        <height>9.2</height>
+        <node id="sefira-malkuth-1" x="-5.9" y="0.8">
+          <door>DoorLeft</door>
+        </node>
+        <node id="sefira-malkuth-2" x="-5.864" y="0.8" type="sefira" />
+        <node id="sefira-malkuth-3" x="-3.51" y="0.8" type="sefira" />
+        <node id="sefira-malkuth-4" x="-2" y="0.8" type="sefira" />
+        <node id="sefira-malkuth-5" x="-1" y="0.8" type="sefira" />
+        <node id="sefira-malkuth-6" x="0" y="0.8" type="sefira" />
+        <node id="sefira-malkuth-7" x="1" y="0.8" type="sefira" />
+        <node id="sefira-malkuth-8" x="2" y="0.8" type="sefira" />
+        <node id="sefira-malkuth-9" x="3.8" y="0.8" type="sefira" />
+        <node id="sefira-malkuth-10" x="5.87" y="0.8" type="sefira" />
+        <node id="sefira-malkuth-11" x="5.9" y="0.8">
+          <door>DoorRight</door>
+        </node>
+      </passage>
+      <passage x="17" y="7" passageGroup="2" rabbitTeamGroup="M1" src="Map/Passage/Dept/PassageRU_DEPT" passageType="dept" scale="0.75">
+        <ground height="-2.5" />
+        <height>6.8</height>
+        <node id="malkuth-0-1" x="10.96" y="4.3">
+          <door>DoorLeftS</door>
+        </node>
+        <node id="malkuth-0-2" x="11" y="4.3" />
+        <node id="malkuth-0-3" x="12" y="4.3" />
+        <node id="malkuth-0-4" x="13.38" y="4.3" />
+        <node id="malkuth-0-5" x="15.01" y="4.3" />
+        <node id="malkuth-0-6" x="16.54" y="4.3" />
+        <node id="malkuth-0-7" x="17.705" y="4.3" />
+        <node id="malkuth-0-8" x="18.854" y="4.3" />
+        <node id="malkuth-0-9" x="20.01" y="4.3" />
+        <node id="malkuth-0-10" x="21.13" y="4.3" />
+        <node id="malkuth-0-11" x="22.7" y="4.3" />
+        <node id="malkuth-0-12" x="22.74" y="4.3">
+          <door>DoorRightS</door>
+        </node>
+      </passage>
+      <passage x="20.59" y="1.23" passageGroup="2" rabbitTeamGroup="M1" src="Map/Passage/Malkuth/PassageMalkuthHallWay" passageType="horizontal" scale="0.5">
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="right-upper-way-door" x="10.23" y="0.13">
+          <door>MalkuthDoorLeft</door>
+        </node>
+        <node id="right-upper-way1" x="10.25" y="0.13" />
+        <node id="right-upper-way2" x="11" y="0.13" />
+        <node id="right-upper-way3" x="18.29" y="0.13" />
+        <node id="right-upper-way4" x="25.58" y="0.13" pos="center" />
+        <node id="right-upper-way5" x="30.59" y="0.13" />
+      </passage>
+      <passage x="31.3" y="5.27" passageGroup="4" rabbitTeamGroup="M1" src="Map/Passage/Malkuth/PassageMalkuthShortestHallway2" passageType="horizontal" scale="0.5">
+        <connected>
+          <connect>1</connect>
+        </connected>
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="right-way1" x="26.21" y="4.17">
+          <door>MalkuthDoorLeft</door>
+        </node>
+        <node id="right-way2" x="31.3" y="4.17" pos="center" />
+        <node id="right-way3" x="35.03" y="4.17" />
+      </passage>
+      <passage x="-17" y="7" passageGroup="1" rabbitTeamGroup="M1" src="Map/Passage/Dept/PassageLU_DEPT" passageType="dept" scale="0.75">
+        <ground height="-2.5" />
+        <height>6.8</height>
+        <node id="malkuth-1-1" x="-11.17" y="4.3" type="dept">
+          <door>DoorRightS</door>
+        </node>
+        <node id="malkuth-1-2" x="-11.52" y="4.3" />
+        <node id="malkuth-1-3" x="-12.2" y="4.3" />
+        <node id="malkuth-1-4" x="-13" y="4.3" />
+        <node id="malkuth-1-5" x="-14.09" y="4.3" />
+        <node id="malkuth-1-6" x="-15.12" y="4.3" />
+        <node id="malkuth-1-7" x="-16.275" y="4.3" />
+        <node id="malkuth-1-8" x="-17.591" y="4.3" />
+        <node id="malkuth-1-9" x="-19.05" y="4.3" />
+        <node id="malkuth-1-10" x="-20.73" y="4.3" />
+        <node id="malkuth-1-11" x="-22.78" y="4.3" />
+        <node id="malkuth-1-12" x="-22.89" y="4.3">
+          <door>DoorLeftS</door>
+        </node>
+      </passage>
+      <passage x="-20.27" y="1.36" passageGroup="1" rabbitTeamGroup="M1" src="Map/Passage/Malkuth/PassageMalkuthHallWay" passageType="horizontal" scale="0.5">
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="left-upper-way-door" x="-9.910001" y="0.26">
+          <door>MalkuthDoorRight</door>
+        </node>
+        <node id="left-upper-way1" x="-9.93" y="0.26" />
+        <node id="left-upper-way2" x="-11" y="0.266" />
+        <node id="left-upper-way3" x="-17.27" y="0.26" />
+        <node id="left-upper-way4" x="-21" y="0.26" pos="center" />
+        <node id="left-upper-way5" x="-24.78" y="0.26" />
+        <node id="left-upper-way6" x="-30.27" y="0.26" />
+      </passage>
+      <passage x="-31.3" y="5.32" passageGroup="3" rabbitTeamGroup="M1" src="Map/Passage/Malkuth/PassageMalkuthShortestHallway" passageType="horizontal" scale="0.5">
+        <connected>
+          <connect>1</connect>
+        </connected>
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="left-way1" x="-26.09" y="4.22">
+          <door>MalkuthDoorRight</door>
+        </node>
+        <node id="left-way2" x="-28.8" y="4.22" pos="center" />
+        <node id="left-way3" x="-35.03" y="4.22" />
+      </passage>
+      <passage x="-34.85" y="-15.06" passageGroup="3" src="Map/Passage/PassageHallwayHubSmall" passageType="horizontal" scale="0.5">
+        <connected>
+          <connect>1</connect>
+          <connect>2</connect>
+          <connect>4</connect>
+        </connected>
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="mal-left-elevator-hub-leftdoor" x="-36.43" y="-16.06">
+          <door>DoorLeftHub</door>
+        </node>
+        <node id="mal-left-elevator-hub" x="-34.85" y="-16.06" pos="center" />
+        <node id="mal-left-elevator-hub-rightdoor" x="-33.19" y="-16.06">
+          <door>DoorRightHub</door>
+        </node>
+      </passage>
+      <passage x="-25.6" y="-14.4" passageGroup="3" rabbitTeamGroup="M1" src="Map/Passage/Dept/PassageLD_DEPT" passageType="dept" scale="0.75">
+        <ground height="-1.5" />
+        <height>8.2</height>
+        <node id="malkuth-3-1" x="-20.64" y="-16.2">
+          <door>DoorRightS</door>
+        </node>
+        <node id="malkuth-3-2" x="-20.686" y="-16.2" />
+        <node id="malkuth-3-3" x="-21.85" y="-16.2" />
+        <node id="malkuth-3-4" x="-23.02" y="-16.2" />
+        <node id="malkuth-3-5" x="-24.18" y="-16.2" />
+        <node id="malkuth-3-6" x="-25.4" y="-16.2" />
+        <node id="malkuth-3-7" x="-26.69" y="-16.2" />
+        <node id="malkuth-3-8" x="-27.885" y="-16.2" />
+        <node id="malkuth-3-9" x="-29.12" y="-16.2" />
+        <node id="malkuth-3-10" x="-30.326" y="-16.2" />
+        <node id="malkuth-3-11" x="-30.37" y="-16.2">
+          <door>DoorLeftS</door>
+        </node>
+      </passage>
+      <passage x="-9.43" y="-15.06" passageGroup="3" rabbitTeamGroup="M1" src="Map/Passage/Malkuth/PassageMalkuthShortHallway2" passageType="horizontal" scale="0.5">
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="left-down-way1" x="-1.440001" y="-16.16">
+          <door>MalkuthDoorRight</door>
+        </node>
+        <node id="left-down-way1-1" x="-2.22" y="-16.16" pos="center" />
+        <node id="left-down-way2" x="-4.9" y="-16.16" pos="center" />
+        <node id="left-down-way3" x="-16.36" y="-16.16" pos="center" />
+        <node id="left-down-way4" x="-17.33" y="-16.16">
+          <door>MalkuthDoorLeft</door>
+        </node>
+      </passage>
+      <passage x="9.51" y="-15.06" passageGroup="4" rabbitTeamGroup="M1" src="Map/Passage/Malkuth/PassageMalkuthShortHallway" passageType="horizontal" scale="0.5">
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="right-down-way1" x="1.61" y="-16.16">
+          <door>MalkuthDoorLeft</door>
+        </node>
+        <node id="right-down-way1-1" x="2.65" y="-16.16" pos="center" />
+        <node id="right-down-way2" x="5.84" y="-16.16" pos="center" />
+        <node id="right-down-way3" x="16.81" y="-16.16" pos="center" />
+        <node id="right-down-way4" x="17.46" y="-16.16">
+          <door>MalkuthDoorRight</door>
+        </node>
+      </passage>
+      <passage x="25.6" y="-14.4" passageGroup="4" rabbitTeamGroup="M1" src="Map/Passage/Dept/PassageRD_DEPT" passageType="dept" scale="0.75">
+        <ground height="-1.5" />
+        <height>8.2</height>
+        <node id="malkuth-2-1" x="20.64" y="-16.2">
+          <door>DoorLeftS</door>
+        </node>
+        <node id="malkuth-2-2" x="20.689" y="-16.2" />
+        <node id="malkuth-2-3" x="22.08" y="-16.2" />
+        <node id="malkuth-2-4" x="23.315" y="-16.2" />
+        <node id="malkuth-2-5" x="24.51" y="-16.2" />
+        <node id="malkuth-2-6" x="25.8" y="-16.2" />
+        <node id="malkuth-2-7" x="27.02" y="-16.2" />
+        <node id="malkuth-2-8" x="28.18" y="-16.2" />
+        <node id="malkuth-2-9" x="29.35" y="-16.2" />
+        <node id="malkuth-2-10" x="30.34" y="-16.2" />
+        <node id="malkuth-2-11" x="30.37" y="-16.2">
+          <door>DoorRightS</door>
+        </node>
+      </passage>
+      <passage x="34.85" y="-15.06" passageGroup="4" src="Map/Passage/PassageHallwayHubSmall" passageType="horizontal" scale="0.5">
+        <connected>
+          <connect>1</connect>
+          <connect>3</connect>
+          <connect>4</connect>
+        </connected>
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="mal-right-elevator-hub-rightdoor" x="36.51" y="-16.06">
+          <door>DoorRightHub</door>
+        </node>
+        <node id="mal-right-elevator-hub" x="34.85" y="-16.06" pos="center" />
+        <node id="mal-right-elevator-hub-leftdoor" x="33.27" y="-16.06">
+          <door>DoorLeftHub</door>
+        </node>
+      </passage>
+      <passage x="-34.85" y="-5.05" passageGroup="3" src="Map/Passage/Malkuth/PassageMalkuthElevator" passageType="vertical" scale="0.35">
+        <node id="left-elevator" x="-34.85" y="-5.05" elevator="Map/Passage/Elevator/ElevatorLong" />
+      </passage>
+      <passage x="34.85" y="-5.05" passageGroup="4" src="Map/Passage/Malkuth/PassageMalkuthElevator" passageType="vertical" scale="0.35">
+        <node id="right-elevator" x="34.85" y="-5.05" elevator="Map/Passage/Elevator/ElevatorLong" />
+      </passage>
+    </area>
+    <area name="2" sub="0">
+      <passage x="-52.7" y="-30.8" passageGroup="1" rabbitTeamGroup="N1" src="Map/Passage/PassageNetachRoom" passageType="sefira">
+        <ground height="-0.5" />
+        <height>12.8</height>
+        <node id="sefira-netzach-1" x="-58.89" y="-31.6">
+          <door>NetzachDoorMainLeft</door>
+        </node>
+        <node id="sefira-netzach-2" x="-58.802" y="-31.6" type="sefira" />
+        <node id="sefira-netzach-3" x="-55.18" y="-31.6" type="sefira" />
+        <node id="sefira-netzach-4" x="-52.26" y="-31.6" type="sefira" />
+        <node id="sefira-netzach-5" x="-49.59" y="-31.6" type="sefira" />
+        <node id="sefira-netzach-6" x="-47.09" y="-31.6" type="sefira" />
+        <node id="sefira-netzach-7" x="-45.05" y="-31.6" type="sefira" />
+        <node id="sefira-netzach-8" x="-42.57" y="-31.6" type="sefira" />
+        <node id="sefira-netzach-9" x="-40.248" y="-31.6" type="sefira" />
+        <node id="sefira-netzach-10" x="-40.19" y="-31.6" type="sefira">
+          <door>NetzachDoorMainRight</door>
+        </node>
+      </passage>
+      <passage x="-50.1" y="-15" passageGroup="1" rabbitTeamGroup="N1" src="Map/Passage/Netzach/PassageNetzachHallWay" passageType="horizontal" scale="0.5">
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="N-upper-way-rightdoor" x="-39.83" y="-16.1">
+          <door>NetzachDoorRight</door>
+        </node>
+        <node id="N-upper-way1" x="-39.837" y="-16.1" />
+        <node id="N-upper-way1-1" x="-40.83" y="-16.1" />
+        <node id="N-upper-way2" x="-43.77" y="-16.1" />
+        <node id="N-upper-way3" x="-52.4" y="-16.1" pos="center" />
+        <node id="N-upper-way4" x="-56.81" y="-16.1" />
+        <node id="N-upper-way6" x="-60.295" y="-16.1" />
+        <node id="N-upper-way-leftdoor" x="-60.35" y="-16.1">
+          <door>NetzachDoorLeft</door>
+        </node>
+      </passage>
+      <passage x="-50.1" y="-45.89" passageGroup="3" rabbitTeamGroup="N1" src="Map/Passage/Netzach/PassageNetzachHallWay2" passageType="horizontal" scale="0.5">
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="N-down-way-rightdoor" x="-39.83" y="-46.99">
+          <door>NetzachDoorRight</door>
+        </node>
+        <node id="N-down-way1" x="-39.836" y="-46.99" />
+        <node id="N-down-way1-1" x="-42.29" y="-46.99" />
+        <node id="N-down-way2" x="-45.38" y="-46.99" />
+        <node id="N-down-way3" x="-53.53" y="-46.99" pos="center" />
+        <node id="N-down-way4" x="-56.81" y="-46.99" />
+        <node id="N-down-way6" x="-60.311" y="-46.99" />
+        <node id="N-down-way-leftdoor" x="-60.35" y="-46.99">
+          <door>NetzachDoorLeft</door>
+        </node>
+      </passage>
+      <passage x="-64.95" y="-15.06" passageGroup="1" rabbitTeamGroup="N1" src="Map/Passage/PassageHallwayHubSmall" passageType="horizontal" scale="0.5">
+        <connected>
+          <connect>2</connect>
+        </connected>
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="N-leftup-elevator-hub" x="-64.95" y="-16.06" pos="center" />
+        <node id="N-leftup-elevator-hub-door" x="-63.29" y="-16.06">
+          <door>DoorRightHub</door>
+        </node>
+      </passage>
+      <passage x="-64.95" y="-30.41" passageGroup="1" rabbitTeamGroup="N1" src="Map/Passage/PassageHallwayHubSmall" passageType="horizontal" scale="0.5">
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="N-left-elevator-hub" x="-64.95" y="-31.41" />
+        <node id="N-left-elevator-hub-door" x="-63.29" y="-31.41">
+          <door>DoorRightHub</door>
+        </node>
+      </passage>
+      <passage x="-64.95" y="-45.83" passageGroup="3" rabbitTeamGroup="N1" src="Map/Passage/PassageHallwayHubSmall" passageType="horizontal" scale="0.5">
+        <connected>
+          <connect>2</connect>
+        </connected>
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="N-leftdown-elevator-hub" x="-64.95" y="-46.83" pos="center" />
+        <node id="N-leftdown-elevator-hub-door" x="-63.29" y="-46.83">
+          <door>DoorRightHub</door>
+        </node>
+      </passage>
+      <passage x="-64.87" y="-22.72" passageGroup="1" src="Map/Passage/Netzach/PassageNetzachElevator" passageType="vertical" scale="0.35">
+        <node id="N-leftup-elevator" x="-64.87" y="-22.72" elevator="Map/Passage/Elevator/ElevatorShort" />
+      </passage>
+      <passage x="-64.87" y="-38.32" passageGroup="3" src="Map/Passage/Netzach/PassageNetzachElevator" passageType="vertical" scale="0.35">
+        <node id="N-leftdown-elevator" x="-64.87" y="-38.32" elevator="Map/Passage/Elevator/ElevatorShort" />
+      </passage>
+    </area>
+    <area name="3" sub="0">
+      <passage x="50.5" y="-30.8" passageGroup="1" rabbitTeamGroup="H1" src="Map/Passage/PassageHodRoom" passageType="sefira">
+        <ground height="-0.2" />
+        <height>12.8</height>
+        <node id="sefira-hod-1" x="40.68" y="-31.04" type="sefira">
+          <door>HodMainDoorLeft</door>
+        </node>
+        <node id="sefira-hod-2" x="40.68" y="-31.04" type="sefira" />
+        <node id="sefira-hod-3" x="44.59" y="-31.04" type="sefira" />
+        <node id="sefira-hod-4" x="47.51" y="-31.04" type="sefira" />
+        <node id="sefira-hod-5" x="50.18" y="-31.04" type="sefira" />
+        <node id="sefira-hod-6" x="52.68" y="-31.04" type="sefira" />
+        <node id="sefira-hod-7" x="54.72" y="-31.04" type="sefira" />
+        <node id="sefira-hod-8" x="57.2" y="-31.04" type="sefira" />
+        <node id="sefira-hod-9" x="58.77" y="-31.04" type="sefira" />
+        <node id="sefira-hod-10" x="58.8" y="-31.04" type="sefira" />
+      </passage>
+      <passage x="50" y="-15" passageGroup="1" rabbitTeamGroup="H1" src="Map/Passage/Hod/PassageHodHallway" passageType="horizontal" scale="0.5">
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="H-upper-way-rightdoor" x="60.27" y="-16.1">
+          <door>HodDoorRight</door>
+        </node>
+        <node id="H-upper-way1" x="60.256" y="-16.1" />
+        <node id="H-upper-way1-1" x="59.27" y="-16.1" />
+        <node id="H-upper-way2" x="56" y="-16.1" />
+        <node id="H-upper-way3" x="47.7" y="-16.1" pos="center" />
+        <node id="H-upper-way4" x="43.29" y="-16.1" />
+        <node id="H-upper-way6" x="39.764" y="-16.1" />
+        <node id="HodDoorLeft" x="39.75" y="-16.1">
+          <door>HodDoorLeft</door>
+        </node>
+      </passage>
+      <passage x="50" y="-45.89" passageGroup="3" rabbitTeamGroup="H1" src="Map/Passage/Hod/PassageHodHallWay2" passageType="horizontal" scale="0.5">
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="H-down-way-rightdoor" x="60.27" y="-46.99">
+          <door>HodDoorRight</door>
+        </node>
+        <node id="H-down-way1" x="60.24" y="-46.99" />
+        <node id="H-down-way1-1" x="58.69" y="-46.99" />
+        <node id="H-down-way2" x="55.38" y="-46.99" />
+        <node id="H-down-way3" x="47.7" y="-46.99" pos="center" />
+        <node id="H-down-way4" x="43.29" y="-46.99" />
+        <node id="H-down-way6" x="39.778" y="-46.99" />
+        <node id="H-down-way-leftdoor" x="39.75" y="-46.99">
+          <door>HodDoorLeft</door>
+        </node>
+      </passage>
+      <passage x="65" y="-15.06" passageGroup="1" rabbitTeamGroup="H1" src="Map/Passage/PassageHallwayHubSmall" passageType="horizontal" scale="0.5">
+        <connected>
+          <connect>3</connect>
+        </connected>
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="H-leftup-elevator-hub" x="65" y="-16.06" pos="center" />
+        <node id="H-leftup-elevator-hub-door" x="63.42" y="-16.06">
+          <door>DoorLeftHub</door>
+        </node>
+      </passage>
+      <passage x="65" y="-30.41" passageGroup="1" rabbitTeamGroup="H1" src="Map/Passage/PassageHallwayHubSmall" passageType="horizontal" scale="0.5">
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="H-left-elevator-hub" x="65" y="-31.41" />
+        <node id="H-left-elevator-hub-door" x="63.42" y="-31.41">
+          <door>DoorLeftHub</door>
+        </node>
+      </passage>
+      <passage x="65" y="-45.83" passageGroup="3" rabbitTeamGroup="H1" src="Map/Passage/PassageHallwayHubSmall" passageType="horizontal" scale="0.5">
+        <connected>
+          <connect>3</connect>
+        </connected>
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="H-leftdown-elevator-hub" x="65" y="-46.83" pos="center" />
+        <node id="H-leftdown-elevator-hub-door" x="63.42" y="-46.83">
+          <door>DoorLeftHub</door>
+        </node>
+      </passage>
+      <passage x="65.1" y="-22.72" passageGroup="1" src="Map/Passage/Hod/PassageHodElevator" passageType="vertical" scale="0.35">
+        <node id="H-leftup-elevator" x="65.1" y="-22.72" elevator="Map/Passage/Elevator/ElevatorShort" />
+      </passage>
+      <passage x="65.1" y="-38.32" passageGroup="3" src="Map/Passage/Hod/PassageHodElevator" passageType="vertical" scale="0.35">
+        <node id="H-leftdown-elevator" x="65.1" y="-38.32" elevator="Map/Passage/Elevator/ElevatorShort" />
+      </passage>
+    </area>
+    <area name="4" sub="1">
+      <passage x="0" y="-30.41" passageGroup="1" rabbitTeamGroup="Y1" src="Map/Passage/PassageYessodSefira" passageType="sefira">
+        <ground height="-0.1" />
+        <height>8.8</height>
+        <node id="sefira-tessod-1" x="-7.1" y="-31.76" type="sefira">
+          <door>YessodDoorLeft</door>
+        </node>
+        <node id="sefira-tessod-2" x="-7.073" y="-31.76" type="sefira" />
+        <node id="sefira-tessod-3" x="-5.5" y="-31.76" type="sefira" />
+        <node id="sefira-tessod-4" x="-4" y="-31.76" type="sefira" />
+        <node id="sefira-tessod-5" x="-2.5" y="-31.76" type="sefira" />
+        <node id="sefira-tessod-6" x="0" y="-31.76" type="sefira" />
+        <node id="sefira-tessod-7" x="2.5" y="-31.76" type="sefira" />
+        <node id="sefira-tessod-8" x="4" y="-31.76" type="sefira" />
+        <node id="sefira-tessod-9" x="5.5" y="-31.76" type="sefira" />
+        <node id="sefira-tessod-10" x="6.997" y="-31.76" type="sefira" />
+        <node id="sefira-tessod-11" x="7" y="-31.76" type="sefira">
+          <door>YessodDoorRight</door>
+        </node>
+      </passage>
+      <passage x="20.25" y="-30.41" passageGroup="2" rabbitTeamGroup="Y1" src="Map/Passage/Yesod/PassageYesodHallway2" passageType="horizontal" scale="0.5">
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="T-right-way1" x="10.09" y="-31.51">
+          <door>YesodDoorLeft</door>
+        </node>
+        <node id="T-right-way2" x="10.14" y="-31.51" />
+        <node id="T-right-way3" x="14.78" y="-31.51" />
+        <node id="T-right-way4" x="22" y="-31.51" pos="center" />
+        <node id="T-right-way5" x="26.75" y="-31.51" />
+        <node id="T-right-way6" x="30.46" y="-31.51" />
+        <node id="T-right-way7" x="30.58" y="-31.51">
+          <door>YesodDoorRight</door>
+        </node>
+      </passage>
+      <passage x="-20.25" y="-30.41" passageGroup="1" rabbitTeamGroup="Y1" src="Map/Passage/Yesod/PassageYesodHallway" passageType="horizontal" scale="0.5">
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="T-left-way1" x="-9.94" y="-31.51">
+          <door>YesodDoorRight</door>
+        </node>
+        <node id="T-left-way2" x="-10.05" y="-31.51" />
+        <node id="T-left-way3" x="-14.78" y="-31.51" />
+        <node id="T-left-way4" x="-21.75" y="-31.51" pos="center" />
+        <node id="T-left-way5" x="-25.89" y="-31.51" />
+        <node id="T-left-way6" x="-30.5" y="-31.51" />
+        <node id="T-left-way7" x="-30.51" y="-31.51">
+          <door>YesodDoorLeft</door>
+        </node>
+      </passage>
+      <passage x="0" y="-46.33" passageGroup="3" rabbitTeamGroup="Y1" src="Map/Passage/PassageYessodSefiraBig" passageType="dept">
+        <ground height="-0.5" />
+        <height>9</height>
+        <node id="dept-tessod-1" x="-14" y="-47.03">
+          <door>YessodDoorLeftBig</door>
+        </node>
+        <node id="dept-tessod-2" x="-13.962" y="-46.83" />
+        <node id="dept-tessod-3" x="-12" y="-46.83" />
+        <node id="dept-tessod-4" x="-8" y="-46.83" />
+        <node id="dept-tessod-5" x="-4" y="-46.83" />
+        <node id="dept-tessod-6" x="0" y="-46.83" />
+        <node id="dept-tessod-7" x="4" y="-46.83" />
+        <node id="dept-tessod-8" x="6.72" y="-46.83" />
+        <node id="dept-tessod-9" x="10.88" y="-46.83" />
+        <node id="dept-tessod-10" x="13.955" y="-46.83" />
+        <node id="dept-tessod-11" x="14" y="-47.03">
+          <door>YessodDoorRightBig</door>
+        </node>
+      </passage>
+      <passage x="34.85" y="-30.41" passageGroup="2" src="Map/Passage/PassageHallwayHubSmall" passageType="horizontal" scale="0.5">
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="yesod-right-hall-rightdoor" x="36.51" y="-31.41">
+          <door>DoorRightHub</door>
+        </node>
+        <node id="yesod-right-hall" x="34.85" y="-31.41" />
+        <node id="yesod-right-hall-leftdoor" x="32.989" y="-31.41">
+          <door>DoorLeftHub</door>
+        </node>
+      </passage>
+      <passage x="-34.85" y="-30.41" passageGroup="1" src="Map/Passage/PassageHallwayHubSmall" passageType="horizontal" scale="0.5">
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="yesod-left-hall-leftdoor" x="-36.63" y="-31.41">
+          <door>DoorLeftHub</door>
+        </node>
+        <node id="yesod-left-hall" x="-34.85" y="-31.41" pos="center" />
+        <node id="yesod-left-hall-rightdoor" x="-32.83" y="-31.41">
+          <door>DoorRightHub</door>
+        </node>
+      </passage>
+      <passage x="-34.85" y="-22.72" passageGroup="1" src="Map/Passage/Yesod/PassageYesodElevator" passageType="vertical" scale="0.35">
+        <node id="Y-left-elevator" x="-34.85" y="-22.72" elevator="Map/Passage/Elevator/ElevatorShort" />
+      </passage>
+      <passage x="34.85" y="-22.72" passageGroup="2" src="Map/Passage/Yesod/PassageYesodElevator" passageType="vertical" scale="0.35">
+        <node id="Y-right-elevator" x="34.85" y="-22.72" elevator="Map/Passage/Elevator/ElevatorShort" />
+      </passage>
+      <passage x="-25" y="-45.83" passageGroup="3" rabbitTeamGroup="Y1" src="Map/Passage/Yesod/PassageYesodShortHallway" passageType="horizontal" scale="0.5">
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="T-leftdown-way1" x="-19.07" y="-46.93">
+          <door>YesodDoorRight</door>
+        </node>
+        <node id="T-leftdown-way5" x="-19.12" y="-46.93" />
+        <node id="T-leftdown-way3" x="-22.77" y="-46.93" pos="center" />
+        <node id="T-leftdown-way4" x="-28.15" y="-46.93" />
+        <node id="T-leftdown-way2" x="-30.81" y="-46.93" />
+        <node id="T-leftdown-way6" x="-30.83" y="-46.93">
+          <door>YesodDoorLeft</door>
+        </node>
+      </passage>
+      <passage x="25" y="-45.83" passageGroup="4" rabbitTeamGroup="Y1" src="Map/Passage/Yesod/PassageYesodShortHallway2" passageType="horizontal" scale="0.5">
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="T-rightdown-way1" x="19.26" y="-46.93">
+          <door>YesodDoorLeft</door>
+        </node>
+        <node id="T-rightdown-way2" x="19.33" y="-46.93" />
+        <node id="T-rightdown-way3" x="22.04" y="-46.93" pos="center" />
+        <node id="T-rightdown-way4" x="26.32" y="-46.93" />
+        <node id="T-rightdown-way5" x="30.81" y="-46.93" />
+        <node id="T-rightdown-way6" x="30.82" y="-46.93">
+          <door>YesodDoorRight</door>
+        </node>
+      </passage>
+      <passage x="34.85" y="-45.83" passageGroup="4" src="Map/Passage/PassageHallwayHubSmall" passageType="horizontal" scale="0.5">
+        <connected>
+          <connect>3</connect>
+          <connect>4</connect>
+        </connected>
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="Y-right-elevator-hub-rightdoor" x="36.51" y="-46.83">
+          <door>DoorRightHub</door>
+        </node>
+        <node id="Y-right-elevator-hub-center" x="34.85" y="-46.83" pos="center" />
+        <node id="Y-right-elevator-hub-leftdoor" x="33.05" y="-46.83">
+          <door>DoorLeftHub</door>
+        </node>
+      </passage>
+      <passage x="-34.85" y="-45.83" passageGroup="3" src="Map/Passage/PassageHallwayHubSmall" passageType="horizontal" scale="0.5">
+        <connected>
+          <connect>2</connect>
+          <connect>4</connect>
+        </connected>
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="Y-left-elevator-hub-leftdoor" x="-36.43" y="-46.83">
+          <door>DoorLeftHub</door>
+        </node>
+        <node id="Y-left-elevator-hub-center" x="-34.85" y="-46.83" pos="center" />
+        <node id="Y-left-elevator-hub-rightdoor" x="-33.05" y="-46.83">
+          <door>DoorRightHub</door>
+        </node>
+      </passage>
+      <passage x="-34.85" y="-38.13" passageGroup="3" src="Map/Passage/Yesod/PassageYesodElevator" passageType="vertical" scale="0.35">
+        <node id="Y-leftdown-elevator" x="-34.85" y="-38.13" elevator="Map/Passage/Elevator/ElevatorShort" />
+      </passage>
+      <passage x="34.85" y="-38.13" passageGroup="4" src="Map/Passage/Yesod/PassageYesodElevator" passageType="vertical" scale="0.35">
+        <node id="Y-rightdown-elevator" x="34.85" y="-38.13" elevator="Map/Passage/Elevator/ElevatorShort" />
+      </passage>
+    </area>
+    <area name="5" sub="1">
+      <passage x="0" y="-52.9" passageGroup="1" passageType="vertical" scale="0.35">
+        <node id="Tiphereth-elevator" x="0" y="-52.9" elevator="Map/Passage/Elevator/ElevatorShort" />
+      </passage>
+      <passage x="0" y="-72.03" passageGroup="1" rabbitTeamGroup="T1" src="Map/Passage/Tiphereth/PassageTipherethFirstRoom" passageType="sefira" scale="0.7">
+        <height>9</height>
+        <node id="sefira-tiphereth1-1" x="-21.88" y="-71.83" />
+        <node id="sefira-tiphereth1-2" x="-18.1506" y="-71.83" />
+        <node id="sefira-tiphereth1-3" x="-15.6" y="-71.83" />
+        <node id="sefira-tiphereth1-4" x="-10.4" y="-71.83" />
+        <node id="sefira-tiphereth1-5" x="-5.2" y="-71.83" />
+        <node id="sefira-tiphereth1-6" x="0" y="-71.83" />
+        <node id="sefira-tiphereth1-7" x="5.2" y="-71.83" />
+        <node id="sefira-tiphereth1-8" x="8.735999" y="-71.83" />
+        <node id="sefira-tiphereth1-9" x="14.144" y="-71.83" />
+        <node id="sefira-tiphereth1-10" x="19.487" y="-71.83" />
+        <node id="sefira-tiphereth1-11" x="22.2" y="-71.83" />
+      </passage>
+      <passage x="0" y="-78.03" passageGroup="1" rabbitTeamGroup="T1" src="Map/Passage/Tiphereth/PassageTipherethFirstDept" passageType="dept" scale="0.7">
+        <ground height="-0.7" />
+        <height>6.2</height>
+        <node id="dept-tiphereth1-1" x="-22.128" y="-78.73" />
+        <node id="dept-tiphereth1-2" x="-16.7544" y="-78.73" />
+        <node id="dept-tiphereth1-3" x="-14.4" y="-78.73" />
+        <node id="dept-tiphereth1-4" x="-9.6" y="-78.73" />
+        <node id="dept-tiphereth1-5" x="-4.8" y="-78.73" />
+        <node id="dept-tiphereth1-6" x="0" y="-78.73" />
+        <node id="dept-tiphereth1-7" x="4.8" y="-78.73" />
+        <node id="dept-tiphereth1-8" x="8.064" y="-78.73" />
+        <node id="dept-tiphereth1-9" x="13.056" y="-78.73" />
+        <node id="dept-tiphereth1-10" x="18.024" y="-78.73" />
+        <node id="dept-tiphereth1-11" x="22.296" y="-78.73" />
+      </passage>
+      <passage x="-37" y="-77.53" passageGroup="1" rabbitTeamGroup="T1" src="Map/Passage/Tiphereth/PassageTipherethHallway1" passageType="horizontal" scale="0.5">
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="Tiphereth1-left-way1" x="-26.67" y="-78.63" />
+        <node id="Tiphereth1-left-way2" x="-28.46" y="-78.63" />
+        <node id="Tiphereth1-left-way3" x="-31.11" y="-78.63" />
+        <node id="Tiphereth1-left-way4" x="-35.25" y="-78.63" pos="center" />
+        <node id="Tiphereth1-left-way5" x="-42.47" y="-78.63" />
+        <node id="Tiphereth1-left-way6" x="-47.11" y="-78.63" />
+        <node id="Tiphereth1-left-way7" x="-47.16" y="-78.63" />
+      </passage>
+      <passage x="37" y="-77.53" passageGroup="1" rabbitTeamGroup="T1" src="Map/Passage/Tiphereth/PassageTipherethHallway1-2" passageType="horizontal" scale="0.5">
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="Tiphereth1-right-way1" x="26.84" y="-78.63" />
+        <node id="Tiphereth1-right-way2" x="26.89" y="-78.63" />
+        <node id="Tiphereth1-right-way3" x="32.06" y="-78.63" />
+        <node id="Tiphereth1-right-way4" x="38.75" y="-78.63" pos="center" />
+        <node id="Tiphereth1-right-way5" x="43.5" y="-78.63" />
+        <node id="Tiphereth1-right-way6" x="45.61" y="-78.63" />
+        <node id="Tiphereth1-right-way7" x="47.33" y="-78.63" />
+      </passage>
+    </area>
+    <area name="6" sub="1">
+      <passage x="0" y="-86.73" passageGroup="1" rabbitTeamGroup="T1" src="Map/Passage/Tiphereth/PassageTipherethSecondDept1" passageType="sefira" scale="0.7">
+        <ground height="-0.7" />
+        <height>5.8</height>
+        <node id="sefira-tiphereth2-1" x="-22.452" y="-87.43" />
+        <node id="sefira-tiphereth2-2" x="-16.7544" y="-87.43" />
+        <node id="sefira-tiphereth2-3" x="-14.4" y="-87.43" />
+        <node id="sefira-tiphereth2-4" x="-9.6" y="-87.43" />
+        <node id="sefira-tiphereth2-5" x="-4.8" y="-87.43" />
+        <node id="sefira-tiphereth2-6" x="0" y="-87.43" />
+        <node id="sefira-tiphereth2-7" x="4.8" y="-87.43" />
+        <node id="sefira-tiphereth2-8" x="8.064" y="-87.43" />
+        <node id="sefira-tiphereth2-9" x="13.056" y="-87.43" />
+        <node id="sefira-tiphereth2-10" x="16.746" y="-87.43" />
+        <node id="sefira-tiphereth2-11" x="22.356" y="-87.43" />
+      </passage>
+      <passage x="0" y="-95.33" passageGroup="1" rabbitTeamGroup="T1" src="Map/Passage/Tiphereth/PassageTipherethSecondDept2" passageType="dept" scale="0.7">
+        <ground height="-0.7" />
+        <height>5.8</height>
+        <node id="dept-tiphereth2-1" x="-22.008" y="-96.02999" />
+        <node id="dept-tiphereth2-2" x="-16.7544" y="-96.02999" />
+        <node id="dept-tiphereth2-3" x="-14.4" y="-96.02999" />
+        <node id="dept-tiphereth2-4" x="-9.6" y="-96.02999" />
+        <node id="dept-tiphereth2-5" x="-4.8" y="-96.02999" />
+        <node id="dept-tiphereth2-6" x="0" y="-96.02999" />
+        <node id="dept-tiphereth2-7" x="4.8" y="-96.02999" />
+        <node id="dept-tiphereth2-8" x="8.064" y="-96.02999" />
+        <node id="dept-tiphereth2-9" x="13.056" y="-96.02999" />
+        <node id="dept-tiphereth2-10" x="16.746" y="-96.02999" />
+        <node id="dept-tiphereth2-11" x="22.056" y="-96.02999" />
+      </passage>
+      <passage x="-37" y="-95.03" passageGroup="1" rabbitTeamGroup="T1" src="Map/Passage/Tiphereth/PassageTipherethHallway2-2" passageType="horizontal" scale="0.5">
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="Tiphereth2-left-way1" x="-26.67" y="-96.13" />
+        <node id="Tiphereth2-left-way2" x="-28.181" y="-96.13" />
+        <node id="Tiphereth2-left-way3" x="-31.19" y="-96.13" />
+        <node id="Tiphereth2-left-way4" x="-35.25" y="-96.13" pos="center" />
+        <node id="Tiphereth2-left-way5" x="-41.949" y="-96.13" />
+        <node id="Tiphereth2-left-way6" x="-47.11" y="-96.13" />
+        <node id="Tiphereth2-left-way7" x="-47.16" y="-96.13" />
+      </passage>
+      <passage x="37" y="-95.03" passageGroup="1" rabbitTeamGroup="T1" src="Map/Passage/Tiphereth/PassageTipherethHallway2" passageType="horizontal" scale="0.5">
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="Tiphereth2-right-way1" x="26.84" y="-96.13" />
+        <node id="Tiphereth2-right-way2" x="26.89" y="-96.13" />
+        <node id="Tiphereth2-right-way3" x="32.12" y="-96.13" />
+        <node id="Tiphereth2-right-way4" x="38.75" y="-96.13" pos="center" />
+        <node id="Tiphereth2-right-way5" x="42.78" y="-96.13" />
+        <node id="Tiphereth2-right-way6" x="45.52" y="-96.13" />
+        <node id="Tiphereth2-right-way7" x="47.33" y="-96.13" />
+      </passage>
+    </area>
+    <area name="7" sub="1">
+      <passage x="62" y="-96" passageGroup="1" rabbitTeamGroup="G1" src="Map/Passage/Geburah/PassageGeburahRoom" passageType="sefira">
+        <ground height="0.18" />
+        <height>14.5</height>
+        <node id="sefira-geburah-1" x="51.55" y="-95.8" />
+        <node id="sefira-geburah-2" x="54" y="-95.8" />
+        <node id="sefira-geburah-3" x="58.65" y="-95.8" />
+        <node id="sefira-geburah-4" x="62.28" y="-95.8" />
+        <node id="sefira-geburah-5" x="66.62" y="-95.8" />
+        <node id="sefira-geburah-6" x="71.04" y="-95.8" />
+        <node id="sefira-geburah-7" x="73.43" y="-95.8" />
+      </passage>
+      <passage x="62" y="-77.3" passageGroup="1" rabbitTeamGroup="G1" src="Map/Passage/Geburah/PassageGeburahRoomTop" passageType="dept">
+        <height>16</height>
+        <node id="dept-geburah-1" x="51.63" y="-78.00001" />
+        <node id="dept-geburah-2" x="57.01" y="-78.00001" />
+        <node id="dept-geburah-3" x="59.36" y="-78.00001" />
+        <node id="dept-geburah-4" x="64.16" y="-78.00001" />
+        <node id="dept-geburah-5" x="68.96" y="-78.00001" />
+        <node id="dept-geburah-6" x="73.76" y="-78.00001" />
+      </passage>
+      <passage x="87.5" y="-95.3" passageGroup="1" rabbitTeamGroup="G1" src="Map/Passage/Geburah/PassageGeburahHallWay1" passageType="horizontal" scale="0.5">
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="Geburah-rb-way1" x="77.33999" y="-96.4" />
+        <node id="Geburah-rb-way2" x="82.56001" y="-96.4" />
+        <node id="Geburah-rb-way3" x="89.25" y="-96.4" pos="center" />
+        <node id="Geburah-rb-way4" x="94" y="-96.4" />
+        <node id="Geburah-rb-way5" x="96.11" y="-96.4" />
+        <node id="Geburah-rb-way6" x="97.83" y="-96.4" />
+      </passage>
+      <passage x="87.5" y="-77.53" passageGroup="1" rabbitTeamGroup="G1" src="Map/Passage/Geburah/PassageGeburahHallWay2" passageType="horizontal" scale="0.5">
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="Geburah-ru-way1" x="77.33999" y="-78.63" />
+        <node id="Geburah-ru-way2" x="82.56001" y="-78.63" />
+        <node id="Geburah-ru-way3" x="89.25" y="-78.63" pos="center" />
+        <node id="Geburah-ru-way4" x="94" y="-78.63" />
+        <node id="Geburah-ru-way5" x="96.11" y="-78.63" />
+        <node id="Geburah-ru-way6" x="97.83" y="-78.63" />
+      </passage>
+      <passage x="102" y="-86.3" passageGroup="1" src="Map/Passage/Geburah/PassageGeburahElevator" passageType="vertical" scale="0.35">
+        <node id="geburah-elevator" x="102" y="-86.3" elevator="Map/Passage/Elevator/ElevatorLong" />
+      </passage>
+      <passage x="102.09" y="-95.39" passageGroup="1" rabbitTeamGroup="G1" src="Map/Passage/PassageHallwayHubSmall" passageType="horizontal" scale="0.5">
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="geburah-down-hub" x="102.09" y="-96.39" />
+        <node id="geburah-down-hub-door" x="100.51" y="-96.39">
+          <door>DoorLeftHub</door>
+        </node>
+      </passage>
+      <passage x="102.09" y="-77.38" passageGroup="1" rabbitTeamGroup="G1" src="Map/Passage/PassageHallwayHubSmall" passageType="horizontal" scale="0.5">
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="geburah-up-hub" x="102.09" y="-78.38" />
+        <node id="geburah-up-hub-door" x="100.51" y="-78.38">
+          <door>DoorLeftHub</door>
+        </node>
+      </passage>
+    </area>
+    <area name="8" sub="1">
+      <passage x="-62" y="-96" passageGroup="1" rabbitTeamGroup="CH1" src="Map/Passage/Chesed/PassageChesedRoom" passageType="sefira">
+        <ground height="0.18" />
+        <height>14.2</height>
+        <node id="sefira-chesed-1" x="-72.45" y="-95.8" />
+        <node id="sefira-chesed-2" x="-70" y="-95.8" />
+        <node id="sefira-chesed-3" x="-65.35" y="-95.8" />
+        <node id="sefira-chesed-4" x="-62.28" y="-95.8" />
+        <node id="sefira-chesed-5" x="-57.56" y="-95.8" />
+        <node id="sefira-chesed-6" x="-52.96" y="-95.8" />
+        <node id="sefira-chesed-7" x="-50.57" y="-95.8" />
+      </passage>
+      <passage x="-62" y="-78.22" passageGroup="1" rabbitTeamGroup="CH1" src="Map/Passage/Chesed/PassageChesedRoomTop" passageType="dept">
+        <height>17</height>
+        <node id="dept-chesed-1" x="-72.37" y="-78.92001" />
+        <node id="dept-chesed-2" x="-66.99" y="-78.92001" />
+        <node id="dept-chesed-3" x="-64.64" y="-78.92001" />
+        <node id="dept-chesed-4" x="-62.01" y="-78.92001" />
+        <node id="dept-chesed-5" x="-55.04" y="-78.92001" />
+        <node id="dept-chesed-6" x="-50.24" y="-78.92001" />
+      </passage>
+      <passage x="-87.5" y="-95.3" passageGroup="1" rabbitTeamGroup="CH1" src="Map/Passage/Chesed/PassageChesedHallWay1" passageType="horizontal" scale="0.5">
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="Chesed-rb-way1" x="-97.66001" y="-96.4" />
+        <node id="Chesed-rb-way2" x="-92.43999" y="-96.4" />
+        <node id="Chesed-rb-way3" x="-85.75" y="-96.4" pos="center" />
+        <node id="Chesed-rb-way4" x="-81" y="-96.4" />
+        <node id="Chesed-rb-way5" x="-78.89" y="-96.4" />
+        <node id="Chesed-rb-way6" x="-77.17" y="-96.4" />
+      </passage>
+      <passage x="-87.5" y="-77.53" passageGroup="1" rabbitTeamGroup="CH1" src="Map/Passage/Chesed/PassageChesedHallWay2" passageType="horizontal" scale="0.5">
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="Chesed-ru-way1" x="-97.66001" y="-78.63" />
+        <node id="Chesed-ru-way2" x="-92.43999" y="-78.63" />
+        <node id="Chesed-ru-way3" x="-85.75" y="-78.63" pos="center" />
+        <node id="Chesed-ru-way4" x="-81" y="-78.63" />
+        <node id="Chesed-ru-way5" x="-78.89" y="-78.63" />
+        <node id="Chesed-ru-way6" x="-77.17" y="-78.63" />
+      </passage>
+      <passage x="-102" y="-86.41" passageGroup="1" src="Map/Passage/Chesed/PassageChesedElevator" passageType="vertical" scale="0.35">
+        <node id="chesed-elevator" x="-102" y="-86.41" elevator="Map/Passage/Elevator/ElevatorLong" />
+      </passage>
+      <passage x="-102.1" y="-95.4" passageGroup="1" rabbitTeamGroup="CH1" src="Map/Passage/PassageHallwayHubSmall" passageType="horizontal" scale="0.5">
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="chesed-down-hub" x="-102.1" y="-96.4" />
+        <node id="chesed-down-hub-door" x="-100.44" y="-96.4">
+          <door>DoorRightHub</door>
+        </node>
+      </passage>
+      <passage x="-102.1" y="-77.42" passageGroup="1" rabbitTeamGroup="CH1" src="Map/Passage/PassageHallwayHubSmall" passageType="horizontal" scale="0.5">
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="chesed-down-hub(d)" x="-102.1" y="-78.42" />
+        <node id="chesed-down-hub-door(d)" x="-100.44" y="-78.42">
+          <door>DoorRightHub</door>
+        </node>
+      </passage>
+    </area>
+    <area name="9" sub="0">
+      <passage x="80" y="-126.6" passageGroup="1" rabbitTeamGroup="B1" src="Map/Passage/Binah/PassageBinahRoom" passageType="sefira">
+        <ground height="0.18" />
+        <height>14.2</height>
+        <node id="sefira-binah-1" x="62.9" y="-126.4" />
+        <node id="sefira-binah-2" x="62.98" y="-126.4" />
+        <node id="sefira-binah-3" x="65.2" y="-126.4" />
+        <node id="sefira-binah-4" x="72" y="-126.4" />
+        <node id="sefira-binah-5" x="80" y="-126.4" />
+        <node id="sefira-binah-6" x="85.9" y="-126.4" />
+        <node id="sefira-binah-7" x="90.8" y="-126.4" />
+        <node id="sefira-binah-8" x="94.8" y="-126.4" />
+        <node id="sefira-binah-9" x="97.945" y="-126.4" />
+        <node id="sefira-binah-10" x="98.03" y="-126.4" />
+      </passage>
+      <passage x="36.4" y="-124.76" passageGroup="1" rabbitTeamGroup="B1" src="Map/Passage/Binah/PassageBinahHallWay" passageType="horizontal" scale="0.5">
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="binah-way1" x="13.78" y="-125.86" />
+        <node id="binah-way2" x="15.32" y="-125.86" />
+        <node id="binah-way3" x="22.37" y="-125.86" />
+        <node id="binah-way4" x="31.3" y="-125.86" pos="center" />
+        <node id="binah-way5" x="42.9" y="-125.86" />
+        <node id="binah-way6" x="50.1" y="-125.86" />
+        <node id="binah-way7" x="54.7" y="-125.86" />
+        <node id="binah-way8" x="58.33" y="-125.86" />
+      </passage>
+      <passage x="102.1" y="-111.1" passageGroup="1" src="Map/Passage/Binah/PassageBinahElevator" passageType="vertical" scale="0.35">
+        <node id="binah-elevator" x="102.1" y="-111.1" elevator="Map/Passage/Elevator/ElevatorLongLong" />
+      </passage>
+      <passage x="101.9" y="-125.75" passageGroup="1" rabbitTeamGroup="B1" src="Map/Passage/PassageHallwayHubSmall" passageType="horizontal" scale="0.5">
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="binah-hub" x="101.9" y="-126.75" />
+        <node id="binah-hub-door" x="100.32" y="-126.75">
+          <door>DoorLeftHub</door>
+        </node>
+      </passage>
+    </area>
+    <area name="10" sub="0">
+      <passage x="-80" y="-126.42" passageGroup="1" rabbitTeamGroup="HOK1" src="Map/Passage/Chokhmah/PassageChokhmahRoom" passageType="sefira">
+        <ground height="0.18" />
+        <height>14.2</height>
+        <node id="sefira-chokhmah-1" x="-94.924" y="-126.22" />
+        <node id="sefira-chokhmah-2" x="-94.88" y="-126.22" />
+        <node id="sefira-chokhmah-3" x="-90.38" y="-126.22" />
+        <node id="sefira-chokhmah-4" x="-88" y="-126.22" />
+        <node id="sefira-chokhmah-5" x="-83.35001" y="-126.22" />
+        <node id="sefira-chokhmah-6" x="-76.5" y="-126.22" />
+        <node id="sefira-chokhmah-7" x="-70.96001" y="-126.22" />
+        <node id="sefira-chokhmah-8" x="-68.57" y="-126.22" />
+        <node id="sefira-chokhmah-9" x="-63.1" y="-126.22" />
+        <node id="sefira-chokhmah-10" x="-63.02" y="-126.22" />
+      </passage>
+      <passage x="-36.4" y="-124.58" passageGroup="1" rabbitTeamGroup="HOK1" src="Map/Passage/Chokhmah/PassageChokhmahHallWay" passageType="horizontal" scale="0.5">
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="chokhmah-way1" x="-13.89" y="-125.68" />
+        <node id="chokhmah-way2" x="-16.36" y="-125.68" />
+        <node id="chokhmah-way3" x="-22.37" y="-125.68" />
+        <node id="chokhmah-way4" x="-31.3" y="-125.68" pos="center" />
+        <node id="chokhmah-way5" x="-42.9" y="-125.68" />
+        <node id="chokhmah-way6" x="-50.1" y="-125.68" />
+        <node id="chokhmah-way7" x="-57.25" y="-125.68" />
+        <node id="chokhmah-way8" x="-59.2" y="-125.68" />
+      </passage>
+      <passage x="-102.1" y="-110.4" passageGroup="1" src="Map/Passage/Chokhmah/PassageChokhmahElevator" passageType="vertical" scale="0.35">
+        <node id="chokmah-elevator" x="-102.1" y="-110.4" elevator="Map/Passage/Elevator/ElevatorLongLong" />
+      </passage>
+      <passage x="-101.9" y="-125.57" passageGroup="1" rabbitTeamGroup="HOK1" src="Map/Passage/PassageHallwayHubSmall" passageType="horizontal" scale="0.5">
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="chokhmah-hub" x="-101.9" y="-126.57" />
+        <node id="chokhmah-hub-door" x="-100.24" y="-126.57">
+          <door>DoorRightHub</door>
+        </node>
+      </passage>
+    </area>
+    <area name="11" sub="0">
+      <passage x="0" y="-159.2" passageGroup="1" rabbitTeamGroup="KET1" src="Map/Passage/Kether/PassageKetherRoom" passageType="sefira">
+        <ground height="0.18" />
+        <height>14.2</height>
+        <node id="sefira-keter1" x="-38.61" y="-159" />
+        <node id="sefira-keter2" x="-32" y="-159" />
+        <node id="sefira-keter3" x="-20.6" y="-159" />
+        <node id="sefira-keter4" x="-14.67" y="-159" />
+        <node id="sefira-keter5" x="-3.350014" y="-159" />
+        <node id="sefira-keter6" x="3.5" y="-159" />
+        <node id="sefira-keter7" x="9.039993" y="-159" />
+        <node id="sefira-keter8" x="11.43" y="-159" />
+        <node id="sefira-keter9" x="32.34" y="-159" />
+        <node id="sefira-keter10" x="36.68" y="-159" />
+      </passage>
+      <passage x="-69.3" y="-157.4" passageGroup="1" rabbitTeamGroup="KET1" src="Map/Passage/Kether/PassageKetherHallWay" passageType="horizontal" scale="0.5">
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="kether-leftway1" x="-42.95" y="-158.5" />
+        <node id="kether-leftway2" x="-50.79" y="-158.5" />
+        <node id="kether-leftway3" x="-61.4" y="-158.5" />
+        <node id="kether-leftway4" x="-71.9" y="-158.5" pos="center" />
+        <node id="kether-leftway5" x="-76.61" y="-158.5" />
+        <node id="kether-leftway6" x="-87.06001" y="-158.5" />
+        <node id="kether-leftway7" x="-89.36001" y="-158.5" />
+        <node id="kether-leftway8" x="-95.27" y="-158.5" />
+      </passage>
+      <passage x="-102.1" y="-141.6" passageGroup="1" src="Map/Passage/Kether/PassageKetherElevator" passageType="vertical" scale="0.35">
+        <node id="kether-elevator-left" x="-102.1" y="-141.6" elevator="Map/Passage/Elevator/ElevatorLongLong" />
+      </passage>
+      <passage x="-102.2" y="-157.6" passageGroup="1" rabbitTeamGroup="KET1" src="Map/Passage/PassageHallwayHubSmall" passageType="horizontal" scale="0.5">
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="kether-lefthub" x="-102.2" y="-158.6" />
+        <node id="kether-lefthub-door" x="-100.54" y="-158.6">
+          <door>DoorRightHub</door>
+        </node>
+      </passage>
+      <passage x="69.3" y="-157.4" passageGroup="1" rabbitTeamGroup="KET1" src="Map/Passage/Kether/PassageKetherHallWay" passageType="horizontal" scale="0.5">
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="kether-rightway1" x="43.3" y="-158.5" />
+        <node id="kether-rightway2" x="56.15" y="-158.5" />
+        <node id="kether-rightway3" x="61.2" y="-158.5" />
+        <node id="kether-rightway4" x="71.9" y="-158.5" />
+        <node id="kether-rightway5" x="77.08" y="-158.5" pos="center" />
+        <node id="kether-rightway6" x="87.8" y="-158.5" />
+        <node id="kether-rightway7" x="93.4" y="-158.5" />
+        <node id="kether-rightway8" x="95.44" y="-158.5" />
+      </passage>
+      <passage x="101.9" y="-156.9" passageGroup="1" rabbitTeamGroup="KET1" src="Map/Passage/PassageHallwayHubSmall" passageType="horizontal" scale="0.5">
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="kether-righthub" x="101.9" y="-157.9" />
+        <node id="kether-righthub-door" x="100.32" y="-157.9">
+          <door>DoorLeftHub</door>
+        </node>
+      </passage>
+      <passage x="102.1" y="-141.6" passageGroup="1" src="Map/Passage/Kether/PassageKetherElevator" passageType="vertical" scale="0.35">
+        <node id="kether-elevator-right" x="102.1" y="-141.6" elevator="Map/Passage/Elevator/ElevatorLongLong" />
+      </passage>
+    </area>
+    <area name="12" sub="0">
+      <passage x="0" y="-126.42" passageGroup="1" rabbitTeamGroup="KET1" src="Map/Passage/Daat/PassageDaatRoom" passageType="sefira">
+        <ground height="0.18" />
+        <height>14.2</height>
+        <node id="sefira-extra-1" x="-9.91" y="-126.22" />
+        <node id="sefira-extra-2" x="-9.866001" y="-126.22" />
+        <node id="sefira-extra-3" x="-7.91" y="-126.22" />
+        <node id="sefira-extra-4" x="-6" y="-126.22" />
+        <node id="sefira-extra-5" x="-3.350014" y="-126.22" />
+        <node id="sefira-extra-6" x="0.05" y="-126.22" />
+        <node id="sefira-extra-7" x="3.53" y="-126.22" />
+        <node id="sefira-extra-8" x="5.23" y="-126.22" />
+        <node id="sefira-extra-9" x="9.92" y="-126.22" />
+        <node id="sefira-extra-10" x="10" y="-126.22" />
+      </passage>
+    </area>
+  </node_list>
+  <edge_list>
+    <edge node1="sefira-malkuth-3" node2="sefira-malkuth-4" type="road" />
+    <edge node1="sefira-malkuth-4" node2="sefira-malkuth-5" type="road" />
+    <edge node1="sefira-malkuth-5" node2="sefira-malkuth-6" type="road" />
+    <edge node1="sefira-malkuth-6" node2="sefira-malkuth-7" type="road" />
+    <edge node1="sefira-malkuth-7" node2="sefira-malkuth-8" type="road" />
+    <edge node1="sefira-malkuth-8" node2="sefira-malkuth-9" type="road" />
+    <edge node1="right-upper-way2" node2="right-upper-way3" type="road" />
+    <edge node1="right-upper-way3" node2="right-upper-way4" type="road" />
+    <edge node1="right-upper-way4" node2="right-upper-way5" type="road" />
+    <edge node1="left-upper-way2" node2="left-upper-way3" type="road" />
+    <edge node1="left-upper-way3" node2="left-upper-way4" type="road" />
+    <edge node1="left-down-way1" node2="right-down-way1" type="door" />
+    <edge node1="sefira-malkuth-11" node2="malkuth-0-1" type="door" />
+    <edge node1="sefira-malkuth-11" node2="right-upper-way-door" type="door" />
+    <edge node1="sefira-malkuth-1" node2="malkuth-1-1" type="door" />
+    <edge node1="sefira-malkuth-1" node2="left-upper-way-door" type="door" />
+    <edge node1="right-down-way4" node2="malkuth-2-1" type="door" />
+    <edge node1="left-down-way4" node2="malkuth-3-1" type="door" />
+    <edge node1="malkuth-0-12" node2="right-way1" type="door" />
+    <edge node1="right-way1" node2="right-way2" type="road" />
+    <edge node1="malkuth-1-12" node2="left-way1" type="door" />
+    <edge node1="left-way1" node2="left-way2" type="road" />
+    <edge node1="right-way2" node2="right-way3" type="road" />
+    <edge node1="right-elevator" node2="right-way3" type="door" />
+    <edge node1="left-way2" node2="left-way3" type="road" />
+    <edge node1="left-elevator" node2="left-way3" type="door" />
+    <edge node1="mal-left-elevator-hub" node2="left-elevator" type="door" />
+    <edge node1="mal-left-elevator-hub-rightdoor" node2="malkuth-3-11" type="door" />
+    <edge node1="mal-right-elevator-hub-leftdoor" node2="malkuth-2-11" type="door" />
+    <edge node1="mal-right-elevator-hub" node2="right-elevator" type="door" />
+    <edge node1="malkuth-1-9" node2="malkuth-1-10" type="road" />
+    <edge node1="malkuth-1-6" node2="malkuth-1-7" type="road" />
+    <edge node1="malkuth-1-6" node2="malkuth-1-5" type="road" />
+    <edge node1="malkuth-1-9" node2="malkuth-1-8" type="road" />
+    <edge node1="malkuth-1-7" node2="malkuth-1-8" type="road" />
+    <edge node1="malkuth-1-4" node2="malkuth-1-3" type="road" />
+    <edge node1="malkuth-1-4" node2="malkuth-1-5" type="road" />
+    <edge node1="malkuth-0-3" node2="malkuth-0-4" type="road" />
+    <edge node1="malkuth-0-5" node2="malkuth-0-4" type="road" />
+    <edge node1="malkuth-0-5" node2="malkuth-0-6" type="road" />
+    <edge node1="malkuth-0-7" node2="malkuth-0-6" type="road" />
+    <edge node1="malkuth-0-7" node2="malkuth-0-8" type="road" />
+    <edge node1="malkuth-0-9" node2="malkuth-0-8" type="road" />
+    <edge node1="malkuth-0-9" node2="malkuth-0-10" type="road" />
+    <edge node1="mal-right-elevator-hub-leftdoor" node2="mal-right-elevator-hub" type="road" />
+    <edge node1="mal-left-elevator-hub-rightdoor" node2="mal-left-elevator-hub" type="road" />
+    <edge node1="mal-left-elevator-hub" node2="mal-left-elevator-hub-leftdoor" type="road" />
+    <edge node1="malkuth-3-3" node2="malkuth-3-4" type="road" />
+    <edge node1="malkuth-3-5" node2="malkuth-3-4" type="road" />
+    <edge node1="malkuth-3-6" node2="malkuth-3-5" type="road" />
+    <edge node1="malkuth-3-6" node2="malkuth-3-7" type="road" />
+    <edge node1="malkuth-3-7" node2="malkuth-3-8" type="road" />
+    <edge node1="malkuth-3-9" node2="malkuth-3-8" type="road" />
+    <edge node1="malkuth-2-4" node2="malkuth-2-3" type="road" />
+    <edge node1="malkuth-2-4" node2="malkuth-2-5" type="road" />
+    <edge node1="malkuth-2-6" node2="malkuth-2-5" type="road" />
+    <edge node1="malkuth-2-7" node2="malkuth-2-6" type="road" />
+    <edge node1="malkuth-2-8" node2="malkuth-2-7" type="road" />
+    <edge node1="malkuth-2-8" node2="malkuth-2-9" type="road" />
+    <edge node1="sefira-tessod-3" node2="sefira-tessod-4" type="road" />
+    <edge node1="sefira-tessod-4" node2="sefira-tessod-5" type="road" />
+    <edge node1="sefira-tessod-5" node2="sefira-tessod-6" type="road" />
+    <edge node1="sefira-tessod-6" node2="sefira-tessod-7" type="road" />
+    <edge node1="sefira-tessod-7" node2="sefira-tessod-8" type="road" />
+    <edge node1="sefira-tessod-8" node2="sefira-tessod-9" type="road" />
+    <edge node1="sefira-tessod-11" node2="T-right-way1" type="door" />
+    <edge node1="T-right-way3" node2="T-right-way4" type="road" />
+    <edge node1="T-right-way4" node2="T-right-way5" type="road" />
+    <edge node1="sefira-tessod-1" node2="T-left-way1" type="door" />
+    <edge node1="T-left-way3" node2="T-left-way4" type="road" />
+    <edge node1="T-left-way4" node2="T-left-way5" type="road" />
+    <edge node1="dept-tessod-4" node2="dept-tessod-3" type="road" />
+    <edge node1="dept-tessod-4" node2="dept-tessod-5" type="road" />
+    <edge node1="dept-tessod-5" node2="dept-tessod-6" type="road" />
+    <edge node1="dept-tessod-7" node2="dept-tessod-6" type="road" />
+    <edge node1="dept-tessod-7" node2="dept-tessod-8" type="road" />
+    <edge node1="dept-tessod-8" node2="dept-tessod-9" type="road" />
+    <edge node1="mal-left-elevator-hub" node2="left-elevator" type="door" />
+    <edge node1="mal-right-elevator-hub" node2="right-elevator" type="door" />
+    <edge node1="Y-left-elevator" node2="mal-left-elevator-hub" type="door" />
+    <edge node1="Y-left-elevator" node2="yesod-left-hall" type="door" />
+    <edge node1="Y-right-elevator" node2="mal-right-elevator-hub" type="door" />
+    <edge node1="Y-right-elevator" node2="yesod-right-hall" type="door" />
+    <edge node1="T-leftdown-way4" node2="T-leftdown-way3" type="road" />
+    <edge node1="T-rightdown-way3" node2="T-rightdown-way4" type="road" />
+    <edge node1="dept-tessod-11" node2="T-rightdown-way1" type="door" />
+    <edge node1="dept-tessod-1" node2="T-leftdown-way1" type="door" />
+    <edge node1="yesod-right-hall" node2="Y-rightdown-elevator" type="door" />
+    <edge node1="Y-right-elevator-hub-center" node2="Y-rightdown-elevator" type="door" />
+    <edge node1="yesod-left-hall" node2="Y-leftdown-elevator" type="door" />
+    <edge node1="Y-left-elevator-hub-center" node2="Y-leftdown-elevator" type="door" />
+    <edge node1="Y-left-elevator-hub-center" node2="Y-left-elevator-hub-rightdoor" type="road" />
+    <edge node1="Y-left-elevator-hub-leftdoor" node2="Y-left-elevator-hub-center" type="road" />
+    <edge node1="T-leftdown-way6" node2="Y-left-elevator-hub-rightdoor" type="door" />
+    <edge node1="yesod-left-hall-rightdoor" node2="yesod-left-hall" type="road" />
+    <edge node1="yesod-left-hall" node2="yesod-left-hall-leftdoor" type="road" />
+    <edge node1="T-left-way7" node2="yesod-left-hall-rightdoor" type="door" />
+    <edge node1="Y-right-elevator-hub-leftdoor" node2="Y-right-elevator-hub-center" type="road" />
+    <edge node1="T-rightdown-way6" node2="Y-right-elevator-hub-leftdoor" type="door" />
+    <edge node1="yesod-right-hall" node2="yesod-right-hall-leftdoor" type="road" />
+    <edge node1="T-right-way7" node2="yesod-right-hall-leftdoor" type="door" />
+    <edge node1="mal-left-elevator-hub-leftdoor" node2="N-upper-way-rightdoor" type="door" />
+    <edge node1="N-upper-way1-1" node2="N-upper-way2" type="road" />
+    <edge node1="N-upper-way3" node2="N-upper-way2" type="road" />
+    <edge node1="N-upper-way3" node2="N-upper-way4" type="road" />
+    <edge node1="N-leftup-elevator-hub-door" node2="N-upper-way-leftdoor" type="door" />
+    <edge node1="N-leftup-elevator-hub-door" node2="N-leftup-elevator-hub" type="road" />
+    <edge node1="N-down-way-rightdoor" node2="Y-left-elevator-hub-leftdoor" type="door" />
+    <edge node1="N-down-way2" node2="N-down-way1-1" type="road" />
+    <edge node1="N-down-way3" node2="N-down-way2" type="road" />
+    <edge node1="N-down-way4" node2="N-down-way3" type="road" />
+    <edge node1="N-leftdown-elevator-hub-door" node2="N-down-way-leftdoor" type="door" />
+    <edge node1="N-leftdown-elevator-hub-door" node2="N-leftdown-elevator-hub" type="road" />
+    <edge node1="sefira-netzach-10" node2="yesod-left-hall-leftdoor" type="door" />
+    <edge node1="sefira-netzach-8" node2="sefira-netzach-7" type="road" />
+    <edge node1="sefira-netzach-6" node2="sefira-netzach-7" type="road" />
+    <edge node1="sefira-netzach-6" node2="sefira-netzach-5" type="road" />
+    <edge node1="sefira-netzach-4" node2="sefira-netzach-5" type="road" />
+    <edge node1="sefira-netzach-4" node2="sefira-netzach-3" type="road" />
+    <edge node1="sefira-netzach-1" node2="N-left-elevator-hub-door" type="door" />
+    <edge node1="N-left-elevator-hub" node2="N-left-elevator-hub-door" type="road" />
+    <edge node1="N-leftdown-elevator-hub" node2="N-leftdown-elevator" type="door" />
+    <edge node1="N-left-elevator-hub" node2="N-leftdown-elevator" type="door" />
+    <edge node1="N-leftup-elevator" node2="N-left-elevator-hub" type="door" />
+    <edge node1="N-leftup-elevator-hub" node2="N-leftup-elevator" type="door" />
+    <edge node1="left-upper-way6" node2="left-upper-way5" type="road" />
+    <edge node1="left-upper-way5" node2="left-upper-way4" type="road" />
+    <edge node1="left-upper-way-door" node2="left-upper-way1" type="road" />
+    <edge node1="left-upper-way1" node2="left-upper-way2" type="road" />
+    <edge node1="sefira-malkuth-1" node2="sefira-malkuth-2" type="road" />
+    <edge node1="sefira-malkuth-3" node2="sefira-malkuth-2" type="road" />
+    <edge node1="sefira-malkuth-9" node2="sefira-malkuth-10" type="road" />
+    <edge node1="sefira-malkuth-11" node2="sefira-malkuth-10" type="road" />
+    <edge node1="malkuth-1-1" node2="malkuth-1-2" type="road" />
+    <edge node1="malkuth-1-3" node2="malkuth-1-2" type="road" />
+    <edge node1="malkuth-1-12" node2="malkuth-1-11" type="road" />
+    <edge node1="malkuth-1-10" node2="malkuth-1-11" type="road" />
+    <edge node1="malkuth-0-1" node2="malkuth-0-2" type="door" />
+    <edge node1="malkuth-0-2" node2="malkuth-0-3" type="road" />
+    <edge node1="malkuth-0-12" node2="malkuth-0-11" type="door" />
+    <edge node1="malkuth-0-10" node2="malkuth-0-11" type="road" />
+    <edge node1="malkuth-3-2" node2="malkuth-3-1" type="door" />
+    <edge node1="malkuth-3-2" node2="malkuth-3-3" type="road" />
+    <edge node1="malkuth-3-9" node2="malkuth-3-10" type="road" />
+    <edge node1="malkuth-3-11" node2="malkuth-3-10" type="door" />
+    <edge node1="right-upper-way-door" node2="right-upper-way1" type="door" />
+    <edge node1="right-upper-way2" node2="right-upper-way1" type="road" />
+    <edge node1="malkuth-2-2" node2="malkuth-2-1" type="door" />
+    <edge node1="malkuth-2-3" node2="malkuth-2-2" type="road" />
+    <edge node1="malkuth-2-11" node2="malkuth-2-10" type="door" />
+    <edge node1="malkuth-2-9" node2="malkuth-2-10" type="road" />
+    <edge node1="T-left-way6" node2="T-left-way7" type="road" />
+    <edge node1="T-left-way6" node2="T-left-way5" type="road" />
+    <edge node1="T-left-way1" node2="T-left-way2" type="road" />
+    <edge node1="T-left-way3" node2="T-left-way2" type="road" />
+    <edge node1="sefira-tessod-2" node2="sefira-tessod-1" type="road" />
+    <edge node1="sefira-tessod-2" node2="sefira-tessod-3" type="road" />
+    <edge node1="sefira-tessod-10" node2="sefira-tessod-11" type="road" />
+    <edge node1="sefira-tessod-10" node2="sefira-tessod-9" type="road" />
+    <edge node1="T-right-way2" node2="T-right-way3" type="road" />
+    <edge node1="T-right-way1" node2="T-right-way2" type="road" />
+    <edge node1="T-right-way7" node2="T-right-way6" type="road" />
+    <edge node1="T-right-way5" node2="T-right-way6" type="road" />
+    <edge node1="T-rightdown-way5" node2="T-rightdown-way4" type="road" />
+    <edge node1="T-rightdown-way5" node2="T-rightdown-way6" type="road" />
+    <edge node1="T-rightdown-way3" node2="T-rightdown-way2" type="road" />
+    <edge node1="T-rightdown-way1" node2="T-rightdown-way2" type="road" />
+    <edge node1="dept-tessod-10" node2="dept-tessod-11" type="road" />
+    <edge node1="dept-tessod-10" node2="dept-tessod-9" type="road" />
+    <edge node1="dept-tessod-2" node2="dept-tessod-3" type="road" />
+    <edge node1="dept-tessod-1" node2="dept-tessod-2" type="road" />
+    <edge node1="T-leftdown-way2" node2="T-leftdown-way6" type="road" />
+    <edge node1="T-leftdown-way2" node2="T-leftdown-way4" type="road" />
+    <edge node1="T-leftdown-way5" node2="T-leftdown-way1" type="road" />
+    <edge node1="T-leftdown-way5" node2="T-leftdown-way3" type="road" />
+    <edge node1="yesod-right-hall" node2="yesod-right-hall-rightdoor" type="road" />
+    <edge node1="mal-right-elevator-hub" node2="mal-right-elevator-hub-rightdoor" type="road" />
+    <edge node1="Y-right-elevator-hub-center" node2="Y-right-elevator-hub-rightdoor" type="road" />
+    <edge node1="HodDoorLeft" node2="mal-right-elevator-hub-rightdoor" type="door" />
+    <edge node1="H-upper-way3" node2="H-upper-way4" type="road" />
+    <edge node1="H-upper-way3" node2="H-upper-way2" type="road" />
+    <edge node1="H-upper-way2" node2="H-upper-way1-1" type="road" />
+    <edge node1="H-leftup-elevator-hub-door" node2="H-upper-way-rightdoor" type="door" />
+    <edge node1="H-leftup-elevator-hub-door" node2="H-leftup-elevator-hub" type="road" />
+    <edge node1="H-leftup-elevator" node2="H-leftup-elevator-hub" type="door" />
+    <edge node1="H-left-elevator-hub" node2="H-leftup-elevator" type="door" />
+    <edge node1="H-left-elevator-hub" node2="H-leftdown-elevator" type="door" />
+    <edge node1="H-leftdown-elevator-hub" node2="H-leftdown-elevator" type="door" />
+    <edge node1="H-leftdown-elevator-hub-door" node2="H-leftdown-elevator-hub" type="road" />
+    <edge node1="H-down-way-rightdoor" node2="H-leftdown-elevator-hub-door" type="door" />
+    <edge node1="H-down-way2" node2="H-down-way1-1" type="road" />
+    <edge node1="H-down-way3" node2="H-down-way2" type="road" />
+    <edge node1="H-down-way3" node2="H-down-way4" type="road" />
+    <edge node1="H-down-way-leftdoor" node2="Y-right-elevator-hub-rightdoor" type="door" />
+    <edge node1="sefira-hod-1" node2="yesod-right-hall-rightdoor" type="door" />
+    <edge node1="sefira-hod-4" node2="sefira-hod-3" type="road" />
+    <edge node1="sefira-hod-4" node2="sefira-hod-5" type="road" />
+    <edge node1="sefira-hod-5" node2="sefira-hod-6" type="road" />
+    <edge node1="sefira-hod-6" node2="sefira-hod-7" type="road" />
+    <edge node1="sefira-hod-7" node2="sefira-hod-8" type="road" />
+    <edge node1="H-left-elevator-hub-door" node2="sefira-hod-10" type="door" />
+    <edge node1="H-left-elevator-hub-door" node2="H-left-elevator-hub" type="road" />
+    <edge node1="sefira-hod-10" node2="sefira-hod-9" type="road" />
+    <edge node1="sefira-hod-8" node2="sefira-hod-9" type="road" />
+    <edge node1="sefira-hod-2" node2="sefira-hod-1" type="road" />
+    <edge node1="sefira-hod-2" node2="sefira-hod-3" type="road" />
+    <edge node1="HodDoorLeft" node2="H-upper-way6" type="road" />
+    <edge node1="H-upper-way4" node2="H-upper-way6" type="road" />
+    <edge node1="H-upper-way-rightdoor" node2="H-upper-way1" type="road" />
+    <edge node1="H-upper-way1-1" node2="H-upper-way1" type="road" />
+    <edge node1="H-down-way1-1" node2="H-down-way1" type="road" />
+    <edge node1="H-down-way-rightdoor" node2="H-down-way1" type="road" />
+    <edge node1="H-down-way4" node2="H-down-way6" type="road" />
+    <edge node1="H-down-way-leftdoor" node2="H-down-way6" type="road" />
+    <edge node1="N-upper-way-leftdoor" node2="N-upper-way6" type="road" />
+    <edge node1="N-upper-way4" node2="N-upper-way6" type="road" />
+    <edge node1="N-upper-way-rightdoor" node2="N-upper-way1" type="road" />
+    <edge node1="N-upper-way1-1" node2="N-upper-way1" type="road" />
+    <edge node1="N-down-way-leftdoor" node2="N-down-way6" type="road" />
+    <edge node1="N-down-way4" node2="N-down-way6" type="road" />
+    <edge node1="N-down-way-rightdoor" node2="N-down-way1" type="road" />
+    <edge node1="N-down-way1-1" node2="N-down-way1" type="road" />
+    <edge node1="sefira-netzach-10" node2="sefira-netzach-9" type="road" />
+    <edge node1="sefira-netzach-8" node2="sefira-netzach-9" type="road" />
+    <edge node1="sefira-netzach-1" node2="sefira-netzach-2" type="road" />
+    <edge node1="sefira-netzach-3" node2="sefira-netzach-2" type="road" />
+    <edge node1="sefira-tiphereth1-1" node2="sefira-tiphereth1-2" type="road" />
+    <edge node1="sefira-tiphereth1-2" node2="sefira-tiphereth1-3" type="road" />
+    <edge node1="sefira-tiphereth1-4" node2="sefira-tiphereth1-3" type="road" />
+    <edge node1="sefira-tiphereth1-4" node2="sefira-tiphereth1-5" type="road" />
+    <edge node1="sefira-tiphereth1-5" node2="sefira-tiphereth1-6" type="road" />
+    <edge node1="sefira-tiphereth1-7" node2="sefira-tiphereth1-6" type="road" />
+    <edge node1="sefira-tiphereth1-8" node2="sefira-tiphereth1-7" type="road" />
+    <edge node1="sefira-tiphereth1-9" node2="sefira-tiphereth1-8" type="road" />
+    <edge node1="sefira-tiphereth1-10" node2="sefira-tiphereth1-9" type="road" />
+    <edge node1="sefira-tiphereth1-10" node2="sefira-tiphereth1-11" type="road" />
+    <edge node1="sefira-tiphereth2-1" node2="sefira-tiphereth2-2" type="road" />
+    <edge node1="sefira-tiphereth2-2" node2="sefira-tiphereth2-3" type="road" />
+    <edge node1="sefira-tiphereth2-3" node2="sefira-tiphereth2-4" type="road" />
+    <edge node1="sefira-tiphereth2-4" node2="sefira-tiphereth2-5" type="road" />
+    <edge node1="sefira-tiphereth2-5" node2="sefira-tiphereth2-6" type="road" />
+    <edge node1="sefira-tiphereth2-6" node2="sefira-tiphereth2-7" type="road" />
+    <edge node1="sefira-tiphereth2-7" node2="sefira-tiphereth2-8" type="road" />
+    <edge node1="sefira-tiphereth2-8" node2="sefira-tiphereth2-9" type="road" />
+    <edge node1="sefira-tiphereth2-9" node2="sefira-tiphereth2-10" type="road" />
+    <edge node1="sefira-tiphereth2-10" node2="sefira-tiphereth2-11" type="road" />
+    <edge node1="dept-tiphereth1-2" node2="dept-tiphereth1-1" type="road" />
+    <edge node1="dept-tiphereth1-2" node2="dept-tiphereth1-3" type="road" />
+    <edge node1="dept-tiphereth1-4" node2="dept-tiphereth1-3" type="road" />
+    <edge node1="dept-tiphereth1-4" node2="dept-tiphereth1-5" type="road" />
+    <edge node1="dept-tiphereth1-5" node2="dept-tiphereth1-6" type="road" />
+    <edge node1="dept-tiphereth1-6" node2="dept-tiphereth1-7" type="road" />
+    <edge node1="dept-tiphereth1-8" node2="dept-tiphereth1-7" type="road" />
+    <edge node1="dept-tiphereth1-9" node2="dept-tiphereth1-8" type="road" />
+    <edge node1="dept-tiphereth1-10" node2="dept-tiphereth1-9" type="road" />
+    <edge node1="dept-tiphereth1-11" node2="dept-tiphereth1-10" type="road" />
+    <edge node1="dept-tiphereth2-2" node2="dept-tiphereth2-1" type="road" />
+    <edge node1="dept-tiphereth2-3" node2="dept-tiphereth2-2" type="road" />
+    <edge node1="dept-tiphereth2-3" node2="dept-tiphereth2-4" type="road" />
+    <edge node1="dept-tiphereth2-5" node2="dept-tiphereth2-4" type="road" />
+    <edge node1="dept-tiphereth2-6" node2="dept-tiphereth2-5" type="road" />
+    <edge node1="dept-tiphereth2-7" node2="dept-tiphereth2-6" type="road" />
+    <edge node1="dept-tiphereth2-8" node2="dept-tiphereth2-7" type="road" />
+    <edge node1="dept-tiphereth2-9" node2="dept-tiphereth2-8" type="road" />
+    <edge node1="dept-tiphereth2-9" node2="dept-tiphereth2-10" type="road" />
+    <edge node1="dept-tiphereth2-11" node2="dept-tiphereth2-10" type="road" />
+    <edge node1="sefira-tiphereth1-11" node2="dept-tiphereth1-11" type="door" />
+    <edge node1="dept-tiphereth1-1" node2="sefira-tiphereth2-1" type="door" />
+    <edge node1="dept-tiphereth2-11" node2="sefira-tiphereth2-11" type="door" />
+    <edge node1="Tiphereth-elevator" node2="dept-tessod-6" type="road" />
+    <edge node1="Tiphereth1-left-way6" node2="Tiphereth1-left-way7" type="road" />
+    <edge node1="Tiphereth1-left-way6" node2="Tiphereth1-left-way5" type="road" />
+    <edge node1="Tiphereth1-left-way5" node2="Tiphereth1-left-way4" type="road" />
+    <edge node1="Tiphereth1-left-way3" node2="Tiphereth1-left-way4" type="road" />
+    <edge node1="Tiphereth1-left-way3" node2="Tiphereth1-left-way2" type="road" />
+    <edge node1="Tiphereth1-left-way1" node2="Tiphereth1-left-way2" type="road" />
+    <edge node1="Tiphereth1-right-way1" node2="Tiphereth1-right-way2" type="road" />
+    <edge node1="Tiphereth1-right-way3" node2="Tiphereth1-right-way2" type="road" />
+    <edge node1="Tiphereth1-right-way4" node2="Tiphereth1-right-way3" type="road" />
+    <edge node1="Tiphereth1-right-way4" node2="Tiphereth1-right-way5" type="road" />
+    <edge node1="Tiphereth1-right-way6" node2="Tiphereth1-right-way5" type="road" />
+    <edge node1="Tiphereth1-right-way6" node2="Tiphereth1-right-way7" type="road" />
+    <edge node1="Tiphereth2-left-way7" node2="Tiphereth2-left-way6" type="road" />
+    <edge node1="Tiphereth2-left-way5" node2="Tiphereth2-left-way6" type="road" />
+    <edge node1="Tiphereth2-left-way4" node2="Tiphereth2-left-way5" type="road" />
+    <edge node1="Tiphereth2-left-way4" node2="Tiphereth2-left-way3" type="road" />
+    <edge node1="Tiphereth2-left-way2" node2="Tiphereth2-left-way3" type="road" />
+    <edge node1="Tiphereth2-left-way2" node2="Tiphereth2-left-way1" type="road" />
+    <edge node1="Tiphereth2-right-way2" node2="Tiphereth2-right-way1" type="road" />
+    <edge node1="Tiphereth2-right-way3" node2="Tiphereth2-right-way2" type="road" />
+    <edge node1="Tiphereth2-right-way3" node2="Tiphereth2-right-way4" type="road" />
+    <edge node1="Tiphereth2-right-way5" node2="Tiphereth2-right-way4" type="road" />
+    <edge node1="Tiphereth2-right-way6" node2="Tiphereth2-right-way5" type="road" />
+    <edge node1="Tiphereth2-right-way6" node2="Tiphereth2-right-way7" type="road" />
+    <edge node1="Tiphereth1-left-way1" node2="dept-tiphereth1-1" type="door" />
+    <edge node1="dept-tiphereth1-11" node2="Tiphereth1-right-way1" type="door" />
+    <edge node1="dept-tiphereth2-1" node2="Tiphereth2-left-way1" type="door" />
+    <edge node1="dept-tiphereth2-11" node2="Tiphereth2-right-way1" type="door" />
+    <edge node1="sefira-tiphereth1-5" node2="Tiphereth-elevator" type="door" />
+    <edge node1="Tiphereth-elevator" node2="sefira-tiphereth1-7" type="door" />
+    <edge node1="dept-geburah-1" node2="Tiphereth1-right-way7" type="door" />
+    <edge node1="Tiphereth2-right-way7" node2="sefira-geburah-1" type="door" />
+    <edge node1="sefira-geburah-1" node2="sefira-geburah-2" type="road" />
+    <edge node1="sefira-geburah-2" node2="sefira-geburah-3" type="road" />
+    <edge node1="sefira-geburah-3" node2="sefira-geburah-4" type="road" />
+    <edge node1="sefira-geburah-6" node2="sefira-geburah-7" type="road" />
+    <edge node1="dept-geburah-1" node2="dept-geburah-2" type="road" />
+    <edge node1="dept-geburah-2" node2="dept-geburah-3" type="road" />
+    <edge node1="dept-geburah-3" node2="dept-geburah-4" type="road" />
+    <edge node1="dept-geburah-4" node2="dept-geburah-5" type="road" />
+    <edge node1="dept-geburah-5" node2="dept-geburah-6" type="road" />
+    <edge node1="sefira-geburah-7" node2="Geburah-rb-way1" type="door" />
+    <edge node1="dept-geburah-6" node2="Geburah-ru-way1" type="door" />
+    <edge node1="Geburah-rb-way2" node2="Geburah-rb-way1" type="road" />
+    <edge node1="Geburah-rb-way2" node2="Geburah-rb-way3" type="road" />
+    <edge node1="Geburah-rb-way4" node2="Geburah-rb-way3" type="road" />
+    <edge node1="Geburah-rb-way5" node2="Geburah-rb-way4" type="road" />
+    <edge node1="Geburah-rb-way5" node2="Geburah-rb-way6" type="road" />
+    <edge node1="Geburah-ru-way1" node2="Geburah-ru-way2" type="road" />
+    <edge node1="Geburah-ru-way2" node2="Geburah-ru-way3" type="road" />
+    <edge node1="Geburah-ru-way3" node2="Geburah-ru-way4" type="road" />
+    <edge node1="Geburah-ru-way4" node2="Geburah-ru-way5" type="road" />
+    <edge node1="Geburah-ru-way5" node2="Geburah-ru-way6" type="road" />
+    <edge node1="Tiphereth2-left-way7" node2="sefira-chesed-7" type="door" />
+    <edge node1="Tiphereth1-left-way7" node2="dept-chesed-6" type="door" />
+    <edge node1="sefira-chesed-1" node2="sefira-chesed-2" type="road" />
+    <edge node1="sefira-chesed-3" node2="sefira-chesed-2" type="road" />
+    <edge node1="sefira-chesed-3" node2="sefira-chesed-4" type="road" />
+    <edge node1="sefira-chesed-6" node2="sefira-chesed-7" type="road" />
+    <edge node1="dept-chesed-1" node2="dept-chesed-2" type="road" />
+    <edge node1="dept-chesed-2" node2="dept-chesed-3" type="road" />
+    <edge node1="dept-chesed-3" node2="dept-chesed-4" type="road" />
+    <edge node1="dept-chesed-5" node2="dept-chesed-4" type="road" />
+    <edge node1="dept-chesed-5" node2="dept-chesed-6" type="road" />
+    <edge node1="sefira-chesed-1" node2="Chesed-rb-way6" type="door" />
+    <edge node1="dept-chesed-1" node2="Chesed-ru-way6" type="door" />
+    <edge node1="Chesed-ru-way2" node2="Chesed-ru-way1" type="road" />
+    <edge node1="Chesed-ru-way2" node2="Chesed-ru-way3" type="road" />
+    <edge node1="Chesed-ru-way3" node2="Chesed-ru-way4" type="road" />
+    <edge node1="Chesed-ru-way5" node2="Chesed-ru-way4" type="road" />
+    <edge node1="Chesed-ru-way5" node2="Chesed-ru-way6" type="road" />
+    <edge node1="Chesed-rb-way2" node2="Chesed-rb-way1" type="road" />
+    <edge node1="Chesed-rb-way2" node2="Chesed-rb-way3" type="road" />
+    <edge node1="Chesed-rb-way3" node2="Chesed-rb-way4" type="road" />
+    <edge node1="Chesed-rb-way5" node2="Chesed-rb-way4" type="road" />
+    <edge node1="Chesed-rb-way5" node2="Chesed-rb-way6" type="road" />
+    <edge node1="Chesed-ru-way1" node2="chesed-down-hub-door(d)" type="door" />
+    <edge node1="chesed-down-hub-door(d)" node2="chesed-down-hub(d)" type="road" />
+    <edge node1="chesed-elevator" node2="chesed-down-hub(d)" type="road" />
+    <edge node1="chesed-elevator" node2="chesed-down-hub" type="road" />
+    <edge node1="chesed-down-hub" node2="chesed-down-hub-door" type="road" />
+    <edge node1="Chesed-rb-way1" node2="chesed-down-hub-door" type="door" />
+    <edge node1="Geburah-ru-way6" node2="geburah-up-hub-door" type="door" />
+    <edge node1="geburah-up-hub" node2="geburah-up-hub-door" type="road" />
+    <edge node1="geburah-elevator" node2="geburah-up-hub" type="road" />
+    <edge node1="geburah-elevator" node2="geburah-down-hub" type="road" />
+    <edge node1="geburah-down-hub-door" node2="geburah-down-hub" type="road" />
+    <edge node1="Geburah-rb-way6" node2="geburah-down-hub-door" type="door" />
+    <edge node1="chokmah-elevator" node2="chesed-down-hub" type="road" />
+    <edge node1="chokmah-elevator" node2="chokhmah-hub" type="road" />
+    <edge node1="chokhmah-hub-door" node2="chokhmah-hub" type="road" />
+    <edge node1="sefira-chokhmah-3" node2="sefira-chokhmah-4" type="road" />
+    <edge node1="sefira-chokhmah-5" node2="sefira-chokhmah-4" type="road" />
+    <edge node1="sefira-chokhmah-5" node2="sefira-chokhmah-6" type="road" />
+    <edge node1="sefira-chokhmah-7" node2="sefira-chokhmah-6" type="road" />
+    <edge node1="sefira-chokhmah-8" node2="sefira-chokhmah-7" type="road" />
+    <edge node1="chokhmah-way7" node2="chokhmah-way8" type="road" />
+    <edge node1="chokhmah-way7" node2="chokhmah-way6" type="road" />
+    <edge node1="chokhmah-way6" node2="chokhmah-way5" type="road" />
+    <edge node1="chokhmah-way4" node2="chokhmah-way5" type="road" />
+    <edge node1="chokhmah-way3" node2="chokhmah-way4" type="road" />
+    <edge node1="chokhmah-way2" node2="chokhmah-way3" type="road" />
+    <edge node1="chokhmah-way2" node2="chokhmah-way1" type="road" />
+    <edge node1="binah-way1" node2="binah-way2" type="road" />
+    <edge node1="binah-way2" node2="binah-way3" type="road" />
+    <edge node1="binah-way3" node2="binah-way4" type="road" />
+    <edge node1="binah-way5" node2="binah-way4" type="road" />
+    <edge node1="binah-way6" node2="binah-way5" type="road" />
+    <edge node1="binah-way6" node2="binah-way7" type="road" />
+    <edge node1="binah-way8" node2="binah-way7" type="road" />
+    <edge node1="sefira-binah-3" node2="sefira-binah-4" type="road" />
+    <edge node1="sefira-binah-4" node2="sefira-binah-5" type="road" />
+    <edge node1="sefira-binah-6" node2="sefira-binah-5" type="road" />
+    <edge node1="sefira-binah-6" node2="sefira-binah-7" type="road" />
+    <edge node1="sefira-binah-8" node2="sefira-binah-7" type="road" />
+    <edge node1="binah-hub-door" node2="binah-hub" type="road" />
+    <edge node1="binah-elevator" node2="binah-hub" type="road" />
+    <edge node1="binah-elevator" node2="geburah-down-hub" type="road" />
+    <edge node1="sefira-chesed-5" node2="sefira-chesed-4" type="road" />
+    <edge node1="sefira-chesed-5" node2="sefira-chesed-6" type="road" />
+    <edge node1="sefira-geburah-5" node2="sefira-geburah-4" type="road" />
+    <edge node1="sefira-geburah-5" node2="sefira-geburah-6" type="road" />
+    <edge node1="sefira-chokhmah-1" node2="chokhmah-hub-door" type="road" />
+    <edge node1="sefira-chokhmah-2" node2="sefira-chokhmah-1" type="road" />
+    <edge node1="sefira-chokhmah-2" node2="sefira-chokhmah-3" type="road" />
+    <edge node1="sefira-chokhmah-9" node2="sefira-chokhmah-8" type="road" />
+    <edge node1="sefira-chokhmah-9" node2="sefira-chokhmah-10" type="road" />
+    <edge node1="sefira-chokhmah-10" node2="chokhmah-way8" type="road" />
+    <edge node1="sefira-binah-1" node2="binah-way8" type="road" />
+    <edge node1="sefira-binah-2" node2="sefira-binah-1" type="road" />
+    <edge node1="sefira-binah-2" node2="sefira-binah-3" type="road" />
+    <edge node1="sefira-binah-9" node2="sefira-binah-8" type="road" />
+    <edge node1="sefira-binah-9" node2="sefira-binah-10" type="road" />
+    <edge node1="sefira-binah-10" node2="binah-hub-door" type="road" />
+    <edge node1="sefira-keter2" node2="sefira-keter1" type="road" />
+    <edge node1="sefira-keter2" node2="sefira-keter3" type="road" />
+    <edge node1="sefira-keter3" node2="sefira-keter4" type="road" />
+    <edge node1="sefira-keter5" node2="sefira-keter4" type="road" />
+    <edge node1="sefira-keter6" node2="sefira-keter5" type="road" />
+    <edge node1="sefira-keter6" node2="sefira-keter7" type="road" />
+    <edge node1="sefira-keter8" node2="sefira-keter7" type="road" />
+    <edge node1="sefira-keter8" node2="sefira-keter9" type="road" />
+    <edge node1="sefira-keter10" node2="sefira-keter9" type="road" />
+    <edge node1="kether-leftway1" node2="kether-leftway2" type="road" />
+    <edge node1="kether-leftway3" node2="kether-leftway2" type="road" />
+    <edge node1="kether-leftway4" node2="kether-leftway3" type="road" />
+    <edge node1="kether-leftway5" node2="kether-leftway4" type="road" />
+    <edge node1="kether-leftway5" node2="kether-leftway6" type="road" />
+    <edge node1="kether-leftway6" node2="kether-leftway7" type="road" />
+    <edge node1="kether-leftway8" node2="kether-leftway7" type="road" />
+    <edge node1="kether-lefthub" node2="kether-lefthub-door" type="road" />
+    <edge node1="sefira-keter1" node2="kether-leftway1" type="door" />
+    <edge node1="kether-lefthub-door" node2="kether-leftway8" type="door" />
+    <edge node1="kether-elevator-left" node2="kether-lefthub" type="road" />
+    <edge node1="kether-elevator-left" node2="chokhmah-hub" type="road" />
+    <edge node1="kether-rightway1" node2="kether-rightway2" type="road" />
+    <edge node1="kether-rightway2" node2="kether-rightway3" type="road" />
+    <edge node1="kether-rightway4" node2="kether-rightway3" type="road" />
+    <edge node1="kether-rightway5" node2="kether-rightway4" type="road" />
+    <edge node1="kether-rightway6" node2="kether-rightway5" type="road" />
+    <edge node1="kether-rightway7" node2="kether-rightway6" type="road" />
+    <edge node1="kether-rightway8" node2="kether-rightway7" type="road" />
+    <edge node1="kether-righthub" node2="kether-righthub-door" type="road" />
+    <edge node1="sefira-keter10" node2="kether-rightway1" type="door" />
+    <edge node1="kether-rightway8" node2="kether-righthub-door" type="door" />
+    <edge node1="kether-elevator-right" node2="kether-righthub" type="road" />
+    <edge node1="binah-hub" node2="kether-elevator-right" type="road" />
+    <edge node1="sefira-extra-2" node2="sefira-extra-1" type="road" />
+    <edge node1="sefira-extra-2" node2="sefira-extra-3" type="road" />
+    <edge node1="sefira-extra-4" node2="sefira-extra-3" type="road" />
+    <edge node1="sefira-extra-5" node2="sefira-extra-4" type="road" />
+    <edge node1="sefira-extra-5" node2="sefira-extra-6" type="road" />
+    <edge node1="sefira-extra-6" node2="sefira-extra-7" type="road" />
+    <edge node1="sefira-extra-8" node2="sefira-extra-7" type="road" />
+    <edge node1="sefira-extra-9" node2="sefira-extra-8" type="road" />
+    <edge node1="sefira-extra-9" node2="sefira-extra-10" type="road" />
+    <edge node1="chokhmah-way1" node2="sefira-extra-1" type="door" />
+    <edge node1="binah-way1" node2="sefira-extra-10" type="door" />
+    <edge node1="left-down-way3" node2="left-down-way2" type="road" />
+    <edge node1="left-down-way3" node2="left-down-way4" type="road" />
+    <edge node1="left-down-way1" node2="left-down-way1-1" type="road" />
+    <edge node1="left-down-way2" node2="left-down-way1-1" type="road" />
+    <edge node1="right-down-way1" node2="right-down-way1-1" type="road" />
+    <edge node1="right-down-way2" node2="right-down-way1-1" type="road" />
+    <edge node1="right-down-way2" node2="right-down-way3" type="road" />
+    <edge node1="right-down-way4" node2="right-down-way3" type="road" />
+  </edge_list>
+</map_graph>

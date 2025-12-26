@@ -1,0 +1,1 @@
+{"root":[{"assemblyName":"Assembly-CSharp","nameSpace":"","className":"SteamManager","methodName":"InitOnPlayMode","loadTypes":4,"isUnityClass":false},{"assemblyName":"Unity.VisualScripting.Core","nameSpace":"Unity.VisualScripting","className":"RuntimeVSUsageUtility","methodName":"RuntimeInitializeOnLoadBeforeSceneLoad","loadTypes":1,"isUnityClass":true}]}

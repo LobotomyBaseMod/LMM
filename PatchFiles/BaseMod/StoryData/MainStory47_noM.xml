@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <scene id="47_noM">  
+   <character id="abelNo" name="nobody_name" direction="right" color="FFFFFF" sprite="Abel"/>
+    <character id="abel" name="abel_name" direction="right" color="FFFFFF" sprite="Abel"/>
+    <character id="b" name="hokmaPast_name" color="FFBBFF" sprite="Chokmah" />
+    <character id="angela" name="angela_name" direction="right" color="FFFFFF" sprite="Angela"/>
+    <character id="malkuthRobot" name="malkuthRobot_name" direction="right" color="FFFFFF" sprite="MalkuthRobot"/>
+    <character id="yesodRobot" name="yesodRobot_name" direction="right" color="FFFFFF" sprite="YesodRobot"/>
+    <character id="hodRobot" name="hodRobot_name" direction="right" color="FFFFFF" sprite="HodRobot"/>
+    <character id="netzachRobot" name="netzachRobot_name" direction="right" color="FFFFFF" sprite="NetzachRobot"/>
+    <bgm src="endStory/Dungeon_-_Psych_Ward" />
+    <dialogue type="hide"/>
+    <background src="ketherBK1" effect="none"/>
+    <add_filter filter="distortion_heat" effect="fade" />
+  
+    <add_filter filter="broken_screen" effect="fade"/>
+    <add_filter filter="tv_broken_glass" effect="fade"/>
+    <wait time="2" />
+    <background src="ketherBK2" effect="fade"/>
+    <wait time="3" />
+  
+    <remove_filter filter="broken_screen"/>
+    <remove_filter filter="tv_broken_glass"/>
+    <wait time="1"/>
+   <!-- <remove_filter filter="distortion_dream2"/> -->
+    <remove_filter filter="distortion_heat"/>
+
+    <dialogue type="default"/>
+    
+    
+    <position character="abelNo" to="center" />
+
+    <set_anim character="abelNo" anim="2_Angry"/>
+    <speak speaker="abelNo">day47_abel_1</speak>
+    <speak speaker="abelNo">day47_abel_2</speak>
+    <speak speaker="abelNo" anim="2_Default2">day47_abel_3</speak>
+    <speak speaker="abelNo" anim="2_Default">day47_abel_4</speak>
+    <speak speaker="abelNo">day47_abel_5</speak>
+    <speak speaker="abelNo">day47_abel_6</speak>
+    <speak speaker="abelNo">day47_abel_7</speak>
+    <speak speaker="abelNo">day47_abel_8</speak>
+    <disappear character="abelNo"/>
+    <position character="abel" to="center" />
+
+    <speak speaker="abel">day47_abel_9</speak>
+    <speak speaker="abel">day47_abel_10</speak>
+    <speak speaker="abel">day47_abel_11</speak>
+    <speak speaker="abel" anim="2_Smile">day47_abel_12</speak>
+    <add_filter filter="distortion_water_drop" />
+    
+    <cg src="cogitoCG1" effect="fade" />
+    
+    <speak speaker="abel">day47_abel_13</speak>
+    <speak speaker="abel" anim="2_Smile2">day47_abel_14</speak>
+    <speak speaker="abel">day47_abel_15</speak>
+    <speak speaker="abel" anim="2_Smile">day47_abel_16</speak>
+    <speak speaker="abel">day47_abel_17</speak>
+   
+    <cg src="cogitoCG2" effect="fade" />
+    
+    <speak speaker="abel" anim="2_Angry">day47_abel_18</speak>
+    <speak speaker="abel" anim="2_Angry2">day47_abel_19</speak>
+
+    <cg src="cogitoCG3" effect="fade" />
+  
+    <speak speaker="abel" anim="2_Smile">day47_abel_20</speak>
+    <speak speaker="abel" anim="2_Smile2">day47_abel_21</speak>
+    <speak speaker="abel" anim="2_Default" >day47_abel_22</speak>
+    <speak speaker="abel" anim="2_Default" >day47_abel_23</speak>
+    <remove_cg effect="fade" />
+    <remove_filter filter="distortion_water_drop" />
+    
+    <speak speaker="abel"  anim="2_Default" >day47_abel_24</speak>
+    <speak speaker="abel" anim="2_Angry">day47_abel_25</speak>
+    <speak speaker="abel" anim="2_Angry2">day47_abel_26</speak>
+
+    <speak speaker="abel" anim="2_Default">day47_abel_27</speak>
+    <speak speaker="abel">day47_abel_28</speak>
+    <speak speaker="abel" anim="2_Smile">day47_abel_29</speak>
+    <speak speaker="abel" anim="2_Default">day47_abel_30</speak>
+    <speak speaker="abel">day47_abel_31</speak>
+
+
+   
+    <sound src="changenoise" />
+    <add_filter filter="tv_distorted"/>
+    <speak speaker="b">day47_b_1</speak>
+    <speak speaker="b">day47_b_2</speak>
+    <speak speaker="b">day47_b_3</speak>
+    <speak speaker="b">day47_b_4</speak>
+    <speak speaker="b">day47_b_5</speak>
+    <speak speaker="b">day47_b_6</speak>
+    <speak speaker="b">day47_b_7</speak>
+    <speak speaker="b">day47_b_8</speak>
+    <sound src="changenoise" />
+   
+  
+    <speak speaker="angela">day47_angela_1</speak>
+    <speak speaker="angela">day47_angela_2</speak>
+    <speak speaker="angela">day47_angela_3</speak>
+    <speak speaker="angela">day47_angela_4</speak>
+    <speak speaker="angela">day47_angela_5</speak>
+    <speak speaker="angela">day47_angela_6</speak>
+
+    <speak speaker="b">day47_b_9</speak>
+
+    <speak speaker="angela">day47_angela_7</speak>
+    <speak speaker="angela">day47_angela_8</speak>
+    <speak speaker="angela">day47_angela_9</speak>
+    <speak speaker="angela">day47_angela_10</speak>
+    <speak speaker="angela">day47_angela_11</speak>
+    <speak speaker="angela">day47_angela_12</speak>
+
+    <speak speaker="b">day47_b_10</speak>
+    <speak speaker="b">day47_b_11</speak>
+    <speak speaker="b">day47_b_12</speak>
+
+
+    <speak speaker="angela">day47_angela_13</speak>
+    <speak speaker="angela">day47_angela_14</speak>
+    <speak speaker="angela">day47_angela_15</speak>
+    <speak speaker="angela">day47_angela_16</speak>
+    <speak speaker="angela">day47_angela_17</speak>
+    <speak speaker="angela">day47_angela_18</speak>
+    <speak speaker="angela">day47_angela_19</speak>
+    <sound src="noise5" />
+    <remove_filter filter="tv_distorted"/>
+    
+
+    <speak speaker="abel" anim="2_Default">day47_abel_32</speak>
+    <speak speaker="abel" anim="2_Smile">day47_abel_33</speak>
+    <speak speaker="abel" anim="2_Default">day47_abel_34</speak>
+    <speak speaker="abel" anim="2_Default2">day47_abel_35</speak>
+    <speak speaker="abel" anim="2_Default2">day47_abel_36</speak>
+    <speak speaker="abel" anim="2_Default">day47_abel_37</speak>
+    <speak speaker="abel" anim="2_Smile2">day47_abel_38</speak>
+    <speak speaker="abel" anim="2_Smile">day47_abel_39</speak>
+    <speak speaker="abel" anim="2_Default">day47_abel_40</speak>
+    <speak speaker="abel" anim="2_Default2">day47_abel_41</speak>
+    <speak speaker="abel">day47_abel_42</speak>
+    <speak speaker="abel" anim="2_Default">day47_abel_43</speak>
+    <speak speaker="abel">day47_abel_44</speak>
+    <speak speaker="abel">day47_abel_45</speak>
+    <speak speaker="abel">day47_abel_46</speak>
+    <speak speaker="abel" anim="2_Default2">day47_abel_47</speak>
+    <speak speaker="abel" anim="2_Angry">day47_abel_48</speak>
+    <speak speaker="abel">day47_abel_49</speak>
+    <speak speaker="abel" anim="2_Angry2">day47_abel_50</speak>
+    <speak speaker="abel">day47_abel_51</speak>
+    <speak speaker="abel">day47_abel_52</speak>
+    <speak speaker="abel">day47_abel_53</speak>
+    <speak speaker="abel" anim="2_Angry">day47_abel_54</speak>
+    
+    <!-- 베드앤딩일 경우 여기서 .... 선택지 등장-->
+
+    <select>
+      <option text="day47_selection5">
+        <bgm src="Tenebris Aeterna"/>
+        <!-- 선택지 없을 경우를 보여주기 위한 임시 선택지-->
+        <speak speaker="abel" anim="2_Angry">day47_abelFail_1</speak>
+        <speak speaker="abel" anim="2_Default">day47_abelFail_2</speak>
+        <speak speaker="abel">day47_abelFail_3</speak>
+        <speak speaker="abel" anim="2_Default2">day47_abelFail_4</speak>
+        <speak speaker="abel" anim="2_Default">day47_abelFail_5</speak>
+        <speak speaker="abel">day47_abelFail_6</speak>
+        <speak speaker="abel" anim="2_Smile">day47_abelFail_7</speak>
+        <dialogue type="hide"/>
+        <sound src="door close2" />
+        <cg src="day47_Ending1" effect="fade" />
+        <wait time="2.5"/>
+     
+        <cg src="day47_Ending2" effect="fade" />
+        <wait time="2.5"/>
+
+        <cg src="day47_Ending3" effect="fade" />
+        <wait time="2.5"/>
+        <cg src="BlackCG" effect="fade" />
+        <sound src="step"/>
+        <!-- 문 닫히는 효과음과 발걸음 소리 생성-->
+        <wait time="2.5"/>
+        <sound src="door close"/>
+        <wait time="2"/>
+      </option>
+    </select>
+  </scene>
+</root>

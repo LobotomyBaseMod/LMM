@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <stat>
+    <hp>350</hp>
+    <speed>4</speed>
+    
+    <defense id="1">
+      <defenseElement type="R">0.8</defenseElement>
+      <defenseElement type="W">0.8</defenseElement>
+      <defenseElement type="B">1.2</defenseElement>
+      <defenseElement type="P">1</defenseElement>
+    </defense>
+  </stat>
+
+  <anim prefab="Unit/CreatureAnimator/LittleWitch_Monster" x="-1" y="-2"/>
+
+  <sound action="birth0" src="creature/queenbee/QueenBee_Birth_01"/>
+  <sound action="birth1" src="creature/queenbee/QueenBee_Birth_02"/>
+  <sound action="attack0" src="creature/queenbee/QueenBee_Attack_01"/>
+  <sound action="attack2" src="creature/queenbee/QueenBee_Attack_02"/>
+  <sound action="kill" src="creature/queenbee/QueenBee_Finish"/>
+  <sound action="death0" src="creature/queenbee/QueenBee_Dead_01"/>
+  <sound action="death1" src="creature/queenbee/QueenBee_Dead_02"/>
+
+  <attackType openLevel="1">RED</attackType>
+  <riskLevel openLevel="1">HE</riskLevel>
+
+  <script>LittleWitchMonster</script>
+</creature>

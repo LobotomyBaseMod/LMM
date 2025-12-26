@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <script>Baku</script>
+  <stat>
+    <riskLevel>2</riskLevel>
+    <maxWorkCount>3</maxWorkCount>
+    <workProb type="R">
+      <prob level="1">0.45</prob>
+      <prob level="2">0.45</prob>
+      <prob level="3">0.45</prob>
+      <prob level="4">0.45</prob>
+      <prob level="5">0.45</prob>
+    </workProb>
+    <workProb type="W">
+      <prob level="1">0.45</prob>
+      <prob level="2">0.45</prob>
+      <prob level="3">0.45</prob>
+      <prob level="4">0.45</prob>
+      <prob level="5">0.45</prob>
+    </workProb>
+    <workProb type="B">
+      <prob level="1">0.6</prob>
+      <prob level="2">0.6</prob>
+      <prob level="3">0.6</prob>
+      <prob level="4">0.6</prob>
+      <prob level="5">0.6</prob>
+    </workProb>
+    <workProb type="P">
+      <prob level="1">0.2</prob>
+      <prob level="2">0.2</prob>
+      <prob level="3">0.2</prob>
+      <prob level="4">0.2</prob>
+      <prob level="5">0.2</prob>
+    </workProb>
+    <workCooltime>15</workCooltime>
+    <feelingStateCubeBounds>
+      <cube>6</cube>
+      <cube>8</cube>
+      <cube>14</cube>
+    </feelingStateCubeBounds>
+    <workDamage type="B" min="1" max="3" />
+    <workSpeed>0.25</workSpeed>
+    <specialDamage>
+      <damage id="1" type="W" min="3" max="4" />
+    </specialDamage>
+    <defense id="1">
+      <defenseElement type="R">1.5</defenseElement>
+      <defenseElement type="W">0.8</defenseElement>
+      <defenseElement type="B">1.2</defenseElement>
+      <defenseElement type="P">2</defenseElement>
+    </defense>
+    <escapeable>true</escapeable>
+    <hp>250</hp>
+    <speed>1</speed>
+    <observeInfo total="52">
+      <observeElement name="stat" cost="12" />
+      <observeElement name="defense" cost="12" />
+      <observeElement name="work_r" cost="4" />
+      <observeElement name="work_w" cost="4" />
+      <observeElement name="work_b" cost="4" />
+      <observeElement name="work_p" cost="4" />
+      <observeElement name="care_0" cost="2" />
+      <observeElement name="care_1" cost="2" />
+      <observeElement name="care_2" cost="2" />
+      <observeElement name="care_3" cost="2" />
+      <observeElement name="care_4" cost="2" />
+      <observeElement name="care_5" cost="2" />
+    </observeInfo>
+    <equipment level="3" cost="25" equipId="200060" />
+    <equipment level="3" cost="25" equipId="300060" />
+    <equipment level="2" prob="0.08" equipId="400060" />
+    <observeBonus level="1" type="prob">4</observeBonus>
+    <observeBonus level="2" type="speed">6</observeBonus>
+    <observeBonus level="3" type="prob">6</observeBonus>
+    <observeBonus level="4" type="speed">4</observeBonus>
+    <qliphoth>2</qliphoth>
+  </stat>
+  <graph>
+    <node id="creature" x="-1.6" y="-1.8" type="creature" />
+    <node id="workspace" x="1.9" y="-1.8" type="workspace" />
+    <node id="outter" x="0" y="0" type="outterDoor" />
+    <node id="inner" x="2" y="-1.8" type="innerDoor" />
+    <edge node1="workspace" node2="inner" type="road" />
+    <edge node1="creature" node2="workspace" type="road" />
+  </graph>
+  <anim prefab="Unit/CreatureAnimator/Baku" x="-1" y="-2" />
+  <returnImg src="" />
+  <portrait src="CreatureSprite/Dummy" />
+  <sound action="transform" src="creature/Baku/Dreamy_Change" />
+  <sound action="default1" src="creature/Baku/Dreamy_Default1" />
+  <sound action="default2" src="creature/Baku/Dreamy_Default2" />
+  <sound action="cry" src="creature/Baku/Dreamy_Shout" />
+  <sound action="skill" src="creature/Baku/Dreamy_Skill" />
+  <sound action="ball" src="creature/Baku/Dreamy_Ball" />
+</creature>

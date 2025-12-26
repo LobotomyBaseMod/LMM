@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LocalizeDataList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <list>
+    <LocalizeData>
+      <id>PopupView_Normal_Close</id>
+      <value>关闭</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Choice_Yes</id>
+      <value>是</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Choice_No</id>
+      <value>否</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_GameStartError_Title</id>
+      <value>启动游戏失败</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_GameStartError_Desc</id>
+      <value>游戏在补丁过程中发生错误。</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_ModUploadSuccess_Title</id>
+      <value>上传成功</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_ModUploadSuccess_Desc</id>
+      <value>已成功上传模组。</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_ModUploadFail_Title</id>
+      <value>上传失败</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_ModUploadFail_Desc</id>
+      <value>未能成功上传模组。</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_ModDeleteSuccess_Title</id>
+      <value>删除完成</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_ModDeleteSuccess_Desc</id>
+      <value>已成功删除模组。</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_ModDeleteFail_Title</id>
+      <value>删除失败</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_ModDeleteFail_Desc</id>
+      <value>未能成功删除模组。</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_ModUploadCheck_ModNameContainBlank_Title</id>
+      <value>上传错误</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>PopupView_Normal_ModUploadCheck_ModNameContainBlank_Desc</id>
+      <value>模组名称不能包含空格。</value>
+    </LocalizeData>
+
+
+
+    <LocalizeData>
+      <id>PopupView_Choice_ModDelete_Desc</id>
+      <value>是否删除模组？</value>
+    </LocalizeData>
+
+
+
+  </list>
+</LocalizeDataList>

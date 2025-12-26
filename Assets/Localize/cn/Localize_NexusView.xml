@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LocalizeDataList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <list>
+    <LocalizeData>
+      <id>UI_Btn_gotoModPage</id>
+      <value>模组页面</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_Search</id>
+      <value>搜索</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>UI_Btn_PageMove</id>
+      <value>移动</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>UI_Btn_Subscribe_yes</id>
+      <value>已订阅</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_Subscribe_do</id>
+      <value>订阅</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>UI_GitHubView_SortUpdate</id>
+      <value>根据最近更新分类：</value>
+    </LocalizeData>
+
+  </list>
+</LocalizeDataList>

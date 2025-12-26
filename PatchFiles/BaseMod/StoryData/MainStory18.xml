@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <scene id="18">
+    <character id="angela" name="angela_name" color="FFBBFF" sprite="Angela" />
+    <character id="b" name="b_name" color="FFBBFF" sprite="B" />
+    <character id="no" name="no_name" color="FFBBFF" sprite="" />
+
+
+
+    <bgm src="Town_-_Alone_In_A_Crowd" />
+
+    <camera_filter filter="tv_distorted" />
+
+    <position character="b" to="center" />
+
+    <speak speaker="b">day18_b_1</speak>
+    <speak speaker="b">day18_b_2</speak>
+    <speak speaker="b">day18_b_3</speak>
+    <speak speaker="b">day18_b_4</speak>
+    <speak speaker="b">day18_b_5</speak>
+    <speak speaker="b">day18_b_6</speak>
+    <speak speaker="b">day18_b_7</speak>
+       <bgm src="SFX_radio_broken_01" />
+    <speak speaker="b">day18_b_8</speak> <!-- 이때 지직거리는 이펙트 필요하다-->
+    <disappear character="b" />
+    <speak speaker="no">day18_b_9</speak>
+
+    <bgm src="" />
+    <camera_filter filter="none" />
+
+  </scene>
+
+
+</root>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <scene id="45">
+    <character id="angela" name="angela_name" color="FFBBFF" sprite="Angela" />
+   
+
+    <bgm src="story-03-ending" />
+
+    <position character="angela" to="right" />
+
+  
+    <speak speaker="angela">day45_angela_1</speak>
+    <speak speaker="angela">day45_angela_2</speak>
+    <speak speaker="angela">day45_angela_3</speak>
+    <speak speaker="angela">day45_angela_4</speak>
+    <speak speaker="angela">day45_angela_5</speak>
+    <speak speaker="angela" anim="Glad3">day45_angela_6</speak>
+    <speak speaker="angela">day45_angela_7</speak>
+    <speak speaker="angela">day45_angela_8</speak>
+    <speak speaker="angela" anim="Default1">day45_angela_9</speak>
+    <speak speaker="angela" anim="Glad3">day45_angela_10</speak>
+    
+    
+  </scene>
+
+
+</root>

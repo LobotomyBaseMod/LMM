@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LocalizeDataList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <list>
+    <LocalizeData>
+      <id>UI_Btn_UpdateCheck</id>
+      <value>LMMの更新</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_Apply</id>
+      <value>適応</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Text_sidSetting</id>
+      <value>sid 設定</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>UI_Text_UpdateCheck_check</id>
+      <value>アップデートの確認中…</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Text_UpdateCheck_error</id>
+      <value>接続エラー</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Text_UpdateCheck_recent</id>
+      <value>最新バージョンです。</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Text_UpdateCheck_exist</id>
+      <value>新しいアップデートがあります！</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>UI_Text_sidCheck_check</id>
+      <value>セッションのチェック中…</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Text_sidCheck_ok</id>
+      <value>有効なセッション</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Text_sidCheck_error</id>
+      <value>無効なセッション</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>UI_Btn_Language</id>
+      <value>言語の変更</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>UI_Text_updateWarn</id>
+      <value>アップデートは、セッション設定が完了した後にのみ可能です。</value>
+    </LocalizeData>
+
+  </list>
+</LocalizeDataList>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <scene id="43">
+    <character id="angela" name="angela_name" color="FFBBFF" sprite="Angela" />
+   
+
+    <bgm src="story-03-ending" />
+
+    <position character="angela" to="right" />
+
+  
+    <speak speaker="angela">day43_angela_1</speak>
+    <speak speaker="angela">day43_angela_2</speak>
+    <speak speaker="angela">day43_angela_3</speak>
+    <speak speaker="angela" anim="Anger1">day43_angela_4</speak>
+    <speak speaker="angela" anim="Default1">day43_angela_5</speak>
+    <speak speaker="angela">day43_angela_6</speak>
+    <speak speaker="angela">day43_angela_7</speak>
+    <speak speaker="angela" anim="Glad3">day43_angela_8</speak>
+    <speak speaker="angela" anim="Default1">day43_angela_9</speak>
+    <speak speaker="angela">day43_angela_10</speak>
+    <speak speaker="angela" anim="Glad3">day43_angela_11</speak>
+    <speak speaker="angela">day43_angela_12</speak>
+    <speak speaker="angela">day43_angela_13</speak>
+    <speak speaker="angela">day43_angela_14</speak>
+    <speak speaker="angela" anim="Default1">day43_angela_15</speak>
+
+
+    
+    
+    
+
+    
+
+
+
+
+  </scene>
+
+
+</root>

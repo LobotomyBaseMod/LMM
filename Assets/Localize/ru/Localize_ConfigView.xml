@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LocalizeDataList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <list>
+    <LocalizeData>
+      <id>UI_Btn_UpdateCheck</id>
+      <value>Обновить Менеджер</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_Apply</id>
+      <value>Применить</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Text_sidSetting</id>
+      <value>Личный токен сессии Nexusmods</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>UI_Text_UpdateCheck_check</id>
+      <value>Проверяем обновления...</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Text_UpdateCheck_error</id>
+      <value>Ошибка доступа</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Text_UpdateCheck_recent</id>
+      <value>Последняя версия</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Text_UpdateCheck_exist</id>
+      <value>Есть обновление!</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>UI_Text_sidCheck_check</id>
+      <value>Проверка сессии...</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Text_sidCheck_ok</id>
+      <value>Всё работает</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Text_sidCheck_error</id>
+      <value>Токен сессии не действителен, проверте его актуальность!</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>UI_Btn_Language</id>
+      <value>Смена языка</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>UI_Text_updateWarn</id>
+      <value>Вы не можете обновить моды до завершения настройки сессии Nexusmods.</value>
+    </LocalizeData>
+
+  </list>
+</LocalizeDataList>

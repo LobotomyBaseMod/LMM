@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LocalizeDataList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <list>
+    <LocalizeData>
+      <id>DevView_AuthOwner</id>
+      <value>Authenticated user :</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>DevView_ModName</id>
+      <value>Mod name :</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>DevView_ModThumb</id>
+      <value>Mode Thumbnail :</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>DevView_ModFilePath</id>
+      <value>Mod file :</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>DevView_ModFilePath_Set</id>
+      <value>Specify a file path</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>DevView_ModUpload</id>
+      <value>Uploading Mod</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>DevView_BringThumb</id>
+      <value>Import</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>DevView_ModDesc</id>
+      <value>Mod description</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>DevView_AuthingDesc</id>
+      <value>User authentication is required before uploading to GitHub.
+Clicking the button below will launch a web page to proceed with authentication.</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>DevView_AuthingBtn</id>
+      <value>Proceed with authentication</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>DevView_AuthCheck</id>
+      <value>Verifying credentials...</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>DevView_ModUpload_New</id>
+      <value>New mod</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>DevView_LogOut</id>
+      <value>Log out</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>DevView_ModDelete</id>
+      <value>Delete mod</value>
+    </LocalizeData>
+
+  </list>
+</LocalizeDataList>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <scene id="15">
+    <character id="angela" name="angela_name" color="FFBBFF" sprite="Angela" />
+
+    <bgm src="Wake up" />
+
+    <position character="angela" to="right" />
+
+    <speak speaker="angela">day15_angela_1</speak>
+    <speak speaker="angela">day15_angela_2</speak>
+    <speak speaker="angela">day15_angela_3</speak>
+    <speak speaker="angela">day15_angela_4</speak>
+    <speak speaker="angela">day15_angela_5</speak>
+    <speak speaker="angela" anim="Anger3">day15_angela_6</speak>
+    <speak speaker="angela" anim="Default1">day15_angela_7</speak>
+
+    <cg src="AngelaAngry" />
+    
+    <speak speaker="angela">day15_angela_8</speak> <!-- 이때 cg 들감-->
+
+    <remove_cg />
+   
+  </scene> 
+  
+</root>

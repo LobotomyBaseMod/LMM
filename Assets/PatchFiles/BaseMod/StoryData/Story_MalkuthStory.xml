@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <scene id="malkuth1_intro">
+    <character id="angela" name="angela_name" direction="right" color="FFFFFF" sprite="t"/>
+    <character id="malkuth" name="malkuth_name" direction="right" color="FFFFFF" sprite="Malkuth"/>
+  <bgm src="Town_-_Alone_In_A_Crowd" />
+    <!--direction 은 보고있는 방향// to는 위치-->
+    <background src="malkuthBK" effect="none"/>
+    <character id="no" name="no_name" direction="right" color="FFFFFF"/>
+    <character id="employee" name="employee_name" directaion="right" color="FFFFFF"/>
+    
+    
+    <!-- 말쿠트 표정 정리 : 
+    기본 - Default / Default2
+    놀람 / 정색 - Shock / Shock2
+    입벌린 웃음- Glad / Glad2
+    입 안움직이는 가벼운 웃음- Smile / Smile2 
+    눈까지 웃음- Laugh /Laugh2 -->
+   
+    <sound src="fast_step" />   <!-- 빠른 발소리 효과음-->
+    <speak speaker="no">malkuth1_intro_x1</speak>
+    <position character="malkuth" to="center" direction="left"/> <!-- 말쿠트 등장-->
+
+    <speak speaker="malkuth" anim="Glad2" >malkuth1_intro_m1</speak>
+    <speak speaker="malkuth" anim="Glad">malkuth1_intro_m2</speak>
+    <speak speaker="malkuth" anim="Laugh">malkuth1_intro_m3</speak>
+    <position character="angela" to="left-full" direction="right"/> <!-- 앤젤라 등장-->
+    <speak speaker="angela" anim="Anger1">malkuth1_intro_a1</speak>
+    <disappear character="angela"/>  <!-- 앤젤라 퇴장-->
+    <speak speaker="malkuth" anim="Smile">malkuth1_intro_m4</speak>
+    <speak speaker="malkuth" anim="Glad">malkuth1_intro_m5</speak>
+    <speak speaker="malkuth" anim="Smile">malkuth1_intro_m6</speak>
+    <speak speaker="malkuth" anim="Laugh">malkuth1_intro_m7</speak>
+    <speak speaker="malkuth" anim="Default">malkuth1_intro_m8</speak>
+    <speak speaker="malkuth" anim="Default2">malkuth1_intro_m9</speak>
+    <speak speaker="malkuth">malkuth1_intro_m10</speak>
+    <speak speaker="malkuth" anim="Default">malkuth1_intro_m11</speak>
+    <speak speaker="malkuth" anim="Glad">malkuth1_intro_m12</speak>
+    <speak speaker="malkuth" anim="Smile">malkuth1_intro_m13</speak>
+    <speak speaker="malkuth">malkuth1_intro_m14</speak>
+    <speak speaker="malkuth" anim="Glad2">malkuth1_intro_m15</speak>
+    <speak speaker="malkuth" anim="Default">malkuth1_intro_m16</speak>
+    <speak speaker="malkuth">malkuth1_intro_m17</speak>
+    <sound src="knockknock_2" /> <!-- 노크 소리 첫번째-->
+    <speak speaker="no">malkuth1_intro_x2</speak>
+    <speak speaker="employee">malkuth1_intro_e1</speak>
+    <speak speaker="employee">malkuth1_intro_e2</speak>
+    <speak speaker="malkuth" anim="Smile">malkuth1_intro_m18</speak>
+    <speak speaker="employee">malkuth1_intro_e3</speak>
+    <speak speaker="malkuth" anim="Shock">malkuth1_intro_m19</speak>
+    <speak speaker="employee">malkuth1_intro_e4</speak>
+    <speak speaker="malkuth" anim="Glad2">malkuth1_intro_m20</speak>
+
+    <select>
+      <option text="malkuth1_selection1">
+        <speak speaker="malkuth" anim="Laugh2">malkuth1_intro_m1_1</speak>
+        <speak speaker="malkuth" anim="Smile">malkuth1_intro_m1_2</speak>
+        <speak speaker="malkuth">malkuth1_intro_m1_3</speak>
+        <speak speaker="malkuth" anim="Smile2">malkuth1_intro_m1_4</speak>
+        <speak speaker="malkuth">malkuth1_intro_m1_5</speak>
+        <sound src="scratching+knock_employee"/>
+        <speak speaker="employee">malkuth1_intro_e5</speak>
+      </option>
+      <option text="malkuth1_selection2">
+        <speak speaker="malkuth" anim="Smile">malkuth1_intro_m2_1</speak>
+        <speak speaker="malkuth" anim="Shock">malkuth1_intro_m2_2</speak>
+        <speak speaker="malkuth" anim="Smile">malkuth1_intro_m2_3</speak>
+        <speak speaker="malkuth">malkuth1_intro_m2_4</speak>
+        <speak speaker="malkuth">malkuth1_intro_m2_5</speak>
+        <speak speaker="malkuth" anim="Glad">malkuth1_intro_m2_6</speak>
+        <speak speaker="malkuth" anim="Smile2">malkuth1_intro_m2_7</speak>
+      </option>
+    </select>
+    
+  </scene>
+  <scene id="malkuth2_intro">
+    <character id="malkuth" name="malkuth_name" direction="right" color="FFFFFF" sprite="Malkuth"/>
+    <character id="no" name="no_name" direction="right" color="FFFFFF" />
+    <character id="angela" name="angela_name" direction="right" color="FFFFFF" sprite="Angela"/>
+    <background src="malkuthBK" effect="none"/>
+<bgm src="Town_-_Alone_In_A_Crowd" />
+    <position character="angela" to="left" direction="right"/>
+
+    <speak speaker="angela">malkuth2_intro_a1</speak>
+    <speak speaker="angela">malkuth2_intro_a2</speak>
+    <speak speaker="angela">malkuth2_intro_a3</speak>
+    <speak speaker="angela">malkuth2_intro_a4</speak>
+    <speak speaker="angela" anim="Glad1">malkuth2_intro_a5</speak>
+    <speak speaker="angela">malkuth2_intro_a6</speak>
+    <speak speaker="angela" anim="Default1">malkuth2_intro_a7</speak>
+    <speak speaker="angela">malkuth2_intro_a8</speak>
+    <speak speaker="angela">malkuth2_intro_a9</speak>
+    <speak speaker="angela">malkuth2_intro_a10</speak>
+    <speak speaker="angela">malkuth2_intro_a11</speak>
+    <speak speaker="angela">malkuth2_intro_a12</speak>
+    <speak speaker="angela">malkuth2_intro_a13</speak>
+    <speak speaker="angela">malkuth2_intro_a14</speak>
+    <speak speaker="angela" anim="Anger1">malkuth2_intro_a15</speak>
+    <speak speaker="angela" anim="Default1">malkuth2_intro_a16</speak>
+    <disappear character="angela"/> <!-- 앤젤라 퇴장-->
+    <position character="malkuth" to="right" direction="left"/> <!-- 말쿠트 등장-->
+    <speak speaker="malkuth" anim="Glad2">malkuth2_intro_m1</speak>
+    <speak speaker="malkuth" anim="Default">malkuth2_intro_m2</speak>
+    <speak speaker="malkuth" anim="Smile">malkuth2_intro_m3</speak>
+    <speak speaker="malkuth" anim="Default">malkuth2_intro_m4</speak>
+    <speak speaker="malkuth" anim="Glad2">malkuth2_intro_m5</speak>
+    <speak speaker="malkuth" anim="Glad">malkuth2_intro_m6</speak>
+    <speak speaker="malkuth" anim="Default">malkuth2_intro_m7</speak>
+    <speak speaker="malkuth" anim="Smile2">malkuth2_intro_m8</speak>
+    <speak speaker="malkuth">malkuth2_intro_m9</speak>
+    <speak speaker="malkuth">malkuth2_intro_m10</speak>
+    <speak speaker="malkuth">malkuth2_intro_m11</speak>
+    <bgm src="Tenebris Aeterna"/>
+    <speak speaker="malkuth" anim="Smile">malkuth2_intro_m12</speak>
+    <speak speaker="malkuth">malkuth2_intro_m13</speak>
+    <speak speaker="malkuth">malkuth2_intro_m14</speak>
+    <speak speaker="malkuth" anim="Shock">malkuth2_intro_m15</speak>
+    <speak speaker="malkuth" anim="Shock2">malkuth2_intro_m16</speak>
+ 
+   
+
+  </scene>
+
+  <scene id="malkuth3_intro">
+    <character id="malkuth" name="malkuth_name" direction="right" color="FFFFFF" sprite="Malkuth"/>
+    <character id="angela" name="angela_name" direction="right" color="FFFFFF" sprite="Angela"/>
+    <background src="malkuthBK" effect="none"/>
+    <bgm src="Town_-_Alone_In_A_Crowd" />
+    <position character="malkuth" to="right" />
+
+    <speak speaker="malkuth" anim="Glad">malkuth3_intro_m1</speak>
+    <speak speaker="malkuth" anim="Smile">malkuth3_intro_m2</speak>
+    <speak speaker="malkuth" anim="Default">malkuth3_intro_m3</speak>
+    <speak speaker="malkuth" anim="Glad">malkuth3_intro_m4</speak>
+    <speak speaker="malkuth" anim="Default">malkuth3_intro_m5</speak>
+    <speak speaker="malkuth">malkuth3_intro_m6</speak>
+    <speak speaker="malkuth">malkuth3_intro_m7</speak>
+    <speak speaker="malkuth" anim="Glad">malkuth3_intro_m8</speak>
+    <speak speaker="malkuth">malkuth3_intro_m9</speak>
+    <speak speaker="malkuth" anim="Smile">malkuth3_intro_m10</speak>
+    <speak speaker="malkuth">malkuth3_intro_m11</speak>
+    <speak speaker="malkuth">malkuth3_intro_m12</speak>
+    <bgm src="Tilarids -  never frozen bottom flows"/>
+    <speak speaker="malkuth" anim="Shock">malkuth3_intro_m13</speak>
+    <position character="angela" to="left" direction="right"/> <!-- 앤젤라 등장-->
+    <bgm src="Town_-_Alone_In_A_Crowd" />
+    <speak speaker="angela">malkuth3_intro_a1</speak>
+    <speak speaker="malkuth" anim="Default">malkuth3_intro_m14</speak>
+    <speak speaker="malkuth" anim="Glad">malkuth3_intro_m15</speak>
+    <disappear character="malkuth" position="right" /> <!-- 말쿠트 퇴장-->
+    <speak speaker="angela">malkuth3_intro_a2</speak>
+    <speak speaker="angela">malkuth3_intro_a3</speak>
+    <speak speaker="angela" anim="Glad3">malkuth3_intro_a4</speak>
+  </scene>
+  
+  
+  
+  <scene id="malkuth4_intro">
+    <character id="malkuth" name="malkuth_name" direction="right" color="FFFFFF" sprite="Malkuth"/>
+    <character id="yesod" name="yesod_name" direction="right" color="FFFFFF" sprite="Yesod"/>
+    <character id="hod" name="hod_name" direction="right" color="FFFFFF" sprite="Hod"/>
+    <character id="angela" name="angela_name" direction="right" color="FFFFFF" sprite="Angela"/>
+    <background src="malkuthBK" effect="none"/>
+    <bgm src="Danger (Short Version)" />
+    <position character="malkuth" to="center"/>
+    <position character="yesod" to="left-full" direction="right"/>
+    <position character="hod" to="right-full"/>
+
+    <speak speaker="yesod" anim="Anger">malkuth4_intro_y1</speak>
+    <speak speaker="yesod">malkuth4_intro_y2</speak>
+    <speak speaker="malkuth" anim="Glad2">malkuth4_intro_m1</speak>
+    <speak speaker="hod" anim="Shame">malkuth4_intro_h1</speak>
+    <speak speaker="malkuth">malkuth4_intro_m2</speak>
+    <speak speaker="malkuth" anim="Glad">malkuth4_intro_m3</speak>
+    <speak speaker="malkuth">malkuth4_intro_m4</speak>
+    <speak speaker="malkuth" anim="Laugh">malkuth4_intro_m5</speak>
+    <speak speaker="malkuth" anim="Glad">malkuth4_intro_m6</speak>
+    <speak speaker="hod" anim="Shame2">malkuth4_intro_h2</speak>
+    <speak speaker="malkuth" anim="Glad2">malkuth4_intro_m7</speak>
+    <speak speaker="malkuth">malkuth4_intro_m8</speak>
+    <speak speaker="malkuth">malkuth4_intro_m9</speak>
+    <speak speaker="malkuth">malkuth4_intro_m10</speak>
+    <speak speaker="malkuth">malkuth4_intro_m11</speak>
+    <speak speaker="malkuth" anim="Shock2">malkuth4_intro_m12</speak>
+    <speak speaker="malkuth" anim="Shock">malkuth4_intro_m13</speak>
+    <speak speaker="malkuth" anim="Glad2">malkuth4_intro_m14</speak>
+    <speak speaker="malkuth">malkuth4_intro_m15</speak>
+    
+    <cg src="BlackCG" effect="fade" />
+    <wait time="2" />
+    <remove_cg effect="fade" />
+
+    <disappear character="malkuth"/>
+    <disappear character="yesod"/>
+    <disappear character="hod"/>
+    <sound src="alertBeep" />
+    <speak speaker="angela">malkuth4_intro_a1</speak>
+    <speak speaker="angela">malkuth4_intro_a2</speak>
+    <speak speaker="angela">malkuth4_intro_a3</speak>
+    <speak speaker="angela">malkuth4_intro_a4</speak> 
+    </scene>
+
+
+  <scene id="malkuth5_intro">
+    <character id="malkuth" name="malkuth_name" direction="right" color="FFFFFF" sprite="Malkuth"/>
+    <character id="malkuthPast" name="malkuthPast_name" direction="right" color="FFFFFF" sprite="MalkuthPast"/>
+    <character id="a" name="a_name" direction="right" color="FFFFFF" sprite="A"/>
+   
+    <bgm src="Romantic"/>
+    <position character="malkuthPast" to="center"/>
+    <background src="warehouseBK_2" effect="none"/>
+    <speak speaker="malkuthPast" anim="Smile2">malkuth5_intro_m1</speak>
+    <speak speaker="malkuthPast" anim="Default">malkuth5_intro_m2</speak>
+    <speak speaker="malkuthPast" anim="Smile">malkuth5_intro_m3</speak>
+    <speak speaker="malkuthPast" anim="Smile2">malkuth5_intro_m4</speak>
+    <speak speaker="malkuthPast" anim="Smile">malkuth5_intro_m5</speak>
+    <speak speaker="malkuthPast">malkuth5_intro_m6</speak>
+    <speak speaker="malkuthPast" anim="Smile2">malkuth5_intro_m7</speak>
+    <speak speaker="malkuthPast" anim="Smile">malkuth5_intro_m8</speak>
+    <speak speaker="malkuthPast">malkuth5_intro_m9</speak>
+    <speak speaker="malkuthPast">malkuth5_intro_m10</speak>
+    <speak speaker="malkuthPast">malkuth5_intro_m11</speak>
+    <cg src="BlackCG" effect="fade" />
+    <wait time="1" />
+    <disappear character="malkuthPast"/>
+    <remove_cg effect="fade" />
+    <background src="malkuthBK" effect="none"/>
+    <position character="malkuth" to="center"/>
+    <bgm src="1 - Alone"/>
+    <speak speaker="malkuth" anim="Glad2">malkuth5_intro_m12</speak>
+    <speak speaker="malkuth" anim="Glad">malkuth5_intro_m13</speak>
+    <speak speaker="malkuth" anim="Glad2">malkuth5_intro_m14</speak>
+    <speak speaker="malkuth" anim="Shock">malkuth5_intro_m15</speak>
+    <speak speaker="malkuth" anim="Shock2">malkuth5_intro_m16</speak>
+    <speak speaker="malkuth">malkuth5_intro_m17</speak>
+    <speak speaker="malkuth">malkuth5_intro_m18</speak>
+    <speak speaker="malkuth" anim="Glad2">malkuth5_intro_m19</speak>
+    <speak speaker="malkuth">malkuth5_intro_m20</speak>
+    <speak speaker="malkuth" anim="Glad">malkuth5_intro_m21</speak>
+    <speak speaker="malkuth">malkuth5_intro_m22</speak>
+    <speak speaker="malkuth" anim="Glad2">malkuth5_intro_m23</speak>
+    <speak speaker="malkuth" anim="Glad">malkuth5_intro_m24</speak>
+    <speak speaker="malkuth">malkuth5_intro_m25</speak>
+    <speak speaker="malkuth" anim="Glad2">malkuth5_intro_m26</speak>
+    <speak speaker="malkuth" anim="Glad">malkuth5_intro_m27</speak>
+    <speak speaker="malkuth">malkuth5_intro_m28</speak>
+    <speak speaker="malkuth">malkuth5_intro_m29</speak>
+    <speak speaker="malkuth">malkuth5_intro_m30</speak>
+    <speak speaker="malkuth" anim="Laugh">malkuth5_intro_m31</speak>
+    <speak speaker="malkuth" anim="Glad">malkuth5_intro_m32</speak>
+    <speak speaker="malkuth" anim="Glad2">malkuth5_intro_m33</speak>
+    <speak speaker="malkuth">malkuth5_intro_m34</speak>
+    <speak speaker="malkuth" anim="Glad">malkuth5_intro_m35</speak>
+    <speak speaker="malkuth">malkuth5_intro_m36</speak>
+    <speak speaker="malkuth" anim="Shock">malkuth5_intro_m37</speak>
+
+    <cg src="BlackCG" effect="fade" />
+    
+    
+    <speak speaker="a">malkuth5_intro_A1</speak>
+    <speak speaker="a">malkuth5_intro_A2</speak>
+    <speak speaker="a">malkuth5_intro_A3</speak>
+    <speak speaker="a">malkuth5_intro_A4</speak>
+    <speak speaker="a">malkuth5_intro_A5</speak>
+    <speak speaker="a">malkuth5_intro_A6</speak>
+
+  
+    <remove_cg effect="fade" />
+    
+    
+    <bgm src="4 - Dusk"/>
+    <cg src="malkuthCG1" effect="none"/>
+
+    <disappear character="malkuth"/>
+    <speak speaker="a">malkuth5_intro_A7</speak>
+    <speak speaker="a">malkuth5_intro_A8</speak>
+    <speak speaker="malkuth">malkuth5_intro_m38</speak>
+    <select>
+      <option text="malkuth5_selection1"> </option>
+      <option text="malkuth5_selection2"> </option>
+      <option text="malkuth5_selection3"> </option>
+    </select>
+
+    <cg src="BlackCG" effect="fade" />
+    <wait time="2" />
+    <remove_cg effect="fade" />
+    
+  </scene>
+
+  <scene id="malkuth6_intro">
+    <character id="malkuth" name="malkuth_name" direction="right" color="FFFFFF" sprite="Malkuth"/>
+    <character id="malkuthPast" name="malkuthPast_name" direction="right" color="FFFFFF" sprite="MalkuthPast"/>
+    <character id="malkuthRobot" name="malkuthRobot_name" direction="right" color="FFFFFF" sprite="MalkuthRobot"/>
+    <character id="a" name="a_name" direction="right" color="FFFFFF" sprite="A"/>
+    <position character="malkuthPast" to="center"/>
+    <bgm src="Romantic"/>
+    <background src="warehouseBK_2" effect="none"/>
+    
+    <speak speaker="malkuthPast">malkuth6_intro_m1</speak>
+    <speak speaker="malkuthPast">malkuth6_intro_m2</speak>
+    <speak speaker="malkuthPast">malkuth6_intro_m3</speak>
+    <speak speaker="malkuthPast">malkuth6_intro_m4</speak>
+    
+    <cg src="BlackCG" effect="fade" />
+    <wait time="1.5" />
+    <remove_cg effect="fade" />
+
+    <cg src="malkuthCG2" effect="none"/>
+    <speak speaker="a">malkuth6_intro_A1</speak>
+    <speak speaker="a">malkuth6_intro_A2</speak>
+    <speak speaker="a">malkuth6_intro_A3</speak>
+    <speak speaker="a">malkuth6_intro_A4</speak>
+
+    <cg src="BlackCG" effect="fade" />
+    <wait time="2" />
+    <disappear character="malkuthPast"/>
+    <remove_cg effect="fade" />
+
+    <background src="malkuthBK" effect="none"/>
+    <position character="malkuth" to="center"/>
+    <bgm src="Tilarids - Strange Dream"/>
+    <speak speaker="malkuth" anim="Glad">malkuth6_intro_m5</speak>
+    <select>
+      <option text="malkuth6_selection1"></option>
+      <option text="malkuth6_selection2"></option>
+    </select>
+    
+    <speak speaker="malkuth">malkuth6_intro_m6</speak>
+    <speak speaker="malkuth">malkuth6_intro_m7</speak>
+    <speak speaker="malkuth">malkuth6_intro_m8</speak>
+    <speak speaker="malkuth">malkuth6_intro_m9</speak>
+    <speak speaker="malkuth">malkuth6_intro_m10</speak>
+    <speak speaker="malkuth">malkuth6_intro_m11</speak>
+    <speak speaker="malkuth">malkuth6_intro_m12</speak>
+    <speak speaker="malkuth">malkuth6_intro_m13</speak>
+    <speak speaker="malkuth">malkuth6_intro_m14</speak>
+    <speak speaker="malkuth">malkuth6_intro_m15</speak>
+    <speak speaker="malkuth">malkuth6_intro_m16</speak>
+    <speak speaker="malkuth">malkuth6_intro_m17</speak>
+    <speak speaker="malkuth" anim="Smile">malkuth6_intro_m18</speak>
+    <speak speaker="malkuth" anim="Glad">malkuth6_intro_m19</speak>
+    <speak speaker="malkuth">malkuth6_intro_m20</speak>
+    <speak speaker="malkuth">malkuth6_intro_m21</speak>
+    <speak speaker="malkuth">malkuth6_intro_m22</speak>
+    <speak speaker="malkuth">malkuth6_intro_m23</speak>
+    <speak speaker="malkuth">malkuth6_intro_m24</speak>
+    <speak speaker="malkuth">malkuth6_intro_m25</speak>
+    <speak speaker="malkuth">malkuth6_intro_m26</speak>
+    <speak speaker="malkuth" anim="Laugh">malkuth6_intro_m27</speak>
+    <speak speaker="malkuth" anim="Glad">malkuth6_intro_m28</speak>
+    <speak speaker="malkuth">malkuth6_intro_m29</speak>
+    <speak speaker="malkuth">malkuth6_intro_m30</speak>
+    <speak speaker="malkuth">malkuth6_intro_m31</speak>
+    <speak speaker="malkuth">malkuth6_intro_m32</speak>
+
+    <sound src="changenoise" />
+    <add_filter filter="tv_distorted_fade" />
+    <wait time="0.25"/>
+    <disappear character="malkuth"/>
+    <position character="malkuthRobot" to="center"/>
+    <wait time="0.25"/>
+    <remove_filter filter="tv_distorted_fade" />
+    <speak speaker="malkuthRobot" anim="Laugh">malkuth6_intro_m33</speak>
+    <speak speaker="malkuthRobot">malkuth6_intro_m34</speak>
+    
+    
+    
+  </scene>
+
+
+</root>

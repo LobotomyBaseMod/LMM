@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<creature>
+  <script>SpiderMom</script>
+  <stat>
+    <riskLevel>2</riskLevel>
+    <maxWorkCount>3</maxWorkCount>
+    <workProb type="R">
+      <prob level="1">0.6</prob>
+      <prob level="2">0.6</prob>
+      <prob level="3">0.65</prob>
+      <prob level="4">0.65</prob>
+      <prob level="5">0.65</prob>
+    </workProb>
+    <workProb type="W">
+      <prob level="1">-0.5</prob>
+      <prob level="2">-0.5</prob>
+      <prob level="3">-0.5</prob>
+      <prob level="4">-0.5</prob>
+      <prob level="5">-0.5</prob>
+    </workProb>
+    <workProb type="B">
+      <prob level="1">0.5</prob>
+      <prob level="2">0.5</prob>
+      <prob level="3">0.55</prob>
+      <prob level="4">0.55</prob>
+      <prob level="5">0.55</prob>
+    </workProb>
+    <workProb type="P">
+      <prob level="1">0.4</prob>
+      <prob level="2">0.4</prob>
+      <prob level="3">0.45</prob>
+      <prob level="4">0.45</prob>
+      <prob level="5">0.45</prob>
+    </workProb>
+    <escapeable>false</escapeable>
+    <workCooltime>10</workCooltime>
+    <feelingStateCubeBounds>
+      <cube>6</cube>
+      <cube>14</cube>
+    </feelingStateCubeBounds>
+    <workDamage type="R" min="2" max="3" />
+    <workSpeed>0.28</workSpeed>
+    <specialDamage>
+      <damage id="1" type="R" min="10" max="14" />
+      <damage id="2" type="R" min="10" max="14" />
+    </specialDamage>
+    <defense id="1">
+      <defenseElement type="R">1</defenseElement>
+      <defenseElement type="W">1</defenseElement>
+      <defenseElement type="B">1</defenseElement>
+      <defenseElement type="P">1</defenseElement>
+    </defense>
+    <observeInfo total="52">
+      <observeElement name="stat" cost="12" />
+      <observeElement name="defense" cost="12" />
+      <observeElement name="work_r" cost="4" />
+      <observeElement name="work_w" cost="4" />
+      <observeElement name="work_b" cost="4" />
+      <observeElement name="work_p" cost="4" />
+      <observeElement name="care_0" cost="4" />
+      <observeElement name="care_1" cost="4" />
+      <observeElement name="care_2" cost="4" />
+    </observeInfo>
+    <equipment level="3" cost="20" equipId="200012" />
+    <equipment level="4" cost="30" equipId="300012" />
+    <equipment level="2" prob="0.05" equipId="400012" />
+    <observeBonus level="1" type="prob">4</observeBonus>
+    <observeBonus level="2" type="speed">6</observeBonus>
+    <observeBonus level="3" type="prob">6</observeBonus>
+    <observeBonus level="4" type="speed">4</observeBonus>
+    <qliphoth>0</qliphoth>
+  </stat>
+  <graph>
+    <node id="creature" x="-1.6" y="-1.8" type="creature" />
+    <node id="workspace" x="1.9" y="-1.8" type="workspace" />
+    <node id="outter" x="0" y="0" type="outterDoor" />
+    <node id="inner" x="2" y="-1.8" type="innerDoor" />
+    <node id="spider" x="0.15" y="-1.8" type="custom" />
+    <edge node1="spider" node2="workspace" type="road" />
+    <edge node1="workspace" node2="inner" type="road" />
+    <edge node1="creature" node2="workspace" type="road" />
+  </graph>
+  <anim prefab="Unit/CreatureAnimator/SpiderMom" x="-1" y="-2" />
+  <returnImg src="Unit/CreatureReturnObject/DummyReturn" />
+  <portrait src="CreatureSprite/Dummy" />
+  <sound action="loop" src="creature/SpiderMom/Spider_ambience_01" />
+  <sound action="childTrample" src="creature/SpiderMom/Spider_babyPop" />
+  <sound action="eat" src="creature/SpiderMom/Spider_eat" />
+  <sound action="spiderMomMove" src="creature/SpiderMom/Spider_momDown" />
+  <sound action="pickUp" src="creature/SpiderMom/Spider_hook" />
+  <sound action="cocoon" src="creature/SpiderMom/Spider_gochiDown" />
+</creature>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LocalizeDataList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <list>
+    <LocalizeData>
+      <id>UI_Btn_StartGame</id>
+      <value>开始游戏</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_SearchNexus</id>
+      <value>在Nexus上搜索模组</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_AddLocalMod</id>
+      <value>添加本地模组</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_SetGamePath</id>
+      <value>选择游戏路径</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_RemoveMod</id>
+      <value>移除模组</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_gotoModPage_Main</id>
+      <value>模组页面</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>UI_Btn_SearchGitHub</id>
+      <value>搜索Github模组</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_OpenModFolder_Main</id>
+      <value>打开模组文件夹</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_LocalChange_Main</id>
+      <value>转换为本地模组</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>UI_Text_UpdateCheck_Main</id>
+      <value>有新版本！</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>UI_Btn_ModState_None</id>
+      <value>本地</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_ModState_Empty</id>
+      <value>未下载</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_ModState_Lastest</id>
+      <value>最新</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_ModState_Update</id>
+      <value>有新版本</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_ModState_Downloading</id>
+      <value>下载中</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_ModState_UpdateCheck</id>
+      <value>检查版本</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_ModState_CantCheck</id>
+      <value>错误</value>
+    </LocalizeData>
+
+  </list>
+</LocalizeDataList>

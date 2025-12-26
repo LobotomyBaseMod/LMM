@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <scene id="22">
+    <character id="angela" name="angela_name" color="FFBBFF" sprite="Angela" />
+    <character id="a" name="a_name" color="FFBBFF" sprite="A" />
+
+
+
+    <bgm src="Dungeon_-_Maximum_Security" />
+
+    <dialogue type="letter"/>
+
+    <speak speaker="a">day22_a</speak>
+    <!--
+    <speak speaker="a">day22_a_1</speak>
+    <speak speaker="a">day22_a_2</speak>
+    <speak speaker="a">day22_a_3</speak>
+    <speak speaker="a">day22_a_4</speak>
+    <speak speaker="a">day22_a_5</speak>
+    <speak speaker="a">day22_a_6</speak>
+    -->
+
+    <dialogue type="default"/>
+
+    <position character="angela" to="right" />
+    
+    <speak speaker="angela" anim="Glad1">day22_angela_1</speak>
+    <speak speaker="angela" anim="Default1">day22_angela_2</speak>
+    <speak speaker="angela">day22_angela_3</speak>
+    <speak speaker="angela" anim="Glad1">day22_angela_4</speak>
+
+    <var_set_random id="rand_var" max="4"/>
+
+    <if op="=" val1="rand_var" val2="1">
+      <speak speaker="angela">day22_angela_5_r1</speak>
+      <speak speaker="angela">day22_angela_6_r1</speak>
+    </if>
+    <if op="=" val1="rand_var" val2="2">
+      <speak speaker="angela">day22_angela_5_r2</speak>
+      <speak speaker="angela">day22_angela_6_r2</speak>
+    </if>
+    <if op="=" val1="rand_var" val2="3">
+      <speak speaker="angela">day22_angela_5_r3</speak>
+      <speak speaker="angela">day22_angela_6_r3</speak>
+    </if>
+    <if op="=" val1="rand_var" val2="4">
+      <speak speaker="angela">day22_angela_5_r4</speak>
+      <speak speaker="angela">day22_angela_6_r4</speak>
+    </if>
+    
+    <speak speaker="angela" anim="Glad2">day22_angela_7</speak>
+
+    <var_set_random id="rand_var" max="3"/>
+
+    <if op="=" val1="rand_var" val2="1">
+      <speak speaker="angela">day22_angela_8_r1</speak>
+    </if>
+    <if op="=" val1="rand_var" val2="2">
+      <speak speaker="angela">day22_angela_8_r2</speak>
+    </if>
+    <if op="=" val1="rand_var" val2="3">
+      <speak speaker="angela">day22_angela_8_r3</speak>
+    </if>
+
+
+
+  </scene>
+
+
+</root>

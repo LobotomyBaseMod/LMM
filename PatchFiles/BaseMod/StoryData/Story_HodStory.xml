@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  
+  <!-- 호드 표정
+  기본 표정 : Default
+  소심한, 의기소침한 표정 : Shame
+  슬픈 표정 : Sad
+  밝은 웃음 : Laugh
+  충격 먹은 : Shock
+  
+  침묵 : Silence
+  빡침 : Angry, 2-->
+  
+  <scene id="hod1_intro">
+    <character id="hod" name="hod_name" direction="right" color="FFFFFF" sprite="Hod"/>
+    <character id="tiffany" name="tiffany_name" direction="right" color="FFFFFF"/>
+    <background src="hodBK" effect="none"/>
+    <bgm src="Town_-_Alone_In_A_Crowd" />
+    <position character="hod" to="center" />
+    <speak speaker="hod" anim="Laugh2">hod1_intro_h1</speak>
+    <speak speaker="hod" anim="Laugh">hod1_intro_h2</speak>    
+    <speak speaker="hod" anim="Shame">hod1_intro_h3</speak>
+    <speak speaker="hod" anim="Default2">hod1_intro_h4</speak>
+    <speak speaker="hod" anim="Default">hod1_intro_h5</speak>
+    <speak speaker="hod">hod1_intro_h6</speak>
+    <speak speaker="hod">hod1_intro_h7</speak>
+    <speak speaker="hod">hod1_intro_h8</speak>
+    <speak speaker="hod" anim="Laugh">hod1_intro_h9</speak>
+    <speak speaker="hod" anim="Shame">hod1_intro_h10</speak>
+    <speak speaker="hod" anim="Laugh2">hod1_intro_h11</speak>
+    <speak speaker="hod" anim="Sad">hod1_intro_h12</speak>
+    <speak speaker="hod" anim="Sad2">hod1_intro_h13</speak>
+    <speak speaker="hod" anim="Sad">hod1_intro_h14</speak>
+    <speak speaker="hod" anim="Default">hod1_intro_h15</speak>
+    <sound src="knockknock_first" /> <!-- 노크 소리-->
+    <speak speaker="no">hod1_intro_no</speak>
+    <speak speaker="tiffany">hod1_intro_t1</speak>
+    <speak speaker="hod" anim="Laugh">hod1_intro_h16</speak>
+    <speak speaker="tiffany">hod1_intro_t2</speak>
+    <speak speaker="tiffany">hod1_intro_t3</speak>
+    <speak speaker="tiffany">hod1_intro_t4</speak>
+    <speak speaker="hod" anim="Laugh2">hod1_intro_h17</speak>
+    <speak speaker="tiffany">hod1_intro_t5</speak>
+    <speak speaker="hod" anim="Laugh">hod1_intro_h18</speak>
+    <speak speaker="hod">hod1_intro_h19</speak>
+    <speak speaker="hod" anim="Default2">hod1_intro_h20</speak>
+  </scene>
+  
+  
+  <scene id="hod2_intro">
+    <character id="hod" name="hod_name" direction="right" color="FFFFFF" sprite="Hod"/>
+    <character id="angela" name="angela_name" direction="right" color="FFFFFF" sprite="Angela"/>
+    <background src="hodBK" effect="none"/>
+    <position character="hod" to="right" />
+    <bgm src="Tilarids - The 6th Light" />
+    <speak speaker="hod">hod2_intro_h1</speak>
+    <speak speaker="hod" anim="Laugh">hod2_intro_h2</speak>
+    <position character="angela" to="left" direction="right"/> <!-- 앤젤라 등장-->
+    <speak speaker="angela">hod2_intro_a1</speak>
+    <speak speaker="hod" anim="Laugh2">hod2_intro_h3</speak>
+    <speak speaker="angela">hod2_intro_a2</speak>
+    <speak speaker="hod" anim="Sad2">hod2_intro_h4</speak>
+    <speak speaker="angela">hod2_intro_a3</speak>
+    <speak speaker="hod">hod2_intro_h5</speak>
+    <speak speaker="angela">hod2_intro_a4</speak>
+    <speak speaker="hod" anim="Shock2">hod2_intro_h6</speak>
+    <speak speaker="angela">hod2_intro_a5</speak>
+    <speak speaker="angela">hod2_intro_a6</speak>
+    <speak speaker="angela">hod2_intro_a7</speak>
+    <speak speaker="angela">hod2_intro_a8</speak>
+    <speak speaker="hod" anim="Shock">hod2_intro_h7</speak>
+    <speak speaker="angela" anim="Anger1">hod2_intro_a9</speak>
+    <speak speaker="angela">hod2_intro_a10</speak>
+    <speak speaker="hod" anim="Shock2">hod2_intro_h8</speak>
+    <speak speaker="angela" anim="Sigh">hod2_intro_a11</speak>
+    <speak speaker="hod" anim="Shock">hod2_intro_h9</speak>
+    <speak speaker="angela" anim="Default1">hod2_intro_a12</speak>
+    <speak speaker="angela">hod2_intro_a13</speak>
+    <speak speaker="angela">hod2_intro_a14</speak>  
+  </scene>
+
+  <scene id="hod3_intro">
+    <character id="hod" name="hod_name" direction="right" color="FFFFFF" sprite="Hod"/>
+    <character id="netzach" name="netzach_name" direction="right" color="FFFFFF" sprite="Netzach"/>
+    <character id="employee1" name="employee1_name" direction="right" color="FFFFFF"/>
+    <character id="employee2" name="employee2_name" direction="right" color="FFFFFF"/>
+    <character id="no" name="no_name" direction="right" color="FFFFFF"/>
+    <background src="hodBK" effect="none"/>
+    <position character="hod" to="right" />
+    <position character="netzach" to="left" />
+    <bgm src="Tilarids - Forgotten Entrance Of Memories" />
+    <speak speaker="netzach">hod3_intro_n1</speak>
+    <speak speaker="netzach">hod3_intro_n2</speak>
+    <speak speaker="hod" anim="Shame2">hod3_intro_h1</speak>
+    <speak speaker="employee1">hod3_intro_e2_1</speak>
+    <speak speaker="employee2">hod3_intro_e1_2</speak>
+    <speak speaker="employee1">hod3_intro_e2_2</speak>
+    <speak speaker="employee2">hod3_intro_e1_3</speak>
+    <speak speaker="employee1">hod3_intro_e2_3</speak>
+    <speak speaker="netzach">hod3_intro_n3</speak>
+    <speak speaker="hod" anim="Sad">hod3_intro_h2</speak>
+    <speak speaker="hod" anim="Default2">hod3_intro_h3</speak>
+    
+    <cg src="BlackCG" effect="fade" /> <!-- 페이드 인-->
+    <wait time="1" />
+    <remove_cg effect="fade" />
+
+    <disappear character="netzach"/> <!-- 네짜흐 퇴장-->
+    <speak speaker="hod" anim="Default">hod3_intro_h4</speak>
+    <speak speaker="hod" anim="Default2">hod3_intro_h5</speak>
+    <speak speaker="hod" anim="Sad">hod3_intro_h6</speak>
+    <speak speaker="hod" anim="Sad2">hod3_intro_h7</speak>
+    <speak speaker="hod">hod3_intro_h8</speak>
+    <speak speaker="hod" anim="Default">hod3_intro_h9</speak>
+    <speak speaker="hod">hod3_intro_h10</speak>
+    <speak speaker="hod" anim="Sad">hod3_intro_h11</speak>
+    <speak speaker="hod">hod3_intro_h12</speak>
+    <speak speaker="hod" anim="Sad2">hod3_intro_h13</speak>
+    <speak speaker="hod">hod3_intro_h14</speak>
+    <speak speaker="hod">hod3_intro_h15</speak>
+    <speak speaker="hod" anim="Sad">hod3_intro_h16</speak>
+    <speak speaker="no">hod3_intro_x1</speak>
+  </scene>
+
+  <scene id="hod4_intro">
+    <character id="hod" name="hod_name" direction="right" color="FFFFFF" sprite="Hod"/>
+    <character id="no" name="no_name" direction="right" color="FFFFFF" />
+    <background src="hodBK" effect="none"/>
+    <position character="hod" to="center" />
+    <bgm src="Tilarids - When Tv Turns Off" />
+    <speak speaker="hod" anim="Sad">hod4_intro_h1</speak>
+    <speak speaker="no">hod4_intro_no1</speak>
+    <speak speaker="hod" anim="Sad2">hod4_intro_h2</speak>
+    <speak speaker="no">hod4_intro_no2</speak>
+    <speak speaker="no">hod4_intro_no3</speak>
+    <speak speaker="no">hod4_intro_no4</speak>
+    <speak speaker="no">hod4_intro_no5</speak>
+    <speak speaker="no">hod4_intro_no6</speak>
+    <speak speaker="no">hod4_intro_no7</speak>
+    <speak speaker="no">hod4_intro_no8</speak>
+    <speak speaker="hod" anim="Shock2">hod4_intro_h3</speak>
+    <speak speaker="no">hod4_intro_no9</speak>
+    <speak speaker="hod" anim="Shock">hod4_intro_h4</speak>
+    <speak speaker="no">hod4_intro_no10</speak>
+  </scene>
+
+  <scene id="hod5_intro">
+    <character id="hod" name="hod_name" direction="right" color="FFFFFF" sprite="Hod"/>
+    <character id="hod2" name="hod_name" direction="right" color="FFFFFF" sprite="Hod"/>
+    <character id="hod3" name="hod_name" direction="right" color="FFFFFF" sprite="Hod"/>
+    <character id="netzach" name="netzach_name" direction="right" color="FFFFFF" sprite="Netzach"/>
+    <character id="employee1" name="employee1_name" direction="right" color="FFFFFF" sprite="Employee1"/>
+    <character id="employee2" name="employee2_name" direction="right" color="FFFFFF" sprite="Employee2"/>
+    <character id="employee3" name="employee3_name" direction="right" color="FFFFFF" sprite="Employee3"/>
+    <character id="no" name="no_name" direction="right" color="FFFFFF" sprite="No"/>
+    <character id="a" name="a_name" direction="right" color="FFFFFF" sprite="A"/>
+    <background src="hodBK" effect="none"/>
+    <position character="netzach" to="right"/>
+    <position character="hod" to="center"/>
+    <bgm src="Town_-_Alone_In_A_Crowd" />
+    <set_anim character="hod" anim="Sad"/> <!-- 호드 등장때부터 표정 고정-->
+
+    <speak speaker="netzach">hod5_intro_n1</speak>
+    <speak speaker="netzach">hod5_intro_n2</speak>
+    <speak speaker="netzach">hod5_intro_n3</speak>
+    <speak speaker="netzach">hod5_intro_n4</speak>
+    <speak speaker="hod" anim="Sad">hod5_intro_h1</speak>
+    <speak speaker="netzach">hod5_intro_n5</speak>
+    <speak speaker="hod">hod5_intro_h2</speak>
+    <speak speaker="netzach">hod5_intro_n6</speak>
+    <speak speaker="hod" anim="Sad2">hod5_intro_h3</speak>
+    <speak speaker="netzach">hod5_intro_n7</speak>
+    <speak speaker="hod" anim="Laugh">hod5_intro_h4</speak>
+    <speak speaker="hod">hod5_intro_h5</speak>
+    <speak speaker="hod">hod5_intro_h6</speak>
+    <disappear character="netzach" to="right"/>
+    <cg src="BlackCG" effect="fade" />
+    <wait time="1" />
+    <remove_cg effect="fade" />
+     <bgm src="Tilarids - mirror dimensions" />
+    <speak speaker="hod" anim="Default">hod5_intro_h7</speak>
+    <speak speaker="no">hod5_intro_no1</speak>
+    <speak speaker="hod">hod5_intro_h8</speak>
+    <speak speaker="no">hod5_intro_no2</speak>
+    <speak speaker="hod">hod5_intro_h9</speak>
+    <speak speaker="no">hod5_intro_no3</speak>
+    <speak speaker="hod">hod5_intro_h10</speak>
+    <speak speaker="no">hod5_intro_no4</speak>
+    <speak speaker="hod" anim="Sad2">hod5_intro_h11</speak>
+    <speak speaker="hod" anim="Sad">hod5_intro_h12</speak>
+    <speak speaker="hod">hod5_intro_h13</speak>
+    <speak speaker="employee1">hod5_intro_e1_1</speak>
+    <speak speaker="hod" anim="Default">hod5_intro_h14</speak>
+    <speak speaker="employee1">hod5_intro_e1_2</speak>
+    <speak speaker="hod" anim="Sad">hod5_intro_h15</speak>
+    <speak speaker="employee1">hod5_intro_e1_3</speak>
+    <speak speaker="no">hod5_intro_no5</speak>
+    <speak speaker="no">hod5_intro_no6</speak>
+    <speak speaker="hod">hod5_intro_h16</speak>
+    <speak speaker="employee2">hod5_intro_e2_1</speak>
+    <speak speaker="employee3">hod5_intro_e3_1</speak>
+    <speak speaker="no">hod5_intro_no7</speak>
+    <speak speaker="hod" anim="Angry">hod5_intro_h17</speak>
+    <speak speaker="hod" anim="Angry2">hod5_intro_h18</speak>
+    <speak speaker="hod" anim="Angry">hod5_intro_h19</speak>
+    <speak speaker="hod">hod5_intro_h20</speak>
+    <speak speaker="hod" anim="Angry2">hod5_intro_h21</speak>
+
+    <bgm src="" />
+    <cg src="BlackCG" effect="none" />
+    <wait time="1" />
+    <remove_cg effect="none" />
+    <bgm src="1 - Cryptic" />
+    
+    <set_anim character="hod" anim="Shock"/>
+    <speak speaker="no">hod5_intro_no8</speak>
+    <speak speaker="hod" anim="Shock2">hod5_intro_h22</speak>
+    <position character="hod2" to="left-full"/>
+    <speak speaker="hod2">hod5_intro_no9</speak>
+    <position character="hod3" to="right-full"/>
+    <speak speaker="hod3" anim="Laugh2">hod5_intro_no10</speak>
+    <speak speaker="hod" anim="Sad">hod5_intro_h23</speak>
+    <speak speaker="hod" anim="Laugh2">hod5_intro_h24</speak>
+    <bgm src="" />
+    <cg src="BlackCG" effect="none" />
+    <wait time="1" />
+    <disappear character="hod"/>
+    <remove_cg effect="none" />
+    <cg src="hodCG1" effect="none"/>
+    <bgm src="Lucid Dream (8)" />
+    <speak speaker="a">hod5_intro_A1</speak>
+    <speak speaker="a">hod5_intro_A2</speak>
+    <speak speaker="a">hod5_intro_A3</speak>
+    <speak speaker="a">hod5_intro_A4</speak>
+    <speak speaker="a">hod5_intro_A5</speak>
+    <speak speaker="a">hod5_intro_A6</speak>
+    <speak speaker="a">hod5_intro_A7</speak>
+    <select>
+      <option text="hod5_selection1"> </option>
+      <option text="hod5_selection2"> </option>
+      <option text="hod5_selection3"> </option>
+    </select>
+    <bgm src="" />
+    <cg src="BlackCG" effect="fade" />
+    <wait time="1" />
+    <remove_cg effect="fade" />
+  </scene>
+
+
+  <scene id="hod6_intro">
+    <character id="angela" name="angela_name" direction="right" color="FFFFFF" sprite="Angela"/>
+    <character id="hod" name="hod_name" direction="right" color="FFFFFF" sprite="Hod"/>
+    <character id="hodPast" name="hodPast_name" direction="right" color="FFFFFF" sprite="HodPast"/>
+    <character id="hodRobot" name="hodRobot_name" direction="right" color="FFFFFF" sprite="HodRobot"/>
+    <character id="a" name="a_name" direction="right" color="FFFFFF" sprite="A"/>
+    <character id="c" name="c_name" color="FFBBFF" sprite="C_shadow" />
+    <background src="AngelaBackground" effect="none"/>
+    <position character="angela" to="center"/>
+    <bgm src="11- Dark Fantasy Studio- 13 sins" />
+    <speak speaker="angela">hod6_intro_a1</speak>
+    <speak speaker="angela">hod6_intro_a2</speak>
+    <speak speaker="angela">hod6_intro_a3</speak>
+
+
+    <cg src="BlackCG" effect="fade" />
+    <wait time="2" />
+    <disappear character="angela"/>
+    <remove_cg effect="fade" />
+
+
+    <background src="warehouseBK_2" effect="none"/>
+    <position character="hodPast" to="center"/>
+ 
+    <speak speaker="a">hod6_intro_A1</speak>
+    <speak speaker="a">hod6_intro_A2</speak>
+    <speak speaker="a">hod6_intro_A3</speak>
+    <speak speaker="a">hod6_intro_A4</speak>
+    <speak speaker="a">hod6_intro_A5</speak>
+    <cg src="BlackCG" effect="fade" />
+    <wait time="2" />
+    <remove_cg effect="fade" />
+    <disappear character="hodPast"/>
+    <cg src="HodCG2" effect="none" />
+    <speak speaker="c">hod6_intro_c1</speak>
+    <speak speaker="a">hod6_intro_A6</speak>
+    <speak speaker="a">hod6_intro_A7</speak>
+    <speak speaker="a">hod6_intro_A8</speak>
+    <speak speaker="a">hod6_intro_A9</speak>
+    <speak speaker="a">hod6_intro_A10</speak>
+    <speak speaker="a">hod6_intro_A11</speak>
+    <speak speaker="a">hod6_intro_A12</speak>
+    <speak speaker="a">hod6_intro_A13</speak>
+    <speak speaker="a">hod6_intro_A14</speak>
+
+    <cg src="BlackCG" effect="fade" />
+    <wait time="2" />
+    <remove_cg effect="fade" />
+
+    <background src="hodBK" effect="none"/>
+    <bgm src="Tilarids - Strange Dream"/>
+    <position character="hod" to="center"/>
+
+    <speak speaker="hod" anim="Default">hod6_intro_h1</speak>
+    <speak speaker="hod" anim="Sad">hod6_intro_h2</speak>
+    <speak speaker="hod">hod6_intro_h3</speak>
+    <speak speaker="hod">hod6_intro_h4</speak>
+    <speak speaker="hod">hod6_intro_h5</speak>
+    <speak speaker="hod" anim="Sad">hod6_intro_h6</speak>
+    <speak speaker="hod">hod6_intro_h7</speak>
+    <speak speaker="hod" anim="Default">hod6_intro_h8</speak>
+    <speak speaker="hod">hod6_intro_h9</speak>
+    <speak speaker="hod" anim="Laugh2">hod6_intro_h10</speak>
+
+    <sound src="changenoise" />
+    <add_filter filter="tv_distorted_fade" />
+    <wait time="0.25"/>
+    <disappear character="hod"/>
+    <position character="hodRobot" to="center"/>
+    <wait time="0.25"/>
+    <remove_filter filter="tv_distorted_fade" />
+    <speak speaker="hodRobot">hod6_intro_h11</speak>
+    <speak speaker="hodRobot">hod6_intro_h12</speak>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </scene>
+  
+  
+  
+  
+
+</root>

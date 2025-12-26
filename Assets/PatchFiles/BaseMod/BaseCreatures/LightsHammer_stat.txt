@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<creature>
+  <script>LightsHammer</script>
+  <stat>
+    <qliphoth>0</qliphoth>
+  </stat>
+  <graph>
+    <node id="creature" x="-1.6" y="-1.8" type="creature" />
+    <node id="workspace" x="1.9" y="-1.8" type="workspace" />
+    <node id="hammer" x="-0.5" y="-1.8" type="custom" />
+    <!--<node id="door"  x="2" y="-1" type="entry"/>-->
+    <node id="outter" x="0" y="0" type="outterDoor" />
+    <node id="inner" x="2" y="-1.8" type="innerDoor" />
+    <!--<edge node1="workspace" node2="door" type="road" />-->
+    <edge node1="workspace" node2="inner" type="road" />
+    <edge node1="hammer" node2="workspace" type="road" />
+    <edge node1="creature" node2="workspace" type="road" />
+  </graph>
+  <anim prefab="Unit/CreatureAnimator/LightsHammer" x="-1" y="-2" />
+  <portrait src="Unit/creature/magicalGirl" />
+  <sound action="filterOut1" src="creature/lights_hammer/hammer_filterOut1" />
+  <sound action="filterOut2" src="creature/lights_hammer/hammer_filterOut2" />
+  <sound action="usable1" src="creature/lights_hammer/hammer_usable1" />
+  <sound action="usable2" src="creature/lights_hammer/hammer_usable2" />
+  <sound action="overlay" src="creature/lights_hammer/hammer_filter" />
+  <sound action="enableFire" src="creature/match_girl/fuse_burning_bomb_dynamite_loop_01" />
+</creature>

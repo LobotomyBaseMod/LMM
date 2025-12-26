@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<creature>
+  <script>RedShoes</script>
+  <stat>
+    <riskLevel>3</riskLevel>
+    <maxWorkCount>4</maxWorkCount>
+    <workProb type="R">
+      <prob level="1">0.5</prob>
+      <prob level="2">0.5</prob>
+      <prob level="3">0.45</prob>
+      <prob level="4">0.5</prob>
+      <prob level="5">0.6</prob>
+    </workProb>
+    <workProb type="W">
+      <prob level="1">0.5</prob>
+      <prob level="2">0.6</prob>
+      <prob level="3">0.55</prob>
+      <prob level="4">0.55</prob>
+      <prob level="5">0.55</prob>
+    </workProb>
+    <workProb type="B">
+      <prob level="1">0.99</prob>
+      <prob level="2">0.99</prob>
+      <prob level="3">0.5</prob>
+      <prob level="4">0.4</prob>
+      <prob level="5">0.3</prob>
+    </workProb>
+    <workProb type="P">
+      <prob level="1">0</prob>
+      <prob level="2">0</prob>
+      <prob level="3">0</prob>
+      <prob level="4">0</prob>
+      <prob level="5">0</prob>
+    </workProb>
+    <escapeable>false</escapeable>
+    <workCooltime>10</workCooltime>
+    <feelingStateCubeBounds>
+      <cube>7</cube>
+      <cube>11</cube>
+      <cube>16</cube>
+    </feelingStateCubeBounds>
+    <workDamage type="R" min="4" max="6" />
+    <workSpeed>0.35</workSpeed>
+    <specialDamage>
+      <damage id="1" type="R" min="4" max="6" />
+    </specialDamage>
+    <defense id="1">
+      <defenseElement type="R">1</defenseElement>
+      <defenseElement type="W">1</defenseElement>
+      <defenseElement type="B">1</defenseElement>
+      <defenseElement type="P">1</defenseElement>
+    </defense>
+    <hp>200</hp>
+    <speed>6</speed>
+    <observeInfo total="72">
+      <observeElement name="stat" cost="16" />
+      <observeElement name="defense" cost="16" />
+      <observeElement name="work_r" cost="5" />
+      <observeElement name="work_w" cost="5" />
+      <observeElement name="work_b" cost="5" />
+      <observeElement name="work_p" cost="5" />
+      <observeElement name="care_0" cost="4" />
+      <observeElement name="care_1" cost="4" />
+      <observeElement name="care_2" cost="4" />
+      <observeElement name="care_3" cost="4" />
+      <observeElement name="care_4" cost="4" />
+    </observeInfo>
+    <equipment level="4" cost="40" equipId="200003" />
+    <equipment level="4" cost="50" equipId="300003" />
+    <equipment level="2" prob="0.04" equipId="400003" />
+    <observeBonus level="1" type="prob">4</observeBonus>
+    <observeBonus level="2" type="speed">4</observeBonus>
+    <observeBonus level="3" type="prob">4</observeBonus>
+    <observeBonus level="4" type="speed">4</observeBonus>
+    <qliphoth>1</qliphoth>
+  </stat>
+  <graph>
+    <node id="creature" x="-1.6" y="-1.8" type="creature" />
+    <node id="workspace" x="1.9" y="-1.8" type="workspace" />
+    <node id="redshoes" x="-0.5" y="-1.8" type="custom" />
+    <!--<node id="door"  x="2" y="-1" type="entry"/>-->
+    <node id="outter" x="0" y="0" type="outterDoor" />
+    <node id="inner" x="2" y="-1.8" type="innerDoor" />
+    <!--<edge node1="workspace" node2="door" type="road" />-->
+    <edge node1="workspace" node2="inner" type="road" />
+    <edge node1="redshoes" node2="workspace" type="road" />
+    <edge node1="creature" node2="workspace" type="road" />
+  </graph>
+  <anim prefab="Unit/CreatureAnimator/RedShoes_Creature" x="0" y="-0.9" />
+  <portrait src="Unit/Creature/RedShoes" />
+  <!--
+    <sound action="attack" src="creature/red_shooes/redShooes_normal"/>
+    <sound action="enter" src="creature/red_shooes/redShooes_enter"/>
+    -->
+  <sound action="laugh" src="creature/red_shooes/boy_laugh" />
+  <sound action="stab" src="creature/red_shooes/Fights_Knife_Stab_01" />
+  <sound action="walk1" src="creature/red_shooes/footstep_concrete_walk_01" />
+  <sound action="walk2" src="creature/red_shooes/highHeel" />
+</creature>

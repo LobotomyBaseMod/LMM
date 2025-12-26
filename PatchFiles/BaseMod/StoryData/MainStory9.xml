@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <scene id="9">
+    <character id="angela" name="angela_name" color="FFBBFF" sprite="Angela" />
+
+    <bgm src="story-02_ogg" />
+
+    <position character="angela" to="right" />
+
+    <speak speaker="angela">day9_angela_1</speak>
+
+
+
+    <select>
+      <option text="day9_selection1">
+        <speak speaker="angela">day9_angela_1_1</speak>
+        <speak speaker="angela">day9_angela_1_2</speak>
+        <speak speaker="angela">day9_angela_1_3</speak>
+      </option>
+      <option text="day9_selection2">
+        <speak speaker="angela">day9_angela_2_1</speak>
+        <speak speaker="angela">day9_angela_2_2</speak>
+        <speak speaker="angela">day9_angela_2_3</speak>
+      </option>
+      <option text="day9_selection3">
+        <speak speaker="angela">day9_angela_3_1</speak>
+        <speak speaker="angela">day9_angela_3_2</speak>
+        <speak speaker="angela">day9_angela_3_3</speak>
+      </option>
+    </select>
+
+    <speak speaker="angela" anim="Glad1">day9_angela_2</speak>
+    <speak speaker="angela">day9_angela_3</speak>
+    <speak speaker="angela">day9_angela_4</speak>
+    <speak speaker="angela">day9_angela_5</speak>
+    <speak speaker="angela">day9_angela_6</speak>
+  </scene> 
+  
+</root>

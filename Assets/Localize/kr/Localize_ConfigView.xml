@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LocalizeDataList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <list>
+    <LocalizeData>
+      <id>UI_Btn_UpdateCheck</id>
+      <value>업데이트</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Btn_Apply</id>
+      <value>적용</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Text_sidSetting</id>
+      <value>세션 세팅</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>UI_Text_UpdateCheck_check</id>
+      <value>업데이트 체크...</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Text_UpdateCheck_error</id>
+      <value>접속 오류</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Text_UpdateCheck_recent</id>
+      <value>최신버전입니다</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Text_UpdateCheck_exist</id>
+      <value>새 업데이트 존재</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>UI_Text_sidCheck_check</id>
+      <value>세션 체크...</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Text_sidCheck_ok</id>
+      <value>유효한 세션</value>
+    </LocalizeData>
+    <LocalizeData>
+      <id>UI_Text_sidCheck_error</id>
+      <value>유효하지 않은 세션</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>UI_Btn_Language</id>
+      <value>언어 변경</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>UI_Text_updateWarn</id>
+      <value>세션 세팅을 완료해야 업데이트가 가능합니다.</value>
+    </LocalizeData>
+  </list>
+</LocalizeDataList>

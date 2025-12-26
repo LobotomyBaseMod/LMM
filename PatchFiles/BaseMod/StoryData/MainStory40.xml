@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <scene id="40">
+    <character id="angela" name="angela_name" color="FFBBFF" sprite="Angela" />
+   
+
+    <bgm src="Arachnitopia Theme Piano (loop)" />
+
+    <position character="angela" to="right" />
+
+  
+    <speak speaker="angela">day40_angela_1</speak>
+    <speak speaker="angela" anim="Glad1">day40_angela_2</speak>
+    <speak speaker="angela">day40_angela_3</speak>
+    <speak speaker="angela" anim="Default1">day40_angela_4</speak>
+    <speak speaker="angela">day40_angela_5</speak>
+    <cg src="BlackCG" effect="fade" />
+    <wait time="1.5" />
+    <remove_cg effect="fade" />
+     <cg src="hologlamCG" effect="none" />
+    <speak speaker="angela">day40_angela_6</speak>
+    <speak speaker="angela">day40_angela_7</speak>
+    <speak speaker="angela">day40_angela_8</speak>
+    <speak speaker="angela">day40_angela_9</speak>
+    <speak speaker="angela">day40_angela_10</speak>
+    <speak speaker="angela">day40_angela_11</speak>
+    <select>
+      <option text="day40_selection1">
+        <cg src="BlackCG" effect="fade" />
+        <remove_cg effect="fade" />
+
+        <background src="AngelaBackground" effect="none"/>
+        <speak speaker="angela" anim="Glad1">day40_angela_1_1</speak>
+        <speak speaker="angela">day40_angela_1_2</speak>
+        <speak speaker="angela">day40_angela_1_3</speak>
+      </option>
+      <option text="day40_selection2">
+        <cg src="BlackCG" effect="fade" />
+        <remove_cg effect="fade" />
+
+        <background src="AngelaBackground" effect="none"/>
+        <speak speaker="angela" anim="Glad1">day40_angela_2_1</speak>
+        <speak speaker="angela">day40_angela_2_2</speak>
+        <speak speaker="angela">day40_angela_2_3</speak>
+      </option>
+    </select>
+ 
+    
+    
+    
+
+    
+
+
+
+
+  </scene>
+
+
+</root>

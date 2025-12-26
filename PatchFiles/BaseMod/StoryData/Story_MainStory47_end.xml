@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <!-- 47 : 2_Default , 2_Default2, 2_Angry , 2_Angry2 , 2_Smile , 2_Smile2-->
+  <scene id="47_end">
+
+    <character id="abel" name="abel_name" direction="right" color="FFFFFF" sprite="Abel"/>
+
+
+    <background src="ketherBK2" effect="none"/>
+
+    <position character="abel" to="center"/>
+
+    <speak speaker="abel">day47_abelGameOver_1</speak>
+    <speak speaker="abel">day47_abelGameOver_2</speak>
+    <speak speaker="abel">day47_abelGameOver_3</speak>
+    <speak speaker="abel">day47_abelGameOver_4</speak>
+    <speak speaker="abel">day47_abelGameOver_5</speak>
+    <speak speaker="abel">day47_abelGameOver_6</speak>
+    <speak speaker="abel">day47_abelGameOver_7</speak>
+    <dialogue type="hide"/>
+    <cg src="day47_Ending1" effect="fade" />
+    <wait time="2.5"/>
+    <cg src="day47_Ending2" effect="fade" />
+    <wait time="2.5"/>
+    <cg src="day47_Ending3" effect="fade" />
+    <wait time="2.5"/>
+    <cg src="BlackCG" effect="fade" />
+    <!-- 문 닫히는 효과음과 발걸음 소리 생성-->
+
+
+  </scene>
+
+
+
+</root>

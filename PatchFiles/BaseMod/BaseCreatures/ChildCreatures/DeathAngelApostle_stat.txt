@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <stat>
+    <hp>1000</hp>
+    <speed>3</speed>
+
+    <defense id="1"> <!--sythe Angel-->
+      <defenseElement type="R">1.5</defenseElement>
+      <defenseElement type="W">0.5</defenseElement>
+      <defenseElement type="B">0.5</defenseElement>
+      <defenseElement type="P">0.5</defenseElement>
+    </defense>
+
+    <!--Guardian Angel-->
+    <defense id="2">
+      <defenseElement type="R">0.5</defenseElement>
+      <defenseElement type="W">0.5</defenseElement>
+      <defenseElement type="B">0.5</defenseElement>
+      <defenseElement type="P">1.5</defenseElement>
+    </defense>
+  
+   <!--wand Angel-->
+    <defense id="3">
+      <defenseElement type="R">0.5</defenseElement>
+      <defenseElement type="W">1.5</defenseElement>
+      <defenseElement type="B">0.5</defenseElement>
+      <defenseElement type="P">0.5</defenseElement>
+    </defense>
+
+  <!--spear Angel-->
+    <defense id="4">
+      <defenseElement type="R">0.5</defenseElement>
+      <defenseElement type="W">0.5</defenseElement>
+      <defenseElement type="B">1.5</defenseElement>
+      <defenseElement type="P">0.5</defenseElement>
+    </defense>
+  </stat>
+  <portrait>Sprites/Unit/creature/DeathAngel_Apostle</portrait>
+  <anim prefab="Unit/CreatureAnimator/Apostle/ScytheApostleAnim" x="-1" y="-2"/>
+
+  <attackType openLevel="1">UNKNOWN</attackType>
+  <riskLevel openLevel="1">ALEPH</riskLevel>
+
+  <script>WhiteNightSpace.DeathAngelApostle</script>
+</creature>

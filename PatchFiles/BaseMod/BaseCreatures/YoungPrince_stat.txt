@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <script>YoungPrince</script>
+  <stat>
+    <riskLevel>4</riskLevel>
+    <maxWorkCount>3</maxWorkCount>
+    <workProb type="R">
+      <prob level="1">0</prob>
+      <prob level="2">0</prob>
+      <prob level="3">0.4</prob>
+      <prob level="4">0.4</prob>
+      <prob level="5">0.4</prob>
+    </workProb>
+    <workProb type="W">
+      <prob level="1">0.25</prob>
+      <prob level="2">0.3</prob>
+      <prob level="3">0.35</prob>
+      <prob level="4">0.4</prob>
+      <prob level="5">0.45</prob>
+    </workProb>
+    <workProb type="B">
+      <prob level="1">0</prob>
+      <prob level="2">0</prob>
+      <prob level="3">0.5</prob>
+      <prob level="4">0.5</prob>
+      <prob level="5">0.55</prob>
+    </workProb>
+    <workProb type="P">
+      <prob level="1">0</prob>
+      <prob level="2">0</prob>
+      <prob level="3">0.5</prob>
+      <prob level="4">0.5</prob>
+      <prob level="5">0.55</prob>
+    </workProb>
+    <workCooltime>10</workCooltime>
+    <feelingStateCubeBounds>
+      <cube>8</cube>
+      <cube>15</cube>
+      <cube>24</cube>
+    </feelingStateCubeBounds>
+    <escapeable>false</escapeable>
+    <workDamage type="B" min="3" max="4" />
+    <workSpeed>0.25</workSpeed>
+    <specialDamage>
+      <damage id="1" type="B" min="1" max="2" />
+    </specialDamage>
+    <defense id="1">
+      <defenseElement type="R">1.2</defenseElement>
+      <defenseElement type="W">1.5</defenseElement>
+      <defenseElement type="B">0.8</defenseElement>
+      <defenseElement type="P">2</defenseElement>
+    </defense>
+    <observeInfo total="98">
+      <observeElement name="stat" cost="20" />
+      <observeElement name="defense" cost="20" />
+      <observeElement name="work_r" cost="7" />
+      <observeElement name="work_w" cost="7" />
+      <observeElement name="work_b" cost="7" />
+      <observeElement name="work_p" cost="7" />
+      <observeElement name="care_0" cost="5" />
+      <observeElement name="care_1" cost="5" />
+      <observeElement name="care_2" cost="5" />
+      <observeElement name="care_3" cost="5" />
+      <observeElement name="care_4" cost="5" />
+      <observeElement name="care_5" cost="5" />
+    </observeInfo>
+    <equipment level="4" cost="50" equipId="200040" />
+    <equipment level="3" cost="50" equipId="300040" />
+    <equipment level="3" prob="0.03" equipId="400040" />
+    <observeBonus level="1" type="speed">3</observeBonus>
+    <observeBonus level="2" type="prob">3</observeBonus>
+    <observeBonus level="3" type="prob">3</observeBonus>
+    <observeBonus level="4" type="speed">3</observeBonus>
+    <qliphoth>2</qliphoth>
+  </stat>
+  <graph>
+    <node id="creature" x="-1.6" y="-1.8" type="creature" />
+    <node id="workspace" x="1.9" y="-1.8" type="workspace" />
+    <node id="outter" x="0" y="0" type="outterDoor" />
+    <node id="inner" x="2" y="-1.8" type="innerDoor" />
+    <edge node1="workspace" node2="inner" type="road" />
+    <edge node1="creature" node2="workspace" type="road" />
+  </graph>
+  <anim prefab="Unit/CreatureAnimator/YoungPrinceAnim" x="-1" y="-2" />
+  <returnImg src="Unit/CreatureReturnObject/DummyReturn" />
+  <portrait src="CreatureSprite/Dummy" />
+  <sound action="Default" src="creature/YoungPrince/Prince/Prince_Default" />
+  <sound action="Active1" src="creature/YoungPrince/Prince/Prince_Active1" />
+  <sound action="Active2" src="creature/YoungPrince/Prince/Prince_Active2" />
+  <sound action="Active_Boy" src="creature/YoungPrince/Prince/Prince_Active1_Boy" />
+  <sound action="Change" src="creature/YoungPrince/Friend/Prince_Child_Change" />
+  <child>YoungPrinceFriend_stat</child>
+</creature>

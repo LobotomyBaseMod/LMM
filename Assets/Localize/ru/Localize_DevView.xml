@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LocalizeDataList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <list>
+    <LocalizeData>
+      <id>DevView_AuthOwner</id>
+      <value>Авторизованный пользователь: </value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>DevView_ModName</id>
+      <value>Название </value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>DevView_ModThumb</id>
+      <value>Иконка </value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>DevView_ModFilePath</id>
+      <value>Файл мода </value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>DevView_ModFilePath_Set</id>
+      <value>Укажите путь к файлу</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>DevView_ModUpload</id>
+      <value>Загрузить мод</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>DevView_BringThumb</id>
+      <value>Импорт</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>DevView_ModDesc</id>
+      <value>Описание</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>DevView_AuthingDesc</id>
+      <value>Перед загрузкой на GitHub требуется аутентификация пользователя.
+При нажатии на кнопку ниже будет запущена веб-страница для прохождения авторизации.</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>DevView_AuthingBtn</id>
+      <value>Выполнить авторизацию</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>DevView_AuthCheck</id>
+      <value>Проверка данных учётной записи...</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>DevView_ModUpload_New</id>
+      <value>Опубликовать мод</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>DevView_LogOut</id>
+      <value>Разлогиниться</value>
+    </LocalizeData>
+
+    <LocalizeData>
+      <id>DevView_ModDelete</id>
+      <value>Удалить мод</value>
+    </LocalizeData>
+
+  </list>
+</LocalizeDataList>

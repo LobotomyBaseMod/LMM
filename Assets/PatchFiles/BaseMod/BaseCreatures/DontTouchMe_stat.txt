@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<creature>
+  <script>DontTouchMe</script>
+  <stat>
+    <escapeable>false</escapeable>
+    <qliphoth>0</qliphoth>
+  </stat>
+  <graph>
+    <node id="creature" x="-1.6" y="-1.8" type="creature" />
+    <node id="workspace" x="1.9" y="-1.8" type="workspace" />
+    <!--<node id="door"  x="2" y="-1" type="entry"/>-->
+    <node id="outter" x="0" y="0" type="outterDoor" />
+    <node id="inner" x="2" y="-1.8" type="innerDoor" />
+    <!--<edge node1="workspace" node2="door" type="road" />-->
+    <edge node1="workspace" node2="inner" type="road" />
+    <edge node1="creature" node2="workspace" type="road" />
+  </graph>
+  <anim prefab="Unit/CreatureAnimator/DontTouchMe" x="-1" y="-2" />
+  <portrait src="Unit/creature/magicalGirl" />
+  <sound action="dead1" src="creature/dont_touch_me/touch_dead1" />
+  <sound action="dead2" src="creature/dont_touch_me/touch_dead2" />
+  <sound action="moodDown" src="creature/dont_touch_me/touch_moodDown" />
+  <sound action="off" src="creature/dont_touch_me/touch_off" />
+  <sound action="panic" src="creature/dont_touch_me/touch_panic" />
+  <sound action="shout" src="creature/dont_touch_me/touch_shout" />
+  <sound action="glass" src="creature/dont_touch_me/touch_glass" />
+</creature>
