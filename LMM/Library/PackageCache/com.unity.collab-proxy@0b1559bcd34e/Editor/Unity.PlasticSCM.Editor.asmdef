@@ -1,0 +1,20 @@
+{
+    "name": "Unity.PlasticSCM.Editor",
+    "references": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "unityplastic.dll",
+        "Unity.Plastic.Newtonsoft.Json.dll",
+        "TextMateSharpPlastic.dll",
+        "TextMateSharpPlastic.Grammars.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

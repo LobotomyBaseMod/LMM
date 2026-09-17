@@ -1,0 +1,30 @@
+using Unity.PlasticSCM.Editor.Views.Merge;
+using Unity.PlasticSCM.Editor.Views.PendingChanges;
+
+namespace Unity.PlasticSCM.Editor
+{
+    internal static class AutoRefresh
+    {
+        internal static void PendingChangesView(PendingChangesTab pendingChangesTab)
+        {
+            if (pendingChangesTab == null)
+                return;
+
+            if (!pendingChangesTab.IsVisible)
+                return;
+
+            pendingChangesTab.AutoRefresh();
+        }
+
+        internal static void IncomingChangesView(IIncomingChangesTab incomingChangesTab)
+        {
+            if (incomingChangesTab == null)
+                return;
+
+            if (!incomingChangesTab.IsVisible)
+                return;
+
+            incomingChangesTab.AutoRefresh();
+        }
+    }
+}

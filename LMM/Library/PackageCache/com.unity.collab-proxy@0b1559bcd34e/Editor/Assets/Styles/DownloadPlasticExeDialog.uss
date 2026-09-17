@@ -1,0 +1,41 @@
+@import "Base.uss";
+
+#container {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+#title {
+    -unity-font-style: bold;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+
+#progressControlsContainer {
+    height: 15px;
+}
+
+#downloadButton {
+    width: 120px;
+    height: 20px;
+}
+
+#cancelButton {
+    width: 80px;
+    height: 20px;
+}
+
+Label {
+    white-space: normal;
+    margin-bottom: 20px;
+    font-size: 13px;
+}

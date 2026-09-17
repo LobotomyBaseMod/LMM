@@ -13,7 +13,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SnapEnabled: 0
+  m_AngleSnapEnabled: 0
+  m_ScaleSnapEnabled: 0
   m_SnapSettings:
     m_SnapToGrid: 1
     m_Rotation: 15
     m_Scale: 1
+    m_IncrementalSnapSize: {x: 0.25, y: 0.25, z: 0.25}

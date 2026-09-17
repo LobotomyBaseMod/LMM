@@ -1,0 +1,43 @@
+{
+  "name": "com.unity.collab-proxy",
+  "displayName": "Unity Version Control",
+  "version": "2.12.4",
+  "unity": "2021.3",
+  "unityRelease": "0f1",
+  "description": "The package gives you the ability to use Unity Version Control in the Unity editor. To use Unity Version Control, a subscription is required. Learn more about how you can get started for free by visiting https://unity.com/solutions/version-control",
+  "dependencies": {},
+  "keywords": [
+    "backup",
+    "cloud",
+    "collab",
+    "collaborate",
+    "collaboration",
+    "control",
+    "devops",
+    "plastic",
+    "plasticscm",
+    "source",
+    "team",
+    "teams",
+    "version",
+    "vcs",
+    "uvcs"
+  ],
+  "category": "Editor",
+  "relatedPackages": {
+    "com.unity.collab-proxy.tests": "2.12.4"
+  },
+  "_upm": {
+    "changelog": "### Added\n\n- Added a new Branch Explorer to visualize and navigate branches.\n- Added \"Add to Source Control\" and \"Undo Changes\" actions for folders from the Project browser and Inspector.\n- Added support in the merge view to partially apply a shelve.\n- Added persistence for all splitter positions across window reloads and sessions.\n- Added the F2 keyboard shortcut to rename branches and labels.\n\n### Changed\n\n- Improved text field focus behavior across dialogs for more consistent keyboard workflows.\n- Improved the empty state in the Pending Changes view.\n- Delayed workspace creation when opening projects from the Unity Hub.\n- Updated new project initialization to perform a full initial checkin.\n- Prevented connecting a project to a different organization by mistake.\n- Added changeset and label icons to the status bar.\n- Updated the macOS hide shortcut to Cmd+Shift+H.\n\n### Fixed\n\n- Fixed the labels context menu not opening when the table is empty.\n- Fixed the branches context menu not opening when the table is empty.\n- Fixed the status bar turning gray after exiting Play Mode.\n- Fixed issues in the changeset-by-changeset diff from the branches view.\n- Fixed blurry icons in the Explore Repositories window.\n- Fixed the New Branch button failing when the current selection is a changeset or label.\n- Fixed validation messages alignment in the Unity Version Control window.\n- Fixed the Checkin dialog not auto-focusing the comment field.\n- Fixed button capitalization in the Unity Version Control window to match Unity standards.\n- Fixed and localized the Checkin dialog progress label.\n- Fixed a NullReferenceException when opening history from a branch diff.\n- Fixed a potential NullReferenceException in the changeset-by-changeset diff panel.\n- Fixed a layout exception when right-clicking Pending Changes in the side bar.\n- Fixed the Unity Version Control window during Create Workspace to refresh without requiring mouse movement."
+  },
+  "upmCi": {
+    "footprint": "b2b1c5ce74d5c6f1ee2015e657fef7752ac74cf9"
+  },
+  "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.12/manual/index.html",
+  "repository": {
+    "url": "https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git",
+    "type": "git",
+    "revision": "4d24fbc0581e7fec760c9c8eef7517e1e1195f9e"
+  },
+  "_fingerprint": "0b1559bcd34e3fee21f770e54e68e58e80eae214"
+}

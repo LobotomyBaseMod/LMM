@@ -1,0 +1,120 @@
+﻿using System;
+
+namespace Unity.PlasticSCM.Editor.AssetsOverlays
+{
+    [Flags]
+    internal enum AssetStatus
+    {
+        None            = 0,
+        Private         = 1 << 0,
+        Ignored         = 1 << 2,
+        Added           = 1 << 3,
+        Checkout        = 1 << 4,
+        Controlled      = 1 << 5,
+        UpToDate        = 1 << 6,
+        Changed         = 1 << 7,
+        ContainsChanges = 1 << 8,
+        OutOfDate       = 1 << 9,
+        Conflicted      = 1 << 10,
+        DeletedOnServer = 1 << 11,
+        Locked          = 1 << 12,
+        LockedRemote    = 1 << 13,
+        Retained        = 1 << 14,
+        HiddenChanged   = 1 << 15,
+    }
+
+    internal class LockStatusData
+    {
+        internal readonly AssetStatus Status;
+        internal readonly string LockedBy;
+        internal readonly string HolderBranchName;
+
+        internal LockStatusData(
+            AssetStatus status,
+            string lockedBy,
+            string holderBranchName)
+        {
+            Status = status;
+            LockedBy = lockedBy;
+            HolderBranchName = holderBranchName;
+        }
+    }
+
+    internal class ClassifyAssetStatus
+    {
+        internal static bool IsPrivate(AssetStatus status)
+        {
+            return ContainsAny(status, AssetStatus.Private);
+        }
+
+        internal static bool IsIgnored(AssetStatus status)
+        {
+            return ContainsAny(status, AssetStatus.Ignored);
+        }
+
+        internal static bool IsControlled(AssetStatus status)
+        {
+            return ContainsAny(status, AssetStatus.Controlled);
+        }
+
+        internal static bool IsLocked(AssetStatus status)
+        {
+            return ContainsAny(status, AssetStatus.Locked);
+        }
+
+        internal static bool IsLockedRemote(AssetStatus status)
+        {
+            return ContainsAny(status, AssetStatus.LockedRemote);
+        }
+
+        internal static bool IsRetained(AssetStatus status)
+        {
+            return ContainsAny(status, AssetStatus.Retained);
+        }
+
+        internal static bool IsOutOfDate(AssetStatus status)
+        {
+            return ContainsAny(status, AssetStatus.OutOfDate);
+        }
+
+        internal static bool IsDeletedOnServer(AssetStatus status)
+        {
+            return ContainsAny(status, AssetStatus.DeletedOnServer);
+        }
+
+        internal static bool IsConflicted(AssetStatus status)
+        {
+            return ContainsAny(status, AssetStatus.Conflicted);
+        }
+
+        internal static bool IsAdded(AssetStatus status)
+        {
+            return ContainsAny(status, AssetStatus.Added);
+        }
+
+        internal static bool IsCheckedOut(AssetStatus status)
+        {
+            return ContainsAny(status, AssetStatus.Checkout);
+        }
+
+        internal static bool IsChanged(AssetStatus status)
+        {
+            return ContainsAny(status, AssetStatus.Changed);
+        }
+
+        internal static bool ContainsChanges(AssetStatus status)
+        {
+            return ContainsAny(status, AssetStatus.ContainsChanges);
+        }
+
+        internal static bool IsHiddenChanged(AssetStatus status)
+        {
+            return ContainsAny(status, AssetStatus.HiddenChanged);
+        }
+
+        static bool ContainsAny(AssetStatus status, AssetStatus matchTo)
+        {
+            return (status & matchTo) != AssetStatus.None;
+        }
+    }
+}

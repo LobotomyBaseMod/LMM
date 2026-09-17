@@ -1,33 +1,33 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/kj022/LobotomyModManager/Packages/manifest.json
+    m_FilePath: D:/LMM/LMM/LMM/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638717892084816360
-    m_Hash: 1296078138
+      ticks: 639177685725418564
+    m_Hash: 999588232
   m_LockFileStatus:
-    m_FilePath: C:/Users/kj022/LobotomyModManager/Packages/packages-lock.json
+    m_FilePath: D:/LMM/LMM/LMM/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638717892279382633
-    m_Hash: 411812292
+      ticks: 639177685783968763
+    m_Hash: 2745343723
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: C:/Users/kj022/LobotomyModManager/Packages
-m_EditorVersion: 6000.0.32f1 (b2e806cf271c)
+m_ProjectPath: D:/LMM/LMM/LMM/Packages
+m_EditorVersion: 6000.4.11f1 (b0a1d6caadd2)
 m_ResolvedPackages:
 - packageId: com.unity.2d.sprite@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kj022\LobotomyModManager\Library\PackageCache\com.unity.2d.sprite
+  resolvedPath: D:\LMM\LMM\LMM\Library\PackageCache\com.unity.2d.sprite@b95cc7beb645
   assetPath: Packages/com.unity.2d.sprite
   name: com.unity.2d.sprite
   displayName: 2D Sprite
@@ -61,6 +61,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -79,28 +82,46 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
-  fingerprint: 6e37a90069af6bceba270d5e592cd6f3521c7a27
+  fingerprint: b95cc7beb64592d4ff059701a37494056d863cde
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 2019.2.0a1
-- packageId: com.unity.collab-proxy@2.6.0
+    minimumUnityVersion: 2019.2
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.collab-proxy@2.12.4
   testable: 0
   isDirectDependency: 1
-  version: 2.6.0
+  version: 2.12.4
   source: 1
-  resolvedPath: C:\Users\kj022\LobotomyModManager\Library\PackageCache\com.unity.collab-proxy
+  resolvedPath: D:\LMM\LMM\LMM\Library\PackageCache\com.unity.collab-proxy@0b1559bcd34e
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
-  displayName: Version Control
+  displayName: Unity Version Control
   author:
     name: 
     email: 
@@ -113,10 +134,98 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.2.3-preview
+    - 1.2.4-preview
+    - 1.2.6
+    - 1.2.7
+    - 1.2.9
+    - 1.2.11
+    - 1.2.15
+    - 1.2.16
+    - 1.2.17-preview.3
+    - 1.3.2
+    - 1.3.3
+    - 1.3.4
+    - 1.3.5
+    - 1.3.6
+    - 1.3.7
+    - 1.3.8
+    - 1.3.9
+    - 1.4.9
+    - 1.5.7
+    - 1.6.0
+    - 1.7.1
+    - 1.8.0
+    - 1.9.0
+    - 1.10.2
+    - 1.11.2
+    - 1.12.5
+    - 1.13.5
+    - 1.14.1
+    - 1.14.4
+    - 1.14.7
+    - 1.14.9
+    - 1.14.12
+    - 1.14.13
+    - 1.14.15
+    - 1.14.16
+    - 1.14.17
+    - 1.14.18
+    - 1.15.1
+    - 1.15.4
+    - 1.15.7
+    - 1.15.9
+    - 1.15.12
+    - 1.15.13
+    - 1.15.15
+    - 1.15.16
+    - 1.15.17
+    - 1.15.18
+    - 1.17.0
+    - 1.17.1
+    - 1.17.2
+    - 1.17.6
+    - 1.17.7
+    - 2.0.0-preview.6
+    - 2.0.0-preview.8
+    - 2.0.0-preview.15
+    - 2.0.0-preview.17
+    - 2.0.0-preview.20
+    - 2.0.0-preview.21
+    - 2.0.0-preview.22
+    - 2.0.0
+    - 2.0.1
+    - 2.0.3
+    - 2.0.4
+    - 2.0.5
+    - 2.0.7
+    - 2.1.0-preview.3
+    - 2.1.0-preview.5
+    - 2.1.0-preview.6
+    - 2.1.0
+    - 2.2.0
+    - 2.3.1
+    - 2.4.3
+    - 2.4.4
+    - 2.5.1
+    - 2.5.2
     - 2.6.0
+    - 2.7.1
+    - 2.8.1
+    - 2.8.2
+    - 2.9.1
+    - 2.9.2
+    - 2.9.3
+    - 2.10.0
+    - 2.10.1
+    - 2.10.2
+    - 2.11.2
+    - 2.11.3
+    - 2.11.4
+    - 2.12.4
     compatible:
-    - 2.6.0
-    recommended: 2.6.0
+    - 2.12.4
+    recommended: 2.12.4
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -144,73 +253,88 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.6/manual/index.html
+  datePublishedTicks: 639093537468220000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.12/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: b7effc6b40a40af218ae30084906471699330ac9
+    revision: 4d24fbc0581e7fec760c9c8eef7517e1e1195f9e
     path: 
   unityLifecycle:
-    version: 2.6.0
+    version: 2.12.4
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
-  upmReserved: "{\"changelog\":\"### Added\\n\\n- Added the ability to merge a branch
-    or a changeset, using a new context menu actions\\n- Added file conflict & dir
-    conflict context menu actions to the merge view\\n- Added diff and merge settings
-    in Project Settings -> Version Control -> Unity Version Control Settings\\n-
-    Added merge options dialog to the merge view\\n- Added copy path & history context
-    menu actions in all menus where they apply\\n- Added an menu entry to 'Open in
-    Unity Cloud' showing the repository in the Unity Dashboard\\n\\n### Changed\\n\\n-
-    Updated the minimum supported version to Unity 2021.3.0f1\\n- Removed support
-    for migrating old Collaborate workspaces to Unity Version Control\\n- Hide from
-    the public documentation all internal APIs that were previously visible by mistake\\n-
-    Optimized switching operations to only triggers the Package Manager to reinstall
-    packages when needed\\n- Optimized incoming changes to only reload the Package
-    Manager when needed (Gluon/partial workspace only for now)\\n- Automatically
-    add UnityDirMonSyncFile rule for existing ignore.conf to avoid triggering unnecessary
-    finding changes operation\\n- Improved the \u201Csearch\u201D edit box so it
-    can resize when there is not enough space in the toolbar\\n- Replaced the \\\"D\\\"
-    DevOps icon by the branching icon used in the Hub\\n- Replaced the logo of Unity
-    in the Sign in to Unity VCS window\\n\\n### Fixed\\n\\n- Fixed files getting
-    checked out even though they are in hidden_changes.conf\\n- Fixed manual login
-    to Cloud that didn't work with an Enterprise installation\\n- Fixed resolve conflicts
-    not informing about lack of UVCS installation\\n- Fixed the Invite users to cloud
-    organization when using an Enterprise installation\\n- Fixed new child branch
-    not created from HEAD after update\\n- Fixed the learn more (here) link that
-    showed the hex color value in Unity 6\\n- Fixed link to invite members in Unity
-    Cloud.\\n- Fixed a crash in the create workspace window when unable to resolve
-    a @unity organization\\n- Fixed incoming changes view that was not kept as selected
-    after resolving some conflicts\\n- Fixed workspace name that was not refreshed
-    after repository manual creation or selection\\n- Added a warning message to
-    inform users about mismatching cloud project.\\n- Removed from the Create Workspace
-    window the Local server that was present with no installation of UVCS\\n- Replaced
-    hardcoded urls pointing to plasticscm.com\"}"
+  upmReserved: '{"changelog":"### Added\n\n- Added a new Branch Explorer to visualize
+    and navigate branches.\n- Added \"Add to Source Control\" and \"Undo Changes\"
+    actions for folders from the Project browser and Inspector.\n- Added support
+    in the merge view to partially apply a shelve.\n- Added persistence for all splitter
+    positions across window reloads and sessions.\n- Added the F2 keyboard shortcut
+    to rename branches and labels.\n\n### Changed\n\n- Improved text field focus
+    behavior across dialogs for more consistent keyboard workflows.\n- Improved the
+    empty state in the Pending Changes view.\n- Delayed workspace creation when opening
+    projects from the Unity Hub.\n- Updated new project initialization to perform
+    a full initial checkin.\n- Prevented connecting a project to a different organization
+    by mistake.\n- Added changeset and label icons to the status bar.\n- Updated
+    the macOS hide shortcut to Cmd+Shift+H.\n\n### Fixed\n\n- Fixed the labels context
+    menu not opening when the table is empty.\n- Fixed the branches context menu
+    not opening when the table is empty.\n- Fixed the status bar turning gray after
+    exiting Play Mode.\n- Fixed issues in the changeset-by-changeset diff from the
+    branches view.\n- Fixed blurry icons in the Explore Repositories window.\n- Fixed
+    the New Branch button failing when the current selection is a changeset or label.\n-
+    Fixed validation messages alignment in the Unity Version Control window.\n- Fixed
+    the Checkin dialog not auto-focusing the comment field.\n- Fixed button capitalization
+    in the Unity Version Control window to match Unity standards.\n- Fixed and localized
+    the Checkin dialog progress label.\n- Fixed a NullReferenceException when opening
+    history from a branch diff.\n- Fixed a potential NullReferenceException in the
+    changeset-by-changeset diff panel.\n- Fixed a layout exception when right-clicking
+    Pending Changes in the side bar.\n- Fixed the Unity Version Control window during
+    Create Workspace to refresh without requiring mouse movement."}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
-  fingerprint: 001b54a8988a14785c8e209d6c788bb15f9e58cf
+  fingerprint: 0b1559bcd34e3fee21f770e54e68e58e80eae214
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 2.6.0
+    minimumPackageVersion: 2.12.4
     minimumUnityVersion: 2021.3.0f1
-- packageId: com.unity.ide.visualstudio@2.0.22
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.ide.visualstudio@2.0.27
   testable: 0
   isDirectDependency: 1
-  version: 2.0.22
+  version: 2.0.27
   source: 1
-  resolvedPath: C:\Users\kj022\LobotomyModManager\Library\PackageCache\com.unity.ide.visualstudio
+  resolvedPath: D:\LMM\LMM\LMM\Library\PackageCache\com.unity.ide.visualstudio@dc1ddd4f09b6
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -226,17 +350,44 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.0.2
+    - 1.0.3
+    - 1.0.4
+    - 1.0.9
+    - 1.0.10
+    - 1.0.11
+    - 2.0.0
+    - 2.0.1
+    - 2.0.2
+    - 2.0.3
+    - 2.0.5
+    - 2.0.7
+    - 2.0.8
+    - 2.0.9
+    - 2.0.11
+    - 2.0.12
+    - 2.0.14
+    - 2.0.15
+    - 2.0.16
+    - 2.0.17
+    - 2.0.18
+    - 2.0.20
+    - 2.0.21
     - 2.0.22
+    - 2.0.23
+    - 2.0.25
+    - 2.0.26
+    - 2.0.27
     compatible:
-    - 2.0.22
-    recommended: 2.0.22
+    - 2.0.27
+    recommended: 2.0.27
     deprecated: []
   dependencies:
   - name: com.unity.test-framework
-    version: 1.1.9
+    version: 1.1.33
   resolvedDependencies:
   - name: com.unity.test-framework
-    version: 1.4.5
+    version: 1.6.0
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.modules.imgui
@@ -252,48 +403,68 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 639057939089480000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.visualstudio@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-    revision: 700b44077345e97d37d464ff25507638983aed64
+    revision: 4b2a3082a6e79faf658e8d766c820083b736eed6
     path: 
   unityLifecycle:
-    version: 2.0.22
+    version: 2.0.27
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"Integration:\n\n- Add support for `XDG_DATA_DIRS` and
-    `.desktop` files on Linux for `VS Code` discovery.\n- Use compile-time platform-specifics
-    instead of using runtime conditions.\n\nProject generation:\n\n- Suppress `USG0001`
-    warnings.\n- Mark referenced assemblies as private (to not copy extra files to
-    output directory when building).\n- Add Unity capability to SDK-Style projects.\n-
-    Prevent circular dependency errors with SDK-Style projects."}'
+  upmReserved: '{"changelog":"Integration:\n\n- Fix Visual Studio Integration to
+    properly wait for the solution to be opened.\n\nProject generation:\n\n- Disable
+    Workspace-based development feature in `settings.json`.\n- Ensure that we only
+    have one `sln` or `slnx` file at a time.\n- Properly handle filenames with special
+    characters in `link` tags."}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
-  fingerprint: 8140e851d83e922ca2021b04a89519de94ebe38c
+  fingerprint: dc1ddd4f09b68a99b5dc00185f3b7551294e28a7
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 2.0.22
-    minimumUnityVersion: 2019.4.25f1
-- packageId: com.unity.multiplayer.center@1.0.0
+    minimumPackageVersion: 2.0.27
+    minimumUnityVersion: 2021.3
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.multiplayer.center@1.0.1
   testable: 0
   isDirectDependency: 1
-  version: 1.0.0
+  version: 1.0.1
   source: 2
-  resolvedPath: C:\Users\kj022\LobotomyModManager\Library\PackageCache\com.unity.multiplayer.center
+  resolvedPath: D:\LMM\LMM\LMM\Library\PackageCache\com.unity.multiplayer.center@f01f4ba8d00a
   assetPath: Packages/com.unity.multiplayer.center
   name: com.unity.multiplayer.center
   displayName: Multiplayer Center
@@ -309,10 +480,10 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 1.0.0
+    - 1.0.1
     compatible:
-    - 1.0.0
-    recommended: 1.0.0
+    - 1.0.1
+    recommended: 1.0.1
     deprecated: []
   dependencies:
   - name: com.unity.modules.uielements
@@ -328,6 +499,8 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.hierarchycore
     version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
   keywords:
   - Multiplayer
   - Netcode
@@ -341,6 +514,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -354,30 +530,48 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 1.0.0
+    version: 1.0.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
-  fingerprint: f502d8ac613fa076192423e73892fbd89eb4049b
+  fingerprint: f01f4ba8d00afa4e957bddf0fcd1612a564401ff
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 6000.0.0a1
-- packageId: com.unity.test-framework@1.4.5
+    minimumPackageVersion: 1.0.1
+    minimumUnityVersion: 6000.0
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.test-framework@1.6.0
   testable: 0
   isDirectDependency: 1
-  version: 1.4.5
-  source: 1
-  resolvedPath: C:\Users\kj022\LobotomyModManager\Library\PackageCache\com.unity.test-framework
+  version: 1.6.0
+  source: 2
+  resolvedPath: D:\LMM\LMM\LMM\Library\PackageCache\com.unity.test-framework@996f223345ba
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -391,10 +585,10 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 1.4.5
+    - 1.6.0
     compatible:
-    - 1.4.5
-    recommended: 1.4.5
+    - 1.6.0
+    recommended: 1.6.0
     deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
@@ -421,83 +615,77 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.test-framework@1.4/manual/index.html
-  hasRepository: 1
+  documentationUrl: 
+  hasRepository: 0
   repository:
-    type: git
-    url: https://github.com/Unity-Technologies/com.unity.test-framework.git
-    revision: e50747c90fb18ab9f4f350b60d0fcdcae19bdebc
+    type: 
+    url: 
+    revision: 
     path: 
   unityLifecycle:
-    version: 1.4.5
+    version: 1.6.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"- Fixed an issue where batchmode test runs would never
-    finish if a test yielded WaitForEndOfFrame (DSTR-1009).\n- Fixed an issue where
-    the location prompt was required when using the Install all tests in ''build''
-    folder option during test builds.\n- Canceling a PlayMode test run now correctly
-    restores the scene setup, instead of leaving the editor in the test scene.\n-
-    Fixed an issue where UnitySetUp did not fail when nested coroutines threw an
-    exception (DSTR-1007).\n- When selecting multiple tests and running them, the
-    test runner now correctly updates the details of the first selected test (UTF-602).\n-
-    The interaction mode and application idle time settings is now being changes
-    when running tests, resulting in faster test runs if not already in use (applies
-    to 2020.3 and later) (DSTR-690).\n- Fixed an issue where some NUnit attributes
-    caused errors and stopped async test runs (DSTR-1040).\n- Added support for the
-    MaxTime attribute on async and UnityTest methods (DSTR-1040).\n- Fixed a memory
-    leak issue where a large number of domain reloads within the same test could
-    crash the editor (DSTR-1023).\n- Changed to use a progress bar inside the test
-    runner window when running tests. This ensures that the progress bar is not fighting
-    to display when e.g. compiling scripts and also makes it easier to cancel a run.
-    This progress bar is displayed for all types of runs (EditMode, PlayMode and
-    Player). (UTF-596).\n- Fixed an issue where ignored tests with an attributes
-    did not display the ignore reason in the test runner UI.\n- Having multiple tests
-    with the same unique id no longer gives a error with ''An item with the same
-    key has already been added'', but instead logs an warning about the duplicate
-    id.\n- The result icons for test suites should no longer flicker when running
-    tests.\n- Ensured that test results ignored in the editor but run on a player
-    are not overwritten with ignore status when shown in the UI (DSTR-1042).\n- Fixed
-    an issue where the RunStarted event was not invoked correctly during a test run
-    (DSTR-1046).\n- Fixed an issue where TestStarted and TestFinished events were
-    repeated for ignored test fixtures after a domain reload (DSTR-986)."}'
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
-  fingerprint: 0a21eb82d95cd331643a1e0ce4e8e9a5f18954c8
+  fingerprint: 996f223345bacaca326406f441efe875d8c25202
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 1.4.5
-    minimumUnityVersion: 2019.4.0a10
+    minimumPackageVersion: 1.6.0
+    minimumUnityVersion: 6000.0.44f1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.ugui@2.0.0
   testable: 0
   isDirectDependency: 1
   version: 2.0.0
   source: 2
-  resolvedPath: C:\Users\kj022\LobotomyModManager\Library\PackageCache\com.unity.ugui
+  resolvedPath: D:\LMM\LMM\LMM\Library\PackageCache\com.unity.ugui@bf94f8b81813
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
-  displayName: Unity UI
+  displayName: uGUI
   author:
     name: 
     email: 
     url: 
   category: 
   type: 
-  description: "Unity UI is a set of tools for developing user interfaces for games
-    and applications. It is a GameObject-based UI system that uses Components and
-    the Game View to arrange, position, and style user interfaces. \u200B You cannot
-    use Unity UI to create or change user interfaces in the Unity Editor."
+  description: "uGUI (Unity UI) is a set of tools for developing user interfaces
+    for games and applications. It is a GameObject-based UI system that uses Components
+    and the Game View to arrange, position, and style user interfaces. \u200B You
+    cannot use Unity UI to create or change user interfaces in the Unity Editor."
   errors: []
   versions:
     all:
@@ -534,6 +722,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -552,25 +743,43 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
-  fingerprint: fd5da3b4bec8d043b01c30177bd62059c5fa36d0
+  fingerprint: bf94f8b81813cc37c1ecf75bd9d52ea06b5d87af
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 2.0.0
-    minimumUnityVersion: 2019.2.0a1
-- packageId: com.unity.visualscripting@1.9.5
+    minimumUnityVersion: 2019.2
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.visualscripting@1.9.11
   testable: 0
   isDirectDependency: 1
-  version: 1.9.5
+  version: 1.9.11
   source: 1
-  resolvedPath: C:\Users\kj022\LobotomyModManager\Library\PackageCache\com.unity.visualscripting
+  resolvedPath: D:\LMM\LMM\LMM\Library\PackageCache\com.unity.visualscripting@8bed5ad90189
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -579,7 +788,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: tool
+  type: 
   description: 'Visual scripting is a workflow that uses visual, node-based graphs
     to design behaviors rather than write lines of C# script.
 
@@ -595,11 +804,39 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.5.0
+    - 1.5.1-pre.3
+    - 1.5.1-pre.5
+    - 1.5.1
+    - 1.5.2
+    - 1.6.0-pre.3
+    - 1.6.0
+    - 1.6.1
+    - 1.7.1
+    - 1.7.2
+    - 1.7.3
+    - 1.7.5
+    - 1.7.6
+    - 1.7.7
+    - 1.7.8
+    - 1.8.0-pre.1
+    - 1.8.0
+    - 1.9.0
+    - 1.9.1
+    - 1.9.2
+    - 1.9.4
     - 1.9.5
+    - 1.9.6
+    - 1.9.7
+    - 1.9.8
+    - 1.9.9
+    - 1.9.10
+    - 1.9.11
     compatible:
-    - 1.9.5
-    recommended: 1.9.5
-    deprecated: []
+    - 1.9.11
+    recommended: 1.9.11
+    deprecated:
+    - 1.8.0-pre.1
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
@@ -623,49 +860,66 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: 
+  datePublishedTicks: 639089344800930000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.visualscripting@1.9/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.visualscripting.git
-    revision: 3621ef0207747a605f195118ba99d1a8bdb19433
+    revision: e45076a785db38aa81ea919d98739fa8bcb6cdbc
     path: 
   unityLifecycle:
-    version: 1.9.5
+    version: 1.9.11
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n- Fixed \"NullReferenceException\" error
-    when returning to the State Graph from the Script Graph. [UVSB-1905](https://issuetracker.unity3d.com/product/unity/issues/guid/UVSB-1905)\n-
-    Fixed compilation error when a graph contains a reference to a method with an
-    \"in\" parameter. [UVSB-2544](https://issuetracker.unity3d.com/product/unity/issues/guid/UVSB-2487)\n-
-    Added missing truncate function to Formula node [UVSB-2526](https://issuetracker.unity3d.com/product/unity/issues/guid/UVSB-2525)\n-
-    Fixed an error when creating a Script Graph asset in an empty project\n\n###
-    Changed\n- Updated deprecated EditorAnalytics APIs to new ones"}'
+  upmReserved: '{"changelog":"### Changed\n- Replaced remaining internal use of InstanceIDs
+    with the new EntityId (Unity 6.4+).\n- Replaced internal calls to the deprecated
+    `FindObjectsByType<T>(FindObjectsSortMode)` method (Unity 6.4+)."}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
-  fingerprint: 1b53f46e931bea668e53f1feb0ac9138170c9455
+  fingerprint: 8bed5ad901895f10b7d0e524c4738cab14cef692
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 1.9.5
-    minimumUnityVersion: 2021.3.0a1
+    minimumPackageVersion: 1.9.11
+    minimumUnityVersion: 2021.3
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.accessibility@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kj022\LobotomyModManager\Library\PackageCache\com.unity.modules.accessibility
+  resolvedPath: D:\LMM\LMM\LMM\Library\PackageCache\com.unity.modules.accessibility
   assetPath: Packages/com.unity.modules.accessibility
   name: com.unity.modules.accessibility
   displayName: Accessibility
@@ -675,8 +929,8 @@ m_ResolvedPackages:
     url: 
   category: 
   type: module
-  description: 'The Accessibility module includes utilities to facilitate the development
-    of accessible user experiences in Unity. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.AccessibilityModule.html'
+  description: 'The Accessibility module includes APIs and tools that facilitate
+    the development of accessible user experiences in Unity. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.AccessibilityModule.html'
   errors: []
   versions:
     all:
@@ -696,6 +950,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -714,12 +971,24 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -727,12 +996,112 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.modules.adaptiveperformance@1.0.0
+  testable: 0
+  isDirectDependency: 1
+  version: 1.0.0
+  source: 2
+  resolvedPath: D:\LMM\LMM\LMM\Library\PackageCache\com.unity.modules.adaptiveperformance
+  assetPath: Packages/com.unity.modules.adaptiveperformance
+  name: com.unity.modules.adaptiveperformance
+  displayName: Adaptive Performance
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: module
+  description: 'Adaptive Performance is a built-in module that allows users to adjust
+    settings based on performance metrics. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.AdaptivePerformanceModule.html'
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    recommended: 1.0.0
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 1.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 1
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.ai@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kj022\LobotomyModManager\Library\PackageCache\com.unity.modules.ai
+  resolvedPath: D:\LMM\LMM\LMM\Library\PackageCache\com.unity.modules.ai
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -763,6 +1132,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -781,12 +1153,24 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -794,12 +1178,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.androidjni@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kj022\LobotomyModManager\Library\PackageCache\com.unity.modules.androidjni
+  resolvedPath: D:\LMM\LMM\LMM\Library\PackageCache\com.unity.modules.androidjni
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -829,6 +1219,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -847,12 +1240,24 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -860,12 +1265,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.animation@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kj022\LobotomyModManager\Library\PackageCache\com.unity.modules.animation
+  resolvedPath: D:\LMM\LMM\LMM\Library\PackageCache\com.unity.modules.animation
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -896,6 +1307,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -914,12 +1328,24 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -927,12 +1353,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.assetbundle@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kj022\LobotomyModManager\Library\PackageCache\com.unity.modules.assetbundle
+  resolvedPath: D:\LMM\LMM\LMM\Library\PackageCache\com.unity.modules.assetbundle
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -963,6 +1395,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -981,12 +1416,24 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -994,12 +1441,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.audio@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kj022\LobotomyModManager\Library\PackageCache\com.unity.modules.audio
+  resolvedPath: D:\LMM\LMM\LMM\Library\PackageCache\com.unity.modules.audio
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -1030,6 +1483,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -1048,12 +1504,24 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -1061,12 +1529,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.cloth@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kj022\LobotomyModManager\Library\PackageCache\com.unity.modules.cloth
+  resolvedPath: D:\LMM\LMM\LMM\Library\PackageCache\com.unity.modules.cloth
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -1101,6 +1575,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -1119,12 +1596,24 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -1132,12 +1621,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.director@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kj022\LobotomyModManager\Library\PackageCache\com.unity.modules.director
+  resolvedPath: D:\LMM\LMM\LMM\Library\PackageCache\com.unity.modules.director
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -1176,6 +1671,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -1194,12 +1692,24 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -1207,12 +1717,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.imageconversion@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kj022\LobotomyModManager\Library\PackageCache\com.unity.modules.imageconversion
+  resolvedPath: D:\LMM\LMM\LMM\Library\PackageCache\com.unity.modules.imageconversion
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -1243,6 +1759,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -1261,12 +1780,24 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -1274,12 +1805,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.imgui@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kj022\LobotomyModManager\Library\PackageCache\com.unity.modules.imgui
+  resolvedPath: D:\LMM\LMM\LMM\Library\PackageCache\com.unity.modules.imgui
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -1310,6 +1847,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -1328,12 +1868,24 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -1341,12 +1893,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.jsonserialize@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kj022\LobotomyModManager\Library\PackageCache\com.unity.modules.jsonserialize
+  resolvedPath: D:\LMM\LMM\LMM\Library\PackageCache\com.unity.modules.jsonserialize
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -1377,6 +1935,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -1395,12 +1956,24 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -1408,12 +1981,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.particlesystem@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kj022\LobotomyModManager\Library\PackageCache\com.unity.modules.particlesystem
+  resolvedPath: D:\LMM\LMM\LMM\Library\PackageCache\com.unity.modules.particlesystem
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -1444,6 +2023,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -1462,12 +2044,24 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -1475,12 +2069,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.physics@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kj022\LobotomyModManager\Library\PackageCache\com.unity.modules.physics
+  resolvedPath: D:\LMM\LMM\LMM\Library\PackageCache\com.unity.modules.physics
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -1511,6 +2111,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -1529,12 +2132,24 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -1542,12 +2157,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.physics2d@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kj022\LobotomyModManager\Library\PackageCache\com.unity.modules.physics2d
+  resolvedPath: D:\LMM\LMM\LMM\Library\PackageCache\com.unity.modules.physics2d
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -1578,6 +2199,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -1596,12 +2220,24 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -1609,12 +2245,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.screencapture@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kj022\LobotomyModManager\Library\PackageCache\com.unity.modules.screencapture
+  resolvedPath: D:\LMM\LMM\LMM\Library\PackageCache\com.unity.modules.screencapture
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -1649,6 +2291,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -1667,12 +2312,24 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -1680,12 +2337,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.terrain@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kj022\LobotomyModManager\Library\PackageCache\com.unity.modules.terrain
+  resolvedPath: D:\LMM\LMM\LMM\Library\PackageCache\com.unity.modules.terrain
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -1716,6 +2379,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -1734,12 +2400,24 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -1747,12 +2425,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.terrainphysics@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kj022\LobotomyModManager\Library\PackageCache\com.unity.modules.terrainphysics
+  resolvedPath: D:\LMM\LMM\LMM\Library\PackageCache\com.unity.modules.terrainphysics
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -1791,6 +2475,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -1809,12 +2496,24 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -1822,12 +2521,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.tilemap@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kj022\LobotomyModManager\Library\PackageCache\com.unity.modules.tilemap
+  resolvedPath: D:\LMM\LMM\LMM\Library\PackageCache\com.unity.modules.tilemap
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -1861,6 +2566,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -1879,12 +2587,24 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -1892,12 +2612,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.ui@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kj022\LobotomyModManager\Library\PackageCache\com.unity.modules.ui
+  resolvedPath: D:\LMM\LMM\LMM\Library\PackageCache\com.unity.modules.ui
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -1928,6 +2654,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -1946,12 +2675,24 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -1959,12 +2700,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.uielements@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kj022\LobotomyModManager\Library\PackageCache\com.unity.modules.uielements
+  resolvedPath: D:\LMM\LMM\LMM\Library\PackageCache\com.unity.modules.uielements
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -1993,6 +2740,8 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.hierarchycore
     version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
   resolvedDependencies:
   - name: com.unity.modules.ui
     version: 1.0.0
@@ -2001,6 +2750,8 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.modules.hierarchycore
+    version: 1.0.0
+  - name: com.unity.modules.physics
     version: 1.0.0
   keywords: []
   registry:
@@ -2011,6 +2762,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -2029,12 +2783,24 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -2042,12 +2808,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.umbra@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kj022\LobotomyModManager\Library\PackageCache\com.unity.modules.umbra
+  resolvedPath: D:\LMM\LMM\LMM\Library\PackageCache\com.unity.modules.umbra
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -2078,6 +2850,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -2096,12 +2871,24 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -2109,12 +2896,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.unityanalytics@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kj022\LobotomyModManager\Library\PackageCache\com.unity.modules.unityanalytics
+  resolvedPath: D:\LMM\LMM\LMM\Library\PackageCache\com.unity.modules.unityanalytics
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -2152,6 +2945,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -2170,12 +2966,24 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -2183,12 +2991,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.unitywebrequest@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kj022\LobotomyModManager\Library\PackageCache\com.unity.modules.unitywebrequest
+  resolvedPath: D:\LMM\LMM\LMM\Library\PackageCache\com.unity.modules.unitywebrequest
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -2219,6 +3033,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -2237,12 +3054,24 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -2250,12 +3079,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.unitywebrequestassetbundle@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kj022\LobotomyModManager\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle
+  resolvedPath: D:\LMM\LMM\LMM\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -2294,6 +3129,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -2312,12 +3150,24 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -2325,12 +3175,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.unitywebrequestaudio@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kj022\LobotomyModManager\Library\PackageCache\com.unity.modules.unitywebrequestaudio
+  resolvedPath: D:\LMM\LMM\LMM\Library\PackageCache\com.unity.modules.unitywebrequestaudio
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -2369,6 +3225,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -2387,12 +3246,24 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -2400,12 +3271,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.unitywebrequesttexture@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kj022\LobotomyModManager\Library\PackageCache\com.unity.modules.unitywebrequesttexture
+  resolvedPath: D:\LMM\LMM\LMM\Library\PackageCache\com.unity.modules.unitywebrequesttexture
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -2444,6 +3321,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -2462,12 +3342,24 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -2475,12 +3367,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.unitywebrequestwww@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kj022\LobotomyModManager\Library\PackageCache\com.unity.modules.unitywebrequestwww
+  resolvedPath: D:\LMM\LMM\LMM\Library\PackageCache\com.unity.modules.unitywebrequestwww
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -2535,6 +3433,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -2553,12 +3454,24 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -2566,12 +3479,125 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.modules.vectorgraphics@1.0.0
+  testable: 0
+  isDirectDependency: 1
+  version: 1.0.0
+  source: 2
+  resolvedPath: D:\LMM\LMM\LMM\Library\PackageCache\com.unity.modules.vectorgraphics
+  assetPath: Packages/com.unity.modules.vectorgraphics
+  name: com.unity.modules.vectorgraphics
+  displayName: Vector Graphics
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: module
+  description: 
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    recommended: 1.0.0
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.hierarchycore
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 1.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 1
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.vehicles@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kj022\LobotomyModManager\Library\PackageCache\com.unity.modules.vehicles
+  resolvedPath: D:\LMM\LMM\LMM\Library\PackageCache\com.unity.modules.vehicles
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -2606,6 +3632,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -2624,12 +3653,24 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -2637,12 +3678,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.video@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kj022\LobotomyModManager\Library\PackageCache\com.unity.modules.video
+  resolvedPath: D:\LMM\LMM\LMM\Library\PackageCache\com.unity.modules.video
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -2685,6 +3732,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -2703,12 +3753,24 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -2716,12 +3778,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.vr@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kj022\LobotomyModManager\Library\PackageCache\com.unity.modules.vr
+  resolvedPath: D:\LMM\LMM\LMM\Library\PackageCache\com.unity.modules.vr
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -2732,7 +3800,8 @@ m_ResolvedPackages:
   category: 
   type: module
   description: 'The VR module implements support for virtual reality devices in Unity.
-    Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.VRModule.html'
+    (This module is obsolete, please use UnityEngine.XRModule instead) Scripting
+    API: https://docs.unity3d.com/ScriptReference/UnityEngine.VRModule.html'
   errors: []
   versions:
     all:
@@ -2766,6 +3835,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -2784,12 +3856,24 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -2797,12 +3881,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.wind@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kj022\LobotomyModManager\Library\PackageCache\com.unity.modules.wind
+  resolvedPath: D:\LMM\LMM\LMM\Library\PackageCache\com.unity.modules.wind
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -2833,6 +3923,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -2851,12 +3944,24 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -2864,12 +3969,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.xr@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kj022\LobotomyModManager\Library\PackageCache\com.unity.modules.xr
+  resolvedPath: D:\LMM\LMM\LMM\Library\PackageCache\com.unity.modules.xr
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -2912,6 +4023,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -2930,12 +4044,24 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -2943,12 +4069,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.subsystems@1.0.0
   testable: 0
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kj022\LobotomyModManager\Library\PackageCache\com.unity.modules.subsystems
+  resolvedPath: D:\LMM\LMM\LMM\Library\PackageCache\com.unity.modules.subsystems
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -2983,6 +4115,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -3001,12 +4136,24 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 0
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -3014,12 +4161,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.hierarchycore@1.0.0
   testable: 0
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kj022\LobotomyModManager\Library\PackageCache\com.unity.modules.hierarchycore
+  resolvedPath: D:\LMM\LMM\LMM\Library\PackageCache\com.unity.modules.hierarchycore
   assetPath: Packages/com.unity.modules.hierarchycore
   name: com.unity.modules.hierarchycore
   displayName: Hierarchy Core
@@ -3050,6 +4203,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -3068,12 +4224,24 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 0
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -3081,12 +4249,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.ext.nunit@2.0.5
   testable: 0
   isDirectDependency: 0
   version: 2.0.5
-  source: 1
-  resolvedPath: C:\Users\kj022\LobotomyModManager\Library\PackageCache\com.unity.ext.nunit
+  source: 2
+  resolvedPath: D:\LMM\LMM\LMM\Library\PackageCache\com.unity.ext.nunit@d8c07649098d
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -3120,17 +4294,20 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ext.nunit@2.0/manual/index.html
-  hasRepository: 1
+  hasRepository: 0
   repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.ext.nunit.git
-    revision: 469fe0d46bfc26fbb32a53885ca4d12abcdae4ae
+    type: 
+    url: 
+    revision: 
     path: 
   unityLifecycle:
     version: 2.0.5
@@ -3138,17 +4315,35 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 0
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"- Fixing bug for InstanceID as struct changes"}'
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
-  fingerprint: 60ef35ffd3cd5e2f5c8887a4a4ca6148854cd092
+  fingerprint: d8c07649098d3936da4c8ab500960c1776b44592
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 2.0.5
-    minimumUnityVersion: 2019.4.0a1
-m_BuiltInPackagesHash: 02ccae8a6fea3b773b91b78f7a8d92680a6ca369
+    minimumUnityVersion: 2019.4
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+m_BuiltInPackagesHash: 2275d208647ecff81b22124039eac9acdb576097

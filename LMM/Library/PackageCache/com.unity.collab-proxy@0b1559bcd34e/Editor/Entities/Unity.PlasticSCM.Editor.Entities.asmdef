@@ -1,0 +1,23 @@
+{
+    "name": "Unity.PlasticSCM.Editor.Entities",
+    "references": [
+        "Unity.PlasticSCM.Editor",
+        "Unity.Scenes"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "versionDefines": [
+        {
+            "name": "com.unity.entities",
+            "expression": "1.0.8",
+            "define": "HAS_ENTITIES_PACKAGE"
+        }
+    ],
+    "noEngineReferences": false
+}
